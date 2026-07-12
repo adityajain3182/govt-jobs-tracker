@@ -335,17 +335,29 @@ async function main() {
         geminiCalls++;
         found = await extractGrounded(source);
       } else {
-        const html = await fetchPage(source.url);
-        const text = htmlToText(html);
-        const hash = sha256(text);
-        if (!force && state.hashes[source.id] === hash) {
-          console.log("  unchanged, skipping Gemini");
-          state.lastRun[source.id] = now;
-          continue;
+        let text = null;
+        try {
+          text = htmlToText(await fetchPage(source.url));
+        } catch (err) {
+          // Some govt sites block datacenter IPs (GitHub runners) — fall back to
+          // grounded search when the source defines a query.
+          if (!source.query) throw err;
+          console.log(`  direct fetch failed (${err.message}), using grounded fallback`);
         }
-        geminiCalls++;
-        found = await extractFromContent(source, text);
-        state.hashes[source.id] = hash;
+        if (text !== null) {
+          const hash = sha256(text);
+          if (!force && state.hashes[source.id] === hash) {
+            console.log("  unchanged, skipping Gemini");
+            state.lastRun[source.id] = now;
+            continue;
+          }
+          geminiCalls++;
+          found = await extractFromContent(source, text);
+          state.hashes[source.id] = hash;
+        } else {
+          geminiCalls++;
+          found = await extractGrounded(source);
+        }
       }
       const { added, updated } = mergeJobs(store, found, source.id);
       totalAdded += added; totalUpdated += updated;

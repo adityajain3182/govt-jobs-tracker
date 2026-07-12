@@ -4,6 +4,7 @@
     "name": "DRDO Recruitment & Assessment Centre",
     "method": "html",
     "url": "https://rac.gov.in/",
+    "query": "Current DRDO RAC (rac.gov.in) recruitment advertisements for Scientist B or other engineer posts, with application windows and advert numbers. Only official notices.",
     "cadenceMinutes": 15
   },
   {
@@ -11,6 +12,7 @@
     "name": "ISRO Careers",
     "method": "html",
     "url": "https://www.isro.gov.in/Careers.html",
+    "query": "Current ISRO recruitment advertisements (isro.gov.in careers) for Scientist/Engineer or technical posts with open or upcoming application windows. Only official notices.",
     "cadenceMinutes": 30
   },
   {
@@ -18,6 +20,7 @@
     "name": "NTPC Careers",
     "method": "html",
     "url": "https://careers.ntpc.co.in/recruitment/",
+    "query": "Current NTPC (careers.ntpc.co.in) recruitment advertisements with open application windows, especially engineer/executive posts. Only official notices.",
     "cadenceMinutes": 30
   },
   {
@@ -25,6 +28,7 @@
     "name": "SBI Careers",
     "method": "html",
     "url": "https://sbi.bank.in/web/careers/current-openings",
+    "query": "Current SBI (sbi.bank.in careers) recruitment notices with open application windows: PO, Specialist Cadre Officer, clerks. Only official notices.",
     "cadenceMinutes": 15
   },
   {
@@ -32,6 +36,7 @@
     "name": "RBI Opportunities",
     "method": "html",
     "url": "https://opportunities.rbi.org.in/Scripts/Vacancies.aspx",
+    "query": "Current RBI (opportunities.rbi.org.in) vacancies with open or upcoming application windows: Grade B, Assistant, lateral recruitment. Only official notices.",
     "cadenceMinutes": 30
   },
   {
@@ -39,6 +44,7 @@
     "name": "UPPSC (Uttar Pradesh PSC)",
     "method": "html",
     "url": "https://uppsc.up.nic.in/",
+    "query": "Current UPPSC (uppsc.up.nic.in) recruitment notifications with open application windows: PCS, Computer Assistant, technical and management posts. Only official notices.",
     "cadenceMinutes": 30
   },
   {
@@ -46,6 +52,7 @@
     "name": "UPSC What's New",
     "method": "html",
     "url": "https://upsc.gov.in/whats-new",
+    "query": "Current UPSC (upsc.gov.in) recruitment advertisements with open application windows on the ORA portal (upsconline). Only official notices, not exam results.",
     "cadenceMinutes": 30
   },
   {
@@ -53,6 +60,7 @@
     "name": "NABARD Careers",
     "method": "html",
     "url": "https://www.nabard.org/careers-notices.aspx?cid=693&id=26",
+    "query": "Current NABARD (nabard.org) recruitment notifications, especially Grade A Assistant Manager, with application windows. Only official notices.",
     "cadenceMinutes": 60
   },
   {
@@ -60,6 +68,7 @@
     "name": "SEBI Recruitment",
     "method": "html",
     "url": "https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecruitment=yes",
+    "query": "Current SEBI (sebi.gov.in) recruitment notifications, especially Grade A Officer, with application windows. Only official notices.",
     "cadenceMinutes": 60
   },
   {
