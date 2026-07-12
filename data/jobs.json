@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-07-12T07:50:43.009Z",
+  "lastScan": "2026-07-12T09:32:00.078Z",
   "jobs": [
     {
       "id": "staff-selection-commission-combined-graduate-level-examination-cgl-2026",
@@ -162,6 +162,27 @@
         "Any graduate"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z"
+    },
+    {
+      "id": "state-bank-of-india-probationary-officer",
+      "source": "sbi",
+      "org": "State Bank of India",
+      "title": "Probationary Officer",
+      "summary": "Recruitment for 1500 Probationary Officer vacancies.",
+      "advtNo": "CRPD/PO/2026-27/09",
+      "posts": 1500,
+      "url": "https://sbi.bank.in/web/careers",
+      "status": "closed",
+      "opensOn": "2026-06-18",
+      "closesOn": "2026-07-08",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "Any-graduate management exam",
+      "tags": [
+        "Management",
+        "Banking"
+      ],
+      "firstSeen": "2026-07-12T09:30:53.936Z"
     },
     {
       "id": "bel-project-engineer-chemical-recruitment-2026",
@@ -400,6 +421,27 @@
         "IT"
       ],
       "firstSeen": "2026-07-10T18:35:48.707Z"
+    },
+    {
+      "id": "nabard-specialists-on-contract",
+      "source": "nabard",
+      "org": "NABARD",
+      "title": "Specialists on Contract",
+      "summary": "Recruitment for 6 specialist positions on a contractual basis, including Data Architect, Application Solution Architect, Technology Solution Architect, Carbon Consultant, Climate Change Specialist - Mitigation, and Specialist- Derivatives and Treasury Risk Management.",
+      "advtNo": null,
+      "posts": 6,
+      "url": "https://www.nabard.org/career.aspx",
+      "status": "open",
+      "opensOn": "2026-07-10",
+      "closesOn": "2026-07-23",
+      "expected": null,
+      "fit": "gated",
+      "fitLabel": "IT roles (Data Architect, Application Solution Architect, Technology Solution Architect) require a CS/IT/Electronics degree, which the candidate does not have. Other specialist roles are not directly management or IT for a mechanical engineer.",
+      "tags": [
+        "IT",
+        "Specialist"
+      ],
+      "firstSeen": "2026-07-12T09:31:57.251Z"
     },
     {
       "id": "sebi-executive-director",
@@ -692,16 +734,16 @@
       "source": "nabard",
       "org": "NABARD",
       "title": "Assistant Manager (Grade A)",
-      "summary": "NABARD is expected to release the notification for Assistant Manager (Grade A) positions in various streams, including Rural Development Banking Service (RDBS), Rajbhasha, and Protocol & Security Services. The selection process typically involves Prelims, Mains, and an Interview.",
+      "summary": "Recruitment for Assistant Manager positions in various streams.",
       "advtNo": null,
-      "posts": "~80–100 posts",
-      "url": "https://www.nabard.org",
+      "posts": "80-100 (expected)",
+      "url": "https://www.nabard.org/career.aspx",
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "2026-07-01 to 2026-08-31",
+      "expected": "2026-07-XX to 2026-08-XX",
       "fit": "strong",
-      "fitLabel": "Any-graduate management exams (PCS, RBI Grade B, NABARD Grade A, bank PO, SEBI Grade A General which accepts any engineering bachelor's) are \"strong\".",
+      "fitLabel": "Any-graduate management exam.",
       "tags": [
         "Management",
         "Banking"
@@ -1009,6 +1051,27 @@
         "Mechanical"
       ],
       "firstSeen": "2026-07-10T18:40:06.128Z"
+    },
+    {
+      "id": "state-bank-of-india-junior-associate-customer-support-sales",
+      "source": "sbi",
+      "org": "State Bank of India",
+      "title": "Junior Associate (Customer Support & Sales)",
+      "summary": "Upcoming recruitment for Junior Associate (Clerk) positions.",
+      "advtNo": null,
+      "posts": null,
+      "url": "https://sbi.bank.in/web/careers",
+      "status": "upcoming",
+      "opensOn": null,
+      "closesOn": null,
+      "expected": "August 2026",
+      "fit": "strong",
+      "fitLabel": "Any-graduate management exam",
+      "tags": [
+        "Clerical",
+        "Banking"
+      ],
+      "firstSeen": "2026-07-12T09:30:53.936Z"
     }
   ]
 }
