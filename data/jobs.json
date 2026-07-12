@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-07-12T16:18:00.015Z",
+  "lastScan": "2026-07-12T17:34:18.150Z",
   "jobs": [
     {
       "id": "staff-selection-commission-combined-graduate-level-examination-cgl-2026",
@@ -82,6 +82,48 @@
         "B.Tech Mechanical eligible"
       ],
       "firstSeen": "2026-07-10T18:26:49.698Z"
+    },
+    {
+      "id": "drdo-rac-scientist-b-scientist-c-scientist-d-scientist-e",
+      "source": "drdo-rac",
+      "org": "DRDO RAC",
+      "title": "Scientist B, Scientist C, Scientist D, Scientist E",
+      "summary": "Recruitment for Scientist B, C, D, and E posts under Advertisement No. 157 in various scientific and engineering disciplines, including Mechanical Engineering.",
+      "advtNo": "157",
+      "posts": 33,
+      "url": "https://rac.gov.in",
+      "status": "closed",
+      "opensOn": "2026-05-30",
+      "closesOn": "2026-06-30",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Eligible for core Mechanical Engineering roles, but the candidate is primarily interested in IT/Management, not core mechanical engineering.",
+      "tags": [
+        "Engineering",
+        "Scientist"
+      ],
+      "firstSeen": "2026-07-12T17:30:00.072Z"
+    },
+    {
+      "id": "bhel-engineer-trainee-mechanical",
+      "source": "psu-sweep",
+      "org": "Bharat Electronics Limited (BEL)",
+      "title": "Recruitment of Trainee Engineer",
+      "summary": "9 vacancies for Trainee Engineer. Eligible candidates can apply online. Mechanical B.Tech is generally eligible for Engineer Trainee roles.",
+      "advtNo": null,
+      "posts": 9,
+      "url": "https://www.bel-india.in/Careers.aspx",
+      "status": "closed",
+      "opensOn": "2026-06-17",
+      "closesOn": "2026-07-01",
+      "expected": "July 2026",
+      "fit": "moderate",
+      "fitLabel": "Core engineering role where Mechanical B.Tech is eligible.",
+      "tags": [
+        "Engineering",
+        "Mechanical"
+      ],
+      "firstSeen": "2026-07-10T18:36:34.553Z"
     },
     {
       "id": "rpsc-rajasthan-administrative-services-and-other-posts-ras-rts-combined-competit",
@@ -265,6 +307,27 @@
       "firstSeen": "2026-07-10T18:40:06.128Z"
     },
     {
+      "id": "bharat-electronics-limited-bel-recruitment-of-senior-engineer-e-iii-post",
+      "source": "psu-sweep",
+      "org": "Bharat Electronics Limited (BEL)",
+      "title": "Recruitment of Senior Engineer (E-III) Post",
+      "summary": "1 vacancy for Senior Engineer (E-III) on Fixed Tenure Basis. Eligibility: Engineering graduates in Electronics & Communication, Electrical, Mechanical, or Instrumentation Engineering.",
+      "advtNo": null,
+      "posts": 1,
+      "url": "https://www.bel-india.in/Careers.aspx",
+      "status": "open",
+      "opensOn": null,
+      "closesOn": "2026-07-16",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Core engineering role where Mechanical B.Tech is eligible.",
+      "tags": [
+        "Engineering",
+        "Mechanical"
+      ],
+      "firstSeen": "2026-07-12T17:34:18.140Z"
+    },
+    {
       "id": "mpsc-group-c-posts-clerk-typist-tax-assistant-assistant-motor-vehicle-inspector-",
       "source": "regulators-sweep",
       "org": "MPSC",
@@ -430,7 +493,7 @@
       "source": "nabard",
       "org": "NABARD",
       "title": "Specialists on Contract Recruitment 2026",
-      "summary": "NABARD has announced recruitment for 6 contractual Specialist posts, including Data Architect, Application Solution Architect, Technology Solution Architect, Carbon Consultant, Climate Change Specialist - Mitigation, and Specialist- Derivatives and Treasury Risk Management. Candidates with B.E./B.Tech or Master Degree can apply online.",
+      "summary": "NABARD has announced recruitment for 6 Specialist positions on contract, including roles such as Data Architect, Application Solution Architect, Technology Solution Architect, Carbon Consultant, Climate Change Specialist - Mitigation, and Specialist- Derivatives and Treasury Risk Management.",
       "advtNo": null,
       "posts": 6,
       "url": "https://www.nabard.org/career.aspx",
@@ -438,11 +501,11 @@
       "opensOn": "2026-07-10",
       "closesOn": "2026-07-23",
       "expected": null,
-      "fit": "strong",
-      "fitLabel": "Management specialist role (e.g., Derivatives and Treasury Risk Management) is a strong fit. IT specialist roles (e.g., Data Architect, Application Solution Architect, Technology Solution Architect) are gated as they likely require a CS/IT/Electronics degree which the candidate does not possess.",
+      "fit": "gated",
+      "fitLabel": "Most relevant roles (IT) are gated due to CS/IT/Electronics degree requirement, which the candidate does not possess.",
       "tags": [
         "IT",
-        "Management"
+        "Specialist"
       ],
       "firstSeen": "2026-07-12T09:31:57.251Z"
     },
@@ -528,6 +591,27 @@
         "Mechanical"
       ],
       "firstSeen": "2026-07-12T07:43:17.732Z"
+    },
+    {
+      "id": "indian-oil-corporation-limited-iocl-apprentice-recruitment-2026",
+      "source": "psu-sweep",
+      "org": "Indian Oil Corporation Limited (IOCL)",
+      "title": "Apprentice Recruitment 2026",
+      "summary": "1524 Apprentice vacancies across various trades and disciplines, including Trade Apprentice, Technician Apprentice, and Graduate Apprentice. Selection based on marks in qualifying examination. Graduate Apprentice roles may be suitable for B.Tech Mechanical, but specific roles for management/IT need to be verified from the detailed notification.",
+      "advtNo": null,
+      "posts": 1524,
+      "url": "https://www.iocl.com/latest-job-opening",
+      "status": "open",
+      "opensOn": "2026-06-29",
+      "closesOn": "2026-07-28",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Apprenticeship, potential for technical graduate roles. Need to check detailed notification for specific fit for management/IT.",
+      "tags": [
+        "Apprenticeship",
+        "Engineering"
+      ],
+      "firstSeen": "2026-07-12T17:34:18.140Z"
     },
     {
       "id": "railway-recruitment-board-technician-grade-1-signal-and-technician-grade-3",
@@ -656,6 +740,27 @@
       "firstSeen": "2026-07-12T11:07:20.770Z"
     },
     {
+      "id": "steel-authority-of-india-limited-sail-engagement-of-young-professionals-yps-on-f",
+      "source": "psu-sweep",
+      "org": "Steel Authority of India Limited (SAIL)",
+      "title": "Engagement of Young Professionals (YPs) on Fixed Term Basis",
+      "summary": "23 Young Professional (YP-1, YP-2, YP-3) posts in various departments including Project Execution (Mechanical), AI Engineer, Data Analytics Officer, Data Scientist. Project Execution (Mechanical) is a core engineering role. AI Engineer, Data Analytics Officer, Data Scientist roles are typically IT-focused and often require specific CS/IT/Electronics degrees in government organizations, making them 'gated' for a Mechanical B.Tech.",
+      "advtNo": "RSP/R-YP/2026-01",
+      "posts": 23,
+      "url": "https://www.sail.co.in/careers",
+      "status": "open",
+      "opensOn": "2026-07-10",
+      "closesOn": "2026-07-31",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Includes Project Execution (Mechanical) which is a core engineering role. IT/AI/Data Science roles are 'gated' due to typical degree requirements.",
+      "tags": [
+        "Engineering",
+        "Mechanical"
+      ],
+      "firstSeen": "2026-07-12T17:34:18.140Z"
+    },
+    {
       "id": "haryana-public-service-commission-hpsc-district-manager-group-b",
       "source": "regulators-sweep",
       "org": "Haryana Public Service Commission (HPSC)",
@@ -781,20 +886,20 @@
       "id": "nabard-grade-a-assistant-manager-rdbs-generalist",
       "source": "nabard",
       "org": "NABARD",
-      "title": "Assistant Manager (Grade A) - Computer/IT",
-      "summary": "Upcoming recruitment for Assistant Manager (Grade A) in the Computer/IT stream.",
+      "title": "Grade A Assistant Manager Recruitment 2026",
+      "summary": "The NABARD Grade A 2026 Notification is expected soon for Assistant Manager positions across various streams, including Rural Development Banking Service (RDBS), Rajbhasha, and Protocol & Security Services.",
       "advtNo": null,
-      "posts": "Expected 80-100",
-      "url": "https://www.nabard.org",
+      "posts": 80,
+      "url": "https://www.nabard.org/career.aspx",
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "July-August 2026",
-      "fit": "gated",
-      "fitLabel": "Likely requires CS/IT/Electronics degree, which candidate does not have.",
+      "expected": "Soon in 2026",
+      "fit": "strong",
+      "fitLabel": "Management role, the General stream typically accepts any engineering bachelor's degree.",
       "tags": [
-        "IT",
-        "Grade A"
+        "Management",
+        "Assistant Manager"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z"
     },
@@ -1017,27 +1122,6 @@
       "firstSeen": "2026-07-10T18:35:48.707Z"
     },
     {
-      "id": "bhel-engineer-trainee-mechanical",
-      "source": "psu-sweep",
-      "org": "BHEL",
-      "title": "Engineer Trainee",
-      "summary": "Recruitment of Engineer Trainees in various engineering disciplines.",
-      "advtNo": null,
-      "posts": 150,
-      "url": "https://careers.bhel.in",
-      "status": "upcoming",
-      "opensOn": "2026-07-17",
-      "closesOn": null,
-      "expected": "July 2026",
-      "fit": "moderate",
-      "fitLabel": "Core engineering role, Mechanical B.Tech eligible.",
-      "tags": [
-        "Engineering",
-        "Trainee"
-      ],
-      "firstSeen": "2026-07-10T18:36:34.553Z"
-    },
-    {
       "id": "ongc-graduate-trainee-programming-officer",
       "source": "psu-sweep",
       "org": "ONGC",
@@ -1120,6 +1204,48 @@
         "Banking"
       ],
       "firstSeen": "2026-07-12T09:30:53.936Z"
+    },
+    {
+      "id": "bharat-heavy-electricals-limited-bhel-engineering-trainee-recruitment-2026",
+      "source": "psu-sweep",
+      "org": "Bharat Heavy Electricals Limited (BHEL)",
+      "title": "Engineering Trainee Recruitment 2026",
+      "summary": "Notification expected in July 2026 for Engineer Trainee posts in various engineering disciplines, including Mechanical. Selection based on written test and interview.",
+      "advtNo": null,
+      "posts": null,
+      "url": "https://careers.bhel.in/",
+      "status": "upcoming",
+      "opensOn": null,
+      "closesOn": null,
+      "expected": "July 2026",
+      "fit": "moderate",
+      "fitLabel": "Core engineering role where Mechanical B.Tech is eligible.",
+      "tags": [
+        "Engineering",
+        "Mechanical"
+      ],
+      "firstSeen": "2026-07-12T17:34:18.140Z"
+    },
+    {
+      "id": "oil-and-natural-gas-corporation-ongc-graduate-trainee-gt-recruitment-2026",
+      "source": "psu-sweep",
+      "org": "Oil and Natural Gas Corporation (ONGC)",
+      "title": "Graduate Trainee (GT) Recruitment 2026",
+      "summary": "Short notification released for Graduate Trainee (E1 Level) posts in Engineering and Geoscience disciplines. Eligible engineering streams include Mechanical, Electrical, Civil, Instrumentation, Petroleum and Geophysics. Selection based on GATE 2026 score, qualification, and interview.",
+      "advtNo": null,
+      "posts": null,
+      "url": "https://www.ongcindia.com/wps/wcm/connect/ongcindia/home/career/",
+      "status": "upcoming",
+      "opensOn": "2026-07-17",
+      "closesOn": null,
+      "expected": "Detailed notification and closing date expected shortly after opening.",
+      "fit": "moderate",
+      "fitLabel": "Core engineering role where Mechanical B.Tech is eligible.",
+      "tags": [
+        "Engineering",
+        "Mechanical"
+      ],
+      "firstSeen": "2026-07-12T17:34:18.140Z"
     }
   ]
 }
