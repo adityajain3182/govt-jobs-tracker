@@ -1,24 +1,24 @@
 {
-  "lastScan": "2026-07-12T21:06:30.728Z",
+  "lastScan": "2026-07-12T22:13:36.490Z",
   "jobs": [
     {
       "id": "staff-selection-commission-combined-graduate-level-examination-cgl-2026",
       "source": "ssc",
       "org": "Staff Selection Commission",
       "title": "Combined Graduate Level Examination (CGL) 2026",
-      "summary": "Recruitment for 12,256 Group B and C posts in various Central Government departments. Eligibility requires a bachelor's degree in any discipline. The application window was from May 21 to June 25, 2026, with a fee payment deadline of June 26, 2026. A correction window was available from July 1 to July 3, 2026.",
+      "summary": "Recruitment for various Group B and Group C posts in central government departments, ministries and offices.",
       "advtNo": "F. No. HQ-C11018/1/2026-C-1",
       "posts": 12256,
-      "url": "https://ssc.gov.in",
+      "url": "https://ssc.gov.in/",
       "status": "closed",
       "opensOn": "2026-05-21",
       "closesOn": "2026-06-25",
-      "expected": null,
+      "expected": "Tier-I Exam: August-September 2026, Tier-II Exam: December 2026",
       "fit": "strong",
-      "fitLabel": "Any-graduate management/general roles, suitable for B.Tech with software engineering experience interested in management.",
+      "fitLabel": "Any-graduate management exam, accepts any engineering bachelor's.",
       "tags": [
         "Management",
-        "Government Job"
+        "IT"
       ],
       "firstSeen": "2026-07-10T18:27:32.964Z"
     },
@@ -47,19 +47,20 @@
       "id": "ntpc-experienced-professionals-on-fixed-term-basis",
       "source": "ntpc",
       "org": "NTPC",
-      "title": "Experienced Professionals on Fixed Term Basis",
-      "summary": "NTPC recruited experienced professionals on Fixed Term Basis (Advt. 08/26). Online applications were open from 12-06-2026 to 26-06-2026. Candidates were advised to keep documents ready for upload.",
-      "advtNo": "08/26",
+      "title": "Experienced Professionals (Fixed Term Basis)",
+      "summary": "Recruitment of experienced professionals on fixed term basis.",
+      "advtNo": "07B/26",
       "posts": null,
-      "url": "https://careers.ntpc.co.in/recruitment/pdf_viewer.php?token=KytZU3NYVHd5SXNuekpZb0R5a2FpTURzTm5yQ085WURudmlyK1E5Q09oVkI2Z1M0UmYvcDJCN1pvVGhXQ0FGVnJKWGMya01ScFRDRVh3MGprZ0RoN3ZlWGpSVzlqVGNId1FDYjBGOU1QYW89OjpmQTNSUWsrc1hpczIzUGlTazVWbTV3PT0%3D",
-      "status": "closed",
+      "url": "https://careers.ntpc.co.in/",
+      "status": "upcoming",
       "opensOn": "2026-06-12",
       "closesOn": "2026-06-26",
       "expected": null,
-      "fit": "moderate",
-      "fitLabel": "Moderate fit — experienced professionals",
+      "fit": "strong",
+      "fitLabel": "Potentially strong for general management/executive roles, especially if IT/process management experience is valued.",
       "tags": [
-        "Experienced professionals"
+        "Executive",
+        "Management"
       ],
       "firstSeen": "2026-07-10T18:34:54.758Z"
     },
@@ -472,20 +473,20 @@
       "id": "nabard-specialists-on-contract",
       "source": "nabard",
       "org": "NABARD",
-      "title": "Specialists on Contract Recruitment 2026",
-      "summary": "NABARD has announced recruitment for 6 Specialist positions on contract, including roles such as Data Architect, Application Solution Architect, Technology Solution Architect, Carbon Consultant, Climate Change Specialist - Mitigation, and Specialist- Derivatives and Treasury Risk Management.",
-      "advtNo": null,
+      "title": "Specialists on Contract Recruitment 2026 (Advertisement No. 03)",
+      "summary": "NABARD invites online applications for 6 Specialists on Contract at its Head Office, Mumbai. Vacancies are across three departments: SPPID (IT Architects), DCAS (Climate/Carbon), and Finance (Derivatives & Treasury). Posts include Data Architect, Application Solution Architect, Technology Solution Architect, Carbon Consultant, Climate Change Specialist - Mitigation, and Specialist- Derivatives and Treasury Risk Management.",
+      "advtNo": "03",
       "posts": 6,
-      "url": "https://www.nabard.org/career.aspx",
+      "url": "https://www.nabard.org",
       "status": "open",
       "opensOn": "2026-07-10",
       "closesOn": "2026-07-23",
       "expected": null,
       "fit": "gated",
-      "fitLabel": "Most relevant roles (IT) are gated due to CS/IT/Electronics degree requirement, which the candidate does not possess.",
+      "fitLabel": "IT roles require CS/IT/Electronics degree; other specialist roles are not a direct fit for Mechanical Engineering background with software experience.",
       "tags": [
-        "IT",
-        "Specialist"
+        "Specialist",
+        "Contract"
       ],
       "firstSeen": "2026-07-12T09:31:57.251Z"
     },
@@ -865,20 +866,20 @@
       "id": "nabard-grade-a-assistant-manager-rdbs-generalist",
       "source": "nabard",
       "org": "NABARD",
-      "title": "Grade A Assistant Manager Recruitment 2026",
-      "summary": "The NABARD Grade A 2026 Notification is expected soon for Assistant Manager positions across various streams, including Rural Development Banking Service (RDBS), Rajbhasha, and Protocol & Security Services.",
+      "title": "Assistant Manager (Grade A) Recruitment 2026",
+      "summary": "The National Bank for Agriculture and Rural Development (NABARD) is expected to release the official notification for Assistant Manager (Grade A) positions soon. This recruitment drive anticipates vacancies across various streams, including Rural Development Banking Service (RDBS), Legal, and Protocol & Security Services. The selection process typically involves Prelims, Mains, and an Interview.",
       "advtNo": null,
       "posts": 80,
-      "url": "https://www.nabard.org/career.aspx",
+      "url": "https://www.nabard.org",
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "Soon in 2026",
+      "expected": "2026-07-XX to 2026-08-XX (notification and application window)",
       "fit": "strong",
-      "fitLabel": "Management role, the General stream typically accepts any engineering bachelor's degree.",
+      "fitLabel": "Any engineering bachelor's degree is accepted for general management roles.",
       "tags": [
-        "Management",
-        "Assistant Manager"
+        "Assistant Manager",
+        "Grade A"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z"
     },
@@ -925,20 +926,20 @@
       "id": "staff-selection-commission-ssc-junior-engineer-civil-electrical-mechanical-2026",
       "source": "ssc",
       "org": "Staff Selection Commission",
-      "title": "Junior Engineer (Civil, Mechanical, Electrical) Examination 2026",
-      "summary": "Recruitment for Junior Engineer posts in various government departments. The official notification and application process are expected to commence in July 2026. Eligibility generally requires a degree or diploma in Civil, Mechanical, or Electrical Engineering.",
+      "title": "Junior Engineer (Civil, Electrical, Mechanical) Examination 2026",
+      "summary": "Recruitment for Junior Engineer posts in various government departments.",
       "advtNo": null,
-      "posts": "~3,000 posts",
-      "url": "https://ssc.gov.in",
+      "posts": 3000,
+      "url": "https://ssc.gov.in/",
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "2026-07-XX",
+      "expected": "Notification in July 2026, Application July-August 2026",
       "fit": "moderate",
-      "fitLabel": "Core engineering post where Mechanical Engineering is eligible.",
+      "fitLabel": "Core engineering post where Mechanical is eligible, but candidate prefers Management/IT.",
       "tags": [
         "Engineering",
-        "Mechanical Engineering"
+        "Mechanical"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z"
     },
@@ -1225,6 +1226,69 @@
         "Mechanical"
       ],
       "firstSeen": "2026-07-12T17:34:18.140Z"
+    },
+    {
+      "id": "ntpc-engineer-contracts-and-materials",
+      "source": "ntpc",
+      "org": "NTPC",
+      "title": "Engineer (Contracts and Materials)",
+      "summary": "Recruitment for the post of Engineer (Contracts and Materials).",
+      "advtNo": "06A/26",
+      "posts": null,
+      "url": "https://careers.ntpc.co.in/",
+      "status": "upcoming",
+      "opensOn": null,
+      "closesOn": null,
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Core engineering post where Mechanical is eligible, with a management/commercial aspect.",
+      "tags": [
+        "Engineering",
+        "Management"
+      ],
+      "firstSeen": "2026-07-12T22:10:37.462Z"
+    },
+    {
+      "id": "ntpc-assistant-officer-environment-management",
+      "source": "ntpc",
+      "org": "NTPC",
+      "title": "Assistant Officer (Environment Management)",
+      "summary": "Recruitment for the post of Assistant Officer (Environment Management).",
+      "advtNo": "05/26",
+      "posts": null,
+      "url": "https://careers.ntpc.co.in/",
+      "status": "upcoming",
+      "opensOn": null,
+      "closesOn": null,
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Possible career transition for a mechanical engineer, but not directly IT or core management.",
+      "tags": [
+        "Environment",
+        "Management"
+      ],
+      "firstSeen": "2026-07-12T22:10:37.462Z"
+    },
+    {
+      "id": "ntpc-assistant-executive-operation-fixed-term-basis",
+      "source": "ntpc",
+      "org": "NTPC",
+      "title": "Assistant Executive (Operation) (Fixed Term Basis)",
+      "summary": "Recruitment of experienced professionals as Assistant Executive (Operation) on Fixed Term Basis.",
+      "advtNo": "04/26",
+      "posts": null,
+      "url": "https://careers.ntpc.co.in/",
+      "status": "upcoming",
+      "opensOn": null,
+      "closesOn": null,
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "Strong for management/operations roles, especially if IT/process management experience is valued.",
+      "tags": [
+        "Executive",
+        "Management"
+      ],
+      "firstSeen": "2026-07-12T22:10:37.462Z"
     }
   ]
 }
