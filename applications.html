@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Applications — Sarkari Tracker</title>
+<style>
+  :root {
+    --paper: #F4F6FA;
+    --card: #FFFFFF;
+    --ink: #16233B;
+    --ink-soft: #4A5670;
+    --accent: #24449C;
+    --accent-soft: #E3E9F7;
+    --open: #1E7A46;
+    --open-bg: #E5F3EB;
+    --soon: #B4690E;
+    --soon-bg: #FBF0DF;
+    --upcoming: #5A6B8C;
+    --upcoming-bg: #E9EDF4;
+    --closed: #8A8F98;
+    --closed-bg: #EFF0F2;
+    --gated: #A03D3D;
+    --gated-bg: #F7E9E9;
+    --line: #D8DEE9;
+    --serif: Cambria, Georgia, 'Times New Roman', serif;
+    --sans: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    --mono: Consolas, 'SF Mono', Menlo, monospace;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: var(--sans); line-height: 1.55; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 24px 64px; }
+
+  header { border-bottom: 3px double var(--accent); padding: 40px 0 24px; margin-bottom: 8px; }
+  .eyebrow {
+    font-family: var(--mono); font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--accent); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 14px;
+  }
+  .eyebrow a { color: var(--accent); text-decoration: none; border-bottom: 1px solid #B9C6E8; }
+  h1 { font-family: var(--serif); font-size: clamp(30px, 5vw, 44px); font-weight: 700; letter-spacing: -0.01em; text-wrap: balance; line-height: 1.12; }
+  .subtitle { color: var(--ink-soft); margin-top: 10px; font-size: 15px; max-width: 62ch; }
+  .subtitle a { color: var(--accent); }
+
+  .summary {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1px; background: var(--line); border: 1px solid var(--line); margin: 24px 0 40px;
+  }
+  .summary div { background: var(--card); padding: 14px 16px; }
+  .summary .num { font-family: var(--serif); font-size: 30px; font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1.1; }
+  .summary .lbl { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-soft); margin-top: 2px; }
+  .summary .n-active .num { color: var(--accent); }
+  .summary .n-exam .num { color: var(--soon); }
+  .summary .n-await .num { color: var(--upcoming); }
+  .summary .n-done .num { color: var(--closed); }
+
+  section { margin-bottom: 44px; }
+  .sec-head { display: flex; align-items: baseline; gap: 12px; border-bottom: 1px solid var(--line); padding-bottom: 8px; margin-bottom: 16px; }
+  .sec-head h2 { font-family: var(--serif); font-size: 22px; font-weight: 700; }
+  .sec-head .note { font-size: 13px; color: var(--ink-soft); }
+  .empty { font-size: 14px; color: var(--ink-soft); padding: 8px 0; }
+
+  .app { background: var(--card); border: 1px solid var(--line); border-radius: 4px; display: grid; grid-template-columns: 118px 1fr; overflow: hidden; }
+  .app + .app { margin-top: 12px; }
+  .date-block {
+    padding: 18px 14px; border-right: 1px solid var(--line); background: var(--upcoming-bg);
+    display: flex; flex-direction: column; justify-content: center; gap: 2px; text-align: center;
+  }
+  .app.k-exam .date-block { background: var(--soon-bg); }
+  .app.k-result .date-block { background: var(--open-bg); }
+  .app.k-done .date-block { background: var(--closed-bg); }
+  .date-block .dl-label { font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-soft); }
+  .date-block .dl-date { font-family: var(--mono); font-size: 15px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .date-block .dl-days { font-size: 12px; font-weight: 600; color: var(--ink-soft); }
+  .app.k-exam .dl-days { color: var(--soon); }
+  .app.k-result .dl-days { color: var(--open); }
+
+  .app .body { padding: 16px 20px 18px; min-width: 0; }
+  .org { font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+  .body h3 { font-size: 17px; font-weight: 700; margin: 3px 0 10px; text-wrap: balance; }
+
+  /* Stage rail */
+  .rail { display: flex; align-items: center; gap: 0; margin: 4px 0 12px; max-width: 460px; }
+  .stage { display: flex; flex-direction: column; align-items: center; flex: 1; position: relative; }
+  .stage .dot {
+    width: 14px; height: 14px; border-radius: 50%; border: 2px solid var(--line); background: var(--card); z-index: 1;
+  }
+  .stage .bar { position: absolute; top: 6px; left: -50%; width: 100%; height: 2px; background: var(--line); }
+  .stage:first-child .bar { display: none; }
+  .stage .slbl { font-size: 10.5px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft); margin-top: 5px; white-space: nowrap; }
+  .stage.done .dot { background: var(--open); border-color: var(--open); }
+  .stage.done .bar { background: var(--open); }
+  .stage.current .dot { background: var(--card); border-color: var(--soon); box-shadow: 0 0 0 3px var(--soon-bg); }
+  .stage.current .slbl { color: var(--soon); font-weight: 700; }
+  .stage.fail .dot { background: var(--gated); border-color: var(--gated); }
+
+  .kv { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; color: var(--ink-soft); margin-bottom: 10px; }
+  .kv b { color: var(--ink); font-weight: 600; }
+  .kv .mono { font-family: var(--mono); font-size: 12.5px; }
+
+  .meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .tag { font-size: 12px; border: 1px solid var(--line); border-radius: 3px; padding: 2px 9px; color: var(--ink-soft); background: var(--paper); }
+  .status-chip { font-size: 12px; font-weight: 700; border-radius: 3px; padding: 2px 9px; }
+  .status-chip.active { background: var(--accent-soft); color: var(--accent); }
+  .status-chip.exam { background: var(--soon-bg); color: var(--soon); }
+  .status-chip.good { background: var(--open-bg); color: var(--open); }
+  .status-chip.bad { background: var(--gated-bg); color: var(--gated); }
+  .status-chip.neutral { background: var(--closed-bg); color: var(--closed); }
+  .src { margin-left: auto; font-size: 13px; font-weight: 600; color: var(--accent); text-decoration: none; border-bottom: 1px solid #B9C6E8; padding-bottom: 1px; }
+  .src:hover, .src:focus-visible { color: #16306E; border-bottom-color: #16306E; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .howto { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 4px; padding: 16px 20px; font-size: 14px; color: var(--ink-soft); }
+  .howto strong { color: var(--ink); }
+  .howto code { font-family: var(--mono); font-size: 12.5px; background: var(--paper); border: 1px solid var(--line); border-radius: 3px; padding: 1px 6px; }
+
+  footer { margin-top: 48px; border-top: 1px solid var(--line); padding-top: 16px; font-size: 12.5px; color: var(--ink-soft); max-width: 72ch; }
+
+  @media (max-width: 560px) {
+    .app { grid-template-columns: 1fr; }
+    .date-block { border-right: none; border-bottom: 1px solid var(--line); flex-direction: row; align-items: baseline; gap: 10px; justify-content: flex-start; padding: 10px 20px; }
+    .src { margin-left: 0; }
+    .stage .slbl { font-size: 9px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">
+      <span>Application Lifecycle Tracker</span>
+      <span><a href="index.html">← Job board</a></span>
+    </div>
+    <h1>My Applications</h1>
+    <p class="subtitle">Every application tracked from submission to result — admit cards, exam dates, centres and outcomes. Data lives in the <a href="https://docs.google.com/spreadsheets/d/11ana3UIqg3wlRE4EVXLAQOhaIxWIz9fSgWDe00qqfuQ/edit" target="_blank" rel="noopener">Google Sheet</a> ("Applied" tab); edit there and this page updates on reload.</p>
+  </header>
+
+  <div class="summary">
+    <div class="n-active"><div class="num" id="n-active">–</div><div class="lbl">In progress</div></div>
+    <div class="n-exam"><div class="num" id="n-exam">–</div><div class="lbl">Exams scheduled</div></div>
+    <div class="n-await"><div class="num" id="n-await">–</div><div class="lbl">Awaiting admit card / result</div></div>
+    <div class="n-done"><div class="num" id="n-done">–</div><div class="lbl">Concluded</div></div>
+  </div>
+
+  <section>
+    <div class="sec-head">
+      <h2>Next up</h2>
+      <span class="note">Exams and key dates on the horizon, soonest first</span>
+    </div>
+    <div id="next-list"><p class="empty">Loading from Google Sheets…</p></div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>All applications</h2>
+      <span class="note">Everything on the "Applied" tab, newest first</span>
+    </div>
+    <div id="all-list"><p class="empty">Loading from Google Sheets…</p></div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>How to update</h2>
+    </div>
+    <div class="howto">
+      <strong>The sheet is the source of truth.</strong> To track an application past the "applied" stage, fill these columns on the <strong>Applied</strong> tab (add the headers once in row 1 if missing):
+      <code>Status</code> · <code>Exam Date</code> · <code>Exam Centre</code> · <code>Admit Card</code> (link or date) · <code>Result</code> · <code>Notes</code>.
+      Recognised Status values: <code>applied</code>, <code>admit card out</code>, <code>exam scheduled</code>, <code>exam done</code>, <code>interview</code>, <code>qualified</code>, <code>selected</code>, <code>not qualified</code>, <code>withdrawn</code> — anything else shows as-is.
+      Dates can be written like <code>12 Apr</code> or <code>27 July 2026</code>. Registration numbers are shown masked; the Password column is never read — <strong>move passwords out of the sheet</strong>.
+    </div>
+  </section>
+
+  <footer>
+    <p>Reads the public Google Sheet live on every page load (no caching). If the page shows a load error, check the sheet is still shared as "anyone with the link can view".</p>
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  var SHEET_ID = "11ana3UIqg3wlRE4EVXLAQOhaIxWIz9fSgWDe00qqfuQ";
+  var GID_APPLIED = "1511878778";
+  var CSV_URL = "https://docs.google.com/spreadsheets/d/" + SHEET_ID + "/gviz/tq?tqx=out:csv&gid=" + GID_APPLIED;
+  var MS_DAY = 86400000;
+  var today = new Date(); today.setHours(0, 0, 0, 0);
+
+  var STAGES = ["Applied", "Admit card", "Exam", "Result"];
+  var MONTHS = { jan:0, feb:1, mar:2, apr:3, may:4, jun:5, jul:6, aug:7, sep:8, oct:9, nov:10, dec:11 };
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+
+  // Minimal CSV parser handling quoted fields and embedded commas/newlines.
+  function parseCSV(text) {
+    var rows = [], row = [], field = "", inQ = false;
+    for (var i = 0; i < text.length; i++) {
+      var c = text[i];
+      if (inQ) {
+        if (c === '"') { if (text[i + 1] === '"') { field += '"'; i++; } else inQ = false; }
+        else field += c;
+      } else if (c === '"') inQ = true;
+      else if (c === ",") { row.push(field); field = ""; }
+      else if (c === "\n" || c === "\r") {
+        if (c === "\r" && text[i + 1] === "\n") i++;
+        row.push(field); field = "";
+        rows.push(row); row = [];
+      } else field += c;
+    }
+    if (field !== "" || row.length) { row.push(field); rows.push(row); }
+    return rows;
+  }
+
+  // "12 Apr", "3 July", "27 July 2026", "2026-07-27" -> Date or null
+  function parseLooseDate(s) {
+    if (!s) return null;
+    s = s.trim();
+    var iso = s.match(/^(\d{4})-(\d{2})-(\d{2})/);
+    if (iso) return new Date(+iso[1], +iso[2] - 1, +iso[3]);
+    var m = s.match(/^(\d{1,2})\s*([A-Za-z]+)\.?\s*(\d{4})?$/);
+    if (!m) {
+      m = s.match(/^([A-Za-z]+)\.?\s*(\d{1,2})\s*,?\s*(\d{4})?$/);
+      if (m) m = [m[0], m[2], m[1], m[3]];
+    }
+    if (!m) return null;
+    var mon = MONTHS[m[2].slice(0, 3).toLowerCase()];
+    if (mon === undefined) return null;
+    var year = m[3] ? +m[3] : today.getFullYear();
+    return new Date(year, mon, +m[1]);
+  }
+
+  function fmt(d) {
+    return d ? d.toLocaleDateString("en-IN", { day: "2-digit", month: "short" }) : "—";
+  }
+
+  function maskReg(s) {
+    s = String(s || "").trim();
+    if (s.length <= 4) return s;
+    return "···" + s.slice(-4);
+  }
+
+  function normHeader(h) { return String(h || "").toLowerCase().replace(/[^a-z]/g, ""); }
+
+  // status text -> { stageIdx (0..3, 4=concluded), chipClass, label, failed }
+  function classifyStatus(raw, examDate) {
+    var s = String(raw || "").toLowerCase();
+    if (/select/.test(s)) return { idx: 4, chip: "good", label: "Selected", fail: false };
+    if (/withdraw/.test(s)) return { idx: 4, chip: "neutral", label: "Withdrawn", fail: false };
+    if (/not qualified|reject|fail/.test(s)) return { idx: 4, chip: "bad", label: raw, fail: true };
+    if (/qualified|result/.test(s)) return { idx: 3, chip: "good", label: raw, fail: false };
+    if (/interview|phase 2|mains/.test(s)) return { idx: 3, chip: "exam", label: raw, fail: false };
+    if (/exam done|appeared|attempted/.test(s)) return { idx: 3, chip: "exam", label: raw, fail: false };
+    if (/exam|scheduled/.test(s)) return { idx: 2, chip: "exam", label: raw, fail: false };
+    if (/admit/.test(s)) return { idx: 2, chip: "active", label: raw, fail: false };
+    if (examDate && examDate < today) return { idx: 3, chip: "exam", label: "Exam done (by date)", fail: false };
+    if (examDate) return { idx: 2, chip: "exam", label: "Exam scheduled", fail: false };
+    return { idx: 1, chip: "active", label: raw || "Applied", fail: false };
+  }
+
+  function rail(cls) {
+    return '<div class="rail">' + STAGES.map(function (name, i) {
+      var c = "";
+      if (cls.idx === 4) c = cls.fail && i === 3 ? "fail" : "done";
+      else if (i < cls.idx) c = "done";
+      else if (i === cls.idx) c = "current";
+      return '<div class="stage ' + c + '"><div class="bar"></div><div class="dot"></div><div class="slbl">' + name + "</div></div>";
+    }).join("") + "</div>";
+  }
+
+  function card(app) {
+    var cls = app.cls;
+    var kind = cls.idx >= 4 ? "k-done" : (app.examDate && app.examDate >= today ? "k-exam" : (cls.idx >= 3 ? "k-result" : "k-wait"));
+    var dlLabel, dlDate, dlDays = "";
+    if (app.examDate && app.examDate >= today) {
+      dlLabel = "Exam"; dlDate = fmt(app.examDate);
+      var days = Math.round((app.examDate - today) / MS_DAY);
+      dlDays = days === 0 ? "Today!" : "in " + days + (days === 1 ? " day" : " days");
+    } else if (cls.idx >= 4) {
+      dlLabel = "Status"; dlDate = cls.label;
+    } else if (cls.idx >= 3) {
+      dlLabel = "Awaiting"; dlDate = "Result";
+    } else {
+      dlLabel = "Applied by"; dlDate = fmt(app.deadline);
+      dlDays = "awaiting admit card";
+    }
+    var kv = "";
+    if (app.reg) kv += "<span>Reg. no. <b class=\"mono\">" + esc(maskReg(app.reg)) + "</b></span>";
+    if (app.examCentre) kv += "<span>Centre: <b>" + esc(app.examCentre) + "</b></span>";
+    if (app.result) kv += "<span>Result: <b>" + esc(app.result) + "</b></span>";
+    if (app.notes) kv += "<span>" + esc(app.notes) + "</span>";
+    var meta = '<span class="status-chip ' + cls.chip + '">' + esc(cls.label) + "</span>";
+    if (app.admitCard) {
+      meta += /^https?:/.test(app.admitCard)
+        ? '<a class="src" style="margin-left:0" href="' + esc(app.admitCard) + '" target="_blank" rel="noopener">Admit card ↗</a>'
+        : '<span class="tag">Admit card: ' + esc(app.admitCard) + "</span>";
+    }
+    if (app.link) meta += '<a class="src" href="' + esc(app.link) + '" target="_blank" rel="noopener">Portal ↗</a>';
+    return '<article class="app ' + kind + '">' +
+      '<div class="date-block"><span class="dl-label">' + dlLabel + '</span><span class="dl-date">' + esc(dlDate) + '</span><span class="dl-days">' + dlDays + "</span></div>" +
+      '<div class="body"><div class="org">' + esc(app.dept) + "</div><h3>" + esc(app.post) + "</h3>" +
+      rail(cls) + (kv ? '<div class="kv">' + kv + "</div>" : "") +
+      '<div class="meta">' + meta + "</div></div></article>";
+  }
+
+  function render(apps) {
+    var active = apps.filter(function (a) { return a.cls.idx < 4; });
+    var exams = active.filter(function (a) { return a.examDate && a.examDate >= today; });
+    var done = apps.filter(function (a) { return a.cls.idx >= 4; });
+    document.getElementById("n-active").textContent = active.length;
+    document.getElementById("n-exam").textContent = exams.length;
+    document.getElementById("n-await").textContent = active.length - exams.length;
+    document.getElementById("n-done").textContent = done.length;
+
+    var next = exams.slice().sort(function (a, b) { return a.examDate - b.examDate; });
+    document.getElementById("next-list").innerHTML = next.length
+      ? next.map(card).join("")
+      : '<p class="empty">No exams scheduled yet — add an Exam Date in the sheet when an admit card lands.</p>';
+
+    var all = apps.slice().reverse();
+    document.getElementById("all-list").innerHTML = all.length
+      ? all.map(card).join("")
+      : '<p class="empty">No applications found on the "Applied" tab.</p>';
+  }
+
+  function fail(msg) {
+    var html = '<p class="empty">Could not load the sheet: ' + esc(msg) + "</p>";
+    document.getElementById("next-list").innerHTML = html;
+    document.getElementById("all-list").innerHTML = "";
+  }
+
+  fetch(CSV_URL, { cache: "no-store" })
+    .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); })
+    .then(function (text) {
+      var rows = parseCSV(text);
+      if (!rows.length) return render([]);
+      var headers = rows[0].map(normHeader);
+      function col(row, names) {
+        for (var i = 0; i < names.length; i++) {
+          var idx = headers.indexOf(names[i]);
+          if (idx !== -1 && row[idx] && row[idx].trim()) return row[idx].trim();
+        }
+        return "";
+      }
+      var apps = [];
+      for (var r = 1; r < rows.length; r++) {
+        var row = rows[r];
+        var dept = col(row, ["dept", "department", "org", "organisation"]);
+        var post = col(row, ["post", "position", "role"]);
+        if (!dept && !post) continue; // continuation / stray rows
+        var examDate = parseLooseDate(col(row, ["examdate", "exam"]));
+        var status = col(row, ["status", "stage"]) || col(row, ["others"]);
+        apps.push({
+          dept: dept || "—",
+          post: post || "—",
+          deadline: parseLooseDate(col(row, ["applicationdeadline", "deadline", "appliedon"])),
+          reg: col(row, ["registrationno", "regno", "registration"]),
+          link: col(row, ["link", "url", "portal"]),
+          examDate: examDate,
+          examCentre: col(row, ["examcentre", "examcenter", "centre", "center"]),
+          admitCard: col(row, ["admitcard", "admitcardlink"]),
+          result: col(row, ["result", "outcome"]),
+          notes: col(row, ["notes", "remark", "remarks"]),
+          cls: classifyStatus(status, examDate)
+        });
+      }
+      render(apps);
+    })
+    .catch(function (err) { fail(err.message); });
+})();
+</script>
+</body>
+</html>
