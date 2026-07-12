@@ -31,23 +31,34 @@
   body { background: var(--paper); color: var(--ink); font-family: var(--sans); line-height: 1.55; }
   .wrap { max-width: 880px; margin: 0 auto; padding: 0 24px 64px; }
 
-  header { border-bottom: 3px double var(--accent); padding: 40px 0 24px; margin-bottom: 8px; }
-  .eyebrow {
-    font-family: var(--mono); font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase;
-    color: var(--accent); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 14px;
-  }
-  .eyebrow a { color: var(--accent); text-decoration: none; border-bottom: 1px solid #B9C6E8; }
-  .topnav {
-    display: flex; align-items: baseline; gap: 20px;
-    padding: 14px 0 0; font-size: 14px;
-  }
+  .topnav { display: flex; align-items: baseline; gap: 20px; padding: 14px 0 0; font-size: 14px; }
   .topnav .brand { font-family: var(--serif); font-weight: 700; font-size: 16px; margin-right: auto; }
   .topnav a { color: var(--ink-soft); text-decoration: none; font-weight: 600; padding-bottom: 2px; border-bottom: 2px solid transparent; }
   .topnav a:hover { color: var(--accent); }
   .topnav a.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+  header { border-bottom: 3px double var(--accent); padding: 28px 0 24px; margin-bottom: 8px; }
+  .eyebrow {
+    font-family: var(--mono); font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--accent); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 14px;
+  }
   h1 { font-family: var(--serif); font-size: clamp(30px, 5vw, 44px); font-weight: 700; letter-spacing: -0.01em; text-wrap: balance; line-height: 1.12; }
   .subtitle { color: var(--ink-soft); margin-top: 10px; font-size: 15px; max-width: 62ch; }
   .subtitle a { color: var(--accent); }
+
+  .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 18px; }
+  .btn {
+    font: 600 13.5px var(--sans); color: var(--accent); background: var(--accent-soft);
+    border: 1px solid #C4D0EC; border-radius: 3px; padding: 6px 14px; cursor: pointer;
+  }
+  .btn:hover { background: #D6DFF4; }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .btn.primary:hover { background: #1B3578; }
+  .btn.ghost { background: transparent; border-color: var(--line); color: var(--ink-soft); }
+  .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .sync-note { font-size: 12.5px; color: var(--ink-soft); }
+  .sync-note.ok { color: var(--open); font-weight: 600; }
+  .sync-note.err { color: var(--gated); font-weight: 600; }
 
   .summary {
     display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -66,6 +77,31 @@
   .sec-head h2 { font-family: var(--serif); font-size: 22px; font-weight: 700; }
   .sec-head .note { font-size: 13px; color: var(--ink-soft); }
   .empty { font-size: 14px; color: var(--ink-soft); padding: 8px 0; }
+
+  /* Editor panel */
+  .editor {
+    background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent);
+    border-radius: 4px; padding: 20px; margin-bottom: 24px; display: none;
+  }
+  .editor.open { display: block; }
+  .editor h2 { font-family: var(--serif); font-size: 20px; margin-bottom: 14px; }
+  .fgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px 16px; }
+  .field { display: flex; flex-direction: column; gap: 4px; }
+  .field.wide { grid-column: 1 / -1; }
+  .field label { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-soft); font-weight: 600; }
+  .field input, .field select {
+    font: 14px var(--sans); color: var(--ink); background: var(--paper);
+    border: 1px solid var(--line); border-radius: 3px; padding: 7px 10px;
+  }
+  .field input:focus, .field select:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent); }
+  .editor .actions { display: flex; gap: 10px; margin-top: 16px; align-items: center; }
+  .editor .msg { font-size: 13px; color: var(--ink-soft); }
+  .editor .msg.err { color: var(--gated); font-weight: 600; }
+  .editor .msg.ok { color: var(--open); font-weight: 600; }
+  .editor .hint { font-size: 12.5px; color: var(--ink-soft); margin-top: 12px; }
+  .editor .hint code { font-family: var(--mono); font-size: 11.5px; background: var(--paper); border: 1px solid var(--line); border-radius: 3px; padding: 1px 5px; }
+  .editor ol { margin: 8px 0 0 20px; font-size: 13.5px; color: var(--ink-soft); }
+  .editor ol li + li { margin-top: 4px; }
 
   .app { background: var(--card); border: 1px solid var(--line); border-radius: 4px; display: grid; grid-template-columns: 118px 1fr; overflow: hidden; }
   .app + .app { margin-top: 12px; }
@@ -86,12 +122,9 @@
   .org { font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
   .body h3 { font-size: 17px; font-weight: 700; margin: 3px 0 10px; text-wrap: balance; }
 
-  /* Stage rail */
   .rail { display: flex; align-items: center; gap: 0; margin: 4px 0 12px; max-width: 460px; }
   .stage { display: flex; flex-direction: column; align-items: center; flex: 1; position: relative; }
-  .stage .dot {
-    width: 14px; height: 14px; border-radius: 50%; border: 2px solid var(--line); background: var(--card); z-index: 1;
-  }
+  .stage .dot { width: 14px; height: 14px; border-radius: 50%; border: 2px solid var(--line); background: var(--card); z-index: 1; }
   .stage .bar { position: absolute; top: 6px; left: -50%; width: 100%; height: 2px; background: var(--line); }
   .stage:first-child .bar { display: none; }
   .stage .slbl { font-size: 10.5px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft); margin-top: 5px; white-space: nowrap; }
@@ -113,13 +146,14 @@
   .status-chip.good { background: var(--open-bg); color: var(--open); }
   .status-chip.bad { background: var(--gated-bg); color: var(--gated); }
   .status-chip.neutral { background: var(--closed-bg); color: var(--closed); }
+  .edit-btn {
+    font: 600 12px var(--sans); color: var(--ink-soft); background: transparent;
+    border: 1px solid var(--line); border-radius: 3px; padding: 2px 10px; cursor: pointer;
+  }
+  .edit-btn:hover { color: var(--accent); border-color: var(--accent); }
   .src { margin-left: auto; font-size: 13px; font-weight: 600; color: var(--accent); text-decoration: none; border-bottom: 1px solid #B9C6E8; padding-bottom: 1px; }
   .src:hover, .src:focus-visible { color: #16306E; border-bottom-color: #16306E; }
   a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-
-  .howto { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 4px; padding: 16px 20px; font-size: 14px; color: var(--ink-soft); }
-  .howto strong { color: var(--ink); }
-  .howto code { font-family: var(--mono); font-size: 12.5px; background: var(--paper); border: 1px solid var(--line); border-radius: 3px; padding: 1px 6px; }
 
   footer { margin-top: 48px; border-top: 1px solid var(--line); padding-top: 16px; font-size: 12.5px; color: var(--ink-soft); max-width: 72ch; }
 
@@ -143,10 +177,73 @@
   <header>
     <div class="eyebrow">
       <span>Application Lifecycle Tracker</span>
+      <span id="sync-stamp"></span>
     </div>
     <h1>My Applications</h1>
-    <p class="subtitle">Every application tracked from submission to result — admit cards, exam dates, centres and outcomes. Data lives in the <a href="https://docs.google.com/spreadsheets/d/11ana3UIqg3wlRE4EVXLAQOhaIxWIz9fSgWDe00qqfuQ/edit" target="_blank" rel="noopener">Google Sheet</a> ("Applied" tab); edit there and this page updates on reload.</p>
+    <p class="subtitle">Every application tracked from submission to result — admit cards, exam dates, centres and outcomes. Two-way sync with the <a href="https://docs.google.com/spreadsheets/d/11ana3UIqg3wlRE4EVXLAQOhaIxWIz9fSgWDe00qqfuQ/edit" target="_blank" rel="noopener">Google Sheet</a>: edit here or there, both stay current.</p>
+    <div class="toolbar">
+      <button class="btn primary" id="btn-add">+ Add application</button>
+      <button class="btn" id="btn-refresh">⟳ Refresh</button>
+      <button class="btn ghost" id="btn-connect">⚙ Connect sheet</button>
+      <span class="sync-note" id="sync-note"></span>
+    </div>
   </header>
+
+  <div class="editor" id="connect-panel">
+    <h2>Connect the sheet for editing</h2>
+    <p style="font-size:14px;color:var(--ink-soft)">Reading is already live. To <strong>write</strong> from this page, the sheet needs its (free) Apps Script bridge — a one-time, ~3 minute setup:</p>
+    <ol>
+      <li>Open the sheet → <strong>Extensions → Apps Script</strong>, replace the code with <a href="https://github.com/adityajain3182/govt-jobs-tracker/blob/main/apps-script/Code.gs" target="_blank" rel="noopener">apps-script/Code.gs</a> from the repo.</li>
+      <li>Project Settings → <strong>Script Properties</strong> → add <code>TOKEN</code> = any long random string.</li>
+      <li><strong>Deploy → New deployment → Web app</strong> — Execute as: <em>Me</em>, Who has access: <em>Anyone</em>. Copy the web app URL.</li>
+      <li>Paste both below (stored only in this browser).</li>
+    </ol>
+    <div class="fgrid" style="margin-top:14px">
+      <div class="field wide"><label for="cfg-url">Apps Script web app URL</label><input id="cfg-url" type="url" placeholder="https://script.google.com/macros/s/…/exec"></div>
+      <div class="field wide"><label for="cfg-token">Token</label><input id="cfg-token" type="password" placeholder="the TOKEN script property"></div>
+    </div>
+    <div class="actions">
+      <button class="btn primary" id="cfg-save">Save &amp; test</button>
+      <button class="btn ghost" id="cfg-cancel">Cancel</button>
+      <span class="msg" id="cfg-msg"></span>
+    </div>
+  </div>
+
+  <div class="editor" id="edit-panel">
+    <h2 id="edit-title">Add application</h2>
+    <div class="fgrid">
+      <div class="field"><label for="f-dept">Department / Org *</label><input id="f-dept" required placeholder="e.g. RBI"></div>
+      <div class="field"><label for="f-post">Post *</label><input id="f-post" required placeholder="e.g. Grade B — General"></div>
+      <div class="field"><label for="f-deadline">Application deadline</label><input id="f-deadline" type="date"></div>
+      <div class="field"><label for="f-reg">Registration no.</label><input id="f-reg" placeholder="as on the portal"></div>
+      <div class="field wide"><label for="f-link">Portal link</label><input id="f-link" type="url" placeholder="https://…"></div>
+      <div class="field">
+        <label for="f-status">Status</label>
+        <select id="f-status">
+          <option value="applied">Applied</option>
+          <option value="admit card out">Admit card out</option>
+          <option value="exam scheduled">Exam scheduled</option>
+          <option value="exam done">Exam done</option>
+          <option value="interview">Interview</option>
+          <option value="qualified">Qualified</option>
+          <option value="selected">Selected</option>
+          <option value="not qualified">Not qualified</option>
+          <option value="withdrawn">Withdrawn</option>
+        </select>
+      </div>
+      <div class="field"><label for="f-examdate">Exam date</label><input id="f-examdate" type="date"></div>
+      <div class="field"><label for="f-centre">Exam centre</label><input id="f-centre" placeholder="city / venue"></div>
+      <div class="field"><label for="f-admit">Admit card (link or date)</label><input id="f-admit"></div>
+      <div class="field"><label for="f-result">Result</label><input id="f-result" placeholder="e.g. qualified, 87.4 percentile"></div>
+      <div class="field wide"><label for="f-notes">Notes</label><input id="f-notes"></div>
+    </div>
+    <div class="actions">
+      <button class="btn primary" id="edit-save">Save to sheet</button>
+      <button class="btn ghost" id="edit-cancel">Cancel</button>
+      <span class="msg" id="edit-msg"></span>
+    </div>
+    <p class="hint">Saves write straight to the Google Sheet — no deployment involved. The page re-reads the sheet right after saving.</p>
+  </div>
 
   <div class="summary">
     <div class="n-active"><div class="num" id="n-active">–</div><div class="lbl">In progress</div></div>
@@ -171,20 +268,8 @@
     <div id="all-list"><p class="empty">Loading from Google Sheets…</p></div>
   </section>
 
-  <section>
-    <div class="sec-head">
-      <h2>How to update</h2>
-    </div>
-    <div class="howto">
-      <strong>The sheet is the source of truth.</strong> To track an application past the "applied" stage, fill these columns on the <strong>Applied</strong> tab (add the headers once in row 1 if missing):
-      <code>Status</code> · <code>Exam Date</code> · <code>Exam Centre</code> · <code>Admit Card</code> (link or date) · <code>Result</code> · <code>Notes</code>.
-      Recognised Status values: <code>applied</code>, <code>admit card out</code>, <code>exam scheduled</code>, <code>exam done</code>, <code>interview</code>, <code>qualified</code>, <code>selected</code>, <code>not qualified</code>, <code>withdrawn</code> — anything else shows as-is.
-      Dates can be written like <code>12 Apr</code> or <code>27 July 2026</code>. Registration numbers are shown masked; the Password column is never read — <strong>move passwords out of the sheet</strong>.
-    </div>
-  </section>
-
   <footer>
-    <p>Reads the public Google Sheet live on every page load (no caching). If the page shows a load error, check the sheet is still shared as "anyone with the link can view".</p>
+    <p>Reads the sheet live on load, after every save, and every 60 seconds. Sheet edits appear here within seconds (Google occasionally caches reads for up to a minute or two). Registration numbers are masked; the Password column is never read — keep passwords out of the sheet.</p>
   </footer>
 
 </div>
@@ -195,16 +280,27 @@
   var GID_APPLIED = "1511878778";
   var CSV_URL = "https://docs.google.com/spreadsheets/d/" + SHEET_ID + "/gviz/tq?tqx=out:csv&gid=" + GID_APPLIED;
   var MS_DAY = 86400000;
+  var REFRESH_MS = 60000;
   var today = new Date(); today.setHours(0, 0, 0, 0);
 
   var STAGES = ["Applied", "Admit card", "Exam", "Result"];
   var MONTHS = { jan:0, feb:1, mar:2, apr:3, may:4, jun:5, jul:6, aug:7, sep:8, oct:9, nov:10, dec:11 };
+  var FIELDS = ["dept", "post", "deadline", "reg", "link", "status", "examDate", "examCentre", "admitCard", "result", "notes"];
 
+  var state = { apps: [], editingRow: null };
+  var cfg = {
+    get url() { return localStorage.getItem("sheetBridgeUrl") || ""; },
+    set url(v) { localStorage.setItem("sheetBridgeUrl", v); },
+    get token() { return localStorage.getItem("sheetBridgeToken") || ""; },
+    set token(v) { localStorage.setItem("sheetBridgeToken", v); },
+    get connected() { return !!(this.url && this.token); }
+  };
+
+  function $(id) { return document.getElementById(id); }
   function esc(s) {
     return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
   }
 
-  // Minimal CSV parser handling quoted fields and embedded commas/newlines.
   function parseCSV(text) {
     var rows = [], row = [], field = "", inQ = false;
     for (var i = 0; i < text.length; i++) {
@@ -224,10 +320,9 @@
     return rows;
   }
 
-  // "12 Apr", "3 July", "27 July 2026", "2026-07-27" -> Date or null
   function parseLooseDate(s) {
     if (!s) return null;
-    s = s.trim();
+    s = String(s).trim();
     var iso = s.match(/^(\d{4})-(\d{2})-(\d{2})/);
     if (iso) return new Date(+iso[1], +iso[2] - 1, +iso[3]);
     var m = s.match(/^(\d{1,2})\s*([A-Za-z]+)\.?\s*(\d{4})?$/);
@@ -238,23 +333,17 @@
     if (!m) return null;
     var mon = MONTHS[m[2].slice(0, 3).toLowerCase()];
     if (mon === undefined) return null;
-    var year = m[3] ? +m[3] : today.getFullYear();
-    return new Date(year, mon, +m[1]);
+    return new Date(m[3] ? +m[3] : today.getFullYear(), mon, +m[1]);
   }
 
-  function fmt(d) {
-    return d ? d.toLocaleDateString("en-IN", { day: "2-digit", month: "short" }) : "—";
+  function toISO(d) {
+    if (!d) return "";
+    return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
   }
-
-  function maskReg(s) {
-    s = String(s || "").trim();
-    if (s.length <= 4) return s;
-    return "···" + s.slice(-4);
-  }
-
+  function fmt(d) { return d ? d.toLocaleDateString("en-IN", { day: "2-digit", month: "short" }) : "—"; }
+  function maskReg(s) { s = String(s || "").trim(); return s.length <= 4 ? s : "···" + s.slice(-4); }
   function normHeader(h) { return String(h || "").toLowerCase().replace(/[^a-z]/g, ""); }
 
-  // status text -> { stageIdx (0..3, 4=concluded), chipClass, label, failed }
   function classifyStatus(raw, examDate) {
     var s = String(raw || "").toLowerCase();
     if (/select/.test(s)) return { idx: 4, chip: "good", label: "Selected", fail: false };
@@ -282,32 +371,31 @@
 
   function card(app) {
     var cls = app.cls;
-    var kind = cls.idx >= 4 ? "k-done" : (app.examDate && app.examDate >= today ? "k-exam" : (cls.idx >= 3 ? "k-result" : "k-wait"));
+    var kind = cls.idx >= 4 ? "k-done" : (app.examDateParsed && app.examDateParsed >= today ? "k-exam" : (cls.idx >= 3 ? "k-result" : "k-wait"));
     var dlLabel, dlDate, dlDays = "";
-    if (app.examDate && app.examDate >= today) {
-      dlLabel = "Exam"; dlDate = fmt(app.examDate);
-      var days = Math.round((app.examDate - today) / MS_DAY);
+    if (app.examDateParsed && app.examDateParsed >= today) {
+      dlLabel = "Exam"; dlDate = fmt(app.examDateParsed);
+      var days = Math.round((app.examDateParsed - today) / MS_DAY);
       dlDays = days === 0 ? "Today!" : "in " + days + (days === 1 ? " day" : " days");
-    } else if (cls.idx >= 4) {
-      dlLabel = "Status"; dlDate = cls.label;
-    } else if (cls.idx >= 3) {
-      dlLabel = "Awaiting"; dlDate = "Result";
-    } else {
-      dlLabel = "Applied by"; dlDate = fmt(app.deadline);
-      dlDays = "awaiting admit card";
-    }
+    } else if (cls.idx >= 4) { dlLabel = "Status"; dlDate = cls.label; }
+    else if (cls.idx >= 3) { dlLabel = "Awaiting"; dlDate = "Result"; }
+    else { dlLabel = "Applied by"; dlDate = fmt(app.deadlineParsed); dlDays = "awaiting admit card"; }
+
     var kv = "";
     if (app.reg) kv += "<span>Reg. no. <b class=\"mono\">" + esc(maskReg(app.reg)) + "</b></span>";
     if (app.examCentre) kv += "<span>Centre: <b>" + esc(app.examCentre) + "</b></span>";
     if (app.result) kv += "<span>Result: <b>" + esc(app.result) + "</b></span>";
     if (app.notes) kv += "<span>" + esc(app.notes) + "</span>";
+
     var meta = '<span class="status-chip ' + cls.chip + '">' + esc(cls.label) + "</span>";
+    meta += '<button class="edit-btn" data-row="' + app.rowNumber + '">Edit</button>';
     if (app.admitCard) {
       meta += /^https?:/.test(app.admitCard)
         ? '<a class="src" style="margin-left:0" href="' + esc(app.admitCard) + '" target="_blank" rel="noopener">Admit card ↗</a>'
         : '<span class="tag">Admit card: ' + esc(app.admitCard) + "</span>";
     }
     if (app.link) meta += '<a class="src" href="' + esc(app.link) + '" target="_blank" rel="noopener">Portal ↗</a>';
+
     return '<article class="app ' + kind + '">' +
       '<div class="date-block"><span class="dl-label">' + dlLabel + '</span><span class="dl-date">' + esc(dlDate) + '</span><span class="dl-days">' + dlDays + "</span></div>" +
       '<div class="body"><div class="org">' + esc(app.dept) + "</div><h3>" + esc(app.post) + "</h3>" +
@@ -315,70 +403,181 @@
       '<div class="meta">' + meta + "</div></div></article>";
   }
 
-  function render(apps) {
+  function render() {
+    var apps = state.apps;
     var active = apps.filter(function (a) { return a.cls.idx < 4; });
-    var exams = active.filter(function (a) { return a.examDate && a.examDate >= today; });
+    var exams = active.filter(function (a) { return a.examDateParsed && a.examDateParsed >= today; });
     var done = apps.filter(function (a) { return a.cls.idx >= 4; });
-    document.getElementById("n-active").textContent = active.length;
-    document.getElementById("n-exam").textContent = exams.length;
-    document.getElementById("n-await").textContent = active.length - exams.length;
-    document.getElementById("n-done").textContent = done.length;
+    $("n-active").textContent = active.length;
+    $("n-exam").textContent = exams.length;
+    $("n-await").textContent = active.length - exams.length;
+    $("n-done").textContent = done.length;
 
-    var next = exams.slice().sort(function (a, b) { return a.examDate - b.examDate; });
-    document.getElementById("next-list").innerHTML = next.length
-      ? next.map(card).join("")
-      : '<p class="empty">No exams scheduled yet — add an Exam Date in the sheet when an admit card lands.</p>';
-
-    var all = apps.slice().reverse();
-    document.getElementById("all-list").innerHTML = all.length
-      ? all.map(card).join("")
+    var next = exams.slice().sort(function (a, b) { return a.examDateParsed - b.examDateParsed; });
+    $("next-list").innerHTML = next.length ? next.map(card).join("")
+      : '<p class="empty">No exams scheduled yet — add an exam date once an admit card lands.</p>';
+    $("all-list").innerHTML = apps.length ? apps.slice().reverse().map(card).join("")
       : '<p class="empty">No applications found on the "Applied" tab.</p>';
+
+    Array.prototype.forEach.call(document.querySelectorAll(".edit-btn"), function (btn) {
+      btn.addEventListener("click", function () { openEditor(+btn.getAttribute("data-row")); });
+    });
+    $("sync-stamp").textContent = "Synced " + new Date().toLocaleTimeString("en-IN", { hour: "2-digit", minute: "2-digit", second: "2-digit" });
   }
 
-  function fail(msg) {
-    var html = '<p class="empty">Could not load the sheet: ' + esc(msg) + "</p>";
-    document.getElementById("next-list").innerHTML = html;
-    document.getElementById("all-list").innerHTML = "";
-  }
-
-  fetch(CSV_URL, { cache: "no-store" })
-    .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); })
-    .then(function (text) {
-      var rows = parseCSV(text);
-      if (!rows.length) return render([]);
-      var headers = rows[0].map(normHeader);
-      function col(row, names) {
-        for (var i = 0; i < names.length; i++) {
-          var idx = headers.indexOf(names[i]);
-          if (idx !== -1 && row[idx] && row[idx].trim()) return row[idx].trim();
+  function load() {
+    return fetch(CSV_URL + "&t=" + Date.now(), { cache: "no-store" })
+      .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); })
+      .then(function (text) {
+        var rows = parseCSV(text);
+        if (!rows.length) { state.apps = []; return render(); }
+        var headers = rows[0].map(normHeader);
+        function col(row, names) {
+          for (var i = 0; i < names.length; i++) {
+            var idx = headers.indexOf(names[i]);
+            if (idx !== -1 && row[idx] && row[idx].trim()) return row[idx].trim();
+          }
+          return "";
         }
-        return "";
-      }
-      var apps = [];
-      for (var r = 1; r < rows.length; r++) {
-        var row = rows[r];
-        var dept = col(row, ["dept", "department", "org", "organisation"]);
-        var post = col(row, ["post", "position", "role"]);
-        if (!dept && !post) continue; // continuation / stray rows
-        var examDate = parseLooseDate(col(row, ["examdate", "exam"]));
-        var status = col(row, ["status", "stage"]) || col(row, ["others"]);
-        apps.push({
-          dept: dept || "—",
-          post: post || "—",
-          deadline: parseLooseDate(col(row, ["applicationdeadline", "deadline", "appliedon"])),
-          reg: col(row, ["registrationno", "regno", "registration"]),
-          link: col(row, ["link", "url", "portal"]),
-          examDate: examDate,
-          examCentre: col(row, ["examcentre", "examcenter", "centre", "center"]),
-          admitCard: col(row, ["admitcard", "admitcardlink"]),
-          result: col(row, ["result", "outcome"]),
-          notes: col(row, ["notes", "remark", "remarks"]),
-          cls: classifyStatus(status, examDate)
-        });
-      }
-      render(apps);
-    })
-    .catch(function (err) { fail(err.message); });
+        var apps = [];
+        for (var r = 1; r < rows.length; r++) {
+          var row = rows[r];
+          var dept = col(row, ["dept", "department", "org", "organisation"]);
+          var post = col(row, ["post", "position", "role"]);
+          if (!dept && !post) continue;
+          var examDateRaw = col(row, ["examdate"]);
+          var statusRaw = col(row, ["status", "stage"]);
+          var examDateParsed = parseLooseDate(examDateRaw);
+          apps.push({
+            rowNumber: r + 1, // sheet row (1-based, +1 for header)
+            dept: dept || "—",
+            post: post || "—",
+            deadline: col(row, ["applicationdeadline", "deadline"]),
+            deadlineParsed: parseLooseDate(col(row, ["applicationdeadline", "deadline"])),
+            reg: col(row, ["registrationno", "regno", "registration"]),
+            link: col(row, ["link", "url", "portal"]),
+            status: statusRaw,
+            examDate: examDateRaw,
+            examDateParsed: examDateParsed,
+            examCentre: col(row, ["examcentre", "examcenter", "centre", "center"]),
+            admitCard: col(row, ["admitcard", "admitcardlink"]),
+            result: col(row, ["result", "outcome"]),
+            notes: col(row, ["notes", "remark", "remarks"]),
+            others: col(row, ["others"]),
+            cls: classifyStatus(statusRaw || col(row, ["others"]), examDateParsed)
+          });
+        }
+        state.apps = apps;
+        render();
+      })
+      .catch(function (err) {
+        $("next-list").innerHTML = '<p class="empty">Could not load the sheet: ' + esc(err.message) + "</p>";
+        $("all-list").innerHTML = "";
+      });
+  }
+
+  // ---- Writing via the Apps Script bridge ----
+  function api(payload) {
+    payload.token = cfg.token;
+    // text/plain avoids a CORS preflight, which Apps Script doesn't answer.
+    return fetch(cfg.url, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(payload) })
+      .then(function (r) { return r.json(); })
+      .then(function (res) { if (!res.ok) throw new Error(res.error || "Bridge error"); return res; });
+  }
+
+  function updateSyncNote() {
+    var el = $("sync-note");
+    if (cfg.connected) { el.textContent = "Editing connected"; el.className = "sync-note ok"; }
+    else { el.textContent = "Read-only — click “Connect sheet” to enable editing"; el.className = "sync-note"; }
+  }
+
+  function openPanel(id) {
+    $("connect-panel").classList.remove("open");
+    $("edit-panel").classList.remove("open");
+    if (id) { $(id).classList.add("open"); $(id).scrollIntoView({ behavior: "smooth", block: "nearest" }); }
+  }
+
+  function openEditor(rowNumber) {
+    if (!cfg.connected) { openPanel("connect-panel"); return; }
+    state.editingRow = rowNumber || null;
+    var app = rowNumber ? state.apps.find(function (a) { return a.rowNumber === rowNumber; }) : null;
+    $("edit-title").textContent = app ? "Edit: " + app.dept + " — " + app.post : "Add application";
+    $("f-dept").value = app ? (app.dept === "—" ? "" : app.dept) : "";
+    $("f-post").value = app ? (app.post === "—" ? "" : app.post) : "";
+    $("f-deadline").value = app ? toISO(app.deadlineParsed) : "";
+    $("f-reg").value = app ? app.reg : "";
+    $("f-link").value = app && /^https?:/.test(app.link) ? app.link : "";
+    $("f-status").value = app && app.status ? guessStatusOption(app.status) : "applied";
+    $("f-examdate").value = app ? toISO(app.examDateParsed) : "";
+    $("f-centre").value = app ? app.examCentre : "";
+    $("f-admit").value = app ? app.admitCard : "";
+    $("f-result").value = app ? app.result : "";
+    $("f-notes").value = app ? app.notes : "";
+    $("edit-msg").textContent = ""; $("edit-msg").className = "msg";
+    openPanel("edit-panel");
+  }
+
+  function guessStatusOption(raw) {
+    var sel = $("f-status");
+    var s = String(raw).toLowerCase();
+    for (var i = 0; i < sel.options.length; i++) {
+      if (s.indexOf(sel.options[i].value) !== -1 || sel.options[i].value.indexOf(s) !== -1) return sel.options[i].value;
+    }
+    return "applied";
+  }
+
+  function saveEditor() {
+    var dept = $("f-dept").value.trim(), post = $("f-post").value.trim();
+    var msg = $("edit-msg");
+    if (!dept || !post) { msg.textContent = "Department and Post are required."; msg.className = "msg err"; return; }
+    var data = {
+      dept: dept, post: post,
+      deadline: $("f-deadline").value, reg: $("f-reg").value.trim(), link: $("f-link").value.trim(),
+      status: $("f-status").value, examDate: $("f-examdate").value, examCentre: $("f-centre").value.trim(),
+      admitCard: $("f-admit").value.trim(), result: $("f-result").value.trim(), notes: $("f-notes").value.trim()
+    };
+    msg.textContent = "Saving to sheet…"; msg.className = "msg";
+    $("edit-save").disabled = true;
+    api(state.editingRow ? { action: "update", rowNumber: state.editingRow, data: data } : { action: "add", data: data })
+      .then(function () {
+        msg.textContent = "Saved. Refreshing…"; msg.className = "msg ok";
+        return load();
+      })
+      .then(function () { openPanel(null); })
+      .catch(function (err) { msg.textContent = "Save failed: " + err.message; msg.className = "msg err"; })
+      .finally(function () { $("edit-save").disabled = false; });
+  }
+
+  // ---- Wire up ----
+  $("btn-add").addEventListener("click", function () { openEditor(null); });
+  $("btn-refresh").addEventListener("click", function () { load(); });
+  $("btn-connect").addEventListener("click", function () {
+    $("cfg-url").value = cfg.url; $("cfg-token").value = cfg.token;
+    $("cfg-msg").textContent = ""; openPanel("connect-panel");
+  });
+  $("cfg-cancel").addEventListener("click", function () { openPanel(null); });
+  $("edit-cancel").addEventListener("click", function () { openPanel(null); });
+  $("edit-save").addEventListener("click", saveEditor);
+  $("cfg-save").addEventListener("click", function () {
+    var url = $("cfg-url").value.trim(), token = $("cfg-token").value.trim();
+    var msg = $("cfg-msg");
+    if (!/^https:\/\/script\.google(?:usercontent)?\.com\//.test(url)) {
+      msg.textContent = "That doesn't look like an Apps Script web app URL."; msg.className = "msg err"; return;
+    }
+    cfg.url = url; cfg.token = token;
+    msg.textContent = "Testing…"; msg.className = "msg";
+    fetch(url).then(function (r) { return r.json(); })
+      .then(function () {
+        msg.textContent = "Connected."; msg.className = "msg ok";
+        updateSyncNote();
+        setTimeout(function () { openPanel(null); }, 600);
+      })
+      .catch(function () { msg.textContent = "Could not reach the bridge — check the URL and that access is set to “Anyone”."; msg.className = "msg err"; });
+  });
+
+  updateSyncNote();
+  load();
+  setInterval(load, REFRESH_MS);
 })();
 </script>
 </body>
