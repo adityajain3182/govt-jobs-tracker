@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-07-12T07:44:18.094Z",
+  "lastScan": "2026-07-12T07:50:43.009Z",
   "jobs": [
     {
       "id": "staff-selection-commission-combined-graduate-level-examination-cgl-2026",
@@ -263,6 +263,24 @@
         "Group C"
       ],
       "firstSeen": "2026-07-10T18:37:16.814Z"
+    },
+    {
+      "id": "upsc-recruitment-for-450-vacancies-across-54-posts-in-various-central-government",
+      "source": "upsc",
+      "org": "UPSC",
+      "title": "Recruitment for 450 Vacancies across 54 posts in various Central Government Ministries and Departments (Advertisement No. 07/2026)",
+      "summary": "The Union Public Service Commission has released 450 vacancies across 54 posts in various Central Government Ministries and Departments. This recruitment drive covers a diverse mix of technical and administrative roles, including Drug Inspector, Company Prosecutor, Assistant Engineer (Civil and allied disciplines), Legal Officer, Scientific Officer/Programmer, and Specialist Grade III / Assistant Professor (medical).",
+      "advtNo": "07/2026",
+      "posts": 450,
+      "url": "https://upsconline.nic.in/",
+      "status": "open",
+      "opensOn": "2026-06-25",
+      "closesOn": "2026-07-17",
+      "expected": null,
+      "fit": "gated",
+      "fitLabel": "While some technical roles like 'Scientific Officer/Programmer' exist, most government IT posts require a CS/IT/Electronics degree, which the candidate (B.Tech Mechanical) does not possess, making these roles 'gated'. Other listed posts (Drug Inspector, Company Prosecutor, Assistant Engineer (Civil and allied disciplines), Legal Officer, Specialist Grade III / Assistant Professor) are either irrelevant or not directly aligned with the candidate's profile and interests.",
+      "tags": [],
+      "firstSeen": "2026-07-12T07:50:24.589Z"
     },
     {
       "id": "state-bank-of-india-specialist-cadre-officer-database-cloud-dba-contract",
@@ -673,19 +691,20 @@
       "id": "nabard-grade-a-assistant-manager-rdbs-generalist",
       "source": "nabard",
       "org": "NABARD",
-      "title": "Grade A — Assistant Manager (RDBS / Generalist)",
-      "summary": "Notification expected Jul–Aug 2026 with ~80–100 posts; registration usually runs 15–20 days. Generalist stream accepts any bachelor's with 60% — a prime management-track match for this profile.",
+      "title": "Assistant Manager (Grade A)",
+      "summary": "NABARD is expected to release the notification for Assistant Manager (Grade A) positions in various streams, including Rural Development Banking Service (RDBS), Rajbhasha, and Protocol & Security Services. The selection process typically involves Prelims, Mains, and an Interview.",
       "advtNo": null,
       "posts": "~80–100 posts",
-      "url": "https://www.nabard.org/careers-notices.aspx?cid=693&id=26",
+      "url": "https://www.nabard.org",
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "Jul–Aug 2026",
+      "expected": "2026-07-01 to 2026-08-31",
       "fit": "strong",
-      "fitLabel": "Strong fit — management",
+      "fitLabel": "Any-graduate management exams (PCS, RBI Grade B, NABARD Grade A, bank PO, SEBI Grade A General which accepts any engineering bachelor's) are \"strong\".",
       "tags": [
-        "Any graduate"
+        "Management",
+        "Banking"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z"
     },
