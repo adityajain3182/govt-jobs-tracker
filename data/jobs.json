@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-07-12T09:32:00.078Z",
+  "lastScan": "2026-07-12T11:08:36.541Z",
   "jobs": [
     {
       "id": "staff-selection-commission-combined-graduate-level-examination-cgl-2026",
@@ -304,6 +304,27 @@
       "firstSeen": "2026-07-12T07:50:24.589Z"
     },
     {
+      "id": "upsc-central-ministries-direct-recruitment-advt-no-08-2026",
+      "source": "upsc",
+      "org": "UPSC",
+      "title": "Direct Recruitment to various posts in Government of India (Advt. No. 07/2026)",
+      "summary": "UPSC has released 450 vacancies across 54 posts in various Central Government Ministries and Departments. Key posts include Drug Inspector, Assistant Engineer, Legal Officer, Company Prosecutor, Scientific Officer, and Specialist Grade III.",
+      "advtNo": "07/2026",
+      "posts": 450,
+      "url": "https://upsconline.nic.in/ora/",
+      "status": "open",
+      "opensOn": "2026-06-25",
+      "closesOn": "2026-07-17",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Includes some technical/administrative roles; IT roles like Scientific Officer/Programmer are likely gated due to degree requirements. Core mechanical engineering roles need to be verified within the detailed notification.",
+      "tags": [
+        "Engineering",
+        "IT (Gated)"
+      ],
+      "firstSeen": "2026-07-10T12:00:00.000Z"
+    },
+    {
       "id": "state-bank-of-india-specialist-cadre-officer-database-cloud-dba-contract",
       "source": "sbi",
       "org": "State Bank of India",
@@ -426,8 +447,8 @@
       "id": "nabard-specialists-on-contract",
       "source": "nabard",
       "org": "NABARD",
-      "title": "Specialists on Contract",
-      "summary": "Recruitment for 6 specialist positions on a contractual basis, including Data Architect, Application Solution Architect, Technology Solution Architect, Carbon Consultant, Climate Change Specialist - Mitigation, and Specialist- Derivatives and Treasury Risk Management.",
+      "title": "Specialists on Contract Recruitment 2026",
+      "summary": "NABARD has announced recruitment for 6 contractual Specialist posts, including Data Architect, Application Solution Architect, Technology Solution Architect, Carbon Consultant, Climate Change Specialist - Mitigation, and Specialist- Derivatives and Treasury Risk Management. Candidates with B.E./B.Tech or Master Degree can apply online.",
       "advtNo": null,
       "posts": 6,
       "url": "https://www.nabard.org/career.aspx",
@@ -435,11 +456,11 @@
       "opensOn": "2026-07-10",
       "closesOn": "2026-07-23",
       "expected": null,
-      "fit": "gated",
-      "fitLabel": "IT roles (Data Architect, Application Solution Architect, Technology Solution Architect) require a CS/IT/Electronics degree, which the candidate does not have. Other specialist roles are not directly management or IT for a mechanical engineer.",
+      "fit": "strong",
+      "fitLabel": "Management specialist role (e.g., Derivatives and Treasury Risk Management) is a strong fit. IT specialist roles (e.g., Data Architect, Application Solution Architect, Technology Solution Architect) are gated as they likely require a CS/IT/Electronics degree which the candidate does not possess.",
       "tags": [
         "IT",
-        "Specialist"
+        "Management"
       ],
       "firstSeen": "2026-07-12T09:31:57.251Z"
     },
@@ -590,24 +611,6 @@
       "firstSeen": "2026-07-10T18:40:06.128Z"
     },
     {
-      "id": "upsc-central-ministries-direct-recruitment-advt-no-08-2026",
-      "source": "upsc",
-      "org": "UPSC · Central Ministries",
-      "title": "Direct Recruitment — Advt No. 08/2026",
-      "summary": "48 vacancies across 13 posts in five ministries, including scientist and lab-specialist roles; released 10 Jul, applications open 11–31 Jul 2026 (18:00 IST) on the ORA portal. Most posts are discipline-specific — check post-wise eligibility.",
-      "advtNo": "Advt 08/2026",
-      "posts": "48 posts",
-      "url": "https://upsc.gov.in/recruitment/recruitment-advertisements",
-      "status": "open",
-      "opensOn": "2026-07-11",
-      "closesOn": "2026-07-31",
-      "expected": null,
-      "fit": "moderate",
-      "fitLabel": "Check post-wise",
-      "tags": [],
-      "firstSeen": "2026-07-10T12:00:00.000Z"
-    },
-    {
       "id": "sail-young-professionals-recruitment-2026-rourkela-steel-plant",
       "source": "psu-sweep",
       "org": "SAIL",
@@ -627,6 +630,27 @@
         "Management"
       ],
       "firstSeen": "2026-07-10T18:40:06.128Z"
+    },
+    {
+      "id": "ngel-ntpc-green-energy-limited-experienced-engineering-professionals-in-the-rene",
+      "source": "ntpc",
+      "org": "NGEL (NTPC Green Energy Limited)",
+      "title": "Experienced engineering professionals in the renewable energy sector",
+      "summary": "NGEL has announced 114 vacancies for experienced engineering professionals in the renewable energy sector. Candidates possessing an Engineering Degree with the required post-qualification experience can apply online. The online application process commenced on 2026-07-11 and will continue until 2026-07-31.",
+      "advtNo": null,
+      "posts": 114,
+      "url": "https://www.ntpc.co.in/",
+      "status": "open",
+      "opensOn": "2026-07-11",
+      "closesOn": "2026-07-31",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Requires an Engineering Degree with post-qualification experience in renewable energy. The candidate has a B.Tech Mechanical Engineering degree and 2-3 years of software experience, which is a moderate fit for core engineering roles.",
+      "tags": [
+        "Engineer",
+        "Renewable Energy"
+      ],
+      "firstSeen": "2026-07-12T11:07:20.770Z"
     },
     {
       "id": "haryana-public-service-commission-hpsc-district-manager-group-b",
@@ -733,17 +757,17 @@
       "id": "nabard-grade-a-assistant-manager-rdbs-generalist",
       "source": "nabard",
       "org": "NABARD",
-      "title": "Assistant Manager (Grade A)",
-      "summary": "Recruitment for Assistant Manager positions in various streams.",
+      "title": "Assistant Manager (Grade 'A') Recruitment 2026",
+      "summary": "The National Bank for Agriculture and Rural Development (NABARD) is expected to release the notification for Assistant Manager (Grade 'A') positions soon. This recruitment drive anticipates vacancies across various streams, including Rural Development Banking Service (RDBS), Rajbhasha, and Protocol & Security Services. The selection process typically involves Prelims, Mains, and an Interview.",
       "advtNo": null,
-      "posts": "80-100 (expected)",
+      "posts": "Expected 80-100",
       "url": "https://www.nabard.org/career.aspx",
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "2026-07-XX to 2026-08-XX",
+      "expected": "July to August 2026",
       "fit": "strong",
-      "fitLabel": "Any-graduate management exam.",
+      "fitLabel": "Any-graduate management exam, B.Tech in Mechanical Engineering is eligible for General stream.",
       "tags": [
         "Management",
         "Banking"
