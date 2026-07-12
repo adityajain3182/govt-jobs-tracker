@@ -1,0 +1,100 @@
+[
+  {
+    "id": "drdo-rac",
+    "name": "DRDO Recruitment & Assessment Centre",
+    "method": "html",
+    "url": "https://rac.gov.in/",
+    "cadenceMinutes": 15
+  },
+  {
+    "id": "isro",
+    "name": "ISRO Careers",
+    "method": "html",
+    "url": "https://www.isro.gov.in/Careers.html",
+    "cadenceMinutes": 30
+  },
+  {
+    "id": "ntpc",
+    "name": "NTPC Careers",
+    "method": "html",
+    "url": "https://careers.ntpc.co.in/recruitment/",
+    "cadenceMinutes": 30
+  },
+  {
+    "id": "sbi",
+    "name": "SBI Careers",
+    "method": "html",
+    "url": "https://sbi.bank.in/web/careers/current-openings",
+    "cadenceMinutes": 15
+  },
+  {
+    "id": "rbi",
+    "name": "RBI Opportunities",
+    "method": "html",
+    "url": "https://opportunities.rbi.org.in/Scripts/Vacancies.aspx",
+    "cadenceMinutes": 30
+  },
+  {
+    "id": "uppsc",
+    "name": "UPPSC (Uttar Pradesh PSC)",
+    "method": "html",
+    "url": "https://uppsc.up.nic.in/",
+    "cadenceMinutes": 30
+  },
+  {
+    "id": "upsc",
+    "name": "UPSC What's New",
+    "method": "html",
+    "url": "https://upsc.gov.in/whats-new",
+    "cadenceMinutes": 30
+  },
+  {
+    "id": "nabard",
+    "name": "NABARD Careers",
+    "method": "html",
+    "url": "https://www.nabard.org/careers-notices.aspx?cid=693&id=26",
+    "cadenceMinutes": 60
+  },
+  {
+    "id": "sebi",
+    "name": "SEBI Recruitment",
+    "method": "html",
+    "url": "https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecruitment=yes",
+    "cadenceMinutes": 60
+  },
+  {
+    "id": "ssc",
+    "name": "Staff Selection Commission",
+    "method": "grounded",
+    "query": "Latest recruitment notifications and exam notices posted on ssc.gov.in (Staff Selection Commission, India) in the last 30 days, especially SSC JE, CGL, and any notice with an open application window. Only official SSC notices.",
+    "cadenceMinutes": 360
+  },
+  {
+    "id": "rrb",
+    "name": "Railway Recruitment Boards",
+    "method": "grounded",
+    "query": "Latest Railway Recruitment Board (RRB) India CEN notifications with open or upcoming application windows on rrbapply.gov.in or regional RRB sites, especially Junior Engineer, NTPC, ALP. Only official notifications.",
+    "cadenceMinutes": 360
+  },
+  {
+    "id": "ibps",
+    "name": "IBPS",
+    "method": "grounded",
+    "query": "Latest IBPS (ibps.in) recruitment notifications with open application windows: CRP SO Specialist Officer, PO, Clerk. Include application start and end dates. Only official IBPS notices.",
+    "cadenceMinutes": 360
+  },
+  {
+    "id": "psu-sweep",
+    "name": "PSU sweep (BEL / HAL / IOCL / GAIL / PowerGrid / BHEL / ONGC)",
+    "method": "grounded",
+    "query": "Recruitment notifications currently open for applications at Indian PSUs: BEL, HAL, IOCL, GAIL, Power Grid, BHEL, ONGC, SAIL — for graduate engineers or management/IT roles. Include closing dates and the official careers URL of each company. Only official PSU notifications, not exam-prep sites' speculation.",
+    "cadenceMinutes": 360
+  },
+  {
+    "id": "regulators-sweep",
+    "name": "Regulators & misc (LIC / EPFO / NIC / state PSCs)",
+    "method": "grounded",
+    "query": "Indian government recruitment notifications currently open or announced in the last 30 days from: LIC (AAO/ADO), EPFO, NIC/NIELIT, SEBI, IRDAI, PFRDA, and major state PSCs (UPPSC, BPSC, MPPSC, MPSC, RPSC, HPSC) — for graduates or engineers, management and IT roles. Include application windows and official URLs.",
+    "cadenceMinutes": 360
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "name": "govt-jobs-tracker",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "scrape": "node scripts/scrape.mjs",
+    "scrape:force": "node scripts/scrape.mjs --force"
+  }
+}

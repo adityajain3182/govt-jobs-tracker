@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sarkari IT &amp; Management Jobs — Live Bulletin</title>
+<style>
+  :root {
+    --paper: #F4F6FA;
+    --card: #FFFFFF;
+    --ink: #16233B;
+    --ink-soft: #4A5670;
+    --accent: #24449C;
+    --accent-soft: #E3E9F7;
+    --open: #1E7A46;
+    --open-bg: #E5F3EB;
+    --soon: #B4690E;
+    --soon-bg: #FBF0DF;
+    --upcoming: #5A6B8C;
+    --upcoming-bg: #E9EDF4;
+    --closed: #8A8F98;
+    --closed-bg: #EFF0F2;
+    --gated: #A03D3D;
+    --gated-bg: #F7E9E9;
+    --line: #D8DEE9;
+    --serif: Cambria, Georgia, 'Times New Roman', serif;
+    --sans: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    --mono: Consolas, 'SF Mono', Menlo, monospace;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    line-height: 1.55;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 24px 64px; }
+
+  header {
+    border-bottom: 3px double var(--accent);
+    padding: 40px 0 24px;
+    margin-bottom: 8px;
+  }
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 14px;
+  }
+  h1 {
+    font-family: var(--serif);
+    font-size: clamp(30px, 5vw, 44px);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+    line-height: 1.12;
+  }
+  .subtitle { color: var(--ink-soft); margin-top: 10px; font-size: 15px; max-width: 62ch; }
+  .profile-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 18px; }
+  .profile-chip {
+    font-size: 13px;
+    font-weight: 600;
+    background: var(--accent-soft);
+    color: var(--accent);
+    border: 1px solid #C4D0EC;
+    border-radius: 3px;
+    padding: 4px 12px;
+  }
+
+  .advisory {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--accent);
+    border-radius: 4px;
+    padding: 16px 20px;
+    margin-top: 24px;
+    font-size: 14px;
+    color: var(--ink-soft);
+  }
+  .advisory strong { color: var(--ink); }
+
+  .summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+    margin: 24px 0 40px;
+  }
+  .summary div { background: var(--card); padding: 14px 16px; }
+  .summary .num {
+    font-family: var(--serif);
+    font-size: 30px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    line-height: 1.1;
+  }
+  .summary .lbl {
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-top: 2px;
+  }
+  .summary .n-open .num { color: var(--open); }
+  .summary .n-soon .num { color: var(--soon); }
+  .summary .n-upcoming .num { color: var(--upcoming); }
+  .summary .n-closed .num { color: var(--closed); }
+
+  section { margin-bottom: 44px; }
+  .sec-head {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+  .sec-head h2 {
+    font-family: var(--serif);
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .sec-head .note { font-size: 13px; color: var(--ink-soft); }
+  .empty { font-size: 14px; color: var(--ink-soft); padding: 8px 0; }
+
+  .job {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 118px 1fr;
+    overflow: hidden;
+  }
+  .job + .job { margin-top: 12px; }
+  .date-block {
+    padding: 18px 14px;
+    border-right: 1px solid var(--line);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+    text-align: center;
+  }
+  .date-block .dl-label {
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+  .date-block .dl-date {
+    font-family: var(--mono);
+    font-size: 15px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .date-block .dl-days { font-size: 12px; font-weight: 600; }
+  .job.s-open .date-block { background: var(--open-bg); }
+  .job.s-open .dl-days { color: var(--open); }
+  .job.s-soon .date-block { background: var(--soon-bg); }
+  .job.s-soon .dl-days { color: var(--soon); }
+  .job.s-upcoming .date-block { background: var(--upcoming-bg); }
+  .job.s-upcoming .dl-days { color: var(--upcoming); }
+  .job.s-closed .date-block { background: var(--closed-bg); }
+  .job.s-closed .dl-days, .job.s-closed .dl-date { color: var(--closed); }
+  .job.s-closed .body h3 { color: var(--ink-soft); }
+
+  .job .body { padding: 16px 20px 18px; min-width: 0; }
+  .org {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .job.s-closed .org { color: var(--closed); }
+  .badge-new {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    background: var(--accent);
+    color: #fff;
+    border-radius: 3px;
+    padding: 1px 7px;
+  }
+  .body h3 { font-size: 17px; font-weight: 700; margin: 3px 0 6px; text-wrap: balance; }
+  .desc { font-size: 14px; color: var(--ink-soft); max-width: 68ch; }
+  .meta { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; align-items: center; }
+  .tag {
+    font-size: 12px;
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    padding: 2px 9px;
+    color: var(--ink-soft);
+    background: var(--paper);
+  }
+  .tag.advt { font-family: var(--mono); font-size: 11.5px; }
+  .fit {
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 3px;
+    padding: 2px 9px;
+  }
+  .fit.strong { background: var(--open-bg); color: var(--open); }
+  .fit.moderate { background: var(--soon-bg); color: var(--soon); }
+  .fit.gated { background: var(--gated-bg); color: var(--gated); }
+  .src {
+    margin-left: auto;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid #B9C6E8;
+    padding-bottom: 1px;
+  }
+  .src:hover, .src:focus-visible { color: #16306E; border-bottom-color: #16306E; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .coverage-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 4px; background: var(--card); }
+  table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+  th {
+    text-align: left;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--line);
+    background: var(--paper);
+    white-space: nowrap;
+  }
+  td { padding: 10px 16px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  td.site { font-weight: 600; white-space: nowrap; }
+  .pill {
+    display: inline-block;
+    font-size: 11.5px;
+    font-weight: 700;
+    border-radius: 3px;
+    padding: 1px 8px;
+    white-space: nowrap;
+  }
+  .pill.direct { background: var(--open-bg); color: var(--open); }
+  .pill.fallback { background: var(--soon-bg); color: var(--soon); }
+
+  footer {
+    margin-top: 48px;
+    border-top: 1px solid var(--line);
+    padding-top: 16px;
+    font-size: 12.5px;
+    color: var(--ink-soft);
+    max-width: 72ch;
+  }
+  footer p + p { margin-top: 8px; }
+
+  @media (max-width: 560px) {
+    .job { grid-template-columns: 1fr; }
+    .date-block {
+      border-right: none;
+      border-bottom: 1px solid var(--line);
+      flex-direction: row;
+      align-items: baseline;
+      gap: 10px;
+      justify-content: flex-start;
+      padding: 10px 20px;
+    }
+    .src { margin-left: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">
+      <span>Government Job Bulletin · Auto-scan</span>
+      <span id="last-scan">Loading…</span>
+    </div>
+    <h1>Sarkari IT &amp; Management Jobs Tracker</h1>
+    <p class="subtitle">Openings scraped directly from official government recruitment portals — no aggregator or news sites. Filtered for the profile below.</p>
+    <div class="profile-row">
+      <span class="profile-chip">B.Tech (Mechanical)</span>
+      <span class="profile-chip">Software engineer · 2–3 yrs private sector</span>
+      <span class="profile-chip">Target: IT &amp; management roles</span>
+      <span class="profile-chip">Central + State PSC</span>
+    </div>
+    <div class="advisory">
+      <strong>Eligibility reality check:</strong> government IT posts (IBPS SO IT, SBI SCO tech, NIC Scientist-B) gate on the <strong>degree discipline</strong> — CS/IT/Electronics — not on work experience, so a Mechanical B.Tech is usually screened out regardless of software-engineering background. The strongest routes for this profile are <strong>any-graduate management exams</strong> (State PCS, RBI Grade B, NABARD Grade A, bank PO, UPSC) and <strong>SEBI Grade A General</strong>, which accepts an engineering bachelor's in any discipline.
+    </div>
+  </header>
+
+  <div class="summary">
+    <div class="n-open"><div class="num" id="n-open">–</div><div class="lbl">Open now</div></div>
+    <div class="n-soon"><div class="num" id="n-soon">–</div><div class="lbl">Closing within 10 days</div></div>
+    <div class="n-upcoming"><div class="num" id="n-upcoming">–</div><div class="lbl">Opening soon</div></div>
+    <div class="n-closed"><div class="num" id="n-closed">–</div><div class="lbl">Recently closed</div></div>
+  </div>
+
+  <section>
+    <div class="sec-head">
+      <h2>Open now</h2>
+      <span class="note">Application window active — verify dates on the official notification</span>
+    </div>
+    <div id="open-list"><p class="empty">Loading…</p></div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Opening soon</h2>
+      <span class="note">Notification confirmed or expected — the cron job's first catches</span>
+    </div>
+    <div id="upcoming-list"><p class="empty">Loading…</p></div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Recently closed &amp; next-cycle watch</h2>
+      <span class="note">Near-misses a live tracker would have caught — and cycles to arm alerts for</span>
+    </div>
+    <div id="closed-list"><p class="empty">Loading…</p></div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Source coverage</h2>
+      <span class="note">Direct-HTML sites vs. sites on the fallback pipeline (API / grounded search / PDF parse)</span>
+    </div>
+    <div class="coverage-wrap">
+      <table>
+        <thead>
+          <tr><th>Portal</th><th>Method</th><th>Notes</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="site">rac.gov.in (DRDO)</td><td><span class="pill direct">Direct HTML</span></td><td>Clean server-rendered listing with advert numbers, dates and PDF links.</td></tr>
+          <tr><td class="site">isro.gov.in</td><td><span class="pill direct">Direct HTML</span></td><td>Careers page lists adverts per centre; closing dates live on sub-pages.</td></tr>
+          <tr><td class="site">careers.ntpc.co.in</td><td><span class="pill direct">Direct HTML</span></td><td>Full advert list with application windows.</td></tr>
+          <tr><td class="site">sbi.bank.in</td><td><span class="pill direct">Direct HTML</span></td><td>Domain moved from sbi.co.in. Rich structured listing.</td></tr>
+          <tr><td class="site">uppsc.up.nic.in + state PSCs</td><td><span class="pill direct">Direct HTML</span></td><td>Classic server-rendered pages with PDF notices — scrape-friendly.</td></tr>
+          <tr><td class="site">opportunities.rbi.org.in</td><td><span class="pill direct">Direct HTML</span></td><td>ASPX pages, server-rendered vacancy list.</td></tr>
+          <tr><td class="site">upsc.gov.in</td><td><span class="pill direct">Direct HTML</span></td><td>What's-New feed names advert numbers; details via ORA portal.</td></tr>
+          <tr><td class="site">ssc.gov.in</td><td><span class="pill fallback">Grounded search</span></td><td>React SPA — plain fetch returns an empty shell.</td></tr>
+          <tr><td class="site">rrbapply.gov.in</td><td><span class="pill fallback">Grounded search</span></td><td>SPA shell; CEN notices publish as PDFs on regional RRB sites.</td></tr>
+          <tr><td class="site">ibps.in</td><td><span class="pill fallback">Grounded search</span></td><td>Intermittent 502 on plain fetch.</td></tr>
+          <tr><td class="site">BEL / HAL / IOCL / GAIL / BHEL / ONGC</td><td><span class="pill fallback">Grounded search</span></td><td>JS-heavy career portals, swept every 6 hours.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <p>Automated scan of official portals with Gemini-powered extraction. Dates and vacancy counts are as published on source sites at scan time — always confirm eligibility and deadlines on the linked official notice before applying.</p>
+  </footer>
+
+</div>
+
+<script id="seed-data" type="application/json">
+{"lastScan":"2026-07-10T12:00:00.000Z","jobs":[{"id":"uppsc-pcs-2026","org":"UPPSC · Uttar Pradesh Public Service Commission","title":"Combined State / Upper Subordinate Services (PCS) 2026","summary":"~500 Group A and Group B administrative posts — SDM, Deputy Collector, block-level and departmental officer roles. Any bachelor's degree qualifies; no domicile bar for general seats. Notified 25 Jun, window 25 Jun – 27 Jul 2026.","posts":"~500 posts","url":"https://uppsc.up.nic.in/","status":"open","closesOn":"2026-07-27","fit":"strong","fitLabel":"Strong fit — management","tags":["Any graduate"],"firstSeen":"2026-07-10T12:00:00.000Z"},{"id":"upsc-advt-08-2026","org":"UPSC · Central Ministries","title":"Direct Recruitment — Advt No. 08/2026","summary":"48 vacancies across 13 posts in five ministries, including scientist and lab-specialist roles; released 10 Jul, applications open 11–31 Jul 2026 (18:00 IST) on the ORA portal. Most posts are discipline-specific — check post-wise eligibility.","advtNo":"Advt 08/2026","posts":"48 posts","url":"https://upsc.gov.in/recruitment/recruitment-advertisements","status":"open","closesOn":"2026-07-31","fit":"moderate","fitLabel":"Check post-wise","firstSeen":"2026-07-10T12:00:00.000Z"},{"id":"ibps-so-2026","org":"IBPS · Public Sector Banks","title":"Specialist Officer Scale-I — incl. IT Officer","summary":"745 Specialist Officer posts; window 1–21 Jul 2026. The IT Officer stream requires a 4-year degree in CS/IT/Electronics — a Mechanical B.Tech is normally not eligible despite software experience. Read the fine print before paying the fee.","advtNo":"CRP SPL-XVI","posts":"745 posts","url":"https://www.ibps.in/","status":"open","closesOn":"2026-07-21","fit":"gated","fitLabel":"Degree-gated: CS/IT/ECE","firstSeen":"2026-07-10T12:00:00.000Z"},{"id":"sbi-sco-dba-2026","org":"State Bank of India","title":"Specialist Cadre Officer — Database & Cloud DBA (Contract)","summary":"DBA and Cloud DBA roles under the SCO stream, extended to 18 Jul 2026. Typically requires an engineering degree in CS/IT plus specific database experience — verify the degree clause in the advert before applying.","advtNo":"CRPD/SCO/2026-27/10","url":"https://sbi.bank.in/web/careers/current-openings","status":"open","closesOn":"2026-07-18","fit":"gated","fitLabel":"Degree-gated: verify","firstSeen":"2026-07-10T12:00:00.000Z"},{"id":"nabard-grade-a-2026","org":"NABARD","title":"Grade A — Assistant Manager (RDBS / Generalist)","summary":"Notification expected Jul–Aug 2026 with ~80–100 posts; registration usually runs 15–20 days. Generalist stream accepts any bachelor's with 60% — a prime management-track match for this profile.","posts":"~80–100 posts","url":"https://www.nabard.org/careers-notices.aspx?cid=693&id=26","status":"upcoming","expected":"Jul–Aug 2026","fit":"strong","fitLabel":"Strong fit — management","tags":["Any graduate"],"firstSeen":"2026-07-10T12:00:00.000Z"},{"id":"sebi-grade-a-2026","org":"SEBI · Securities and Exchange Board of India","title":"Grade A — Assistant Manager (General stream)","summary":"~100–130 posts expected; notification anticipated Sep–Oct 2026, exams Dec 2026 – Mar 2027. The General stream explicitly accepts a bachelor's in engineering of any discipline — Mechanical qualifies. Regulator-side management role with RBI-comparable pay.","posts":"~100–130 posts","url":"https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecruitment=yes","status":"upcoming","expected":"Sep–Oct 2026","fit":"strong","fitLabel":"Strong fit — management","tags":["B.E./B.Tech any discipline"],"firstSeen":"2026-07-10T12:00:00.000Z"},{"id":"rrb-je-2026","org":"Railway Recruitment Boards","title":"Junior Engineer (JE) — 4,098 approved vacancies","summary":"Fresh CEN for JE / DMS / CMA posts approved across 35 categories; window expected Jul–Aug 2026. Mechanical B.Tech fully eligible — core-engineering track, so a fallback rather than a target for this profile.","posts":"4,098 posts","url":"https://www.rrbapply.gov.in/","status":"upcoming","expected":"Jul–Aug 2026","fit":"moderate","fitLabel":"Eligible — core engg","firstSeen":"2026-07-10T12:00:00.000Z"},{"id":"ssc-je-2026","org":"Staff Selection Commission","title":"SSC Junior Engineer (Civil / Electrical / Mechanical) 2026","summary":"JE 2026 notification expected this month with ~3,000+ vacancies (CPWD, MES, CWC and others). Mechanical eligible — again core-engineering, kept on watch as a fallback.","posts":"~3,000 posts","url":"https://ssc.gov.in/","status":"upcoming","expected":"Jul 2026","fit":"moderate","fitLabel":"Eligible — core engg","firstSeen":"2026-07-10T12:00:00.000Z"},{"id":"sbi-po-2026","org":"State Bank of India","title":"Probationary Officers 2026 — any graduate","summary":"Bank-management track open to any graduate; window ran 18 Jun – 8 Jul 2026. Under the new profile this was a strong fit and closed two days before the first scan — the sharpest argument for the automated tracker.","url":"https://sbi.bank.in/web/careers/current-openings","status":"closed","closesOn":"2026-07-08","fit":"strong","fitLabel":"Was a strong fit","firstSeen":"2026-07-10T12:00:00.000Z"},{"id":"rbi-grade-b-2026","org":"Reserve Bank of India","title":"Grade B Officer 2026 — General / DEPR / DSIM","summary":"60 posts; window ran 29 Apr – 20 May 2026, Phase 2 exams later this month. Any graduate, age 21–30 — the flagship management exam for this profile. Tracker should alert the moment the 2027 notification lands.","posts":"60 posts","url":"https://opportunities.rbi.org.in/","status":"closed","closesOn":"2026-05-20","expected":"Next cycle 2027","fit":"strong","fitLabel":"Target next cycle","firstSeen":"2026-07-10T12:00:00.000Z"},{"id":"bel-pe1-2026","org":"Bharat Electronics Limited","title":"Project Engineer-I — B.E./B.Tech + 2 yrs experience","summary":"Nine posts across nine cities; accepted B.E./B.Tech with two years' experience. Discipline clause varied by location — some posts took any engineering stream. Closed 4 Jul.","posts":"9 posts","url":"https://bel-india.in/","status":"closed","closesOn":"2026-07-04","fit":"moderate","fitLabel":"Was worth checking","firstSeen":"2026-07-10T12:00:00.000Z"}]}
+</script>
+
+<script>
+(function () {
+  var MS_DAY = 86400000;
+  var today = new Date(); today.setHours(0, 0, 0, 0);
+
+  function esc(s) {
+    return String(s == null ? "" : s)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+
+  function fmtDate(iso) {
+    if (!iso) return "—";
+    var d = new Date(iso + "T00:00:00");
+    if (isNaN(d)) return esc(iso);
+    return d.toLocaleDateString("en-IN", { day: "2-digit", month: "short", year: "numeric" });
+  }
+
+  function daysUntil(iso) {
+    if (!iso) return null;
+    var d = new Date(iso + "T00:00:00");
+    if (isNaN(d)) return null;
+    return Math.round((d - today) / MS_DAY);
+  }
+
+  function isNew(job) {
+    return job.firstSeen && (Date.now() - new Date(job.firstSeen).getTime()) < 48 * 3600000;
+  }
+
+  function card(job, kind) {
+    var cls = "s-" + kind, dlLabel, dlDate, dlDays = "";
+    if (kind === "open") {
+      var days = daysUntil(job.closesOn);
+      dlLabel = "Closes"; dlDate = fmtDate(job.closesOn);
+      if (days !== null) {
+        dlDays = days === 0 ? "Last day today" : days + (days === 1 ? " day left" : " days left");
+        if (days <= 10) cls = "s-soon";
+      }
+    } else if (kind === "upcoming") {
+      dlLabel = "Expected"; dlDate = esc(job.expected || "TBA"); dlDays = "Watch";
+    } else {
+      dlLabel = "Closed"; dlDate = fmtDate(job.closesOn);
+      var ago = job.closesOn ? -daysUntil(job.closesOn) : null;
+      dlDays = job.expected ? esc(job.expected) : (ago !== null ? ago + (ago === 1 ? " day ago" : " days ago") : "");
+    }
+    var tags = "";
+    if (job.advtNo) tags += '<span class="tag advt">' + esc(job.advtNo) + "</span>";
+    if (job.posts) tags += '<span class="tag">' + esc(job.posts) + "</span>";
+    (job.tags || []).forEach(function (t) { tags += '<span class="tag">' + esc(t) + "</span>"; });
+    var fit = job.fit && job.fit !== "low"
+      ? '<span class="fit ' + esc(job.fit) + '">' + esc(job.fitLabel || job.fit) + "</span>" : "";
+    var badge = isNew(job) && kind !== "closed" ? '<span class="badge-new">NEW</span>' : "";
+    return '<article class="job ' + cls + '">' +
+      '<div class="date-block"><span class="dl-label">' + dlLabel + '</span>' +
+      '<span class="dl-date">' + dlDate + '</span><span class="dl-days">' + dlDays + "</span></div>" +
+      '<div class="body"><div class="org">' + esc(job.org) + badge + "</div>" +
+      "<h3>" + esc(job.title) + "</h3>" +
+      '<p class="desc">' + esc(job.summary) + "</p>" +
+      '<div class="meta">' + tags + fit +
+      '<a class="src" href="' + esc(job.url) + '" target="_blank" rel="noopener">Official notice ↗</a>' +
+      "</div></div></article>";
+  }
+
+  function render(data) {
+    var jobs = data.jobs || [];
+    var open = jobs.filter(function (j) { return j.status === "open"; })
+      .sort(function (a, b) { return (a.closesOn || "9999") < (b.closesOn || "9999") ? -1 : 1; });
+    var upcoming = jobs.filter(function (j) { return j.status === "upcoming"; });
+    var closed = jobs.filter(function (j) { return j.status === "closed"; })
+      .sort(function (a, b) { return (a.closesOn || "") > (b.closesOn || "") ? -1 : 1; });
+
+    var soon = open.filter(function (j) {
+      var d = daysUntil(j.closesOn); return d !== null && d <= 10;
+    });
+
+    document.getElementById("n-open").textContent = open.length;
+    document.getElementById("n-soon").textContent = soon.length;
+    document.getElementById("n-upcoming").textContent = upcoming.length;
+    document.getElementById("n-closed").textContent = closed.length;
+
+    function fill(id, list, kind, emptyMsg) {
+      document.getElementById(id).innerHTML = list.length
+        ? list.map(function (j) { return card(j, kind); }).join("")
+        : '<p class="empty">' + emptyMsg + "</p>";
+    }
+    fill("open-list", open, "open", "No open postings match the profile right now.");
+    fill("upcoming-list", upcoming, "upcoming", "Nothing on the horizon — the scanner is watching.");
+    fill("closed-list", closed, "closed", "No recent closures tracked.");
+
+    var scanned = data.lastScan ? new Date(data.lastScan) : null;
+    document.getElementById("last-scan").textContent = scanned
+      ? "Last scan " + scanned.toLocaleString("en-IN", { day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit" })
+      : "";
+  }
+
+  var seed = JSON.parse(document.getElementById("seed-data").textContent);
+  fetch("data/jobs.json", { cache: "no-store" })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(render)
+    .catch(function () { render(seed); });
+})();
+</script>
+</body>
+</html>
