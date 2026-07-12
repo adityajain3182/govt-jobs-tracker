@@ -2,6 +2,16 @@
   publish = "."
   command = ""
 
+[[redirects]]
+  from = "/applications"
+  to = "/applications.html"
+  status = 200
+
+[[redirects]]
+  from = "/jobs"
+  to = "/index.html"
+  status = 200
+
 [[headers]]
   for = "/data/*.json"
   [headers.values]

@@ -37,6 +37,14 @@
     color: var(--accent); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 14px;
   }
   .eyebrow a { color: var(--accent); text-decoration: none; border-bottom: 1px solid #B9C6E8; }
+  .topnav {
+    display: flex; align-items: baseline; gap: 20px;
+    padding: 14px 0 0; font-size: 14px;
+  }
+  .topnav .brand { font-family: var(--serif); font-weight: 700; font-size: 16px; margin-right: auto; }
+  .topnav a { color: var(--ink-soft); text-decoration: none; font-weight: 600; padding-bottom: 2px; border-bottom: 2px solid transparent; }
+  .topnav a:hover { color: var(--accent); }
+  .topnav a.active { color: var(--accent); border-bottom-color: var(--accent); }
   h1 { font-family: var(--serif); font-size: clamp(30px, 5vw, 44px); font-weight: 700; letter-spacing: -0.01em; text-wrap: balance; line-height: 1.12; }
   .subtitle { color: var(--ink-soft); margin-top: 10px; font-size: 15px; max-width: 62ch; }
   .subtitle a { color: var(--accent); }
@@ -126,10 +134,15 @@
 <body>
 <div class="wrap">
 
+  <nav class="topnav">
+    <span class="brand">Sarkari Tracker</span>
+    <a href="/">Job board</a>
+    <a href="/applications" class="active">My applications</a>
+  </nav>
+
   <header>
     <div class="eyebrow">
       <span>Application Lifecycle Tracker</span>
-      <span><a href="index.html">← Job board</a></span>
     </div>
     <h1>My Applications</h1>
     <p class="subtitle">Every application tracked from submission to result — admit cards, exam dates, centres and outcomes. Data lives in the <a href="https://docs.google.com/spreadsheets/d/11ana3UIqg3wlRE4EVXLAQOhaIxWIz9fSgWDe00qqfuQ/edit" target="_blank" rel="noopener">Google Sheet</a> ("Applied" tab); edit there and this page updates on reload.</p>
