@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-07-12T19:58:29.566Z",
+  "lastScan": "2026-07-12T21:06:30.728Z",
   "jobs": [
     {
       "id": "staff-selection-commission-combined-graduate-level-examination-cgl-2026",
@@ -67,17 +67,17 @@
       "id": "drdo-rac-scientist-b-advt-no-157",
       "source": "drdo-rac",
       "org": "DRDO RAC",
-      "title": "Scientist B, Scientist C, Scientist D, Scientist E",
-      "summary": "Recruitment for Scientist B, C, D, and E posts under Advertisement No. 157 in various scientific and engineering disciplines, including Mechanical Engineering.",
+      "title": "Scientist 'E', 'D' & 'C'",
+      "summary": "Lateral Recruitment of 33 Scientists (Scientist 'E', 'D' & 'C') in various disciplines under DRDS cadre. Disciplines include Electronics & Communication Engg., Mechanical, Computer Science & Engg., and others. Requires BE/B.Tech/M.Sc/M.Pharm with relevant experience (3/7/11 years depending on the post).",
       "advtNo": "157",
       "posts": 33,
       "url": "https://rac.gov.in",
       "status": "closed",
-      "opensOn": "2026-05-30",
+      "opensOn": "2026-06-06",
       "closesOn": "2026-06-30",
       "expected": null,
       "fit": "moderate",
-      "fitLabel": "Eligible for core Mechanical Engineering roles, but the candidate is primarily interested in IT/Management, not core mechanical engineering.",
+      "fitLabel": "Core engineering post (Mechanical is eligible) which is not the candidate's primary interest (management/IT).",
       "tags": [
         "Engineering",
         "Scientist"
