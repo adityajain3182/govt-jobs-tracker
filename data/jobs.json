@@ -1,12 +1,12 @@
 {
-  "lastScan": "2026-07-12T12:12:33.204Z",
+  "lastScan": "2026-07-12T14:02:25.114Z",
   "jobs": [
     {
       "id": "staff-selection-commission-combined-graduate-level-examination-cgl-2026",
       "source": "ssc",
       "org": "Staff Selection Commission",
       "title": "Combined Graduate Level Examination (CGL) 2026",
-      "summary": "Recruitment for Group B and C posts in various central government departments, ministries, and offices. Posts include Assistant Section Officer, Inspector, Auditor, and Accountant. Eligibility requires a Bachelor's Degree in any stream.",
+      "summary": "Recruitment for 12,256 Group B and C posts in various Central Government departments. Eligibility requires a bachelor's degree in any discipline. The application window was from May 21 to June 25, 2026, with a fee payment deadline of June 26, 2026. A correction window was available from July 1 to July 3, 2026.",
       "advtNo": "F. No. HQ-C11018/1/2026-C-1",
       "posts": 12256,
       "url": "https://ssc.gov.in",
@@ -15,10 +15,10 @@
       "closesOn": "2026-06-25",
       "expected": null,
       "fit": "strong",
-      "fitLabel": "Any-graduate management exam, suitable for IT/management roles.",
+      "fitLabel": "Any-graduate management/general roles, suitable for B.Tech with software engineering experience interested in management.",
       "tags": [
         "Management",
-        "IT"
+        "Government Job"
       ],
       "firstSeen": "2026-07-10T18:27:32.964Z"
     },
@@ -287,24 +287,6 @@
     },
     {
       "id": "upsc-recruitment-for-450-vacancies-across-54-posts-in-various-central-government",
-      "source": "upsc",
-      "org": "UPSC",
-      "title": "Recruitment for 450 Vacancies across 54 posts in various Central Government Ministries and Departments (Advertisement No. 07/2026)",
-      "summary": "The Union Public Service Commission has released 450 vacancies across 54 posts in various Central Government Ministries and Departments. This recruitment drive covers a diverse mix of technical and administrative roles, including Drug Inspector, Company Prosecutor, Assistant Engineer (Civil and allied disciplines), Legal Officer, Scientific Officer/Programmer, and Specialist Grade III / Assistant Professor (medical).",
-      "advtNo": "07/2026",
-      "posts": 450,
-      "url": "https://upsconline.nic.in/",
-      "status": "open",
-      "opensOn": "2026-06-25",
-      "closesOn": "2026-07-17",
-      "expected": null,
-      "fit": "gated",
-      "fitLabel": "While some technical roles like 'Scientific Officer/Programmer' exist, most government IT posts require a CS/IT/Electronics degree, which the candidate (B.Tech Mechanical) does not possess, making these roles 'gated'. Other listed posts (Drug Inspector, Company Prosecutor, Assistant Engineer (Civil and allied disciplines), Legal Officer, Specialist Grade III / Assistant Professor) are either irrelevant or not directly aligned with the candidate's profile and interests.",
-      "tags": [],
-      "firstSeen": "2026-07-12T07:50:24.589Z"
-    },
-    {
-      "id": "upsc-central-ministries-direct-recruitment-advt-no-08-2026",
       "source": "upsc",
       "org": "UPSC",
       "title": "Direct Recruitment to various posts in Government of India (Advt. No. 07/2026)",
@@ -818,19 +800,19 @@
       "source": "ssc",
       "org": "Staff Selection Commission",
       "title": "Junior Engineer (Civil, Mechanical, Electrical) Examination 2026",
-      "summary": "Recruitment for Junior Engineer posts in various government departments. Eligibility requires a Degree (BE/BTech) or a 3-year Diploma in Civil, Electrical, or Mechanical Engineering.",
+      "summary": "Recruitment for Junior Engineer posts in various government departments. The official notification and application process are expected to commence in July 2026. Eligibility generally requires a degree or diploma in Civil, Mechanical, or Electrical Engineering.",
       "advtNo": null,
       "posts": "~3,000 posts",
       "url": "https://ssc.gov.in",
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "July 2026",
+      "expected": "2026-07-XX",
       "fit": "moderate",
-      "fitLabel": "Core engineering post where Mechanical is eligible.",
+      "fitLabel": "Core engineering post where Mechanical Engineering is eligible.",
       "tags": [
         "Engineering",
-        "Mechanical"
+        "Mechanical Engineering"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z"
     },
