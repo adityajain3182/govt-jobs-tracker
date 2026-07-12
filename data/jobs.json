@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-07-12T18:36:30.892Z",
+  "lastScan": "2026-07-12T19:58:29.566Z",
   "jobs": [
     {
       "id": "staff-selection-commission-combined-graduate-level-examination-cgl-2026",
@@ -66,26 +66,6 @@
     {
       "id": "drdo-rac-scientist-b-advt-no-157",
       "source": "drdo-rac",
-      "org": "DRDO · RAC",
-      "title": "Scientist 'B' (Advt. No. 157)",
-      "summary": "Direct recruitment for Scientist 'B' posts in DRDO and other Ministry of Defence establishments. Vacancies across various engineering and science disciplines. Selection typically involves a written test and interview. B.Tech Mechanical is often eligible for specific roles.",
-      "advtNo": "157",
-      "posts": null,
-      "url": "https://rac.gov.in/download/advt_157.pdf",
-      "status": "closed",
-      "opensOn": null,
-      "closesOn": "2026-06-30",
-      "expected": null,
-      "fit": "moderate",
-      "fitLabel": "Moderate fit — core engineering",
-      "tags": [
-        "B.Tech Mechanical eligible"
-      ],
-      "firstSeen": "2026-07-10T18:26:49.698Z"
-    },
-    {
-      "id": "drdo-rac-scientist-b-scientist-c-scientist-d-scientist-e",
-      "source": "drdo-rac",
       "org": "DRDO RAC",
       "title": "Scientist B, Scientist C, Scientist D, Scientist E",
       "summary": "Recruitment for Scientist B, C, D, and E posts under Advertisement No. 157 in various scientific and engineering disciplines, including Mechanical Engineering.",
@@ -102,7 +82,7 @@
         "Engineering",
         "Scientist"
       ],
-      "firstSeen": "2026-07-12T17:30:00.072Z"
+      "firstSeen": "2026-07-10T18:26:49.698Z"
     },
     {
       "id": "bhel-engineer-trainee-mechanical",
@@ -270,7 +250,7 @@
       "source": "uppsc",
       "org": "UPPSC",
       "title": "Computer Assistant (UPPSC) Exam-2025",
-      "summary": "Application for Computer Assistant (UPPSC) Exam-2025 is open. Candidates need to fill online details. This IT role likely requires a specific computer-related degree.",
+      "summary": "UPPSC recruitment for Computer Assistant posts. This IT role typically requires a CS/IT/Electronics degree, which the candidate does not have. Application closes July 13, 2026.",
       "advtNo": "A-4/E-1/2025",
       "posts": null,
       "url": "https://uppsc.up.nic.in/",
@@ -279,7 +259,7 @@
       "closesOn": "2026-07-13",
       "expected": null,
       "fit": "gated",
-      "fitLabel": "Degree-gated: CS/IT (likely)",
+      "fitLabel": "Degree-gated: CS/IT",
       "tags": [
         "IT role"
       ],
@@ -551,27 +531,6 @@
       "firstSeen": "2026-07-10T18:35:04.848Z"
     },
     {
-      "id": "uppsc-uttar-pradesh-public-service-commission-combined-state-upper-subordinate-services-pcs-2026",
-      "source": "regulators-sweep",
-      "org": "Uttar Pradesh Public Service Commission (UPPSC)",
-      "title": "Combined State / Upper Subordinate Services (PCS)",
-      "summary": "Recruitment for approximately 500 Group A and Group B gazetted posts including Deputy Collector, DSP, BDO, ARTO, Food Safety Officer, Commercial Tax Officer, and Naib Tehsildar. Requires a bachelor's degree.",
-      "advtNo": "A-1/E-1/2026",
-      "posts": 500,
-      "url": "https://uppsc.up.nic.in/",
-      "status": "open",
-      "opensOn": "2026-06-25",
-      "closesOn": "2026-07-27",
-      "expected": null,
-      "fit": "strong",
-      "fitLabel": "Accepts any graduate for administrative/management roles.",
-      "tags": [
-        "Management",
-        "Administrative"
-      ],
-      "firstSeen": "2026-07-10T12:00:00.000Z"
-    },
-    {
       "id": "iocl-apprentice-trade-technician-apprentice",
       "source": "psu-sweep",
       "org": "IOCL",
@@ -759,6 +718,26 @@
         "Mechanical"
       ],
       "firstSeen": "2026-07-12T17:34:18.140Z"
+    },
+    {
+      "id": "uppsc-uttar-pradesh-public-service-commission-combined-state-upper-subordinate-services-pcs-2026",
+      "source": "uppsc",
+      "org": "UPPSC",
+      "title": "Combined State / Upper Subordinate Services (PCS) (General/Special Recruitment) Examination-2026",
+      "summary": "UPPSC Combined State / Upper Subordinate Services (PCS) Exam 2026 for various administrative and management roles. Open to any graduate. Application closes August 3, 2026.",
+      "advtNo": "A-1/E-1/2026",
+      "posts": 500,
+      "url": "https://uppsc.up.nic.in/",
+      "status": "open",
+      "opensOn": "2026-06-25",
+      "closesOn": "2026-08-03",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "Strong fit — management",
+      "tags": [
+        "Any graduate"
+      ],
+      "firstSeen": "2026-07-10T12:00:00.000Z"
     },
     {
       "id": "haryana-public-service-commission-hpsc-district-manager-group-b",
