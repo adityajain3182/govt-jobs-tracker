@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    { "source": "/applications", "destination": "/applications.html" },
+    { "source": "/jobs", "destination": "/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/data/(.*)\\.json",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache" }
+      ]
+    }
+  ]
+}

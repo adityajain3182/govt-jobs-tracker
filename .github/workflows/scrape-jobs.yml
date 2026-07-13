@@ -2,8 +2,8 @@ name: Scrape govt jobs
 
 on:
   schedule:
-    # Every 15 minutes (GitHub cron is best-effort; actual interval may stretch to ~20-30 min under load)
-    - cron: "*/15 * * * *"
+    # Once daily at midnight UTC
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 concurrency:

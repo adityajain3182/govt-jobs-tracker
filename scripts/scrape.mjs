@@ -21,7 +21,7 @@ const STATE_FILE = join(DATA_DIR, "state.json");
 
 const MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash";
 const API_BASE = "https://generativelanguage.googleapis.com/v1beta/models";
-const MAX_GEMINI_CALLS_PER_RUN = 6;
+const MAX_GEMINI_CALLS_PER_RUN = 14;
 const FETCH_TIMEOUT_MS = 45_000;
 const MAX_PAGE_CHARS = 18_000;
 const NEW_BADGE_HOURS = 48;
