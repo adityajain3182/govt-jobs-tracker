@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-07-13T13:13:57.277Z",
+  "lastScan": "2026-07-13T16:05:12.126Z",
   "jobs": [
     {
       "id": "staff-selection-commission-combined-graduate-level-examination-cgl-2026",
@@ -68,20 +68,20 @@
       "id": "drdo-rac-scientist-b-advt-no-157",
       "source": "drdo-rac",
       "org": "DRDO RAC",
-      "title": "Scientist 'E', 'D' & 'C'",
-      "summary": "Lateral Recruitment of 33 Scientists (Scientist 'E', 'D' & 'C') in various disciplines under DRDS cadre. Disciplines include Electronics & Communication Engg., Mechanical, Computer Science & Engg., and others. Requires BE/B.Tech/M.Sc/M.Pharm with relevant experience (3/7/11 years depending on the post).",
+      "title": "Scientist C, D, E (Lateral Recruitment Scheme)",
+      "summary": "Recruitment for 33 Scientist C, D, and E posts in Defence Research & Development Organization (DRDO), Department of Science and Technology (DST), and Aeronautical Development Agency (ADA) under the Lateral Recruitment Scheme.",
       "advtNo": "157",
       "posts": 33,
       "url": "https://rac.gov.in",
       "status": "closed",
       "opensOn": "2026-06-06",
-      "closesOn": "2026-06-30",
+      "closesOn": "2026-06-26",
       "expected": null,
       "fit": "moderate",
-      "fitLabel": "Core engineering post (Mechanical is eligible) which is not the candidate's primary interest (management/IT).",
+      "fitLabel": "B.Tech Mechanical Engineering is an eligible degree for some Scientist posts in DRDO. However, the candidate is primarily interested in Management and IT roles, not core mechanical engineering. IT posts requiring CS/IT/Electronics degrees would be 'gated' for this candidate.",
       "tags": [
-        "Engineering",
-        "Scientist"
+        "Scientist",
+        "Engineering"
       ],
       "firstSeen": "2026-07-10T18:26:49.698Z"
     },
@@ -210,6 +210,24 @@
         "Group A"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z"
+    },
+    {
+      "id": "upsc-direct-recruitment-assistant-director-grade-ii-msme-advt-06-2026",
+      "source": "upsc",
+      "org": "UPSC",
+      "title": "Direct Recruitment: Assistant Director Grade-II (MSME) (Advt. 06/2026)",
+      "summary": "Online applications were invited for 50 posts of Assistant Director Grade-II under the Ministry of Micro, Small & Medium Enterprises (MSME) under Advertisement No. 06/2026.",
+      "advtNo": "06/2026",
+      "posts": 50,
+      "url": "https://upsconline.nic.in/ora/",
+      "status": "closed",
+      "opensOn": "2026-06-13",
+      "closesOn": "2026-07-03",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "General management role, likely open to any engineering bachelor's.",
+      "tags": [],
+      "firstSeen": "2026-07-13T16:03:08.235Z"
     },
     {
       "id": "bharat-electronics-limited-project-engineer-i-b-e-b-tech-2-yrs-experience",
@@ -414,6 +432,24 @@
       "firstSeen": "2026-07-13T10:46:34.442Z"
     },
     {
+      "id": "upsc-direct-recruitment-store-officer-advt-07-2026",
+      "source": "upsc",
+      "org": "UPSC",
+      "title": "Direct Recruitment: Aeronautical Officer (Advt. 07/2026)",
+      "summary": "Online applications are invited for the post of Aeronautical Officer under Advertisement No. 07/2026. This is a core engineering role.",
+      "advtNo": "07/2026",
+      "posts": null,
+      "url": "https://upsconline.nic.in/ora/",
+      "status": "open",
+      "opensOn": "2026-06-27",
+      "closesOn": "2026-07-17",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Core engineering role, Mechanical might be eligible for some positions.",
+      "tags": [],
+      "firstSeen": "2026-07-13T16:03:08.235Z"
+    },
+    {
       "id": "state-bank-of-india-specialist-cadre-officer-database-cloud-dba-contract",
       "source": "sbi",
       "org": "State Bank of India",
@@ -537,16 +573,16 @@
       "source": "nabard",
       "org": "NABARD",
       "title": "Specialists on Contract Recruitment 2026",
-      "summary": "NABARD has announced recruitment for 6 contractual Specialist posts including Data Architect, Application Solution Architect, Technology Solution Architect, Carbon Consultant, Climate Change Specialist - Mitigation, and Specialist- Derivatives and Treasury Risk Management. The online application process is open for eligible candidates with B.E./B.Tech or Postgraduate Degree in relevant fields.",
+      "summary": "NABARD has announced recruitment for 6 contractual Specialist posts, including Data Architect, Application Solution Architect, Technology Solution Architect, Carbon Consultant, Climate Change Specialist - Mitigation, and Specialist- Derivatives and Treasury Risk Management.",
       "advtNo": "03",
       "posts": 6,
-      "url": "https://www.nabard.org/career-notices",
+      "url": "https://www.nabard.org/career.aspx",
       "status": "open",
       "opensOn": "2026-07-10",
       "closesOn": "2026-07-23",
       "expected": null,
       "fit": "gated",
-      "fitLabel": "Requires specific IT/CS/Electronics degree for IT roles; other specialist roles may not align with profile.",
+      "fitLabel": "The IT-related roles (Data Architect, Application Solution Architect, Technology Solution Architect) are likely gated as most government IT posts require a CS/IT/Electronics degree, which the candidate (B.Tech Mechanical) does not possess. Other specialist roles (Carbon Consultant, Climate Change Specialist - Mitigation, Specialist- Derivatives and Treasury Risk Management) are highly specialized and not a direct fit for the candidate's primary interest in general management or IT roles.",
       "tags": [
         "Specialist",
         "Contractual"
