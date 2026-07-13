@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-07-12T23:16:22.992Z",
+  "lastScan": "2026-07-13T00:18:19.247Z",
   "jobs": [
     {
       "id": "staff-selection-commission-combined-graduate-level-examination-cgl-2026",
@@ -431,20 +431,20 @@
       "id": "ibps-crp-po-mt-xvi-probationary-officer-management-trainee",
       "source": "ibps",
       "org": "IBPS",
-      "title": "CRP SPL-XVI Specialist Officer (IT Officer)",
-      "summary": "Recruitment of Specialist Officers, including IT Officer (Scale I), in 11 Participating Public Sector Banks for 301 IT Officer vacancies out of a total of 745 Specialist Officer vacancies.",
+      "title": "CRP Specialist Officers (CRP SPL-XVI) - Management Roles",
+      "summary": "The Institute of Banking Personnel Selection (IBPS) has released the official notification for the Common Recruitment Process for Specialist Officers (CRP SPL-XVI) for 745 vacancies in participating public sector banks for the financial year 2027-28. Online applications are invited for various Specialist Officer posts including HR/Personnel Officer, Rajbhasha Adhikari, and Marketing Officer. The selection process includes Preliminary and Main Examinations, followed by an Interview.",
       "advtNo": "CRP SPL-XVI",
-      "posts": 301,
-      "url": "https://www.ibps.in/crp-spl-xvi/",
+      "posts": 745,
+      "url": "https://www.ibps.in/",
       "status": "open",
       "opensOn": "2026-07-01",
       "closesOn": "2026-07-21",
       "expected": null,
-      "fit": "gated",
-      "fitLabel": "Requires CS/IT/Electronics degree, which candidate with B.Tech Mechanical does not have.",
+      "fit": "strong",
+      "fitLabel": "Strong: Management-related specialist roles (HR/Personnel Officer, Rajbhasha Adhikari, Marketing Officer) are a good fit for the candidate's interest in management, assuming a B.Tech in Mechanical Engineering is an accepted qualification for these roles.",
       "tags": [
-        "Specialist Officer",
-        "IT"
+        "Banking",
+        "Management"
       ],
       "firstSeen": "2026-07-10T18:35:48.707Z"
     },
@@ -452,8 +452,8 @@
       "id": "ibps-crp-po-mt-xvi-recruitment-of-probationary-officers-management-trainees",
       "source": "ibps",
       "org": "IBPS",
-      "title": "CRP PO/MT-XVI Recruitment of Probationary Officers/Management Trainees",
-      "summary": "Recruitment for Probationary Officers/Management Trainees (CRP PO/MT-XVI) in 11 participating public sector banks. Total 6,715 vacancies. Open to graduates in any discipline.",
+      "title": "CRP Probationary Officers/Management Trainees (CRP PO/MT-XVI)",
+      "summary": "The Institute of Banking Personnel Selection (IBPS) has released the official notification for the Common Recruitment Process for Probationary Officers/Management Trainees (CRP PO/MT-XVI) for 6715 vacancies in participating public sector banks for the financial year 2027-28. Eligible candidates with a Bachelor's degree in any discipline can apply online. The selection process includes Preliminary and Main Examinations, followed by an Interview.",
       "advtNo": "CRP PO/MT-XVI",
       "posts": 6715,
       "url": "https://www.ibps.in/",
@@ -462,7 +462,7 @@
       "closesOn": "2026-07-21",
       "expected": null,
       "fit": "strong",
-      "fitLabel": "Any-graduate management role",
+      "fitLabel": "Strong: This is an any-graduate management exam, which is a strong fit for the candidate's profile and interest in management roles.",
       "tags": [
         "Banking",
         "Management"
@@ -1084,20 +1084,20 @@
       "id": "ibps-crp-csa-xvi-customer-service-associate-clerk",
       "source": "ibps",
       "org": "IBPS",
-      "title": "Common Recruitment Process for Recruitment of Customer Service Associates (CRP CSA-XVI)",
-      "summary": "The official notification for the IBPS Clerk (now Customer Service Associate) exam for CRP CSA-XVI is expected to be released in August 2026. The online application process will commence after the notification is published.",
+      "title": "CRP Clerks (CRP CSA-XVI)",
+      "summary": "The Institute of Banking Personnel Selection (IBPS) is expected to release the notification for the Common Recruitment Process for Clerks (CRP CSA-XVI) in July-August 2026. The preliminary exams are scheduled for October 10 and 11, 2026, and the mains exam on December 27, 2026. Over 6,000 vacancies are expected for Customer Service Associates (CSA) / Clerk cadre posts in various public sector banks.",
       "advtNo": "CRP CSA-XVI",
       "posts": null,
       "url": "https://www.ibps.in/",
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "August 2026",
+      "expected": "July-August 2026",
       "fit": "strong",
-      "fitLabel": "Any-graduate management exam, fits candidate's interest in management roles.",
+      "fitLabel": "Strong: This is an any-graduate management exam, which is a strong fit for the candidate's profile and interest in management roles.",
       "tags": [
         "Banking",
-        "Clerk"
+        "Management"
       ],
       "firstSeen": "2026-07-10T18:35:48.707Z"
     },
