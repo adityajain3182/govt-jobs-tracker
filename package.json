@@ -4,6 +4,7 @@
   "type": "module",
   "engines": { "node": ">=20" },
   "scripts": {
+    "serve": "python serve.py",
     "scrape": "node scripts/scrape.mjs",
     "scrape:force": "node scripts/scrape.mjs --force"
   }

@@ -146,6 +146,7 @@
     display: grid;
     grid-template-columns: 118px 1fr;
     overflow: hidden;
+    position: relative;
   }
   .job + .job { margin-top: 12px; }
   .date-block {
@@ -180,7 +181,7 @@
   .job.s-closed .dl-days, .job.s-closed .dl-date { color: var(--closed); }
   .job.s-closed .body h3 { color: var(--ink-soft); }
 
-  .job .body { padding: 16px 20px 18px; min-width: 0; }
+  .job .body { padding: 16px 78px 18px 20px; min-width: 0; }
   .org {
     font-size: 12px;
     font-weight: 700;
@@ -271,8 +272,57 @@
   }
   footer p + p { margin-top: 8px; }
 
+  /* ---- Thumbs up / down verdict on each card ---- */
+  .verdict { position: absolute; top: 12px; right: 14px; display: flex; gap: 6px; z-index: 2; }
+  .vbtn {
+    width: 30px; height: 30px; border-radius: 50%;
+    border: 1px solid var(--line); background: var(--card);
+    cursor: pointer; padding: 0;
+    display: inline-flex; align-items: center; justify-content: center;
+    transition: background .15s, border-color .15s, color .15s, transform .1s;
+  }
+  .vbtn svg { width: 16px; height: 16px; display: block; }
+  .vbtn:active { transform: scale(0.9); }
+  .vbtn.up { color: var(--open); border-color: #BFE0CC; }
+  .vbtn.down { color: var(--gated); border-color: #E6C9C9; }
+  .vbtn.up:hover, .vbtn.up:focus-visible { background: var(--open-bg); border-color: var(--open); }
+  .vbtn.down:hover, .vbtn.down:focus-visible { background: var(--gated-bg); border-color: var(--gated); }
+  .vbtn:focus-visible { outline: none; }
+
+  .apply-form { display: none; border-top: 1px dashed var(--line); margin-top: 14px; padding-top: 14px; }
+  .apply-form.open { display: block; }
+  .apply-form .fg { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px 14px; }
+  .apply-form .full { grid-column: 1 / -1; }
+  .apply-form label {
+    display: block; font-size: 10px; letter-spacing: 0.09em; text-transform: uppercase;
+    color: var(--ink-soft); margin-bottom: 3px;
+  }
+  .apply-form input, .apply-form select {
+    width: 100%; padding: 7px 9px; border: 1px solid var(--line); border-radius: 3px;
+    font: inherit; font-size: 13px; background: #fff; color: var(--ink);
+  }
+  .apply-form input:focus, .apply-form select:focus { outline: none; border-color: var(--accent); }
+  .ap-actions { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-top: 12px; }
+  .btn {
+    font: inherit; font-size: 13px; font-weight: 600; border-radius: 3px;
+    padding: 7px 15px; border: 1px solid var(--line); background: var(--card);
+    color: var(--ink); cursor: pointer;
+  }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .btn.primary:disabled { opacity: 0.55; cursor: default; }
+  .btn.ghost { background: transparent; }
+  .ap-msg { font-size: 12.5px; color: var(--ink-soft); }
+  .ap-msg.err { color: var(--gated); }
+  .ap-msg.ok { color: var(--open); }
+  .ap-msg a { color: var(--accent); }
+
+  #hidden-bar { font-size: 13px; color: var(--ink-soft); margin: -24px 0 32px; }
+  #hidden-bar a { color: var(--accent); cursor: pointer; text-decoration: underline; }
+
   @media (max-width: 560px) {
     .job { grid-template-columns: 1fr; }
+    .job .body { padding-right: 20px; padding-top: 46px; }
+    .apply-form .fg { grid-template-columns: 1fr; }
     .date-block {
       border-right: none;
       border-bottom: 1px solid var(--line);
@@ -319,6 +369,8 @@
     <div class="n-upcoming"><div class="num" id="n-upcoming">–</div><div class="lbl">Opening soon</div></div>
     <div class="n-closed"><div class="num" id="n-closed">–</div><div class="lbl">Recently closed</div></div>
   </div>
+
+  <div id="hidden-bar"></div>
 
   <section>
     <div class="sec-head">
@@ -385,6 +437,47 @@
 (function () {
   var MS_DAY = 86400000;
   var today = new Date(); today.setHours(0, 0, 0, 0);
+  var currentData = { jobs: [] };
+
+  // Shared with the applications page (same origin -> same localStorage).
+  var cfg = {
+    get url() { return localStorage.getItem("sheetBridgeUrl") || ""; },
+    get token() { return localStorage.getItem("sheetBridgeToken") || ""; },
+    get connected() { return !!(this.url && this.token); }
+  };
+
+  // Per-job decisions kept in this browser: "down" = dismissed, "applied" = moved to sheet.
+  function getDecisions() {
+    try { return JSON.parse(localStorage.getItem("portalDecisions") || "{}"); } catch (e) { return {}; }
+  }
+  function setDecision(id, val) {
+    var d = getDecisions();
+    if (val) d[id] = val; else delete d[id];
+    localStorage.setItem("portalDecisions", JSON.stringify(d));
+  }
+
+  function api(payload) {
+    payload.token = cfg.token;
+    // text/plain avoids a CORS preflight, which Apps Script doesn't answer.
+    return fetch(cfg.url, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(payload) })
+      .then(function (r) { return r.json(); })
+      .then(function (res) { if (!res.ok) throw new Error(res.error || "Bridge error"); return res; });
+  }
+
+  var STATUSES = ["applied", "admit card out", "exam scheduled", "exam done",
+    "interview", "qualified", "selected", "not qualified", "withdrawn"];
+  var STATUS_OPTS = STATUSES.map(function (s) {
+    return '<option value="' + s + '">' + s.charAt(0).toUpperCase() + s.slice(1) + "</option>";
+  }).join("");
+
+  var THUMB_UP = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>';
+  var THUMB_DOWN = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17"/></svg>';
+
+  function deptShort(org) {
+    if (!org) return "";
+    var p = String(org).split("·")[0].trim();
+    return p || String(org);
+  }
 
   function esc(s) {
     return String(s == null ? "" : s)
@@ -432,7 +525,34 @@
     var fit = job.fit && job.fit !== "low"
       ? '<span class="fit ' + esc(job.fit) + '">' + esc(job.fitLabel || job.fit) + "</span>" : "";
     var badge = isNew(job) && kind !== "closed" ? '<span class="badge-new">NEW</span>' : "";
-    return '<article class="job ' + cls + '">' +
+
+    var verdict =
+      '<div class="verdict">' +
+        '<button class="vbtn up" data-act="up" type="button" title="This was for me — add to My Applications" aria-label="Add to My Applications">' + THUMB_UP + "</button>" +
+        '<button class="vbtn down" data-act="down" type="button" title="Not for me — remove from the board" aria-label="Remove from the board">' + THUMB_DOWN + "</button>" +
+      "</div>";
+
+    var deadlineVal = /^\d{4}-\d{2}-\d{2}$/.test(job.closesOn || "") ? job.closesOn : "";
+    var form =
+      '<div class="apply-form">' +
+        '<div class="fg">' +
+          '<div class="full"><label>Department / Org</label><input class="ap-dept" value="' + esc(deptShort(job.org)) + '"></div>' +
+          '<div class="full"><label>Post</label><input class="ap-post" value="' + esc(job.title) + '"></div>' +
+          '<div><label>Registration no.</label><input class="ap-reg" placeholder="your application no."></div>' +
+          '<div><label>Status</label><select class="ap-status">' + STATUS_OPTS + "</select></div>" +
+          '<div><label>Application deadline</label><input class="ap-deadline" type="date" value="' + deadlineVal + '"></div>' +
+          '<div><label>Exam date</label><input class="ap-examdate" type="date"></div>' +
+          '<div class="full"><label>Notes</label><input class="ap-notes" placeholder="anything to remember"></div>' +
+        "</div>" +
+        '<div class="ap-actions">' +
+          '<button class="btn primary" data-act="save" type="button">Save to My Applications</button>' +
+          '<button class="btn ghost" data-act="cancel" type="button">Cancel</button>' +
+          '<span class="ap-msg"></span>' +
+        "</div>" +
+      "</div>";
+
+    return '<article class="job ' + cls + '" data-id="' + esc(job.id) + '" data-url="' + esc(job.url) + '" data-advt="' + esc(job.advtNo || "") + '">' +
+      verdict +
       '<div class="date-block"><span class="dl-label">' + dlLabel + '</span>' +
       '<span class="dl-date">' + dlDate + '</span><span class="dl-days">' + dlDays + "</span></div>" +
       '<div class="body"><div class="org">' + esc(job.org) + badge + "</div>" +
@@ -440,11 +560,13 @@
       '<p class="desc">' + esc(job.summary) + "</p>" +
       '<div class="meta">' + tags + fit +
       '<a class="src" href="' + esc(job.url) + '" target="_blank" rel="noopener">Official notice ↗</a>' +
-      "</div></div></article>";
+      "</div>" + form + "</div></article>";
   }
 
   function render(data) {
-    var jobs = data.jobs || [];
+    currentData = data;
+    var decisions = getDecisions();
+    var jobs = (data.jobs || []).filter(function (j) { return !decisions[j.id]; });
     var open = jobs.filter(function (j) { return j.status === "open"; })
       .sort(function (a, b) { return (a.closesOn || "9999") < (b.closesOn || "9999") ? -1 : 1; });
     var upcoming = jobs.filter(function (j) { return j.status === "upcoming"; });
@@ -469,11 +591,75 @@
     fill("upcoming-list", upcoming, "upcoming", "Nothing on the horizon — the scanner is watching.");
     fill("closed-list", closed, "closed", "No recent closures tracked.");
 
+    var dismissed = (data.jobs || []).filter(function (j) { return decisions[j.id] === "down"; }).length;
+    var bar = document.getElementById("hidden-bar");
+    bar.innerHTML = dismissed
+      ? dismissed + " posting" + (dismissed === 1 ? "" : "s") + ' hidden as "not for me". <a data-act="reset">Restore them</a>'
+      : "";
+
     var scanned = data.lastScan ? new Date(data.lastScan) : null;
     document.getElementById("last-scan").textContent = scanned
       ? "Last scan " + scanned.toLocaleString("en-IN", { day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit" })
       : "";
   }
+
+  // ---- Verdict interactions ----
+  function openApply(jobEl) {
+    var form = jobEl.querySelector(".apply-form");
+    var msg = jobEl.querySelector(".ap-msg");
+    form.classList.add("open");
+    if (!cfg.connected) {
+      msg.className = "ap-msg err";
+      msg.innerHTML = 'Connect the Google Sheet first on <a href="/applications">My applications</a>, then reopen this.';
+    } else {
+      msg.className = "ap-msg"; msg.textContent = "";
+    }
+    var reg = jobEl.querySelector(".ap-reg"); if (reg) reg.focus();
+    form.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }
+
+  function saveApply(jobEl, id) {
+    if (!cfg.connected) { openApply(jobEl); return; }
+    var q = function (s) { return jobEl.querySelector(s); };
+    var dept = q(".ap-dept").value.trim(), post = q(".ap-post").value.trim();
+    var msg = q(".ap-msg"), saveBtn = q('[data-act="save"]');
+    if (!dept || !post) { msg.className = "ap-msg err"; msg.textContent = "Department and Post are required."; return; }
+    var data = {
+      dept: dept, post: post,
+      reg: q(".ap-reg").value.trim(),
+      status: q(".ap-status").value,
+      deadline: q(".ap-deadline").value,
+      examDate: q(".ap-examdate").value,
+      link: jobEl.getAttribute("data-url") || "",
+      others: jobEl.getAttribute("data-advt") || "",
+      notes: q(".ap-notes").value.trim()
+    };
+    msg.className = "ap-msg"; msg.textContent = "Saving to the sheet…"; saveBtn.disabled = true;
+    api({ action: "add", data: data })
+      .then(function () { setDecision(id, "applied"); render(currentData); })
+      .catch(function (err) { msg.className = "ap-msg err"; msg.textContent = "Save failed: " + err.message; saveBtn.disabled = false; });
+  }
+
+  function resetDismissed() {
+    var d = getDecisions();
+    Object.keys(d).forEach(function (k) { if (d[k] === "down") delete d[k]; });
+    localStorage.setItem("portalDecisions", JSON.stringify(d));
+    render(currentData);
+  }
+
+  document.addEventListener("click", function (e) {
+    var el = e.target.closest("[data-act]");
+    if (!el) return;
+    var act = el.getAttribute("data-act");
+    if (act === "reset") { resetDismissed(); return; }
+    var jobEl = el.closest(".job");
+    if (!jobEl) return;
+    var id = jobEl.getAttribute("data-id");
+    if (act === "down") { setDecision(id, "down"); render(currentData); }
+    else if (act === "up") { openApply(jobEl); }
+    else if (act === "cancel") { jobEl.querySelector(".apply-form").classList.remove("open"); }
+    else if (act === "save") { saveApply(jobEl, id); }
+  });
 
   var seed = JSON.parse(document.getElementById("seed-data").textContent);
   fetch("data/jobs.json", { cache: "no-store" })
