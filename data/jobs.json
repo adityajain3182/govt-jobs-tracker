@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-07-13T07:44:57.827Z",
+  "lastScan": "2026-07-13T10:47:24.279Z",
   "jobs": [
     {
       "id": "staff-selection-commission-combined-graduate-level-examination-cgl-2026",
@@ -84,6 +84,48 @@
         "Scientist"
       ],
       "firstSeen": "2026-07-10T18:26:49.698Z"
+    },
+    {
+      "id": "drdo-rac-scientist-c-mechanical-engineering",
+      "source": "drdo-rac",
+      "org": "DRDO RAC",
+      "title": "Scientist C (Mechanical Engineering)",
+      "summary": "Lateral Recruitment for Scientist 'C' in Mechanical Engineering discipline under DRDS cadre. A total of 20 Scientist C posts were available across various disciplines. Requires a minimum of 3 years of relevant experience.",
+      "advtNo": "157",
+      "posts": null,
+      "url": "https://rac.gov.in",
+      "status": "closed",
+      "opensOn": "2026-05-30",
+      "closesOn": "2026-06-30",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Core mechanical engineering role, which is not the candidate's primary interest. However, the candidate has a B.Tech in Mechanical Engineering and meets the experience requirement.",
+      "tags": [
+        "Engineering",
+        "Mechanical"
+      ],
+      "firstSeen": "2026-07-13T10:44:38.607Z"
+    },
+    {
+      "id": "drdo-rac-scientist-c-computer-science-engg-electronics-communication-engg",
+      "source": "drdo-rac",
+      "org": "DRDO RAC",
+      "title": "Scientist C (Computer Science & Engg / Electronics & Communication Engg)",
+      "summary": "Lateral Recruitment for Scientist 'C' in Computer Science & Engg / Electronics & Communication Engg disciplines under DRDS cadre. A total of 20 Scientist C posts were available across various disciplines. Requires a minimum of 3 years of relevant experience.",
+      "advtNo": "157",
+      "posts": null,
+      "url": "https://rac.gov.in",
+      "status": "closed",
+      "opensOn": "2026-05-30",
+      "closesOn": "2026-06-30",
+      "expected": null,
+      "fit": "gated",
+      "fitLabel": "IT/CS/Electronics role, which aligns with the candidate's interest and software engineering experience, but the candidate lacks the required CS/IT/Electronics degree (has B.Tech Mechanical).",
+      "tags": [
+        "IT",
+        "Engineering"
+      ],
+      "firstSeen": "2026-07-13T10:44:38.607Z"
     },
     {
       "id": "bhel-engineer-trainee-mechanical",
@@ -192,7 +234,7 @@
       "source": "sbi",
       "org": "SBI",
       "title": "Probationary Officers",
-      "summary": "Recruitment for Probationary Officers. Application window was from 18.06.2026 to 08.07.2026. Any engineering bachelor's degree is typically eligible.",
+      "summary": "Recruitment of Probationary Officers. Application window was from 18.06.2026 to 08.07.2026. Any graduate is eligible. Selection involves preliminary, main exams, and interview.",
       "advtNo": "CRPD/PO/2026-27/09",
       "posts": null,
       "url": "https://ibpsreg.ibps.in/sbipojun26/",
@@ -351,6 +393,27 @@
       "firstSeen": "2026-07-10T18:37:16.814Z"
     },
     {
+      "id": "upsc-recruitment-for-joint-director-assistant-director-advt-no-07-2026",
+      "source": "upsc",
+      "org": "UPSC",
+      "title": "Recruitment for Joint Director / Assistant Director (Advt. No. 07/2026)",
+      "summary": "The Union Public Service Commission (UPSC) has invited online applications for various Group A and Group B posts under Advertisement No. 07/2026, including potential management/administrative roles such as Joint Director and Assistant Director. These roles are generally open to graduates from various disciplines, including engineering, making them a strong fit for candidates interested in management.",
+      "advtNo": "07/2026",
+      "posts": null,
+      "url": "https://upsconline.nic.in/ora/",
+      "status": "open",
+      "opensOn": "2026-06-25",
+      "closesOn": "2026-07-17",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "Management roles, potentially open to any engineering graduate.",
+      "tags": [
+        "Management",
+        "Administration"
+      ],
+      "firstSeen": "2026-07-13T10:46:34.442Z"
+    },
+    {
       "id": "state-bank-of-india-specialist-cadre-officer-database-cloud-dba-contract",
       "source": "sbi",
       "org": "State Bank of India",
@@ -373,7 +436,7 @@
       "source": "sbi",
       "org": "SBI",
       "title": "Specialist Cadre Officer (DBA, Advisor, CDBA)",
-      "summary": "Engagement of Specialist Cadre Officers on contract basis for posts like DBA (Navy), Advisor (CAPF), and CDBA. Online registration extended till 18.07.2026.",
+      "summary": "Engagement of Specialist Cadre Officers on contract basis for DBA (Navy), Advisor (CAPF), and CDBA roles. Online registration extended till 18.07.2026. IT roles typically require specific degrees.",
       "advtNo": "CRPD/SCO/2026-27/10",
       "posts": null,
       "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-10/apply",
@@ -382,7 +445,7 @@
       "closesOn": "2026-07-18",
       "expected": null,
       "fit": "gated",
-      "fitLabel": "Degree-gated: CS/IT (for DBA)",
+      "fitLabel": "Degree-gated: CS/IT",
       "tags": [
         "Contractual"
       ],
@@ -474,19 +537,19 @@
       "source": "nabard",
       "org": "NABARD",
       "title": "Specialists on Contract Recruitment 2026",
-      "summary": "NABARD has announced recruitment for 6 Specialist positions on contract, including Data Architect, Application Solution Architect, Technology Solution Architect, Carbon Consultant, Climate Change Specialist - Mitigation, and Specialist- Derivatives and Treasury Risk Management.",
+      "summary": "NABARD has announced recruitment for 6 contractual Specialist posts including Data Architect, Application Solution Architect, Technology Solution Architect, Carbon Consultant, Climate Change Specialist - Mitigation, and Specialist- Derivatives and Treasury Risk Management. The online application process is open for eligible candidates with B.E./B.Tech or Postgraduate Degree in relevant fields.",
       "advtNo": "03",
       "posts": 6,
-      "url": "https://www.nabard.org/",
+      "url": "https://www.nabard.org/career-notices",
       "status": "open",
       "opensOn": "2026-07-10",
       "closesOn": "2026-07-23",
       "expected": null,
       "fit": "gated",
-      "fitLabel": "IT roles (Data Architect, Application Solution Architect, Technology Solution Architect) are gated as they likely require a CS/IT/Electronics degree, which the candidate does not possess. Other specialist roles are not a direct fit for the candidate's management/IT interest.",
+      "fitLabel": "Requires specific IT/CS/Electronics degree for IT roles; other specialist roles may not align with profile.",
       "tags": [
-        "IT",
-        "Specialist"
+        "Specialist",
+        "Contractual"
       ],
       "firstSeen": "2026-07-12T09:31:57.251Z"
     },
@@ -598,17 +661,17 @@
       "id": "railway-recruitment-board-rrb-technician-grade-i-signal-and-various-categories-o",
       "source": "rrb",
       "org": "Railway Recruitment Board (RRB)",
-      "title": "Technician Grade-I (Signal) & Technician Grade-III",
-      "summary": "Recruitment drive for 6,557 Technician Grade-I (Signal) and Technician Grade-III vacancies across multiple railway zones.",
+      "title": "Technician Grade-I Signal and various categories of Technician Grade-III",
+      "summary": "The Railway Recruitment Board has released Centralised Employment Notice (CEN) No. 02/2026 for the recruitment of 6,557 Technician posts, comprising 323 Technician Grade-I (Signal) and 6,234 Technician Grade-III vacancies across multiple railway zones. The online application window opened on June 30, 2026, and will close on July 29, 2026.",
       "advtNo": "CEN 02/2026",
       "posts": 6557,
-      "url": "https://rrbapply.gov.in",
+      "url": "https://www.rrbapply.gov.in",
       "status": "open",
       "opensOn": "2026-06-30",
       "closesOn": "2026-07-29",
       "expected": null,
       "fit": "moderate",
-      "fitLabel": "Core engineering/technical post where Mechanical is eligible for some posts.",
+      "fitLabel": "B.Tech Mechanical eligible for core technical roles.",
       "tags": [
         "Technician",
         "Engineering"
@@ -866,20 +929,20 @@
       "id": "nabard-grade-a-assistant-manager-rdbs-generalist",
       "source": "nabard",
       "org": "NABARD",
-      "title": "Assistant Manager (Grade A) Recruitment 2026",
-      "summary": "The official notification for NABARD Grade A Assistant Manager positions across various streams, including Rural Development Banking Service (RDBS), Rajbhasha, and Protocol & Security Services, is expected to be released soon. Approximately 80-100 vacancies are anticipated.",
+      "title": "Assistant Manager (Grade 'A') Recruitment 2026",
+      "summary": "The National Bank for Agriculture and Rural Development (NABARD) is expected to release the official notification for Assistant Manager (Grade 'A') positions soon. This recruitment drive anticipates vacancies across various streams, including Rural Development Banking Service (RDBS), Rajbhasha, and Protocol & Security Services, with the General discipline accepting a Bachelor's degree in any subject.",
       "advtNo": null,
       "posts": "80-100 (expected)",
-      "url": "https://www.nabard.org/",
+      "url": "https://www.nabard.org/career-notices",
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "July-August 2026",
+      "expected": "2026-07-XX or 2026-08-XX",
       "fit": "strong",
-      "fitLabel": "Any-graduate management exam, B.Tech Mechanical eligible for General Stream.",
+      "fitLabel": "Any engineering bachelor's degree is eligible for the General discipline, aligning with management interest.",
       "tags": [
-        "Management",
-        "Banking"
+        "Assistant Manager",
+        "Grade A"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z"
     },
@@ -1063,20 +1126,20 @@
       "id": "railway-recruitment-board-junior-engineer-je-depot-material-superintendent-dms-c",
       "source": "rrb",
       "org": "Railway Recruitment Board (RRB)",
-      "title": "Junior Engineer (JE), Depot Material Superintendent (DMS), Chemical Supervisor, & Metallurgical Assistant",
-      "summary": "Official release of the Centralised Employment Notification (CEN) for Railway Recruitment Board Junior Engineer Recruitment 2026.",
+      "title": "Junior Engineer (JE), Depot Material Superintendent (DMS), Chemical & Metallurgical Assistant (CMA)",
+      "summary": "An intent notice was released on July 1, 2026, announcing 4,098 approved vacancies for Junior Engineer, Depot Material Superintendent, and Chemical & Metallurgical Assistant posts across various engineering disciplines including Civil, Mechanical, Electrical, Signal & Telecom, Track Machine, Bridge, Workshop, Rolling Stock, IT, and Stores. The Centralised Employment Notification (CEN) is expected to be officially released on July 21, 2026.",
       "advtNo": null,
       "posts": 4098,
-      "url": "https://www.rrbapply.gov.in/",
+      "url": "https://www.rrbapply.gov.in",
       "status": "upcoming",
       "opensOn": "2026-07-21",
       "closesOn": null,
-      "expected": "Notification expected soon after July 1, 2026",
+      "expected": "2026-07-21",
       "fit": "moderate",
-      "fitLabel": "Core engineering post where Mechanical is eligible.",
+      "fitLabel": "B.Tech Mechanical eligible for core engineering roles. IT roles may be gated if specific CS/IT/Electronics degree is required.",
       "tags": [
         "Junior Engineer",
-        "Engineering"
+        "JE"
       ],
       "firstSeen": "2026-07-10T18:35:28.948Z"
     },
