@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-07-13T16:05:12.126Z",
+  "lastScan": "2026-07-14T01:53:40.807Z",
   "jobs": [
     {
       "id": "staff-selection-commission-combined-graduate-level-examination-cgl-2026",
@@ -252,18 +252,19 @@
       "source": "sbi",
       "org": "SBI",
       "title": "Probationary Officers",
-      "summary": "Recruitment of Probationary Officers. Application window was from 18.06.2026 to 08.07.2026. Any graduate is eligible. Selection involves preliminary, main exams, and interview.",
+      "summary": "State Bank of India invited online applications from eligible Indian citizens for appointment as Probationary Officers.",
       "advtNo": "CRPD/PO/2026-27/09",
-      "posts": null,
-      "url": "https://ibpsreg.ibps.in/sbipojun26/",
+      "posts": 1500,
+      "url": "https://sbi.bank.in/web/careers/current-openings",
       "status": "closed",
       "opensOn": "2026-06-18",
       "closesOn": "2026-07-08",
       "expected": null,
       "fit": "strong",
-      "fitLabel": "Strong fit — management",
+      "fitLabel": "Management role, accepts any engineering bachelor's degree.",
       "tags": [
-        "Any graduate"
+        "Management",
+        "Banking"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z"
     },
@@ -336,7 +337,7 @@
       "advtNo": "A-4/E-1/2025",
       "posts": null,
       "url": "https://uppsc.up.nic.in/",
-      "status": "open",
+      "status": "closed",
       "opensOn": null,
       "closesOn": "2026-07-13",
       "expected": null,
@@ -448,6 +449,24 @@
       "fitLabel": "Core engineering role, Mechanical might be eligible for some positions.",
       "tags": [],
       "firstSeen": "2026-07-13T16:03:08.235Z"
+    },
+    {
+      "id": "upsc-recruitment-to-various-posts-in-central-government-ministries-and-departmen",
+      "source": "upsc",
+      "org": "UPSC",
+      "title": "Recruitment to various posts in Central Government Ministries and Departments (Advt. No. 07/2026)",
+      "summary": "The Union Public Service Commission has announced 450 vacancies across 54 Group A and Group B posts in various Central Government Ministries and Departments, such as Drug Inspector, Company Prosecutor, and Assistant Engineer, with applications closing on July 17, 2026.",
+      "advtNo": "07/2026",
+      "posts": "Drug Inspector, Company Prosecutor, Assistant Engineer, Legal Officer",
+      "url": "https://upsconline.nic.in/ora/",
+      "status": "open",
+      "opensOn": "2026-06-25",
+      "closesOn": "2026-07-17",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Core engineering posts where Mechanical is eligible",
+      "tags": [],
+      "firstSeen": "2026-07-14T01:48:55.450Z"
     },
     {
       "id": "state-bank-of-india-specialist-cadre-officer-database-cloud-dba-contract",
@@ -1266,18 +1285,18 @@
     {
       "id": "state-bank-of-india-junior-associate-customer-support-sales",
       "source": "sbi",
-      "org": "State Bank of India",
-      "title": "Junior Associate (Customer Support & Sales)",
-      "summary": "Upcoming recruitment for Junior Associate (Clerk) positions.",
-      "advtNo": null,
+      "org": "SBI",
+      "title": "Junior Associates (Customer Support & Sales)",
+      "summary": "The State Bank of India (SBI) will soon publish the official SBI Clerk Notification 2026 to recruit dynamic graduates for the post of Junior Associate (Customer Support & Sales).",
+      "advtNo": "To be notified",
       "posts": null,
-      "url": "https://sbi.bank.in/web/careers",
+      "url": "https://sbi.bank.in/web/careers/current-openings",
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "August 2026",
+      "expected": "August / September 2026",
       "fit": "strong",
-      "fitLabel": "Any-graduate management exam",
+      "fitLabel": "Banking role, accepts any engineering bachelor's degree.",
       "tags": [
         "Clerical",
         "Banking"
