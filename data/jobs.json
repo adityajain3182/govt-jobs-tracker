@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-07-14T01:53:40.807Z",
+  "lastScan": "2026-07-15T01:50:57.863Z",
   "jobs": [
     {
       "id": "staff-selection-commission-combined-graduate-level-examination-cgl-2026",
@@ -130,18 +130,18 @@
     {
       "id": "bhel-engineer-trainee-mechanical",
       "source": "psu-sweep",
-      "org": "Bharat Electronics Limited (BEL)",
-      "title": "Recruitment of Trainee Engineer",
-      "summary": "9 vacancies for Trainee Engineer. Eligible candidates can apply online. Mechanical B.Tech is generally eligible for Engineer Trainee roles.",
+      "org": "BHEL",
+      "title": "Engineer Trainee",
+      "summary": "Recruitment for Engineer Trainees in Mechanical and other engineering disciplines through GATE 2026.",
       "advtNo": null,
-      "posts": 9,
-      "url": "https://www.bel-india.in/Careers.aspx",
-      "status": "closed",
+      "posts": 150,
+      "url": "https://www.bhel.com/",
+      "status": "upcoming",
       "opensOn": "2026-06-17",
       "closesOn": "2026-07-01",
-      "expected": "July 2026",
+      "expected": "2026-07-31",
       "fit": "moderate",
-      "fitLabel": "Core engineering role where Mechanical B.Tech is eligible.",
+      "fitLabel": "Core Mechanical Engineering Trainee role, but candidate has B.Tech Mechanical.",
       "tags": [
         "Engineering",
         "Mechanical"
@@ -193,9 +193,9 @@
     {
       "id": "upsc-recruitment-for-450-vacancies-across-54-posts-in-various-central-government",
       "source": "upsc",
-      "org": "UPSC",
-      "title": "Direct Recruitment to various Group A & B Gazetted vacancies (Advertisement No. 06/2026)",
-      "summary": "The Union Public Service Commission (UPSC) invited applications for over 400 Group 'A' and 'B' Gazetted vacancies across 98 different posts in various Central Government ministries, departments, and Union Territory administrations.",
+      "org": "Union Public Service Commission (UPSC)",
+      "title": "Direct Recruitment to various posts in Government of India (Advertisement No. 06/2026)",
+      "summary": "UPSC invited applications for direct recruitment to various posts in the Government of India.",
       "advtNo": "06/2026",
       "posts": 400,
       "url": "https://upsconline.nic.in/ora/",
@@ -203,11 +203,11 @@
       "opensOn": "2026-06-13",
       "closesOn": "2026-07-03",
       "expected": null,
-      "fit": "moderate",
-      "fitLabel": "General direct recruitment with a large number of diverse posts. Without specific post details, it's assumed there could be some management or general administrative roles suitable for a B.Tech Mechanical graduate, but not explicitly strong IT or management roles.",
+      "fit": "strong",
+      "fitLabel": "Potential for management/administrative roles (strong). IT roles would have been 'gated' due to degree requirements. Core mechanical engineering roles are not of primary interest.",
       "tags": [
-        "Government",
-        "Group A"
+        "Management",
+        "Administration"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z"
     },
@@ -469,6 +469,27 @@
       "firstSeen": "2026-07-14T01:48:55.450Z"
     },
     {
+      "id": "union-public-service-commission-upsc-recruitment-for-450-vacancies-across-54-pos",
+      "source": "upsc",
+      "org": "Union Public Service Commission (UPSC)",
+      "title": "Recruitment for 450 vacancies across 54 posts (Advertisement No. 07/2026)",
+      "summary": "The Union Public Service Commission has opened applications for 450 vacancies under Advertisement No. 07/2026, covering 54 post categories including Drug Inspector, Assistant Engineer, Legal Officer, Company Prosecutor, Scientific Officer, and Specialist Grade III. The recruitment drive spans engineering, law, pharmacy, medicine, science, and administration.",
+      "advtNo": "07/2026",
+      "posts": 450,
+      "url": "https://upsconline.nic.in",
+      "status": "open",
+      "opensOn": "2026-06-25",
+      "closesOn": "2026-07-17",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "Potential for management/administrative roles (strong). IT roles would be 'gated' due to degree requirements. Core mechanical engineering roles are not of primary interest.",
+      "tags": [
+        "Management",
+        "Administration"
+      ],
+      "firstSeen": "2026-07-15T01:45:45.947Z"
+    },
+    {
       "id": "state-bank-of-india-specialist-cadre-officer-database-cloud-dba-contract",
       "source": "sbi",
       "org": "State Bank of India",
@@ -549,27 +570,6 @@
       "id": "ibps-crp-po-mt-xvi-probationary-officer-management-trainee",
       "source": "ibps",
       "org": "IBPS",
-      "title": "CRP Specialist Officers (CRP SPL-XVI) - Management Roles",
-      "summary": "The Institute of Banking Personnel Selection (IBPS) has released the official notification for the Common Recruitment Process for Specialist Officers (CRP SPL-XVI) for 745 vacancies in participating public sector banks for the financial year 2027-28. Online applications are invited for various Specialist Officer posts including HR/Personnel Officer, Rajbhasha Adhikari, and Marketing Officer. The selection process includes Preliminary and Main Examinations, followed by an Interview.",
-      "advtNo": "CRP SPL-XVI",
-      "posts": 745,
-      "url": "https://www.ibps.in/",
-      "status": "open",
-      "opensOn": "2026-07-01",
-      "closesOn": "2026-07-21",
-      "expected": null,
-      "fit": "strong",
-      "fitLabel": "Strong: Management-related specialist roles (HR/Personnel Officer, Rajbhasha Adhikari, Marketing Officer) are a good fit for the candidate's interest in management, assuming a B.Tech in Mechanical Engineering is an accepted qualification for these roles.",
-      "tags": [
-        "Banking",
-        "Management"
-      ],
-      "firstSeen": "2026-07-10T18:35:48.707Z"
-    },
-    {
-      "id": "ibps-crp-po-mt-xvi-recruitment-of-probationary-officers-management-trainees",
-      "source": "ibps",
-      "org": "IBPS",
       "title": "CRP Probationary Officers/Management Trainees (CRP PO/MT-XVI)",
       "summary": "The Institute of Banking Personnel Selection (IBPS) has released the official notification for the Common Recruitment Process for Probationary Officers/Management Trainees (CRP PO/MT-XVI) for 6715 vacancies in participating public sector banks for the financial year 2027-28. Eligible candidates with a Bachelor's degree in any discipline can apply online. The selection process includes Preliminary and Main Examinations, followed by an Interview.",
       "advtNo": "CRP PO/MT-XVI",
@@ -585,26 +585,26 @@
         "Banking",
         "Management"
       ],
-      "firstSeen": "2026-07-12T15:12:17.256Z"
+      "firstSeen": "2026-07-10T18:35:48.707Z"
     },
     {
       "id": "nabard-specialists-on-contract",
       "source": "nabard",
       "org": "NABARD",
       "title": "Specialists on Contract Recruitment 2026",
-      "summary": "NABARD has announced recruitment for 6 contractual Specialist posts, including Data Architect, Application Solution Architect, Technology Solution Architect, Carbon Consultant, Climate Change Specialist - Mitigation, and Specialist- Derivatives and Treasury Risk Management.",
+      "summary": "Recruitment for 6 specialist positions on contract including Data Architect, Application Solution Architect, Technology Solution Architect, Carbon Consultant, Climate Change Specialist - Mitigation, and Specialist- Derivatives and Treasury Risk Management.",
       "advtNo": "03",
       "posts": 6,
-      "url": "https://www.nabard.org/career.aspx",
+      "url": "https://www.nabard.org/",
       "status": "open",
       "opensOn": "2026-07-10",
       "closesOn": "2026-07-23",
       "expected": null,
       "fit": "gated",
-      "fitLabel": "The IT-related roles (Data Architect, Application Solution Architect, Technology Solution Architect) are likely gated as most government IT posts require a CS/IT/Electronics degree, which the candidate (B.Tech Mechanical) does not possess. Other specialist roles (Carbon Consultant, Climate Change Specialist - Mitigation, Specialist- Derivatives and Treasury Risk Management) are highly specialized and not a direct fit for the candidate's primary interest in general management or IT roles.",
+      "fitLabel": "IT roles (Data Architect, Application Solution Architect, Technology Solution Architect) require CS/IT/Electronics degree (gated); other specialist roles are not core management or direct fit for software engineering experience.",
       "tags": [
         "Specialist",
-        "Contractual"
+        "Contract"
       ],
       "firstSeen": "2026-07-12T09:31:57.251Z"
     },
@@ -839,11 +839,53 @@
       "firstSeen": "2026-07-12T17:34:18.140Z"
     },
     {
+      "id": "sail-young-professional-engineering",
+      "source": "psu-sweep",
+      "org": "SAIL",
+      "title": "Young Professional (Engineering)",
+      "summary": "Recruitment for Young Professionals in various departments including Engineering at Rourkela Steel Plant, Ranchi units and Digital Transformation Division.",
+      "advtNo": "RSP/R-YP/2026-01",
+      "posts": 23,
+      "url": "https://sailcareers.com/",
+      "status": "open",
+      "opensOn": "2026-07-10",
+      "closesOn": "2026-07-31",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Core Engineering role, but candidate has B.Tech Mechanical.",
+      "tags": [
+        "Engineering",
+        "Young Professional"
+      ],
+      "firstSeen": "2026-07-15T01:50:12.391Z"
+    },
+    {
+      "id": "sail-young-professional-it-management",
+      "source": "psu-sweep",
+      "org": "SAIL",
+      "title": "Young Professional (IT/Management)",
+      "summary": "Recruitment for Young Professionals in various departments including IT and HR at Rourkela Steel Plant, Ranchi units and Digital Transformation Division. Candidate has B.Tech Mechanical and 2-3 years software experience.",
+      "advtNo": "RSP/R-YP/2026-01",
+      "posts": 23,
+      "url": "https://sailcareers.com/",
+      "status": "open",
+      "opensOn": "2026-07-10",
+      "closesOn": "2026-07-31",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "IT/Management role, B.Tech Mechanical with software experience is a strong fit if any engineering bachelor's is accepted.",
+      "tags": [
+        "IT",
+        "Management"
+      ],
+      "firstSeen": "2026-07-15T01:50:12.391Z"
+    },
+    {
       "id": "uppsc-uttar-pradesh-public-service-commission-combined-state-upper-subordinate-services-pcs-2026",
       "source": "uppsc",
       "org": "UPPSC",
       "title": "Combined State / Upper Subordinate Services (PCS) (General/Special Recruitment) Examination-2026",
-      "summary": "UPPSC Combined State / Upper Subordinate Services (PCS) Exam 2026 for various administrative and management roles. Open to any graduate. Application closes August 3, 2026.",
+      "summary": "Uttar Pradesh Public Service Commission (UPPSC) invites applications for various administrative and management posts through the PCS Examination 2026. Open to any graduate, selection involves preliminary, main exams, and interview.",
       "advtNo": "A-1/E-1/2026",
       "posts": 500,
       "url": "https://uppsc.up.nic.in/",
@@ -878,6 +920,27 @@
         "Officer"
       ],
       "firstSeen": "2026-07-12T07:44:18.087Z"
+    },
+    {
+      "id": "iocl-graduate-apprentice-mechanical",
+      "source": "psu-sweep",
+      "org": "IOCL",
+      "title": "Graduate Apprentice (Mechanical)",
+      "summary": "Recruitment for Graduate Apprentice posts in various disciplines including Mechanical Engineering at Panipat refinery.",
+      "advtNo": null,
+      "posts": 1450,
+      "url": "https://iocl.com/",
+      "status": "open",
+      "opensOn": null,
+      "closesOn": "2026-08-12",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Core Mechanical Engineering apprenticeship, but candidate has B.Tech Mechanical.",
+      "tags": [
+        "Apprenticeship",
+        "Engineering"
+      ],
+      "firstSeen": "2026-07-15T01:50:12.391Z"
     },
     {
       "id": "epfo-auditor-assistant-audit-officer-assistant-director-audit-deputy-director-au",
@@ -981,23 +1044,44 @@
       "firstSeen": "2026-07-10T18:43:08.923Z"
     },
     {
+      "id": "union-public-service-commission-upsc-civil-services-examination-cse-2027",
+      "source": "upsc",
+      "org": "Union Public Service Commission (UPSC)",
+      "title": "Civil Services Examination (CSE) 2027",
+      "summary": "The UPSC Civil Services Preliminary Examination 2027 application is scheduled to open on January 13, 2027. This examination is for general management/administrative roles and accepts any bachelor's degree.",
+      "advtNo": null,
+      "posts": null,
+      "url": "https://upsconline.nic.in",
+      "status": "upcoming",
+      "opensOn": "2027-01-13",
+      "closesOn": "2027-02-02",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "Any-graduate management exam, which is a strong fit for the candidate's interest in management roles.",
+      "tags": [
+        "Management",
+        "Administration"
+      ],
+      "firstSeen": "2026-07-15T01:45:45.947Z"
+    },
+    {
       "id": "nabard-grade-a-assistant-manager-rdbs-generalist",
       "source": "nabard",
       "org": "NABARD",
-      "title": "Assistant Manager (Grade 'A') Recruitment 2026",
-      "summary": "The National Bank for Agriculture and Rural Development (NABARD) is expected to release the official notification for Assistant Manager (Grade 'A') positions soon. This recruitment drive anticipates vacancies across various streams, including Rural Development Banking Service (RDBS), Rajbhasha, and Protocol & Security Services, with the General discipline accepting a Bachelor's degree in any subject.",
+      "title": "Assistant Manager (Grade A) Recruitment 2026",
+      "summary": "Recruitment for Assistant Manager positions in various disciplines like Rural Development Banking Service (RDBS), Legal, and Protocol & Security Service.",
       "advtNo": null,
-      "posts": "80-100 (expected)",
-      "url": "https://www.nabard.org/career-notices",
+      "posts": "80-100 (Expected)",
+      "url": "https://www.nabard.org/",
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "2026-07-XX or 2026-08-XX",
+      "expected": "2026-07-XX to 2026-08-XX",
       "fit": "strong",
-      "fitLabel": "Any engineering bachelor's degree is eligible for the General discipline, aligning with management interest.",
+      "fitLabel": "Any-graduate management exam",
       "tags": [
-        "Assistant Manager",
-        "Grade A"
+        "Management",
+        "Banking"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z"
     },
@@ -1102,11 +1186,11 @@
       "source": "rbi",
       "org": "RBI",
       "title": "Lateral Recruitment of Site Engineers",
-      "summary": "Lateral recruitment for Site Engineers on full-time contract basis in RBI. This is a core engineering role, not aligned with the candidate's software engineering background or interest in management/IT.",
+      "summary": "Recruitment for Site Engineers on full-time contract basis in RBI. Eligibility typically includes engineering degrees. Details on vacancies and selection process are in the official notice.",
       "advtNo": null,
       "posts": null,
       "url": "https://opportunities.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=5097",
-      "status": "open",
+      "status": "closed",
       "opensOn": null,
       "closesOn": null,
       "expected": null,
@@ -1407,6 +1491,27 @@
         "Management"
       ],
       "firstSeen": "2026-07-12T22:10:37.462Z"
+    },
+    {
+      "id": "ongc-graduate-trainee-engineers-and-geologists",
+      "source": "psu-sweep",
+      "org": "ONGC",
+      "title": "Graduate Trainee (Engineers and Geologists)",
+      "summary": "Recruitment for Graduate Trainee (E1 level) in Engineering (including Mechanical) and Geoscience disciplines through GATE 2026.",
+      "advtNo": "2/2026 (R&P)",
+      "posts": null,
+      "url": "https://ongcindia.com/",
+      "status": "upcoming",
+      "opensOn": "2026-07-17",
+      "closesOn": null,
+      "expected": "2026-08-31",
+      "fit": "moderate",
+      "fitLabel": "Core Mechanical Engineering Graduate Trainee role, but candidate has B.Tech Mechanical.",
+      "tags": [
+        "Engineering",
+        "Mechanical"
+      ],
+      "firstSeen": "2026-07-15T01:50:12.391Z"
     }
   ]
 }
