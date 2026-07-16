@@ -1,24 +1,24 @@
 {
-  "lastScan": "2026-07-15T01:50:57.863Z",
+  "lastScan": "2026-07-16T01:58:06.046Z",
   "jobs": [
     {
       "id": "staff-selection-commission-combined-graduate-level-examination-cgl-2026",
       "source": "ssc",
       "org": "Staff Selection Commission",
-      "title": "Combined Graduate Level Examination, 2026",
-      "summary": "Recruitment for approximately 12,256 Group B and Group C posts across various Ministries and Departments of the Government of India.",
+      "title": "Combined Graduate Level Examination (CGL) 2026",
+      "summary": "Recruitment for 12,256 Group B and Group C posts in various Central Government Ministries, Departments, Constitutional Bodies, Statutory Bodies, and Tribunals. Posts include Assistant Section Officer, Assistant Audit Officer, Income Tax Inspector, Examiner, Assistant Enforcement Officer, Auditor, Accountant, Tax Assistant, and Junior Statistical Officer.",
       "advtNo": "F. No. HQ-C11018/1/2026-C-1",
       "posts": 12256,
-      "url": "https://ssc.gov.in",
+      "url": "https://ssc.gov.in/",
       "status": "closed",
-      "opensOn": "2026-06-23",
+      "opensOn": "2026-05-21",
       "closesOn": "2026-06-25",
       "expected": "Tier-I Exam: August-September 2026, Tier-II Exam: December 2026",
       "fit": "strong",
-      "fitLabel": "Any-graduate management exam, fits candidate's B.Tech degree and interest in management roles.",
+      "fitLabel": "Accepts any engineering bachelor's degree for various Group B and C management/administrative roles.",
       "tags": [
         "Management",
-        "Any Graduate"
+        "Government Job"
       ],
       "firstSeen": "2026-07-10T18:27:32.964Z"
     },
@@ -130,18 +130,18 @@
     {
       "id": "bhel-engineer-trainee-mechanical",
       "source": "psu-sweep",
-      "org": "BHEL",
-      "title": "Engineer Trainee",
-      "summary": "Recruitment for Engineer Trainees in Mechanical and other engineering disciplines through GATE 2026.",
+      "org": "BEL",
+      "title": "Trainee Engineer",
+      "summary": "Bharat Electronics Limited released a recruitment notification for 9 Trainee Engineer vacancies. Eligible candidates could apply online.",
       "advtNo": null,
-      "posts": 150,
-      "url": "https://www.bhel.com/",
-      "status": "upcoming",
+      "posts": 9,
+      "url": "https://www.bel-india.in",
+      "status": "closed",
       "opensOn": "2026-06-17",
       "closesOn": "2026-07-01",
       "expected": "2026-07-31",
       "fit": "moderate",
-      "fitLabel": "Core Mechanical Engineering Trainee role, but candidate has B.Tech Mechanical.",
+      "fitLabel": "",
       "tags": [
         "Engineering",
         "Mechanical"
@@ -453,11 +453,11 @@
     {
       "id": "upsc-recruitment-to-various-posts-in-central-government-ministries-and-departmen",
       "source": "upsc",
-      "org": "UPSC",
-      "title": "Recruitment to various posts in Central Government Ministries and Departments (Advt. No. 07/2026)",
-      "summary": "The Union Public Service Commission has announced 450 vacancies across 54 Group A and Group B posts in various Central Government Ministries and Departments, such as Drug Inspector, Company Prosecutor, and Assistant Engineer, with applications closing on July 17, 2026.",
+      "org": "Union Public Service Commission (UPSC)",
+      "title": "Recruitment for various posts in Central Government Ministries and Departments",
+      "summary": "UPSC has released 450 vacancies across 54 posts in various Central Government Ministries and Departments. Posts include Drug Inspector, Company Prosecutor, Assistant Engineer, and Legal Officer.",
       "advtNo": "07/2026",
-      "posts": "Drug Inspector, Company Prosecutor, Assistant Engineer, Legal Officer",
+      "posts": 450,
       "url": "https://upsconline.nic.in/ora/",
       "status": "open",
       "opensOn": "2026-06-25",
@@ -465,7 +465,10 @@
       "expected": null,
       "fit": "moderate",
       "fitLabel": "Core engineering posts where Mechanical is eligible",
-      "tags": [],
+      "tags": [
+        "Group A",
+        "Group B"
+      ],
       "firstSeen": "2026-07-14T01:48:55.450Z"
     },
     {
@@ -570,41 +573,62 @@
       "id": "ibps-crp-po-mt-xvi-probationary-officer-management-trainee",
       "source": "ibps",
       "org": "IBPS",
-      "title": "CRP Probationary Officers/Management Trainees (CRP PO/MT-XVI)",
-      "summary": "The Institute of Banking Personnel Selection (IBPS) has released the official notification for the Common Recruitment Process for Probationary Officers/Management Trainees (CRP PO/MT-XVI) for 6715 vacancies in participating public sector banks for the financial year 2027-28. Eligible candidates with a Bachelor's degree in any discipline can apply online. The selection process includes Preliminary and Main Examinations, followed by an Interview.",
+      "title": "CRP Probationary Officer / Management Trainee (CRP PO/MT-XVI)",
+      "summary": "The Institute of Banking Personnel Selection (IBPS) has released the official notification for CRP PO/MT-XVI, inviting applications for 6,715 Probationary Officer / Management Trainee posts in 11 participating public sector banks.",
       "advtNo": "CRP PO/MT-XVI",
       "posts": 6715,
-      "url": "https://www.ibps.in/",
+      "url": "https://www.ibps.in/crp-po-mt-xvi/",
       "status": "open",
       "opensOn": "2026-07-01",
       "closesOn": "2026-07-21",
       "expected": null,
       "fit": "strong",
-      "fitLabel": "Strong: This is an any-graduate management exam, which is a strong fit for the candidate's profile and interest in management roles.",
+      "fitLabel": "Any engineering bachelor's degree is eligible for this management role.",
       "tags": [
-        "Banking",
-        "Management"
+        "Probationary Officer",
+        "Management Trainee"
       ],
       "firstSeen": "2026-07-10T18:35:48.707Z"
+    },
+    {
+      "id": "ibps-crp-specialist-officer-crp-spl-xvi",
+      "source": "ibps",
+      "org": "IBPS",
+      "title": "CRP Specialist Officer (CRP SPL-XVI)",
+      "summary": "The Institute of Banking Personnel Selection (IBPS) has released the notification for the recruitment of 745 Specialist Officers (Scale I) in participating public sector banks. Posts include IT Officer, Agricultural Field Officer, Law Officer, HR/Personnel Officer, and Rajbhasha Adhikari. The online application link is available on the official IBPS website.",
+      "advtNo": "CRP SPL-XVI",
+      "posts": 745,
+      "url": "https://www.ibps.in",
+      "status": "open",
+      "opensOn": "2026-07-01",
+      "closesOn": "2026-07-21",
+      "expected": null,
+      "fit": "gated",
+      "fitLabel": "Requires specific professional degrees (e.g., IT Officer requires CS/IT/Electronics degree), not eligible for Mechanical Engineering graduates.",
+      "tags": [
+        "Specialist Officer",
+        "Banking"
+      ],
+      "firstSeen": "2026-07-16T01:56:14.376Z"
     },
     {
       "id": "nabard-specialists-on-contract",
       "source": "nabard",
       "org": "NABARD",
-      "title": "Specialists on Contract Recruitment 2026",
-      "summary": "Recruitment for 6 specialist positions on contract including Data Architect, Application Solution Architect, Technology Solution Architect, Carbon Consultant, Climate Change Specialist - Mitigation, and Specialist- Derivatives and Treasury Risk Management.",
+      "title": "Specialists on Contract",
+      "summary": "Recruitment for 6 Specialist positions including Data Architect, Application Solution Architect, Technology Solution Architect, Carbon Consultant, Climate Change Specialist - Mitigation, and Specialist- Derivatives and Treasury Risk Management.",
       "advtNo": "03",
       "posts": 6,
-      "url": "https://www.nabard.org/",
+      "url": "https://www.nabard.org/career-notices",
       "status": "open",
       "opensOn": "2026-07-10",
       "closesOn": "2026-07-23",
       "expected": null,
       "fit": "gated",
-      "fitLabel": "IT roles (Data Architect, Application Solution Architect, Technology Solution Architect) require CS/IT/Electronics degree (gated); other specialist roles are not core management or direct fit for software engineering experience.",
+      "fitLabel": "Requires CS/IT/Electronics degree",
       "tags": [
-        "Specialist",
-        "Contract"
+        "IT",
+        "Specialist"
       ],
       "firstSeen": "2026-07-12T09:31:57.251Z"
     },
@@ -650,27 +674,6 @@
       "firstSeen": "2026-07-10T18:35:04.848Z"
     },
     {
-      "id": "iocl-apprentice-trade-technician-apprentice",
-      "source": "psu-sweep",
-      "org": "IOCL",
-      "title": "Apprentice (Trade / Technician Apprentice)",
-      "summary": "Indian Oil Corporation Limited (IOCL) has released a notification for the engagement of apprentices across various refinery units, covering trades and disciplines including Chemical, Mechanical, Electrical, Instrumentation, Secretarial Assistant, Accountant, and Data Entry Operator.",
-      "advtNo": null,
-      "posts": 1524,
-      "url": "https://www.iocl.com",
-      "status": "open",
-      "opensOn": "2026-06-29",
-      "closesOn": "2026-07-28",
-      "expected": null,
-      "fit": "moderate",
-      "fitLabel": "B.Tech Mechanical is eligible for Technician Apprentice (Mechanical) role, which is a core engineering post.",
-      "tags": [
-        "Apprentice",
-        "Mechanical"
-      ],
-      "firstSeen": "2026-07-12T07:43:17.732Z"
-    },
-    {
       "id": "indian-oil-corporation-limited-iocl-apprentice-recruitment-2026",
       "source": "psu-sweep",
       "org": "Indian Oil Corporation Limited (IOCL)",
@@ -690,6 +693,24 @@
         "Engineering"
       ],
       "firstSeen": "2026-07-12T17:34:18.140Z"
+    },
+    {
+      "id": "iocl-apprentice-mathura-gujarat-paradip-bongaigaon-refineries",
+      "source": "psu-sweep",
+      "org": "IOCL",
+      "title": "Apprentice (Mathura, Gujarat, Paradip, Bongaigaon refineries)",
+      "summary": "Indian Oil Corporation Limited has released apprentice vacancies for Mathura, Gujarat, Paradip and Bongaigaon refineries.",
+      "advtNo": null,
+      "posts": 1542,
+      "url": "https://iocl.com/",
+      "status": "open",
+      "opensOn": null,
+      "closesOn": "2026-07-28",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "",
+      "tags": [],
+      "firstSeen": "2026-07-16T01:56:58.631Z"
     },
     {
       "id": "railway-recruitment-board-technician-grade-1-signal-and-technician-grade-3",
@@ -716,17 +737,17 @@
       "id": "railway-recruitment-board-rrb-technician-grade-i-signal-and-various-categories-o",
       "source": "rrb",
       "org": "Railway Recruitment Board (RRB)",
-      "title": "Technician Grade-I Signal and various categories of Technician Grade-III",
-      "summary": "The Railway Recruitment Board has released Centralised Employment Notice (CEN) No. 02/2026 for the recruitment of 6,557 Technician posts, comprising 323 Technician Grade-I (Signal) and 6,234 Technician Grade-III vacancies across multiple railway zones. The online application window opened on June 30, 2026, and will close on July 29, 2026.",
+      "title": "Technician Grade I (Signal) and Grade III",
+      "summary": "Recruitment for 6,557 Technician posts (323 for Grade I Signal, 6234 for Grade III) across various Railway Zones. The online application process is currently open.",
       "advtNo": "CEN 02/2026",
       "posts": 6557,
-      "url": "https://www.rrbapply.gov.in",
+      "url": "https://www.rrbapply.gov.in/",
       "status": "open",
       "opensOn": "2026-06-30",
       "closesOn": "2026-07-29",
       "expected": null,
       "fit": "moderate",
-      "fitLabel": "B.Tech Mechanical eligible for core technical roles.",
+      "fitLabel": "Core engineering posts where Mechanical is eligible are 'moderate'.",
       "tags": [
         "Technician",
         "Engineering"
@@ -881,11 +902,29 @@
       "firstSeen": "2026-07-15T01:50:12.391Z"
     },
     {
+      "id": "sail-young-professional-yp-1-yp-2-and-yp-3",
+      "source": "psu-sweep",
+      "org": "SAIL",
+      "title": "Young Professional (YP-1, YP-2 and YP-3)",
+      "summary": "Steel Authority of India Limited has announced recruitment for 23 Young Professional posts on a fixed-term basis in various departments including engineering, finance, IT, and HR.",
+      "advtNo": null,
+      "posts": 23,
+      "url": "https://www.sail.co.in",
+      "status": "open",
+      "opensOn": "2026-07-10",
+      "closesOn": "2026-07-31",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "",
+      "tags": [],
+      "firstSeen": "2026-07-16T01:56:58.631Z"
+    },
+    {
       "id": "uppsc-uttar-pradesh-public-service-commission-combined-state-upper-subordinate-services-pcs-2026",
       "source": "uppsc",
       "org": "UPPSC",
       "title": "Combined State / Upper Subordinate Services (PCS) (General/Special Recruitment) Examination-2026",
-      "summary": "Uttar Pradesh Public Service Commission (UPPSC) invites applications for various administrative and management posts through the PCS Examination 2026. Open to any graduate, selection involves preliminary, main exams, and interview.",
+      "summary": "Recruitment for various administrative and subordinate services in Uttar Pradesh through the PCS Examination-2026. Eligibility is typically any bachelor's degree. Selection involves preliminary, main exams, and interview.",
       "advtNo": "A-1/E-1/2026",
       "posts": 500,
       "url": "https://uppsc.up.nic.in/",
@@ -920,6 +959,27 @@
         "Officer"
       ],
       "firstSeen": "2026-07-12T07:44:18.087Z"
+    },
+    {
+      "id": "iocl-apprentice-trade-technician-apprentice",
+      "source": "psu-sweep",
+      "org": "IOCL",
+      "title": "Trade and Technician Apprentice (Panipat Refinery)",
+      "summary": "Indian Oil Corporation Limited invites applications for engagement as Trade and Technician Apprentices at its Panipat Refinery & Petrochemical Complex.",
+      "advtNo": "PR/P/Apprentice/60",
+      "posts": 1450,
+      "url": "https://iocl.com/",
+      "status": "open",
+      "opensOn": "2026-07-14",
+      "closesOn": "2026-08-12",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "",
+      "tags": [
+        "Apprentice",
+        "Mechanical"
+      ],
+      "firstSeen": "2026-07-12T07:43:17.732Z"
     },
     {
       "id": "iocl-graduate-apprentice-mechanical",
@@ -962,6 +1022,27 @@
         "Audit"
       ],
       "firstSeen": "2026-07-10T18:37:16.814Z"
+    },
+    {
+      "id": "railway-recruitment-board-rrb-section-controller",
+      "source": "rrb",
+      "org": "Railway Recruitment Board (RRB)",
+      "title": "Section Controller",
+      "summary": "Recruitment for 119 Section Controller posts in various Zonal Railways. This is a Level-6 central government job, and the online application process is currently open.",
+      "advtNo": "CEN 03/2026",
+      "posts": 119,
+      "url": "https://www.rrbapply.gov.in/",
+      "status": "open",
+      "opensOn": "2026-07-15",
+      "closesOn": "2026-08-14",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "Any-graduate management exams are 'strong'.",
+      "tags": [
+        "Management",
+        "Graduate"
+      ],
+      "firstSeen": "2026-07-16T01:55:43.362Z"
     },
     {
       "id": "upsc-for-epfo-enforcement-officer-accounts-officer-eo-ao-and-assistant-provident",
@@ -1044,6 +1125,24 @@
       "firstSeen": "2026-07-10T18:43:08.923Z"
     },
     {
+      "id": "hal-management-trainees-engineers",
+      "source": "psu-sweep",
+      "org": "HAL",
+      "title": "Management Trainees & Engineers",
+      "summary": "Hindustan Aeronautics Limited has released division-wise notifications for various posts including Management Trainees, Design Engineers, and Apprentices. Applications are actively open for multiple engineering and technician cadres.",
+      "advtNo": null,
+      "posts": null,
+      "url": "https://careers.hal-india.co.in",
+      "status": "open",
+      "opensOn": "2026-06-15",
+      "closesOn": "2026-08-31",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "",
+      "tags": [],
+      "firstSeen": "2026-07-16T01:56:58.631Z"
+    },
+    {
       "id": "union-public-service-commission-upsc-civil-services-examination-cse-2027",
       "source": "upsc",
       "org": "Union Public Service Commission (UPSC)",
@@ -1068,15 +1167,15 @@
       "id": "nabard-grade-a-assistant-manager-rdbs-generalist",
       "source": "nabard",
       "org": "NABARD",
-      "title": "Assistant Manager (Grade A) Recruitment 2026",
-      "summary": "Recruitment for Assistant Manager positions in various disciplines like Rural Development Banking Service (RDBS), Legal, and Protocol & Security Service.",
+      "title": "Assistant Manager (Grade A)",
+      "summary": "Recruitment for Assistant Manager positions in various streams such as Rural Development Banking Service (RDBS)/General, Legal, Protocol & Security Service (P&SS), and Rajbhasha Service.",
       "advtNo": null,
-      "posts": "80-100 (Expected)",
-      "url": "https://www.nabard.org/",
+      "posts": "80-100 (expected)",
+      "url": "https://www.nabard.org",
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "2026-07-XX to 2026-08-XX",
+      "expected": "2026-08-01",
       "fit": "strong",
       "fitLabel": "Any-graduate management exam",
       "tags": [
@@ -1497,7 +1596,7 @@
       "source": "psu-sweep",
       "org": "ONGC",
       "title": "Graduate Trainee (Engineers and Geologists)",
-      "summary": "Recruitment for Graduate Trainee (E1 level) in Engineering (including Mechanical) and Geoscience disciplines through GATE 2026.",
+      "summary": "Oil and Natural Gas Corporation has released a short notification inviting applications for Graduate Trainee (GT) posts in E1 level in Engineering and Geoscience disciplines. Selection is based on GATE 2026 score.",
       "advtNo": "2/2026 (R&P)",
       "posts": null,
       "url": "https://ongcindia.com/",
@@ -1506,7 +1605,7 @@
       "closesOn": null,
       "expected": "2026-08-31",
       "fit": "moderate",
-      "fitLabel": "Core Mechanical Engineering Graduate Trainee role, but candidate has B.Tech Mechanical.",
+      "fitLabel": "",
       "tags": [
         "Engineering",
         "Mechanical"
