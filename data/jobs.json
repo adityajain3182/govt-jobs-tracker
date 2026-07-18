@@ -1,33 +1,12 @@
 {
-  "lastScan": "2026-07-17T02:02:00.740Z",
+  "lastScan": "2026-07-18T01:53:45.589Z",
   "jobs": [
-    {
-      "id": "railway-recruitment-board-rrb-assistant-loco-pilot-alp-recruitment-cen-01-2026",
-      "source": "rrb",
-      "org": "Railway Recruitment Board (RRB)",
-      "title": "Assistant Loco Pilot (ALP) Recruitment (CEN 01/2026)",
-      "summary": "The Railway Recruitment Boards (RRBs) officially announced the Assistant Loco Pilot (ALP) Recruitment 2026 under CEN No. 01/2026, with 11,127 vacancies. The online application process was conducted from May 15, 2026, to June 14, 2026. An application correction window was also provided from June 17, 2026, to June 26, 2026. Eligible candidates included those with Matriculation + ITI or a Diploma/Degree in Engineering.",
-      "advtNo": "CEN 01/2026",
-      "posts": 11127,
-      "url": "https://rrbapply.gov.in/",
-      "status": "closed",
-      "opensOn": "2026-05-15",
-      "closesOn": "2026-06-14",
-      "expected": null,
-      "fit": "moderate",
-      "fitLabel": "B.Tech in Mechanical Engineering is an eligible qualification for Assistant Loco Pilot, which is a core engineering/technical role.",
-      "tags": [
-        "Assistant Loco Pilot",
-        "ALP"
-      ],
-      "firstSeen": "2026-07-17T01:59:39.013Z"
-    },
     {
       "id": "staff-selection-commission-combined-graduate-level-examination-cgl-2026",
       "source": "ssc",
-      "org": "Staff Selection Commission",
+      "org": "SSC",
       "title": "Combined Graduate Level Examination (CGL) 2026",
-      "summary": "Recruitment for 12,256 Group B and Group C posts in various Central Government Ministries, Departments, Constitutional Bodies, Statutory Bodies, and Tribunals. Posts include Assistant Section Officer, Assistant Audit Officer, Income Tax Inspector, Examiner, Assistant Enforcement Officer, Auditor, Accountant, Tax Assistant, and Junior Statistical Officer.",
+      "summary": "Recruitment for various Group B and C posts in central government departments. A total of 12,256 vacancies have been announced. Eligibility requires a bachelor's degree in any discipline. The application window was extended from May 21, 2026, to June 25, 2026, with the last date for fee payment on June 26, 2026. An application correction window was open from July 1 to July 3, 2026.",
       "advtNo": "F. No. HQ-C11018/1/2026-C-1",
       "posts": 12256,
       "url": "https://ssc.gov.in/",
@@ -36,7 +15,7 @@
       "closesOn": "2026-06-25",
       "expected": "Tier-I Exam: August-September 2026, Tier-II Exam: December 2026",
       "fit": "strong",
-      "fitLabel": "Accepts any engineering bachelor's degree for various Group B and C management/administrative roles.",
+      "fitLabel": "Accepts any bachelor's degree, suitable for management/administrative roles.",
       "tags": [
         "Management",
         "Government Job"
@@ -63,6 +42,27 @@
         "Programming"
       ],
       "firstSeen": "2026-07-12T07:44:18.087Z"
+    },
+    {
+      "id": "railway-recruitment-board-rrb-assistant-loco-pilot-alp-recruitment-cen-01-2026",
+      "source": "rrb",
+      "org": "Railway Recruitment Board (RRB)",
+      "title": "Assistant Loco Pilot (ALP)",
+      "summary": "The detailed RRB ALP Notification 2026 (CEN 01/2026) was released for 11127 Assistant Loco Pilot posts. The online application process was from 15th May 2026 to 14th June 2026. The application correction window was open from 17th June to 26th June 2026. Eligibility includes Matriculation (10th) with ITI, Diploma, Apprenticeship, and Engineering Degree.",
+      "advtNo": "CEN 01/2026",
+      "posts": 11127,
+      "url": "https://www.rrbapply.gov.in/",
+      "status": "closed",
+      "opensOn": "2026-05-15",
+      "closesOn": "2026-06-26",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Core engineering posts where Mechanical is eligible are \"moderate\".",
+      "tags": [
+        "Engineering",
+        "Technical"
+      ],
+      "firstSeen": "2026-07-17T01:59:39.013Z"
     },
     {
       "id": "ntpc-experienced-professionals-on-fixed-term-basis",
@@ -153,19 +153,18 @@
       "source": "psu-sweep",
       "org": "BEL",
       "title": "Trainee Engineer",
-      "summary": "Bharat Electronics Limited released a recruitment notification for 9 Trainee Engineer vacancies. Eligible candidates could apply online.",
+      "summary": "9 vacancies for Trainee Engineer across multiple engineering disciplines.",
       "advtNo": null,
       "posts": 9,
-      "url": "https://www.bel-india.in",
+      "url": "https://www.bel-india.in/careers",
       "status": "closed",
       "opensOn": "2026-06-17",
       "closesOn": "2026-07-01",
       "expected": "2026-07-31",
       "fit": "moderate",
-      "fitLabel": "",
+      "fitLabel": "Core engineering role, Mechanical eligible.",
       "tags": [
-        "Engineering",
-        "Mechanical"
+        "Engineering"
       ],
       "firstSeen": "2026-07-10T18:36:34.553Z"
     },
@@ -251,6 +250,27 @@
       "firstSeen": "2026-07-13T16:03:08.235Z"
     },
     {
+      "id": "union-public-service-commission-upsc-recruitment-for-over-400-group-a-and-group-",
+      "source": "upsc",
+      "org": "Union Public Service Commission (UPSC)",
+      "title": "Recruitment for over 400 Group 'A' and Group 'B' vacancies across 98 different posts (Advertisement No. 06/2026).",
+      "summary": "The Union Public Service Commission released Advertisement No. 06/2026 for over 400 Group 'A' and Group 'B' vacancies across various Central Government ministries, departments, and Union Territory administrations. Positions mentioned include Assistant Professor, Specialist Grade III Medical Officers, Assistant Mining Geologist, Scientific Officer/Programmer, and other Gazetted positions.",
+      "advtNo": "06/2026",
+      "posts": 400,
+      "url": "https://upsconline.nic.in/ora/",
+      "status": "closed",
+      "opensOn": null,
+      "closesOn": "2026-07-03",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "Likely includes management roles accepting any engineering degree. IT roles (e.g., Programmer) are likely gated due to specific degree requirements. Other specialized roles are low/gated.",
+      "tags": [
+        "Management",
+        "IT"
+      ],
+      "firstSeen": "2026-07-18T01:49:33.569Z"
+    },
+    {
       "id": "bharat-electronics-limited-project-engineer-i-b-e-b-tech-2-yrs-experience",
       "source": "psu-sweep",
       "org": "Bharat Electronics Limited",
@@ -272,20 +292,19 @@
       "id": "state-bank-of-india-probationary-officers-2026-any-graduate",
       "source": "sbi",
       "org": "SBI",
-      "title": "Probationary Officers",
-      "summary": "State Bank of India invited online applications from eligible Indian citizens for appointment as Probationary Officers.",
+      "title": "Probationary Officers (PO)",
+      "summary": "Recruitment of Probationary Officers. Any engineering bachelor's degree is eligible. Application window was 18.06.2026 to 08.07.2026. This is a strong fit for management roles.",
       "advtNo": "CRPD/PO/2026-27/09",
       "posts": 1500,
-      "url": "https://sbi.bank.in/web/careers/current-openings",
+      "url": "https://ibpsreg.ibps.in/sbipojun26/",
       "status": "closed",
       "opensOn": "2026-06-18",
       "closesOn": "2026-07-08",
       "expected": null,
       "fit": "strong",
-      "fitLabel": "Management role, accepts any engineering bachelor's degree.",
+      "fitLabel": "Strong fit — management",
       "tags": [
-        "Management",
-        "Banking"
+        "Any graduate"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z"
     },
@@ -334,9 +353,9 @@
     {
       "id": "isro-ursc-junior-research-fellow-jrf-recruitment",
       "source": "isro",
-      "org": "ISRO URSC",
-      "title": "Junior Research Fellow (JRF) Recruitment",
-      "summary": "URSC, Bengaluru invites online applications for Junior Research Fellow (JRF) positions. The application window is from June 12, 2026, to July 11, 2026. Eligibility typically requires a Master's degree or B.Tech with strong academic record.",
+      "org": "URSC",
+      "title": "Junior Research Fellow (JRF)",
+      "summary": "Online applications invited for Junior Research Fellow (JRF) positions at URSC, Bengaluru. Application window was from June 12, 2026 to July 11, 2026. Mechanical B.Tech might be eligible for some research roles.",
       "advtNo": null,
       "posts": "JRF posts",
       "url": "https://www.isro.gov.in/URSCRecruitment11.html",
@@ -345,7 +364,7 @@
       "closesOn": "2026-07-11",
       "expected": null,
       "fit": "moderate",
-      "fitLabel": "Moderate fit \n research",
+      "fitLabel": "Moderate fit — research/technical",
       "tags": [],
       "firstSeen": "2026-07-10T18:30:30.793Z"
     },
@@ -368,6 +387,27 @@
         "IT role"
       ],
       "firstSeen": "2026-07-10T18:31:55.031Z"
+    },
+    {
+      "id": "nabard-specialist-on-contract-it-roles",
+      "source": "nabard",
+      "org": "NABARD",
+      "title": "Specialist Posts",
+      "summary": "Recruitment for 8 Specialist Posts. Previous notifications for specialist roles have included streams like Finance, IT, HR, Risk, and Climate sectors.",
+      "advtNo": "03",
+      "posts": 8,
+      "url": "https://www.nabard.org/career.aspx",
+      "status": "closed",
+      "opensOn": "2026-07-10",
+      "closesOn": "2026-07-15",
+      "expected": null,
+      "fit": "gated",
+      "fitLabel": "Likely includes IT specialist roles requiring specific degree not held by candidate",
+      "tags": [
+        "Specialist",
+        "Contractual"
+      ],
+      "firstSeen": "2026-07-12T15:11:07.657Z"
     },
     {
       "id": "bel-sr-assistant-engineer-fixed-tenure-basis-for-panchkula-unit",
@@ -420,7 +460,7 @@
       "advtNo": "07/2026",
       "posts": null,
       "url": "https://upsconline.nic.in/ora/",
-      "status": "open",
+      "status": "closed",
       "opensOn": "2026-06-25",
       "closesOn": "2026-07-17",
       "expected": null,
@@ -441,7 +481,7 @@
       "advtNo": "07/2026",
       "posts": null,
       "url": "https://upsconline.nic.in/ora/",
-      "status": "open",
+      "status": "closed",
       "opensOn": "2026-06-27",
       "closesOn": "2026-07-17",
       "expected": null,
@@ -459,7 +499,7 @@
       "advtNo": "07/2026",
       "posts": 450,
       "url": "https://upsconline.nic.in/ora/",
-      "status": "open",
+      "status": "closed",
       "opensOn": "2026-06-25",
       "closesOn": "2026-07-17",
       "expected": null,
@@ -475,17 +515,17 @@
       "id": "union-public-service-commission-upsc-recruitment-for-450-vacancies-across-54-pos",
       "source": "upsc",
       "org": "Union Public Service Commission (UPSC)",
-      "title": "Recruitment for 450 vacancies across 54 posts (Advertisement No. 07/2026)",
-      "summary": "The Union Public Service Commission has opened applications for 450 vacancies under Advertisement No. 07/2026, covering 54 post categories including Drug Inspector, Assistant Engineer, Legal Officer, Company Prosecutor, Scientific Officer, and Specialist Grade III. The recruitment drive spans engineering, law, pharmacy, medicine, science, and administration.",
+      "title": "Recruitment for 450 vacancies across 54 post categories including Drug Inspector, Assistant Engineer, Legal Officer and more (Advertisement No. 07/2026).",
+      "summary": "The Union Public Service Commission invited Online Recruitment Applications (ORA) for a wide range of Central Government posts, spanning engineering, law, pharmacy, medicine, science, and administration. Selection is through Interview, or a Recruitment Test followed by an Interview.",
       "advtNo": "07/2026",
       "posts": 450,
-      "url": "https://upsconline.nic.in",
-      "status": "open",
-      "opensOn": "2026-06-25",
+      "url": "https://upsconline.nic.in/ora/",
+      "status": "closed",
+      "opensOn": "2026-06-27",
       "closesOn": "2026-07-17",
       "expected": null,
       "fit": "strong",
-      "fitLabel": "Potential for management/administrative roles (strong). IT roles would be 'gated' due to degree requirements. Core mechanical engineering roles are not of primary interest.",
+      "fitLabel": "Includes administrative/management roles likely accepting any engineering degree. Core engineering roles are moderate. Specialized roles (e.g., Legal, Medical, specific Science) are gated/low.",
       "tags": [
         "Management",
         "Administration"
@@ -531,6 +571,24 @@
       "firstSeen": "2026-07-10T18:31:02.930Z"
     },
     {
+      "id": "sbi-dba-navy-advisor-capf-cdba",
+      "source": "sbi",
+      "org": "SBI",
+      "title": "DBA (Navy), Advisor (CAPF), CDBA",
+      "summary": "Engagement of Specialist Cadre Officers on contract for DBA (Navy), Advisor (CAPF), and CDBA roles. Online registration extended till 18.07.2026. IT roles likely require specific CS/IT/Electronics degrees, making it degree-gated.",
+      "advtNo": "CRPD/SCO/2026-27/10",
+      "posts": null,
+      "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-10/apply",
+      "status": "open",
+      "opensOn": null,
+      "closesOn": "2026-07-18",
+      "expected": null,
+      "fit": "gated",
+      "fitLabel": "Degree-gated: CS/IT",
+      "tags": [],
+      "firstSeen": "2026-07-18T01:48:19.225Z"
+    },
+    {
       "id": "mpsc-group-c-posts-clerk-typist-tax-assistant-assistant-motor-vehicle-inspector-",
       "source": "regulators-sweep",
       "org": "Maharashtra Public Service Commission (MPSC)",
@@ -573,22 +631,43 @@
       "id": "ibps-crp-po-mt-xvi-probationary-officer-management-trainee",
       "source": "ibps",
       "org": "IBPS",
-      "title": "Common Recruitment Process for Recruitment of Specialist Officers in Participating Banks (CRP SPL-XVI) - IT Officer",
-      "summary": "Recruitment of Specialist Officers (Scale I) including IT Officer posts in Participating Public Sector Banks for the 2027-28 recruitment cycle.",
-      "advtNo": "CRP SPL-XVI",
-      "posts": 301,
-      "url": "https://www.ibps.in/crp-spl-xvi/",
+      "title": "CRP PO/MT-XVI (Probationary Officer/Management Trainee)",
+      "summary": "Recruitment of Probationary Officers/Management Trainees (Scale I) in participating Public Sector Banks for the financial year 2027-28.",
+      "advtNo": "CRP PO/MT-XVI",
+      "posts": 6715,
+      "url": "https://www.ibps.in/crp-po-mts-xvi/",
       "status": "open",
       "opensOn": "2026-07-01",
       "closesOn": "2026-07-21",
       "expected": "2026-08-XX",
-      "fit": "gated",
-      "fitLabel": "IT Officer post requires CS/IT/Electronics degree, which candidate (B.Tech Mechanical) does not have.",
+      "fit": "strong",
+      "fitLabel": "Any graduate management exam, suitable for B.Tech Mechanical.",
       "tags": [
-        "Specialist Officer",
-        "Banking"
+        "Banking",
+        "Management"
       ],
       "firstSeen": "2026-07-10T18:35:48.707Z"
+    },
+    {
+      "id": "ibps-crp-spl-xvi-specialist-officer",
+      "source": "ibps",
+      "org": "IBPS",
+      "title": "CRP SPL-XVI (Specialist Officer)",
+      "summary": "Recruitment of Specialist Officers (Scale I) in participating Public Sector Banks for various specialist cadres including IT Officer, Agricultural Field Officer, Law Officer, HR/Personnel Officer, and Rajbhasha Adhikari.",
+      "advtNo": "CRP SPL-XVI",
+      "posts": 745,
+      "url": "https://www.ibps.in/crp-specialist-officers-xvi/",
+      "status": "open",
+      "opensOn": "2026-07-01",
+      "closesOn": "2026-07-21",
+      "expected": null,
+      "fit": "gated",
+      "fitLabel": "IT Officer requires CS/IT/Electronics degree (candidate has B.Tech Mechanical). Other specialist roles require specific professional degrees not held by the candidate.",
+      "tags": [
+        "Banking",
+        "Specialist Officer"
+      ],
+      "firstSeen": "2026-07-18T01:51:55.611Z"
     },
     {
       "id": "nabard-specialists-on-contract",
@@ -612,27 +691,6 @@
       "firstSeen": "2026-07-12T09:31:57.251Z"
     },
     {
-      "id": "nabard-specialist-on-contract-it-roles",
-      "source": "nabard",
-      "org": "NABARD",
-      "title": "Specialist on Contract (IT Roles)",
-      "summary": "Recruitment for contractual Specialist posts in IT (Data Architect, Application Solution Architect, Technology Solution Architect) at Head Office, Mumbai.",
-      "advtNo": "03",
-      "posts": 3,
-      "url": "https://www.nabard.org",
-      "status": "open",
-      "opensOn": "2026-07-10",
-      "closesOn": "2026-07-23",
-      "expected": null,
-      "fit": "gated",
-      "fitLabel": "Requires CS/IT/Electronics degree, which candidate does not have.",
-      "tags": [
-        "IT",
-        "Contractual"
-      ],
-      "firstSeen": "2026-07-12T15:11:07.657Z"
-    },
-    {
       "id": "sebi-executive-director",
       "source": "sebi",
       "org": "SEBI",
@@ -651,27 +709,6 @@
         "Management role"
       ],
       "firstSeen": "2026-07-10T18:35:04.848Z"
-    },
-    {
-      "id": "uppsc-uttar-pradesh-public-service-commission-combined-state-upper-subordinate-services-pcs-2026",
-      "source": "regulators-sweep",
-      "org": "Uttar Pradesh Public Service Commission (UPPSC)",
-      "title": "Combined State/Upper Subordinate Services (PCS) Examination",
-      "summary": "The UPPSC PCS 2026 Notification was released on June 25, 2026, for approximately 500 vacancies across various Group A and Group B Gazetted Posts, including Deputy Collector, Deputy Superintendent of Police (DSP), Block Development Officer (BDO), and Assistant Labour Commissioner. The online application process started on June 25, 2026, and will continue until July 27, 2026. Candidates must have a Bachelor's degree in any stream and be between 21 and 40 years of age as of July 1, 2026. One Time Registration (OTR) is mandatory.",
-      "advtNo": "A-1/E-1/2026",
-      "posts": 500,
-      "url": "https://uppsc.up.nic.in",
-      "status": "open",
-      "opensOn": "2026-06-25",
-      "closesOn": "2026-07-27",
-      "expected": null,
-      "fit": "strong",
-      "fitLabel": "Any bachelor's degree is eligible for these management and administrative roles, which aligns with the candidate's B.Tech background and interest in management.",
-      "tags": [
-        "Management",
-        "Generalist"
-      ],
-      "firstSeen": "2026-07-10T12:00:00.000Z"
     },
     {
       "id": "indian-oil-corporation-limited-iocl-apprentice-recruitment-2026",
@@ -926,19 +963,63 @@
       "id": "sail-young-professional-yp-1-yp-2-and-yp-3",
       "source": "psu-sweep",
       "org": "SAIL",
-      "title": "Young Professional (YP-1, YP-2 and YP-3)",
-      "summary": "Steel Authority of India Limited has announced recruitment for 23 Young Professional posts on a fixed-term basis in various departments including engineering, finance, IT, and HR.",
+      "title": "Young Professional (YP-1, YP-2, YP-3)",
+      "summary": "23 Young Professional posts on a fixed-term basis at Rourkela Steel Plant, Management Training Institute Ranchi, SAIL Safety Organization Ranchi, and SAIL Digital Transformation Division Ranchi. Open to candidates with engineering, finance, IT, HR or other related qualifications.",
       "advtNo": null,
       "posts": 23,
-      "url": "https://www.sail.co.in",
+      "url": "https://www.sail.co.in/careers",
       "status": "open",
       "opensOn": "2026-07-10",
       "closesOn": "2026-07-31",
       "expected": null,
       "fit": "strong",
-      "fitLabel": "",
-      "tags": [],
+      "fitLabel": "Good fit for management roles; IT roles may be gated by degree requirement.",
+      "tags": [
+        "Management",
+        "IT"
+      ],
       "firstSeen": "2026-07-16T01:56:58.631Z"
+    },
+    {
+      "id": "ongc-graduate-trainee-e1-level-engineering-disciplines",
+      "source": "psu-sweep",
+      "org": "Oil and Natural Gas Corporation (ONGC)",
+      "title": "Graduate Trainee (GT) Recruitment 2026",
+      "summary": "Short notification released for Graduate Trainee (E1 Level) posts in Engineering and Geoscience disciplines. Eligible engineering streams include Mechanical, Electrical, Civil, Instrumentation, Petroleum and Geophysics. Selection based on GATE 2026 score, qualification, and interview.",
+      "advtNo": "2/2026 (R&P)",
+      "posts": 52,
+      "url": "https://www.ongcindia.com/wps/wcm/connect/ongcindia/home/career/",
+      "status": "upcoming",
+      "opensOn": "2026-07-17",
+      "closesOn": "2026-07-31",
+      "expected": "Detailed notification and closing date expected shortly after opening.",
+      "fit": "moderate",
+      "fitLabel": "Core engineering role where Mechanical B.Tech is eligible.",
+      "tags": [
+        "Engineering",
+        "Mechanical"
+      ],
+      "firstSeen": "2026-07-10T18:40:06.128Z"
+    },
+    {
+      "id": "uppsc-uttar-pradesh-public-service-commission-combined-state-upper-subordinate-services-pcs-2026",
+      "source": "uppsc",
+      "org": "UPPSC",
+      "title": "Combined State / Upper Subordinate Services (PCS) (General/Special Recruitment) Examination-2026",
+      "summary": "This is the flagship state civil services exam for various administrative and management roles in Uttar Pradesh. Any engineering graduate is eligible. Selection involves Preliminary, Main examinations, and Interview.",
+      "advtNo": "A-1/E-1/2026",
+      "posts": 500,
+      "url": "https://uppsc.up.nic.in/",
+      "status": "open",
+      "opensOn": "2026-06-25",
+      "closesOn": "2026-08-03",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "Strong fit — management",
+      "tags": [
+        "Any graduate"
+      ],
+      "firstSeen": "2026-07-10T12:00:00.000Z"
     },
     {
       "id": "haryana-public-service-commission-hpsc-district-manager-group-b",
@@ -965,20 +1046,20 @@
       "id": "iocl-apprentice-trade-technician-apprentice",
       "source": "psu-sweep",
       "org": "IOCL",
-      "title": "Trade and Technician Apprentice (Panipat Refinery)",
-      "summary": "Indian Oil Corporation Limited invites applications for engagement as Trade and Technician Apprentices at its Panipat Refinery & Petrochemical Complex.",
-      "advtNo": "PR/P/Apprentice/60",
+      "title": "Apprentice (Trade Apprentice, Technician Apprentice)",
+      "summary": "1450 positions for Apprentices at Panipat Refinery & Petrochemical Complex. Includes Trade Apprentice (Attendant Operator, Fitter, Secretarial Assistant, Accountant, Data Entry Operator) and Technician Apprentice (Chemical, Mechanical, Electrical, Instrumentation).",
+      "advtNo": "PR/P/Apprentice/60(2026-27)",
       "posts": 1450,
-      "url": "https://iocl.com/",
+      "url": "https://iocl.com/careers",
       "status": "open",
       "opensOn": "2026-07-14",
       "closesOn": "2026-08-12",
       "expected": null,
       "fit": "moderate",
-      "fitLabel": "",
+      "fitLabel": "Core engineering apprentice role (Mechanical eligible). Other apprentice roles (Secretarial Assistant, Accountant, Data Entry Operator) are a low fit for the candidate's profile.",
       "tags": [
         "Apprentice",
-        "Mechanical"
+        "Engineering"
       ],
       "firstSeen": "2026-07-12T07:43:17.732Z"
     },
@@ -1029,7 +1110,7 @@
       "source": "rrb",
       "org": "Railway Recruitment Board (RRB)",
       "title": "Section Controller",
-      "summary": "Recruitment for 119 Section Controller posts in various Zonal Railways. This is a Level-6 central government job, and the online application process is currently open.",
+      "summary": "Recruitment for 119 Section Controller vacancies in various RRBs and Railway Zones across India. This Pay Level 6 post offers a starting salary of Rs 35,400 and involves supervising train operations and ensuring safe railway movement. The selection process includes a Computer-Based Test (CBT), Computer-Based Aptitude Test (CBAT), Document Verification, and a Medical Examination. Eligible candidates must hold a graduate degree.",
       "advtNo": "CEN 03/2026",
       "posts": 119,
       "url": "https://www.rrbapply.gov.in/",
@@ -1038,12 +1119,33 @@
       "closesOn": "2026-08-14",
       "expected": null,
       "fit": "strong",
-      "fitLabel": "Any-graduate management exams are 'strong'.",
+      "fitLabel": "Any-graduate management exams (PCS, RBI Grade B, NABARD Grade A, bank PO, SEBI Grade A General which accepts any engineering bachelor's) are \"strong\".",
       "tags": [
         "Management",
         "Graduate"
       ],
       "firstSeen": "2026-07-16T01:55:43.362Z"
+    },
+    {
+      "id": "indian-computer-emergency-response-team-cert-in-scientist-b",
+      "source": "drdo-rac",
+      "org": "Indian Computer Emergency Response Team (CERT-In)",
+      "title": "Scientist 'B'",
+      "summary": "The Indian Computer Emergency Response Team (CERT-In) has announced recruitment for 133 Scientist 'B' Group 'A' Gazetted posts. Eligible disciplines include Computer Science, Data Science & AI, and Electronics. Candidates must possess a valid GATE 2024, 2025, or 2026 score in the prescribed disciplines (CS/DA/EC).",
+      "advtNo": "CERT-In/SCB/2026/1",
+      "posts": 133,
+      "url": "https://www.cert-in.org.in",
+      "status": "open",
+      "opensOn": "2026-07-14",
+      "closesOn": "2026-08-17",
+      "expected": null,
+      "fit": "gated",
+      "fitLabel": "Requires CS/IT/Electronics degree, candidate has Mechanical Engineering.",
+      "tags": [
+        "IT",
+        "Scientist"
+      ],
+      "firstSeen": "2026-07-18T01:47:21.775Z"
     },
     {
       "id": "upsc-for-epfo-enforcement-officer-accounts-officer-eo-ao-and-assistant-provident",
@@ -1210,38 +1312,38 @@
       "id": "railway-recruitment-boards-junior-engineer-je-4-098-approved-vacancies",
       "source": "rrb",
       "org": "Railway Recruitment Board (RRB)",
-      "title": "Junior Engineer (JE), Depot Material Superintendent (DMS), Chemical & Metallurgical Assistant (CMA)",
-      "summary": "An intent notice was released on July 1, 2026, announcing 4,098 approved vacancies for Junior Engineer, Depot Material Superintendent, and Chemical & Metallurgical Assistant posts across various engineering disciplines including Civil, Mechanical, Electrical, Signal & Telecom, Track Machine, Bridge, Workshop, Rolling Stock, IT, and Stores. The Centralised Employment Notification (CEN) is expected to be officially released on July 21, 2026.",
+      "title": "Junior Engineer, Depot Material Superintendent, Chemical Supervisor & Metallurgical Assistant",
+      "summary": "The Centralised Employment Notification (CEN) for Railway Recruitment Board Junior Engineer Recruitment 2026 is expected to be officially released on 21 July 2026. An intent notice on 1st July 2026 announced 4098 approved vacancies for Junior Engineer, Depot Material Superintendent, Chemical Supervisor & Metallurgical Assistant posts. Candidates with an engineering degree or diploma are eligible.",
       "advtNo": null,
       "posts": 4098,
-      "url": "https://www.rrbapply.gov.in",
+      "url": "https://rrb.indianrailways.gov.in/",
       "status": "upcoming",
       "opensOn": "2026-07-21",
       "closesOn": null,
       "expected": "2026-07-21",
       "fit": "moderate",
-      "fitLabel": "B.Tech Mechanical eligible for core engineering roles. IT roles may be gated if specific CS/IT/Electronics degree is required.",
+      "fitLabel": "Core engineering posts where Mechanical is eligible are \"moderate\".",
       "tags": [
-        "Junior Engineer",
-        "JE"
+        "Engineering",
+        "Mechanical"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z"
     },
     {
       "id": "staff-selection-commission-ssc-junior-engineer-civil-electrical-mechanical-2026",
       "source": "ssc",
-      "org": "Staff Selection Commission",
-      "title": "Junior Engineer (Civil, Mechanical, and Electrical) Examination 2026",
-      "summary": "Recruitment for Junior Engineer positions in Civil, Mechanical, and Electrical disciplines in various Central Government departments and organizations.",
+      "org": "SSC",
+      "title": "Junior Engineer (Civil, Mechanical, Electrical) Examination 2026",
+      "summary": "The official notification for the SSC Junior Engineer Examination 2026 is expected to be released in July 2026. This recruitment is for Junior Engineer positions in various government departments and ministries. Candidates must hold a Diploma or Bachelor's Degree in Civil, Mechanical, or Electrical Engineering.",
       "advtNo": null,
       "posts": 3000,
-      "url": "https://ssc.gov.in",
+      "url": "https://ssc.gov.in/",
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
       "expected": "2026-07-XX",
       "fit": "moderate",
-      "fitLabel": "Core engineering post where Mechanical is eligible, but candidate is primarily interested in Management/IT roles.",
+      "fitLabel": "B.Tech Mechanical Engineering is eligible for core engineering posts.",
       "tags": [
         "Engineering",
         "Mechanical Engineering"
@@ -1269,18 +1371,18 @@
     {
       "id": "isro-sdsc-shar-recruitment-for-research-associate-ra-i",
       "source": "isro",
-      "org": "ISRO SDSC SHAR",
-      "title": "Recruitment for Research Associate (RA-I)",
-      "summary": "SDSC SHAR invites applications for Research Associate (RA-I) positions. Eligibility typically requires a Master's or PhD, or B.Tech with relevant research experience. Check detailed advertisement for specific requirements.",
-      "advtNo": "SDSC SHAR/RMT/02/2026",
+      "org": "NESAC",
+      "title": "Research Scientists, Junior Research Fellows and Project Associate - I",
+      "summary": "Recruitment for research and project roles at NESAC. Positions include Research Scientists, Junior Research Fellows, and Project Associate - I. Eligibility likely for specific science/engineering disciplines. Not management/IT focused.",
+      "advtNo": "NESAC/RMT-TEMP/WI-02/2026",
       "posts": "RA-I posts",
-      "url": "https://www.isro.gov.in/SDSCRecruitment25.html",
+      "url": "https://www.isro.gov.in/NESACRecruitment23.html",
       "status": "open",
       "opensOn": null,
       "closesOn": null,
       "expected": null,
       "fit": "moderate",
-      "fitLabel": "Moderate fit \n research",
+      "fitLabel": "Moderate fit — research/technical",
       "tags": [],
       "firstSeen": "2026-07-10T18:30:30.793Z"
     },
@@ -1289,11 +1391,11 @@
       "source": "rbi",
       "org": "RBI",
       "title": "Lateral Recruitment of Site Engineers",
-      "summary": "Recruitment for Site Engineers on full-time contract basis in RBI. Eligibility typically includes engineering degrees. Details on vacancies and selection process are in the official notice.",
+      "summary": "RBI is recruiting Site Engineers on Full-Time Contract Basis. A B.Tech in Mechanical Engineering is eligible for some engineering roles, making this a moderate fit for the candidate.",
       "advtNo": null,
       "posts": null,
-      "url": "https://opportunities.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=5097",
-      "status": "closed",
+      "url": "https://opportunities.rbi.org.in/bs_viewcontent.aspx?Id=5097",
+      "status": "open",
       "opensOn": null,
       "closesOn": null,
       "expected": null,
@@ -1368,20 +1470,20 @@
       "id": "ibps-crp-csa-xvi-customer-service-associate-clerk",
       "source": "ibps",
       "org": "IBPS",
-      "title": "CRP Clerks (CRP CSA-XVI)",
-      "summary": "The Institute of Banking Personnel Selection (IBPS) is expected to release the notification for the Common Recruitment Process for Clerks (CRP CSA-XVI) in July-August 2026. The preliminary exams are scheduled for October 10 and 11, 2026, and the mains exam on December 27, 2026. Over 6,000 vacancies are expected for Customer Service Associates (CSA) / Clerk cadre posts in various public sector banks.",
+      "title": "CRP CSA-XVI (Customer Service Associate / Clerk)",
+      "summary": "Recruitment of Clerical Cadre posts (Customer Service Associates) in participating Public Sector Banks for the financial year 2027-28.",
       "advtNo": "CRP CSA-XVI",
       "posts": null,
-      "url": "https://www.ibps.in/",
+      "url": "https://www.ibps.in/crp-clerical-cadre-xvi/",
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "July-August 2026",
+      "expected": "2026-08",
       "fit": "strong",
-      "fitLabel": "Strong: This is an any-graduate management exam, which is a strong fit for the candidate's profile and interest in management roles.",
+      "fitLabel": "Any graduate management exam, suitable for B.Tech Mechanical.",
       "tags": [
         "Banking",
-        "Management"
+        "Clerk"
       ],
       "firstSeen": "2026-07-10T18:35:48.707Z"
     },
@@ -1428,27 +1530,6 @@
       "firstSeen": "2026-07-10T18:37:16.814Z"
     },
     {
-      "id": "ongc-graduate-trainee-e1-level-engineering-disciplines",
-      "source": "psu-sweep",
-      "org": "ONGC",
-      "title": "Graduate Trainee (E1 Level)",
-      "summary": "Oil and Natural Gas Corporation (ONGC) has announced its Graduate Trainee Recruitment 2026 for E1-level positions in Engineering and Geo-Science disciplines, including Mechanical, Electrical, Civil, Instrumentation, Petroleum and Geophysics. Selection is based on GATE 2026 score.",
-      "advtNo": "2/2026 (R&P)",
-      "posts": null,
-      "url": "https://ongcindia.com/",
-      "status": "upcoming",
-      "opensOn": "2026-07-17",
-      "closesOn": null,
-      "expected": "Detailed notification and online application link will be available on 2026-07-17.",
-      "fit": "moderate",
-      "fitLabel": "B.Tech Mechanical is eligible for Graduate Trainee (Mechanical) role, which is a core engineering post.",
-      "tags": [
-        "Engineering",
-        "Mechanical"
-      ],
-      "firstSeen": "2026-07-10T18:40:06.128Z"
-    },
-    {
       "id": "state-bank-of-india-junior-associate-customer-support-sales",
       "source": "sbi",
       "org": "SBI",
@@ -1482,27 +1563,6 @@
       "opensOn": null,
       "closesOn": null,
       "expected": "July 2026",
-      "fit": "moderate",
-      "fitLabel": "Core engineering role where Mechanical B.Tech is eligible.",
-      "tags": [
-        "Engineering",
-        "Mechanical"
-      ],
-      "firstSeen": "2026-07-12T17:34:18.140Z"
-    },
-    {
-      "id": "oil-and-natural-gas-corporation-ongc-graduate-trainee-gt-recruitment-2026",
-      "source": "psu-sweep",
-      "org": "Oil and Natural Gas Corporation (ONGC)",
-      "title": "Graduate Trainee (GT) Recruitment 2026",
-      "summary": "Short notification released for Graduate Trainee (E1 Level) posts in Engineering and Geoscience disciplines. Eligible engineering streams include Mechanical, Electrical, Civil, Instrumentation, Petroleum and Geophysics. Selection based on GATE 2026 score, qualification, and interview.",
-      "advtNo": null,
-      "posts": null,
-      "url": "https://www.ongcindia.com/wps/wcm/connect/ongcindia/home/career/",
-      "status": "upcoming",
-      "opensOn": "2026-07-17",
-      "closesOn": null,
-      "expected": "Detailed notification and closing date expected shortly after opening.",
       "fit": "moderate",
       "fitLabel": "Core engineering role where Mechanical B.Tech is eligible.",
       "tags": [
@@ -1615,6 +1675,27 @@
         "Generalist"
       ],
       "firstSeen": "2026-07-17T02:02:00.724Z"
+    },
+    {
+      "id": "nabard-assistant-manager-grade-a",
+      "source": "nabard",
+      "org": "NABARD",
+      "title": "Assistant Manager (Grade A)",
+      "summary": "Recruitment for Assistant Manager (Grade A) positions in various streams such as Rural Development Banking Service (RDBS), Rajbhasha, and Protocol & Security Services. The official notification for 2026 is expected to announce approximately 80-100 vacancies.",
+      "advtNo": null,
+      "posts": 80,
+      "url": "https://www.nabard.org/career.aspx",
+      "status": "upcoming",
+      "opensOn": null,
+      "closesOn": null,
+      "expected": "2026-07-01 to 2026-08-31",
+      "fit": "strong",
+      "fitLabel": "Any-graduate management exam, accepts any engineering bachelor's degree",
+      "tags": [
+        "Management",
+        "Grade A"
+      ],
+      "firstSeen": "2026-07-18T01:50:10.368Z"
     }
   ]
 }
