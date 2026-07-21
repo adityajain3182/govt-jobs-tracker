@@ -1,2 +1,6 @@
 .env
 node_modules/
+
+# Claude project-context skill: local-only project memory
+.claude/context.md
+.claude/.context-dirty

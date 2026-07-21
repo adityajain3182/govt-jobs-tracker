@@ -3,7 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Applications — Sarkari Tracker</title>
+<title>Shutter — My Applications</title>
+<meta name="description" content="Shutter — track every government job application from submission to result: admit cards, exam dates, centres and outcomes.">
+<meta name="theme-color" content="#24449C">
+<meta name="apple-mobile-web-app-title" content="Shutter">
+<meta property="og:title" content="Shutter — My Applications">
+<meta property="og:description" content="Track every government job application from submission to result.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/favicon.svg">
 <style>
   :root {
     --paper: #F4F6FA;
@@ -32,7 +40,8 @@
   .wrap { max-width: 880px; margin: 0 auto; padding: 0 24px 64px; }
 
   .topnav { display: flex; align-items: baseline; gap: 20px; padding: 14px 0 0; font-size: 14px; }
-  .topnav .brand { font-family: var(--serif); font-weight: 700; font-size: 16px; margin-right: auto; }
+  .topnav .brand { font-family: var(--serif); font-weight: 700; font-size: 16px; margin-right: auto; display: inline-flex; align-items: center; gap: 7px; }
+  .topnav .brand .brand-mark { width: 18px; height: 18px; color: var(--accent); flex: none; }
   .topnav a { color: var(--ink-soft); text-decoration: none; font-weight: 600; padding-bottom: 2px; border-bottom: 2px solid transparent; }
   .topnav a:hover { color: var(--accent); }
   .topnav a.active { color: var(--accent); border-bottom-color: var(--accent); }
@@ -176,7 +185,7 @@
 <div class="wrap">
 
   <nav class="topnav">
-    <span class="brand">Sarkari Tracker</span>
+    <span class="brand"><svg class="brand-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M14.31 8 20.05 17.94M9.69 8H21.17M7.38 12 13.12 2.06M9.69 16 3.95 6.06M14.31 16H2.83M16.62 12 10.88 21.94"/></svg>Shutter</span>
     <a href="/">Job board</a>
     <a href="/applications" class="active">My applications</a>
   </nav>

@@ -26,6 +26,14 @@ const FETCH_TIMEOUT_MS = 45_000;
 const MAX_PAGE_CHARS = 18_000;
 const NEW_BADGE_HOURS = 48;
 
+// PDF eligibility enrichment: read the notification PDF to extract the real
+// experience/age/qualification criteria the listing page never shows.
+const MAX_PDF_READS_PER_RUN = 4;          // budget guard — heavy calls, capped per cron run
+const MAX_PDF_BYTES = 14_000_000;         // inline-data request cap (~14MB raw → ~19MB base64)
+const CANDIDATE_EXP_YEARS = 3;            // upper bound of the profile's 2-3 yrs, for reference
+
+const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36";
+
 const PROFILE = `Candidate profile: B.Tech in Mechanical Engineering, currently working as a
 software engineer in the private sector with 2-3 years of experience. Interested primarily in
 MANAGEMENT and IT roles in Indian government / PSU / banking / regulators / state PSC — not core
@@ -47,6 +55,7 @@ const JOB_SCHEMA = {
       advtNo: { type: "STRING", nullable: true },
       posts: { type: "STRING", nullable: true, description: "Vacancy count as short text, e.g. '745 posts'" },
       url: { type: "STRING", description: "Absolute link to the official notice or portal" },
+      pdfUrl: { type: "STRING", nullable: true, description: "Direct absolute URL to this post's official notification/advertisement PDF if the page links one (a 'detailed advertisement' / 'view notification' PDF), else null" },
       status: { type: "STRING", enum: ["open", "upcoming", "closed"] },
       opensOn: { type: "STRING", nullable: true, description: "ISO date YYYY-MM-DD or null" },
       closesOn: { type: "STRING", nullable: true, description: "ISO date YYYY-MM-DD or null" },
@@ -108,7 +117,7 @@ async function fetchPage(url) {
       signal: controller.signal,
       redirect: "follow",
       headers: {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+        "User-Agent": UA,
         "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8"
       }
     });
@@ -147,6 +156,7 @@ Rules:
 - Dates in the source may be DD-MM-YYYY or DD.MM.YYYY — convert to ISO YYYY-MM-DD.
 - status: "open" if the application window includes today, "upcoming" if it starts later or is only announced, "closed" if it ended.
 - Make urls absolute using the source URL's origin when relative.
+- pdfUrl: if the listing links a direct PDF of the detailed advertisement/notification for a post, set its absolute URL; otherwise null. Prefer the post-specific advt PDF over a generic portal link.
 - If the page shows nothing job-related, return [].`;
 
 async function extractFromContent(source, pageText) {
@@ -172,7 +182,7 @@ async function extractGrounded(source) {
     contents: [{
       role: "user",
       parts: [{
-        text: `${EXTRACT_INSTRUCTIONS}\n\nUse Google Search to answer this:\n${source.query}\n\nReply with ONLY a JSON array matching this shape (no markdown fences):\n[{"org":"","title":"","summary":"","advtNo":null,"posts":null,"url":"","status":"open|upcoming|closed","opensOn":null,"closesOn":null,"expected":null,"fit":"strong|moderate|gated|low","fitLabel":"","tags":[]}]`
+        text: `${EXTRACT_INSTRUCTIONS}\n\nUse Google Search to answer this:\n${source.query}\n\nReply with ONLY a JSON array matching this shape (no markdown fences):\n[{"org":"","title":"","summary":"","advtNo":null,"posts":null,"url":"","pdfUrl":null,"status":"open|upcoming|closed","opensOn":null,"closesOn":null,"expected":null,"fit":"strong|moderate|gated|low","fitLabel":"","tags":[]}]`
       }]
     }],
     tools: [{ google_search: {} }],
@@ -245,13 +255,23 @@ function mergeJobs(store, found, sourceId) {
       advtNo: raw.advtNo || null,
       posts: raw.posts || null,
       url: raw.url,
+      pdfUrl: raw.pdfUrl || null,
       status: raw.status,
       opensOn: raw.opensOn || null,
       closesOn: raw.closesOn || null,
       expected: raw.expected || null,
       fit: raw.fit,
       fitLabel: raw.fitLabel,
-      tags: Array.isArray(raw.tags) ? raw.tags.slice(0, 2) : []
+      tags: Array.isArray(raw.tags) ? raw.tags.slice(0, 2) : [],
+      // Eligibility fields are filled later by the PDF-reading pass; null = not yet
+      // checked. Kept null here so a re-scrape never wipes an enriched value (the
+      // update loop below skips null/empty values).
+      minExperienceYears: null,
+      maxAgeYears: null,
+      qualification: null,
+      experienceNote: null,
+      eligibility: null,
+      eligibilityReason: null
     };
     if (existing) {
       const before = JSON.stringify(existing);
