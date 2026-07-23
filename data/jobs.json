@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-07-22T01:59:12.848Z",
+  "lastScan": "2026-07-23T02:06:37.165Z",
   "jobs": [
     {
       "id": "national-institute-of-electronics-and-information-technology-nielit-programmer-a",
@@ -151,20 +151,21 @@
     {
       "id": "bel-trainee-engineer-i",
       "source": "psu-sweep",
-      "org": "Bharat Electronics Limited (BEL)",
-      "title": "Trainee Engineer",
-      "summary": "BEL released a recruitment notification for 9 Trainee Engineer vacancies. Eligible candidates could apply online.",
+      "org": "Bharat Heavy Electricals Limited (BHEL)",
+      "title": "Engineer Trainee Recruitment",
+      "summary": "BHEL is expected to release a recruitment notification for Engineer Trainee posts in July 2026. This recruitment is for engineering graduates.",
       "advtNo": "02/2026 (R&P)",
       "posts": 9,
-      "url": "https://www.bel-india.in/Careers.aspx",
-      "status": "closed",
+      "url": "https://careers.bhel.in/",
+      "status": "upcoming",
       "opensOn": "2026-06-17",
       "closesOn": "2026-07-01",
       "expected": "July 2026",
       "fit": "moderate",
-      "fitLabel": "Assuming Mechanical Engineering is an eligible discipline for Trainee Engineer, this would be a core engineering role.",
+      "fitLabel": "General Engineering Trainee",
       "tags": [
-        "Engineering"
+        "Engineering",
+        "Trainee"
       ],
       "firstSeen": "2026-07-19T01:59:17.405Z"
     },
@@ -314,9 +315,9 @@
     {
       "id": "state-bank-of-india-probationary-officer",
       "source": "sbi",
-      "org": "State Bank of India",
+      "org": "SBI",
       "title": "Probationary Officer (PO)",
-      "summary": "Recruitment for 1500 Probationary Officer vacancies. Graduates from any discipline are eligible.",
+      "summary": "Recruitment of 1500 Probationary Officers in State Bank of India for graduates from any discipline.",
       "advtNo": "CRPD/PO/2026-27/09",
       "posts": 1500,
       "url": "https://sbi.bank.in/web/careers/current-openings",
@@ -325,7 +326,7 @@
       "closesOn": "2026-07-08",
       "expected": null,
       "fit": "strong",
-      "fitLabel": "Any-graduate management exam.",
+      "fitLabel": "Any-graduate management exam, strong fit for candidate's management interest.",
       "tags": [
         "Management",
         "Banking"
@@ -713,27 +714,6 @@
       "firstSeen": "2026-07-10T12:00:00.000Z"
     },
     {
-      "id": "ibps-crp-po-mt-xvi-probationary-officer-management-trainee",
-      "source": "ibps",
-      "org": "IBPS",
-      "title": "Common Recruitment Process for Recruitment of Customer Service Associates (CRP CSA-XVI)",
-      "summary": "Recruitment of Customer Service Associates (Clerical cadre posts) in Participating Banks.",
-      "advtNo": "CRP CSA-XVI",
-      "posts": 745,
-      "url": "https://www.ibps.in/crp-clerical-cadre-xvi/",
-      "status": "upcoming",
-      "opensOn": "2026-07-01",
-      "closesOn": "2026-07-21",
-      "expected": "August 2026",
-      "fit": "strong",
-      "fitLabel": "Any-graduate management exam.",
-      "tags": [
-        "Management",
-        "Banking"
-      ],
-      "firstSeen": "2026-07-10T18:35:48.707Z"
-    },
-    {
       "id": "nabard-specialists-on-contract",
       "source": "nabard",
       "org": "NABARD",
@@ -778,17 +758,17 @@
       "id": "ibps-common-recruitment-process-for-recruitment-of-probationary-officers-managem",
       "source": "ibps",
       "org": "IBPS",
-      "title": "Common Recruitment Process for Recruitment of Probationary Officers / Management Trainees (CRP PO/MT-XVI)",
-      "summary": "Recruitment of Probationary Officers/Management Trainees in Participating Banks for vacancies of 2027-28.",
+      "title": "CRP PO/MT-XVI (Probationary Officers/Management Trainees)",
+      "summary": "Recruitment of Probationary Officers/Management Trainees in Participating Public Sector Banks for vacancies of 2027-28.",
       "advtNo": "CRP PO/MT-XVI",
       "posts": 7365,
-      "url": "https://www.ibps.in/crp-po-mt-xvi/",
+      "url": "https://www.ibps.in/crp-po-mts-xvi/",
       "status": "open",
       "opensOn": "2026-07-01",
       "closesOn": "2026-07-26",
       "expected": null,
       "fit": "strong",
-      "fitLabel": "Any-graduate management exam.",
+      "fitLabel": "Any-graduate management exam, suitable for the candidate's interest in management roles.",
       "tags": [
         "Management",
         "Banking"
@@ -800,21 +780,21 @@
       "id": "ibps-common-recruitment-process-for-recruitment-of-specialist-officers-in-partic",
       "source": "ibps",
       "org": "IBPS",
-      "title": "Common Recruitment Process for Recruitment of Specialist Officers in Participating Banks (CRP SPL-XVI)",
-      "summary": "Recruitment of Specialist Officers (Scale I) in participating public sector banks for vacancies to be filled in 2027–28.",
+      "title": "CRP SPL-XVI (Specialist Officers)",
+      "summary": "Recruitment of Specialist Officers (Scale I) in various disciplines (IT Officer, Agricultural Field Officer, Law Officer, HR/Personnel Officer, Rajbhasha Adhikari, Marketing Officer) in Participating Public Sector Banks.",
       "advtNo": "CRP SPL-XVI",
       "posts": 1035,
       "url": "https://www.ibps.in/crp-spl-xvi/",
-      "pdfUrl": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
+      "pdfUrl": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
       "status": "open",
       "opensOn": "2026-07-01",
       "closesOn": "2026-07-26",
       "expected": null,
       "fit": "gated",
-      "fitLabel": "IT Officer requires CS/IT/Electronics degree (gated). Other specialist roles require specific degrees not held by the candidate (low).",
+      "fitLabel": "IT Officer post requires a CS/IT/Electronics degree, which the candidate (B.Tech Mechanical) does not have. Other specialist roles are also not a direct fit for a Mechanical Engineer.",
       "tags": [
         "IT",
-        "Specialist Officer"
+        "Banking"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -823,6 +803,27 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-07-22T01:57:54.361Z"
+    },
+    {
+      "id": "uppsc-uttar-pradesh-public-service-commission-combined-state-upper-subordinate-services-pcs-2026",
+      "source": "regulators-sweep",
+      "org": "UPPSC",
+      "title": "Combined State / Upper Subordinate Services (PCS) Examination 2026",
+      "summary": "Recruitment for approximately 500 Group A and Group B administrative posts such as Deputy Collector, Deputy Superintendent of Police (DSP), and Block Development Officer (BDO).",
+      "advtNo": "A-1/E-1/2026",
+      "posts": 500,
+      "url": "https://uppsc.up.nic.in/",
+      "status": "open",
+      "opensOn": "2026-06-25",
+      "closesOn": "2026-07-27",
+      "expected": "2026-12-06 (Prelims Exam)",
+      "fit": "strong",
+      "fitLabel": "General graduate management roles, B.Tech Mechanical is eligible.",
+      "tags": [
+        "Management",
+        "Government"
+      ],
+      "firstSeen": "2026-07-10T12:00:00.000Z"
     },
     {
       "id": "indian-oil-corporation-limited-iocl-apprentice-recruitment-2026",
@@ -848,19 +849,22 @@
     {
       "id": "iocl-apprentice-mathura-gujarat-paradip-bongaigaon-refineries",
       "source": "psu-sweep",
-      "org": "IOCL",
-      "title": "Apprentice (Mathura, Gujarat, Paradip, Bongaigaon refineries)",
-      "summary": "Indian Oil Corporation Limited has released apprentice vacancies for Mathura, Gujarat, Paradip and Bongaigaon refineries.",
+      "org": "Indian Oil Corporation Limited (IOCL)",
+      "title": "Apprentice Recruitment (Mathura, Gujarat, Paradip, Bongaigaon Refineries)",
+      "summary": "IOCL has announced 1542 apprentice vacancies for Mathura, Gujarat, Paradip, and Bongaigaon refineries. The last date to apply for these posts is July 28, 2026.",
       "advtNo": null,
       "posts": 1542,
-      "url": "https://iocl.com/",
+      "url": "https://iocl.com/latest-job-opening",
       "status": "open",
       "opensOn": null,
       "closesOn": "2026-07-28",
       "expected": null,
       "fit": "moderate",
-      "fitLabel": "",
-      "tags": [],
+      "fitLabel": "Core Mechanical Engineering Apprentice (Technician Apprentice Mechanical)",
+      "tags": [
+        "Apprentice",
+        "Engineering"
+      ],
       "firstSeen": "2026-07-16T01:56:58.631Z"
     },
     {
@@ -950,27 +954,6 @@
       "id": "iocl-technician-apprentice-mechanical-haldia-refinery",
       "source": "psu-sweep",
       "org": "IOCL",
-      "title": "Technician Apprentice - Mechanical (Haldia Refinery)",
-      "summary": "Engagement of Technician Apprentice in Mechanical discipline at Haldia Refinery.",
-      "advtNo": "HR/RECTT/01/2026-27(APP)",
-      "posts": 40,
-      "url": "https://iocl.com/",
-      "status": "open",
-      "opensOn": "2026-07-01",
-      "closesOn": "2026-07-30",
-      "expected": null,
-      "fit": "moderate",
-      "fitLabel": "Core mechanical engineering apprenticeship, candidate has B.Tech Mechanical.",
-      "tags": [
-        "Apprenticeship",
-        "Mechanical Engineering"
-      ],
-      "firstSeen": "2026-07-10T18:40:06.128Z"
-    },
-    {
-      "id": "iocl-trade-apprentice-secretarial-assistant-haldia-refinery",
-      "source": "psu-sweep",
-      "org": "IOCL",
       "title": "Trade Apprentice - Data Entry Operator (Fresher) (Haldia Refinery)",
       "summary": "Engagement of Trade Apprentice as Data Entry Operator (Fresher) at Haldia Refinery.",
       "advtNo": "HR/RECTT/01/2026-27(APP)",
@@ -991,21 +974,21 @@
     {
       "id": "sail-young-professionals-recruitment-2026-rourkela-steel-plant",
       "source": "psu-sweep",
-      "org": "SAIL",
-      "title": "Young Professionals Recruitment 2026 (Rourkela Steel Plant)",
-      "summary": "Recruitment of Young Professionals for Rourkela Steel Plant.",
-      "advtNo": null,
+      "org": "Steel Authority of India Limited (SAIL)",
+      "title": "Engagement of Young Professionals (YPs) on Fixed Term Basis",
+      "summary": "23 Young Professional (YP-1, YP-2, YP-3) posts in various departments including Project Execution (Mechanical), AI Engineer, Data Analytics Officer, Data Scientist. Project Execution (Mechanical) is a core engineering role. AI Engineer, Data Analytics Officer, Data Scientist roles are typically IT-focused and often require specific CS/IT/Electronics degrees in government organizations, making them 'gated' for a Mechanical B.Tech.",
+      "advtNo": "RSP/R-YP/2026-01",
       "posts": 23,
       "url": "https://www.sail.co.in/careers",
       "status": "open",
-      "opensOn": null,
+      "opensOn": "2026-07-10",
       "closesOn": "2026-07-31",
       "expected": null,
       "fit": "moderate",
-      "fitLabel": "Likely engineering/management role, assuming engineering graduates are eligible.",
+      "fitLabel": "Includes Project Execution (Mechanical) which is a core engineering role. IT/AI/Data Science roles are 'gated' due to typical degree requirements.",
       "tags": [
         "Engineering",
-        "Management"
+        "Mechanical"
       ],
       "firstSeen": "2026-07-10T18:40:06.128Z"
     },
@@ -1029,27 +1012,6 @@
         "Renewable Energy"
       ],
       "firstSeen": "2026-07-12T11:07:20.770Z"
-    },
-    {
-      "id": "steel-authority-of-india-limited-sail-engagement-of-young-professionals-yps-on-f",
-      "source": "psu-sweep",
-      "org": "Steel Authority of India Limited (SAIL)",
-      "title": "Engagement of Young Professionals (YPs) on Fixed Term Basis",
-      "summary": "23 Young Professional (YP-1, YP-2, YP-3) posts in various departments including Project Execution (Mechanical), AI Engineer, Data Analytics Officer, Data Scientist. Project Execution (Mechanical) is a core engineering role. AI Engineer, Data Analytics Officer, Data Scientist roles are typically IT-focused and often require specific CS/IT/Electronics degrees in government organizations, making them 'gated' for a Mechanical B.Tech.",
-      "advtNo": "RSP/R-YP/2026-01",
-      "posts": 23,
-      "url": "https://www.sail.co.in/careers",
-      "status": "open",
-      "opensOn": "2026-07-10",
-      "closesOn": "2026-07-31",
-      "expected": null,
-      "fit": "moderate",
-      "fitLabel": "Includes Project Execution (Mechanical) which is a core engineering role. IT/AI/Data Science roles are 'gated' due to typical degree requirements.",
-      "tags": [
-        "Engineering",
-        "Mechanical"
-      ],
-      "firstSeen": "2026-07-12T17:34:18.140Z"
     },
     {
       "id": "sail-young-professional-engineering",
@@ -1118,20 +1080,20 @@
       "id": "ongc-graduate-trainee-e1-level-engineering-disciplines",
       "source": "psu-sweep",
       "org": "Oil and Natural Gas Corporation (ONGC)",
-      "title": "Graduate Trainee / Geologists and Engineers (E1 Level)",
-      "summary": "Oil and Natural Gas Corporation (ONGC) has released a detailed notification for its ONGC Recruitment 2026 to hire 52 engineering and geology candidates for the E1 Level of Graduate Trainee posts. Disciplines include Petroleum, Mechanical, Chemical, Instrumentation Engineering, and Geology. The online application process has been initiated from 17th July 2026 till 31st July 2026. Selection process includes Computer Based Test (CBT), Interview & Medical Examination.",
+      "title": "Graduate Trainee (E1 Level) Recruitment",
+      "summary": "ONGC has released a notification for 52 Graduate Trainee posts at the E1 Level in Engineering and Geology disciplines, including Mechanical, Petroleum, Chemical, and Instrumentation engineering. Online applications are accepted from July 17, 2026, to July 31, 2026.",
       "advtNo": "02/2026 (R&P)",
       "posts": 52,
-      "url": "https://ongcindia.com/careers",
+      "url": "https://www.ongcindia.com/web/eng/careers/recruitment-notices",
       "status": "open",
       "opensOn": "2026-07-17",
       "closesOn": "2026-07-31",
       "expected": "2026-08-31",
       "fit": "moderate",
-      "fitLabel": "Core Mechanical Engineering",
+      "fitLabel": "Core Mechanical Engineering Trainee",
       "tags": [
         "Engineering",
-        "Mechanical"
+        "Trainee"
       ],
       "firstSeen": "2026-07-10T18:40:06.128Z"
     },
@@ -1161,22 +1123,23 @@
       "firstSeen": "2026-07-22T01:58:27.411Z"
     },
     {
-      "id": "uppsc-uttar-pradesh-public-service-commission-combined-state-upper-subordinate-services-pcs-2026",
-      "source": "uppsc",
-      "org": "UPPSC",
-      "title": "Combined State / Upper Subordinate Services (PCS) (General/Special Recruitment) Examination-2026",
-      "summary": "Recruitment for various administrative and management posts in Uttar Pradesh state services. Eligibility typically requires any bachelor's degree. Selection involves Prelims, Mains, and Interview.",
-      "advtNo": "A-1/E-1/2026",
-      "posts": 500,
-      "url": "https://uppsc.up.nic.in/",
-      "status": "open",
-      "opensOn": "2026-06-25",
-      "closesOn": "2026-08-03",
-      "expected": null,
-      "fit": "strong",
-      "fitLabel": "Strong fit — management",
+      "id": "staff-selection-commission-ssc-junior-engineer-civil-electrical-mechanical-2026",
+      "source": "ssc",
+      "org": "Staff Selection Commission (SSC)",
+      "title": "Junior Engineer (Civil, Mechanical & Electrical) Examination 2026",
+      "summary": "The Staff Selection Commission (SSC) conducts the Junior Engineer (JE) Examination to recruit candidates for technical roles in various government organizations and departments. This recruitment is open to B. Tech graduates from Civil, Mechanical, and Electrical branches.",
+      "advtNo": null,
+      "posts": "Junior Engineer (Civil, Mechanical & Electrical)",
+      "url": "https://ssc.gov.in",
+      "status": "upcoming",
+      "opensOn": "2026-07",
+      "closesOn": "2026-08",
+      "expected": "Notification in July 2026",
+      "fit": "moderate",
+      "fitLabel": "Core engineering post, Mechanical eligible",
       "tags": [
-        "Any graduate"
+        "Engineering",
+        "Junior Engineer"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z"
     },
@@ -1200,6 +1163,59 @@
         "Officer"
       ],
       "firstSeen": "2026-07-12T07:44:18.087Z"
+    },
+    {
+      "id": "drdo-defence-laboratory-jodhpur-junior-research-fellowship-jrf-mechanical",
+      "source": "drdo-rac",
+      "org": "DRDO SAG, Delhi",
+      "title": "Junior Research Fellows (JRF)",
+      "summary": "Walk-in interview for selection of Junior Research Fellows (JRF).",
+      "advtNo": "SAG 007",
+      "posts": null,
+      "url": "https://drdo.gov.in/drdo/whats-new/vacancies",
+      "pdfUrl": null,
+      "status": "open",
+      "opensOn": "2026-07-10",
+      "closesOn": "2026-08-05",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "",
+      "tags": [],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-07-23T02:02:29.433Z"
+    },
+    {
+      "id": "mpsc-mpsc-group-c-service-examination-2026",
+      "source": "regulators-sweep",
+      "org": "MPSC",
+      "title": "MPSC Group C Service Examination 2026",
+      "summary": "Recruitment for various Group C services including Clerk-Typist, Tax Assistant, Assistant Motor Vehicle Inspector (AMVI), Industry Inspector, and Technical Assistant. Total vacancies increased to 5707.",
+      "advtNo": null,
+      "posts": 5707,
+      "url": "https://www.mpsc.gov.in/",
+      "pdfUrl": null,
+      "status": "open",
+      "opensOn": "2026-06-27",
+      "closesOn": "2026-08-05",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "General graduate roles (Clerk-Typist, Tax Assistant) are strong. Core engineering roles (AMVI, Industry Inspector, Technical Assistant) are moderate, but B.Tech Mechanical is eligible for these combined services.",
+      "tags": [
+        "Management",
+        "Engineering"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-07-23T02:06:37.146Z"
     },
     {
       "id": "iocl-graduate-apprentice-mechanical",
@@ -1226,19 +1242,22 @@
       "id": "hindustan-aeronautics-limited-hal-finance-officer-deputy-manager-finance-manager",
       "source": "psu-sweep",
       "org": "Hindustan Aeronautics Limited (HAL)",
-      "title": "Finance Officer, Deputy Manager (Finance), Manager (Design)",
-      "summary": "HAL has released a recruitment notification for 30 Executive posts including Finance Officer, Deputy Manager (Finance), and Manager (Design) in Mechanical, Electrical, and Electronics disciplines. The application process is online.",
-      "advtNo": "HAL/CHRC-TM/RECT-01/2026",
+      "title": "Finance Officer, Deputy Manager, and Manager (Design) Posts",
+      "summary": "HAL has invited online applications for 30 Executive posts including Finance Officer, Deputy Manager (Finance), and Manager (Design) in various disciplines. Candidates with B.Tech/B.E, CA, or ICWA are eligible. The online application process starts on July 22, 2026, and closes on August 12, 2026.",
+      "advtNo": "HAL/CHRC-TM/RECTT-01/2026",
       "posts": 30,
-      "url": "https://hal-india.co.in/careers",
+      "url": "https://hal-india.co.in/Careers/M__207",
       "pdfUrl": null,
       "status": "open",
       "opensOn": "2026-07-22",
       "closesOn": "2026-08-12",
       "expected": null,
-      "fit": "moderate",
-      "fitLabel": "B.Tech Mechanical is eligible for Manager (Design) Mechanical, which is a core engineering role. Finance roles are not a direct fit.",
-      "tags": [],
+      "fit": "strong",
+      "fitLabel": "B.Tech eligible for management/officer roles (Finance Officer, Deputy Manager); Core Mechanical Engineering (Manager Design Mechanical)",
+      "tags": [
+        "Management",
+        "Finance"
+      ],
       "minExperienceYears": null,
       "maxAgeYears": null,
       "qualification": null,
@@ -1251,19 +1270,22 @@
       "id": "indian-oil-corporation-limited-iocl-apprentice-panipat-refinery-petrochemical-co",
       "source": "psu-sweep",
       "org": "Indian Oil Corporation Limited (IOCL)",
-      "title": "Apprentice (Panipat Refinery & Petrochemical Complex)",
-      "summary": "IOCL invites online applications for 1450 Apprentice positions at its Panipat Refinery & Petrochemical Complex, including Trade Apprentices (Attendant Operator, Fitter, Secretarial Assistant, Accountant, Data Entry Operator) and Technician Apprentices (Chemical, Mechanical, Electrical, Instrumentation).",
+      "title": "Apprentice Recruitment (Panipat Refinery)",
+      "summary": "Indian Oil Corporation Limited (IOCL) has released a notification for 1450 Apprentice vacancies at its Panipat Refinery & Petrochemical Complex. Posts include Trade Apprentice (Attendant Operator, Fitter, Secretarial Assistant, Accountant, Data Entry Operator) and Technician Apprentice (Chemical, Mechanical, Electrical, Instrumentation). The online application is open from July 14, 2026, to August 12, 2026.",
       "advtNo": "PR/P/Apprentice/60(2026-27)",
       "posts": 1450,
-      "url": "https://www.iocl.com/",
+      "url": "https://iocl.com/latest-job-opening",
       "pdfUrl": null,
       "status": "open",
       "opensOn": "2026-07-14",
       "closesOn": "2026-08-12",
       "expected": null,
       "fit": "moderate",
-      "fitLabel": "Technician Apprentice (Mechanical) is a core engineering role where B.Tech Mechanical might be considered, though typically for diploma holders. Other roles are not a direct fit for the candidate's profile or interest in management/IT.",
-      "tags": [],
+      "fitLabel": "Core Mechanical Engineering Apprentice (Technician Apprentice Mechanical)",
+      "tags": [
+        "Apprentice",
+        "Engineering"
+      ],
       "minExperienceYears": null,
       "maxAgeYears": null,
       "qualification": null,
@@ -1406,13 +1428,13 @@
       "firstSeen": "2026-07-10T18:37:16.814Z"
     },
     {
-      "id": "ibps-crp-clerk-xv-recruitment-of-customer-service-associates-clerical-cadre",
+      "id": "ibps-crp-po-mt-xvi-probationary-officer-management-trainee",
       "source": "ibps",
       "org": "IBPS",
       "title": "CRP Clerk XV Recruitment of Customer Service Associates (Clerical Cadre)",
       "summary": "Recruitment for Clerical Cadre posts (Customer Service Associates - CRP-CSA-XV) in participating public sector banks. Notification expected in July-August 2026. Open to graduates in any discipline.",
       "advtNo": "CRP-CSA-XV",
-      "posts": null,
+      "posts": 745,
       "url": "https://www.ibps.in/",
       "status": "upcoming",
       "opensOn": "2026-08-01",
@@ -1424,7 +1446,7 @@
         "Banking",
         "Clerical"
       ],
-      "firstSeen": "2026-07-12T15:12:17.256Z"
+      "firstSeen": "2026-07-10T18:35:48.707Z"
     },
     {
       "id": "iocl-apprentice-trade-technician-apprentice",
@@ -1446,6 +1468,34 @@
         "Graduate Apprentice"
       ],
       "firstSeen": "2026-07-12T07:43:17.732Z"
+    },
+    {
+      "id": "steel-authority-of-india-limited-sail-rsp-apprentice-recruitment",
+      "source": "psu-sweep",
+      "org": "Steel Authority of India Limited (SAIL)",
+      "title": "RSP Apprentice Recruitment",
+      "summary": "SAIL, Rourkela Steel Plant (RSP), has released a notification for 1110 apprentice posts for the One-Year Apprenticeship Training Programme 2026-27. Opportunities are available for trade, diploma, and graduate apprentices in various disciplines including Information Technology, Computer Science, and Mechanical/Mechatronics. The last date to complete online registration is August 26, 2026.",
+      "advtNo": "L&D/Adv./APP/158",
+      "posts": 1110,
+      "url": "https://www.sail.co.in/careers",
+      "pdfUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHubIESr5dbZc9yVv5psHx0039Sv_DRRl1ubiLK0bxqEFkAqq6CUtdwGKaa8yN2GPd_9jRaDusKVBY2M4hLrDarv68carkFDInA4lhOm_X9jd4BsrYkiTt9uqkoEBZBgIRthTofKxJh-c2Sa9fLDrh9S33dKJrhSQY9URxWqVUFZ_LrIGwKjg==",
+      "status": "open",
+      "opensOn": null,
+      "closesOn": "2026-08-26",
+      "expected": null,
+      "fit": "gated",
+      "fitLabel": "Requires CS/IT Degree for IT/CS Apprentice; Core Mechanical Engineering Apprentice (Mechanical/Mechatronics)",
+      "tags": [
+        "Apprentice",
+        "IT"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-07-23T02:06:07.940Z"
     },
     {
       "id": "bhel-engineer-trainee-mechanical",
@@ -1549,8 +1599,8 @@
       "id": "railway-recruitment-boards-junior-engineer-je-4-098-approved-vacancies",
       "source": "rrb",
       "org": "Railway Recruitment Board (RRB)",
-      "title": "Junior Engineer (JE), Depot Material Superintendent (DMS), Chemical & Metallurgical Assistant (CMA) Recruitment 2026-27",
-      "summary": "A short notice has been released for the RRB JE Recruitment 2026-27 under CEN 04/2026, announcing 4098 vacancies for Junior Engineer, Depot Material Superintendent, and Chemical & Metallurgical Assistant posts. The online application process is scheduled to commence from August 14, 2026, and will conclude on September 13, 2026. These posts are generally available in various engineering disciplines including Civil, Electrical, Mechanical, Electronics, and IT.",
+      "title": "Junior Engineer (JE), Depot Material Superintendent (DMS), Chemical & Metallurgical Assistant (CMA)",
+      "summary": "The Railway Recruitment Board has released a short notice (CEN 04/2026) for the recruitment of 4098 vacancies for Junior Engineer, Depot Material Superintendent, and Chemical & Metallurgical Assistant posts. The detailed notification is expected on August 13, 2026, with the online application process scheduled to begin on August 14, 2026, and close on September 13, 2026.",
       "advtNo": "CEN 04/2026",
       "posts": 4098,
       "url": "https://www.rrbapply.gov.in/",
@@ -1559,10 +1609,10 @@
       "closesOn": "2026-09-13",
       "expected": "Notification officially released on 21 July 2026.",
       "fit": "moderate",
-      "fitLabel": "B.Tech in Mechanical Engineering is an eligible qualification for Junior Engineer posts. While the candidate is interested in management and IT roles, general JE positions are primarily technical. Roles like Depot Material Superintendent (DMS) and Chemical & Metallurgical Assistant (CMA) might have management aspects. Specific IT-focused JE roles would likely be 'gated' due to degree requirements.",
+      "fitLabel": "Core engineering posts where Mechanical is eligible",
       "tags": [
         "Engineering",
-        "Junior Engineer"
+        "Technical"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z"
     },
@@ -1611,42 +1661,21 @@
     {
       "id": "sebi-securities-and-exchange-board-of-india-grade-a-assistant-manager-general-stream",
       "source": "regulators-sweep",
-      "org": "Securities and Exchange Board of India (SEBI)",
-      "title": "Officer Grade A (Assistant Manager)",
-      "summary": "Recruitment for Assistant Manager positions across various streams, including General, Legal, IT, Research, Engineering, and Official Language.",
+      "org": "PFRDA",
+      "title": "Assistant Manager (Grade A) Recruitment 2026",
+      "summary": "Expected recruitment for Assistant Manager positions across various streams including General, Legal, Finance and Accounts, IT, Official Language, and Research. Approximately 30 vacancies are expected.",
       "advtNo": null,
-      "posts": 100,
-      "url": "https://www.sebi.gov.in",
+      "posts": 30,
+      "url": "https://www.pfrda.org.in/",
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "2026-09-01 to 2026-11-30",
+      "expected": "Late July - Mid-August 2026",
       "fit": "strong",
-      "fitLabel": "Strong for General Stream as it accepts a Bachelor's in Engineering. Gated for IT stream which requires a CS/IT/Electronics degree.",
+      "fitLabel": "Generalist management roles, B.Tech Mechanical is eligible. IT stream is gated due to specific degree requirements (CS/IT/Electronics).",
       "tags": [
         "Management",
-        "Regulatory Body"
-      ],
-      "firstSeen": "2026-07-10T12:00:00.000Z"
-    },
-    {
-      "id": "staff-selection-commission-ssc-junior-engineer-civil-electrical-mechanical-2026",
-      "source": "ssc",
-      "org": "Staff Selection Commission (SSC)",
-      "title": "Junior Engineer (JE) Examination 2026",
-      "summary": "Recruitment for Junior Engineers in Civil, Mechanical, and Electrical disciplines in various Central Government departments.",
-      "advtNo": null,
-      "posts": "Junior Engineer (Civil), Junior Engineer (Mechanical), Junior Engineer (Electrical)",
-      "url": "https://ssc.gov.in/",
-      "status": "upcoming",
-      "opensOn": null,
-      "closesOn": null,
-      "expected": "Notification in July 2026",
-      "fit": "moderate",
-      "fitLabel": "Core engineering posts where Mechanical is eligible",
-      "tags": [
-        "Engineering",
-        "Mechanical"
+        "IT"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z"
     },
