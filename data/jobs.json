@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-07-27T02:13:37.848Z",
+  "lastScan": "2026-07-28T01:57:41.088Z",
   "jobs": [
     {
       "id": "national-institute-of-electronics-and-information-technology-nielit-programmer-a",
@@ -305,7 +305,7 @@
       "closesOn": "2026-07-08",
       "expected": null,
       "fit": "strong",
-      "fitLabel": "Any-graduate management exam, fits candidate's interest in management roles.",
+      "fitLabel": "Any-graduate management exam, B.Tech Mechanical is eligible.",
       "tags": [
         "Management",
         "Banking"
@@ -336,9 +336,9 @@
     {
       "id": "isro-ursc-junior-research-fellow-jrf-recruitment",
       "source": "isro",
-      "org": "URSC",
+      "org": "ISRO · URSC",
       "title": "Junior Research Fellow (JRF)",
-      "summary": "Online applications invited for Junior Research Fellow (JRF) positions at URSC, Bengaluru. Application window was from June 12, 2026 to July 11, 2026. Mechanical B.Tech might be eligible for some research roles.",
+      "summary": "Online applications were invited for Junior Research Fellow (JRF) positions in URSC, Bengaluru. The application window was from June 12, 2026, to July 11, 2026.",
       "advtNo": null,
       "posts": "JRF posts",
       "url": "https://www.isro.gov.in/URSCRecruitment11.html",
@@ -347,8 +347,10 @@
       "closesOn": "2026-07-11",
       "expected": null,
       "fit": "moderate",
-      "fitLabel": "Moderate fit — research/technical",
-      "tags": [],
+      "fitLabel": "Moderate fit — research",
+      "tags": [
+        "Research roles"
+      ],
       "firstSeen": "2026-07-10T18:30:30.793Z"
     },
     {
@@ -658,20 +660,20 @@
       "id": "nabard-specialists-on-contract",
       "source": "nabard",
       "org": "NABARD",
-      "title": "Specialists on Contract Recruitment 2026",
-      "summary": "Recruitment for 6 contractual Specialist posts including Data Architect, Application Solution Architect, Technology Solution Architect, Carbon Consultant, Climate Change Specialist - Mitigation, and Specialist- Derivatives and Treasury Risk Management.",
+      "title": "Specialists on Contract (Data Architect, Application Architect and More Posts)",
+      "summary": "Recruitment for 6 Specialist positions on a contract basis, including roles like Data Architect and Application Architect.",
       "advtNo": "03",
       "posts": 6,
-      "url": "https://www.nabard.org/career-notices.aspx",
+      "url": "https://www.nabard.org/",
       "status": "closed",
       "opensOn": "2026-07-10",
       "closesOn": "2026-07-23",
       "expected": null,
       "fit": "gated",
-      "fitLabel": "IT roles (Data Architect, Application Solution Architect, Technology Solution Architect) typically require CS/IT/Electronics degree. Other specialist roles (Carbon Consultant, Climate Change Specialist, Derivatives and Treasury Risk Management) are not primary management/IT interest and may have specific degree requirements not met by Mechanical Engineering.",
+      "fitLabel": "IT role, requires CS/IT/Electronics degree, candidate has Mechanical Engineering.",
       "tags": [
         "IT",
-        "Specialist"
+        "Contract"
       ],
       "firstSeen": "2026-07-12T09:31:57.251Z"
     },
@@ -744,48 +746,6 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-07-22T01:57:54.361Z"
-    },
-    {
-      "id": "uppsc-uttar-pradesh-public-service-commission-combined-state-upper-subordinate-services-pcs-2026",
-      "source": "uppsc",
-      "org": "Uttar Pradesh Public Service Commission",
-      "title": "Combined State / Upper Subordinate Services (PCS) Examination 2026",
-      "summary": "Recruitment for approximately 500 Group A and Group B gazetted posts across various administrative and executive services in Uttar Pradesh. Posts include Deputy Collector, Deputy Superintendent of Police (DSP), Block Development Officer (BDO), Assistant Labour Commissioner, District Programme Officer, and others, generally requiring a Bachelor's degree in any stream.",
-      "advtNo": "A-1/E-1/2026",
-      "posts": 500,
-      "url": "https://uppsc.up.nic.in",
-      "status": "open",
-      "opensOn": "2026-06-25",
-      "closesOn": "2026-07-27",
-      "expected": "2026-12-06 (Prelims Exam)",
-      "fit": "strong",
-      "fitLabel": "Any-graduate management exams",
-      "tags": [
-        "Management",
-        "Administrative"
-      ],
-      "firstSeen": "2026-07-10T12:00:00.000Z"
-    },
-    {
-      "id": "indian-oil-corporation-limited-iocl-apprentice-recruitment-2026",
-      "source": "psu-sweep",
-      "org": "IOCL",
-      "title": "Recruitment through GATE 2026 (Graduate Apprentice Engineers)",
-      "summary": "Indian Oil Corporation Limited (IOCL) is set to release the official recruitment notification for Graduate Apprentice Engineers through GATE 2026. Eligible engineering disciplines include Mechanical Engineering.",
-      "advtNo": null,
-      "posts": 1524,
-      "url": "https://www.iocl.com/latest-job-openings",
-      "status": "upcoming",
-      "opensOn": "2026-06-29",
-      "closesOn": "2026-07-28",
-      "expected": "2026-06-01",
-      "fit": "moderate",
-      "fitLabel": "Core engineering role, B.Tech Mechanical eligible, requires GATE 2026 score.",
-      "tags": [
-        "Engineering",
-        "GATE"
-      ],
-      "firstSeen": "2026-07-12T17:34:18.140Z"
     },
     {
       "id": "iocl-apprentice-mathura-gujarat-paradip-bongaigaon-refineries",
@@ -955,27 +915,6 @@
     },
     {
       "id": "sail-young-professional-engineering",
-      "source": "psu-sweep",
-      "org": "SAIL",
-      "title": "Young Professional (Engineering)",
-      "summary": "Recruitment for Young Professionals in various departments including Engineering at Rourkela Steel Plant, Ranchi units and Digital Transformation Division.",
-      "advtNo": "RSP/R-YP/2026-01",
-      "posts": 23,
-      "url": "https://sailcareers.com/",
-      "status": "open",
-      "opensOn": "2026-07-10",
-      "closesOn": "2026-07-31",
-      "expected": null,
-      "fit": "moderate",
-      "fitLabel": "Core Engineering role, but candidate has B.Tech Mechanical.",
-      "tags": [
-        "Engineering",
-        "Young Professional"
-      ],
-      "firstSeen": "2026-07-15T01:50:12.391Z"
-    },
-    {
-      "id": "sail-young-professional-it-management",
       "source": "psu-sweep",
       "org": "SAIL",
       "title": "Young Professional (IT/AI/Data Science)",
@@ -1203,23 +1142,71 @@
       "firstSeen": "2026-07-27T02:13:37.820Z"
     },
     {
+      "id": "oil-and-natural-gas-corporation-ongc-recruitment-of-geologists-and-engineers-e1-",
+      "source": "psu-sweep",
+      "org": "Oil and Natural Gas Corporation (ONGC)",
+      "title": "Recruitment of Geologists and Engineers (E1 Level)",
+      "summary": "Oil and Natural Gas Corporation (ONGC) has announced recruitment for 52 E1 level Graduate Trainee posts for Geologists and Engineers. Vacancies are available across Petroleum, Mechanical, Chemical, and Instrumentation Engineering, along with Geology. The selection process involves a Computer-Based Test (CBT) and an interview.",
+      "advtNo": null,
+      "posts": 52,
+      "url": "https://www.ongcindia.com",
+      "pdfUrl": null,
+      "status": "open",
+      "opensOn": "2026-07-17",
+      "closesOn": "2026-07-31",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Core Mechanical Engineering post, which is a moderate fit for a B.Tech Mechanical candidate.",
+      "tags": [
+        "Engineer",
+        "Geologist"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-07-28T01:56:55.628Z"
+    },
+    {
       "id": "staff-selection-commission-ssc-junior-engineer-civil-electrical-mechanical-2026",
       "source": "ssc",
       "org": "Staff Selection Commission",
-      "title": "Junior Engineer (Civil, Mechanical, Electrical) Examination, 2026",
-      "summary": "Recruitment for Junior Engineer posts in various Central Government departments. The official notification is expected to be released in July 2026, with the online application process commencing thereafter. Candidates with a degree or diploma in Civil, Electrical, or Mechanical Engineering are eligible to apply.",
+      "title": "Junior Engineer (Civil, Mechanical and Electrical) Examination, 2026",
+      "summary": "Recruitment for Junior Engineer positions in various government departments across Civil, Electrical, and Mechanical streams. The official notification is expected to be released in July 2026, with the application window also opening in July 2026.",
       "advtNo": null,
-      "posts": "Junior Engineer (Civil, Mechanical & Electrical)",
+      "posts": 3000,
       "url": "https://ssc.gov.in",
       "status": "upcoming",
       "opensOn": "2026-07",
       "closesOn": "2026-08",
-      "expected": "2026-07",
+      "expected": "Notification expected in July 2026, application window expected to open in July 2026.",
       "fit": "moderate",
-      "fitLabel": "Core engineering post where Mechanical is eligible, but not the candidate's primary interest.",
+      "fitLabel": "Core Mechanical Engineering post, which is the candidate's degree, but not their primary interest (management/IT).",
       "tags": [
         "Engineering",
         "Mechanical"
+      ],
+      "firstSeen": "2026-07-10T12:00:00.000Z"
+    },
+    {
+      "id": "uppsc-uttar-pradesh-public-service-commission-combined-state-upper-subordinate-services-pcs-2026",
+      "source": "uppsc",
+      "org": "UPPSC",
+      "title": "Combined State / Upper Subordinate Services (PCS) (General/Special Recruitment) Examination-2026",
+      "summary": "Recruitment for various administrative and management posts through the Combined State / Upper Subordinate Services (PCS) Examination-2026. Open to any graduate. Selection involves prelims, mains, and interview.",
+      "advtNo": "A-1/E-1/2026",
+      "posts": 500,
+      "url": "https://uppsc.up.nic.in/",
+      "status": "open",
+      "opensOn": "2026-06-25",
+      "closesOn": "2026-08-03",
+      "expected": "2026-12-06 (Prelims Exam)",
+      "fit": "strong",
+      "fitLabel": "Strong fit — management",
+      "tags": [
+        "Any graduate"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z"
     },
@@ -1345,6 +1332,27 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-07-24T02:03:33.429Z"
+    },
+    {
+      "id": "indian-oil-corporation-limited-iocl-apprentice-recruitment-2026",
+      "source": "psu-sweep",
+      "org": "Indian Oil Corporation Limited (IOCL)",
+      "title": "Apprentice Recruitment (Panipat Refinery)",
+      "summary": "Indian Oil Corporation Limited (IOCL) has released a notification for 1450 Trade, Technician, and Graduate Apprentice vacancies at its Panipat Refinery & Petrochemical Complex. These positions are available in multiple disciplines, including Chemical, Mechanical, Electrical, Instrumentation, Secretarial Assistant, Accountant, and Data Entry Operator.",
+      "advtNo": null,
+      "posts": 1450,
+      "url": "https://www.iocl.com",
+      "status": "open",
+      "opensOn": "2026-07-14",
+      "closesOn": "2026-08-12",
+      "expected": "2026-06-01",
+      "fit": "moderate",
+      "fitLabel": "Core engineering (Mechanical) is a moderate fit. Other roles (Secretarial Assistant, Accountant, Data Entry Operator) are irrelevant for a B.Tech Mechanical software engineer seeking management/IT roles.",
+      "tags": [
+        "Apprentice",
+        "Mechanical"
+      ],
+      "firstSeen": "2026-07-12T17:34:18.140Z"
     },
     {
       "id": "iocl-graduate-apprentice-mechanical",
@@ -1506,8 +1514,8 @@
       "source": "rrb",
       "org": "Railway Recruitment Board (RRB)",
       "title": "Section Controller",
-      "summary": "Recruitment for 119 Section Controller posts.",
-      "advtNo": "CEN 03/2026",
+      "summary": "The Railway Recruitment Boards have released the CEN No. 03/2026 notification for the recruitment of 119 Section Controller posts.",
+      "advtNo": "CEN No. 03/2026",
       "posts": 119,
       "url": "https://www.rrbapply.gov.in/",
       "status": "open",
@@ -1515,10 +1523,10 @@
       "closesOn": "2026-08-14",
       "expected": null,
       "fit": "strong",
-      "fitLabel": "Any-graduate management exams",
+      "fitLabel": "Any-graduate management exams... are 'strong'.",
       "tags": [
-        "Section Controller",
-        "Management"
+        "Management",
+        "Operations"
       ],
       "firstSeen": "2026-07-16T01:55:43.362Z"
     },
@@ -1656,6 +1664,31 @@
       "firstSeen": "2026-07-27T02:10:28.311Z"
     },
     {
+      "id": "upsc-direct-recruitment-to-various-posts-in-government-of-india",
+      "source": "upsc",
+      "org": "UPSC",
+      "title": "Direct Recruitment to various posts in Government of India",
+      "summary": "UPSC invites applications from eligible candidates for direct recruitment to various posts in Government of India.",
+      "advtNo": "09/2026",
+      "posts": null,
+      "url": "https://upsconline.nic.in/ora/VacancyNoticePub.php",
+      "pdfUrl": "https://upsc.gov.in/",
+      "status": "open",
+      "opensOn": "2026-07-25",
+      "closesOn": "2026-08-14",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Various direct recruitment posts; could include general engineering (moderate), management (strong), or IT roles (potentially gated if CS/IT/Electronics degree is required).",
+      "tags": [],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-07-28T01:54:00.490Z"
+    },
+    {
       "id": "indian-computer-emergency-response-team-cert-in-scientist-b",
       "source": "drdo-rac",
       "org": "Indian Computer Emergency Response Team (CERT-In)",
@@ -1751,20 +1784,20 @@
       "source": "psu-sweep",
       "org": "Steel Authority of India Limited (SAIL)",
       "title": "RSP Apprentice Recruitment",
-      "summary": "SAIL, Rourkela Steel Plant (RSP), has released a notification for 1110 apprentice posts for the One-Year Apprenticeship Training Programme 2026-27. Opportunities are available for trade, diploma, and graduate apprentices in various disciplines including Information Technology, Computer Science, and Mechanical/Mechatronics. The last date to complete online registration is August 26, 2026.",
+      "summary": "Steel Authority of India Limited (SAIL), Rourkela Steel Plant (RSP), has released a notification for 1110 Trade, Diploma, and Graduate Apprentice posts for a One-Year Apprenticeship Training Programme. The recruitment covers a range of engineering and non-engineering disciplines.",
       "advtNo": "L&D/Adv./APP/158",
       "posts": 1110,
-      "url": "https://www.sail.co.in/careers",
+      "url": "https://www.sail.co.in",
       "pdfUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHubIESr5dbZc9yVv5psHx0039Sv_DRRl1ubiLK0bxqEFkAqq6CUtdwGKaa8yN2GPd_9jRaDusKVBY2M4hLrDarv68carkFDInA4lhOm_X9jd4BsrYkiTt9uqkoEBZBgIRthTofKxJh-c2Sa9fLDrh9S33dKJrhSQY9URxWqVUFZ_LrIGwKjg==",
       "status": "open",
-      "opensOn": null,
+      "opensOn": "2026-07-17",
       "closesOn": "2026-08-26",
       "expected": null,
-      "fit": "gated",
-      "fitLabel": "Requires CS/IT Degree for IT/CS Apprentice; Core Mechanical Engineering Apprentice (Mechanical/Mechatronics)",
+      "fit": "moderate",
+      "fitLabel": "Graduate Apprentice in Engineering (Mechanical) is a moderate fit. Apprenticeship roles are generally not management or advanced IT roles for an experienced software engineer.",
       "tags": [
         "Apprentice",
-        "IT"
+        "Graduate Apprentice"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -1905,8 +1938,8 @@
       "source": "rrb",
       "org": "Railway Recruitment Board (RRB)",
       "title": "Junior Engineer (JE), Depot Material Superintendent (DMS), Chemical & Metallurgical Assistant (CMA)",
-      "summary": "Recruitment for 4098 vacancies across various technical posts including Junior Engineer, Depot Material Superintendent, and Chemical & Metallurgical Assistant.",
-      "advtNo": "CEN 04/2026",
+      "summary": "The Railway Recruitment Board has announced 4098 vacancies for Junior Engineer, Depot Material Superintendent, and Chemical & Metallurgical Assistant posts under CEN No. 04/2026.",
+      "advtNo": "CEN No. 04/2026",
       "posts": 4098,
       "url": "https://www.rrbapply.gov.in/",
       "status": "upcoming",
@@ -1914,10 +1947,10 @@
       "closesOn": "2026-09-13",
       "expected": "Notification officially released on 21 July 2026.",
       "fit": "moderate",
-      "fitLabel": "Core engineering posts where Mechanical is eligible",
+      "fitLabel": "Core engineering posts where Mechanical is eligible are 'moderate'.",
       "tags": [
-        "Junior Engineer",
-        "Depot Material Superintendent"
+        "Engineering",
+        "Junior Engineer"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z",
       "pdfUrl": "https://testbook.com/rrb-je/notification-pdf"
@@ -1948,16 +1981,16 @@
       "source": "nabard",
       "org": "NABARD",
       "title": "Assistant Manager (Grade A)",
-      "summary": "NABARD is expected to release the notification for Assistant Manager (Grade A) posts in various disciplines, including Rural Development Banking Service (RDBS), Legal, and Protocol & Security Service.",
+      "summary": "Expected recruitment for Assistant Manager positions in various streams like Rural Development Banking Service (RDBS), Rajbhasha, Protocol & Security Services, General, Agriculture, IT, Finance, etc.",
       "advtNo": null,
       "posts": "80-100 (Expected)",
-      "url": "https://www.nabard.org",
+      "url": "https://www.nabard.org/career.aspx",
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "2026-07-XX to 2026-08-XX",
+      "expected": "July-August 2026",
       "fit": "strong",
-      "fitLabel": "Management role, accepts any engineering bachelor's degree.",
+      "fitLabel": "Any-graduate management exam, accepts any engineering bachelor's for General stream.",
       "tags": [
         "Management",
         "Banking"
@@ -2006,19 +2039,21 @@
     {
       "id": "isro-sdsc-shar-recruitment-for-research-associate-ra-i",
       "source": "isro",
-      "org": "NESAC",
-      "title": "Research Scientists, Junior Research Fellows and Project Associate - I",
-      "summary": "Recruitment for research and project roles at NESAC. Positions include Research Scientists, Junior Research Fellows, and Project Associate - I. Eligibility likely for specific science/engineering disciplines. Not management/IT focused.",
-      "advtNo": "NESAC/RMT-TEMP/WI-02/2026",
+      "org": "ISRO · SDSC SHAR",
+      "title": "Research Associate (RA-I)",
+      "summary": "Recruitment for Research Associate (RA-I) positions. Details on vacancies, eligibility, and selection stages are expected in the full notification.",
+      "advtNo": "SDSC SHAR/RMT/02/2026",
       "posts": "RA-I posts",
-      "url": "https://www.isro.gov.in/NESACRecruitment23.html",
+      "url": "https://www.isro.gov.in/SDSCRecruitment25.html",
       "status": "open",
       "opensOn": null,
       "closesOn": null,
       "expected": null,
       "fit": "moderate",
-      "fitLabel": "Moderate fit — research/technical",
-      "tags": [],
+      "fitLabel": "Moderate fit — research",
+      "tags": [
+        "Research roles"
+      ],
       "firstSeen": "2026-07-10T18:30:30.793Z"
     },
     {
@@ -2324,7 +2359,7 @@
       "source": "psu-sweep",
       "org": "Bharat Electronics Limited (BEL)",
       "title": "Graduate Apprenticeship Training (GAPP)",
-      "summary": "BEL, Bengaluru, is conducting a walk-in written test for a one-year Graduate Apprenticeship Training program under NATS across 14 engineering disciplines, including Mechanical Engineering. The written tests are scheduled for early August 2026.",
+      "summary": "Bharat Electronics Limited (BEL), Bengaluru, has released a walk-in written test notification for Graduate Apprenticeship Training (GAPP) 2026-27. The one-year apprenticeship program is offered across 14 engineering disciplines for candidates from Southern Region states.",
       "advtNo": null,
       "posts": null,
       "url": "https://www.bel-india.in",
@@ -2332,11 +2367,11 @@
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "Walk-in written test: 2026-08-06 to 2026-08-08",
+      "expected": "2026-08-06",
       "fit": "moderate",
-      "fitLabel": "Core engineering apprenticeship",
+      "fitLabel": "Graduate Apprenticeship in Engineering (Mechanical) is a moderate fit. Apprenticeship roles are generally not management or advanced IT roles for an experienced software engineer.",
       "tags": [
-        "Apprenticeship",
+        "Apprentice",
         "Graduate Apprentice"
       ],
       "minExperienceYears": null,
@@ -2374,6 +2409,89 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-07-27T02:13:37.820Z"
+    },
+    {
+      "id": "isro-prl-administrative-officer-accounts-officer-purchase-and-stores-officer",
+      "source": "isro",
+      "org": "ISRO · PRL",
+      "title": "Administrative Officer, Accounts Officer, Purchase and Stores Officer",
+      "summary": "Recruitment for Administrative Officer, Accounts Officer, and Purchase and Stores Officer posts. Details on vacancies, eligibility, and selection stages are expected in the full notification.",
+      "advtNo": "01/2026",
+      "posts": null,
+      "url": "https://www.isro.gov.in/PRLRecruitment7.html",
+      "pdfUrl": null,
+      "status": "open",
+      "opensOn": null,
+      "closesOn": null,
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "Strong fit — management",
+      "tags": [
+        "Management roles"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-07-28T01:51:50.552Z"
+    },
+    {
+      "id": "isro-icrb-assistants-junior-personal-assistants-upper-division-clerk-and-stenogr",
+      "source": "isro",
+      "org": "ISRO · ICRB",
+      "title": "Assistants, Junior Personal Assistants, Upper Division Clerk and Stenographers",
+      "summary": "Recruitment for Assistants, Junior Personal Assistants, Upper Division Clerk, and Stenographers. Details on vacancies, eligibility, and selection stages are expected in the full notification.",
+      "advtNo": "ICRB:01(A-JPA):2026",
+      "posts": null,
+      "url": "https://www.isro.gov.in/ICRB_Recruitment11.html",
+      "pdfUrl": null,
+      "status": "open",
+      "opensOn": null,
+      "closesOn": null,
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "Strong fit — administrative",
+      "tags": [
+        "Any graduate",
+        "Administrative roles"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-07-28T01:51:50.552Z"
+    },
+    {
+      "id": "nabard-manager-grade-b",
+      "source": "nabard",
+      "org": "NABARD",
+      "title": "Manager (Grade B)",
+      "summary": "Expected recruitment for Manager positions in the Rural Development Banking Service (RDBS).",
+      "advtNo": null,
+      "posts": null,
+      "url": "https://www.nabard.org/career.aspx",
+      "pdfUrl": null,
+      "status": "upcoming",
+      "opensOn": null,
+      "closesOn": null,
+      "expected": "July-August 2026",
+      "fit": "strong",
+      "fitLabel": "Any-graduate management exam, likely accepts any engineering bachelor's for General stream.",
+      "tags": [
+        "Management",
+        "Banking"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-07-28T01:54:24.588Z"
     }
   ]
 }
