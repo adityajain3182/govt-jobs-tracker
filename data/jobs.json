@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-07-28T01:57:41.088Z",
+  "lastScan": "2026-07-29T01:57:54.100Z",
   "jobs": [
     {
       "id": "national-institute-of-electronics-and-information-technology-nielit-programmer-a",
@@ -541,21 +541,21 @@
     {
       "id": "union-public-service-commission-upsc-recruitment-for-450-vacancies-across-54-pos",
       "source": "upsc",
-      "org": "Union Public Service Commission (UPSC)",
-      "title": "Recruitment for 450 vacancies across 54 post categories including Drug Inspector, Assistant Engineer, Legal Officer and more (Advertisement No. 07/2026).",
-      "summary": "The Union Public Service Commission invited Online Recruitment Applications (ORA) for a wide range of Central Government posts, spanning engineering, law, pharmacy, medicine, science, and administration. Selection is through Interview, or a Recruitment Test followed by an Interview.",
+      "org": "UPSC",
+      "title": "Recruitment for 450 vacancies across 54 posts (Advt No. 07/2026)",
+      "summary": "Advertisement No. 07/2026 invited online applications for 450 vacancies across 54 posts, including Drug Inspector, Specialist Grade III Assistant Professor, Joint Director, Aeronautical Officer, Legal Officer, Company Prosecutor, and Store Officer (Civilian).",
       "advtNo": "07/2026",
       "posts": 450,
       "url": "https://upsconline.nic.in/ora/",
       "status": "closed",
-      "opensOn": "2026-06-27",
+      "opensOn": "2026-06-25",
       "closesOn": "2026-07-17",
       "expected": null,
       "fit": "strong",
-      "fitLabel": "Includes administrative/management roles likely accepting any engineering degree. Core engineering roles are moderate. Specialized roles (e.g., Legal, Medical, specific Science) are gated/low.",
+      "fitLabel": "Includes 'Store Officer (Civilian)' which is a general administrative/management role potentially suitable for an engineering graduate. Other posts are highly specialized or not a direct fit.",
       "tags": [
         "Management",
-        "Administration"
+        "Administrative"
       ],
       "firstSeen": "2026-07-15T01:45:45.947Z"
     },
@@ -660,22 +660,43 @@
       "id": "nabard-specialists-on-contract",
       "source": "nabard",
       "org": "NABARD",
-      "title": "Specialists on Contract (Data Architect, Application Architect and More Posts)",
-      "summary": "Recruitment for 6 Specialist positions on a contract basis, including roles like Data Architect and Application Architect.",
+      "title": "Specialists on Contract",
+      "summary": "Recruitment for 6 posts of Specialists on Contract including Data Architect, Application Solution Architect, Technology Solution Architect, Carbon Consultant, Climate Change Specialist - Mitigation, and Specialist- Derivatives and Treasury Risk Management.",
       "advtNo": "03",
       "posts": 6,
-      "url": "https://www.nabard.org/",
+      "url": "https://www.nabard.org/career",
       "status": "closed",
       "opensOn": "2026-07-10",
       "closesOn": "2026-07-23",
       "expected": null,
       "fit": "gated",
-      "fitLabel": "IT role, requires CS/IT/Electronics degree, candidate has Mechanical Engineering.",
+      "fitLabel": "IT roles (Data Architect, Application Solution Architect, Technology Solution Architect) likely require CS/IT/Electronics degree (gated). Other specialist roles are not a direct fit for Mechanical B.Tech with software experience (low).",
       "tags": [
-        "IT",
-        "Contract"
+        "Specialist",
+        "IT"
       ],
       "firstSeen": "2026-07-12T09:31:57.251Z"
+    },
+    {
+      "id": "upsc-recruitment-for-450-vacancies-across-54-posts-in-various-central-government",
+      "source": "upsc",
+      "org": "UPSC",
+      "title": "Direct Recruitment to various posts (Advt No. 06/2026)",
+      "summary": "Reopened application process for 546 vacancies across 98 posts under Special Recruitment Drive, including Junior Scientific Officers, Operations Officers, Air Safety Officers, Assistant Directors, and various engineering faculty roles.",
+      "advtNo": "06/2026",
+      "posts": 546,
+      "url": "https://upsconline.nic.in/ora/",
+      "status": "closed",
+      "opensOn": "2026-06-13",
+      "closesOn": "2026-07-24",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "Includes 'Operations Officers' and 'Assistant Directors' which are management/administrative roles potentially suitable for an engineering graduate. Other posts are specialized or not a direct fit.",
+      "tags": [
+        "Management",
+        "Operations"
+      ],
+      "firstSeen": "2026-07-10T12:00:00.000Z"
     },
     {
       "id": "sebi-executive-director",
@@ -756,7 +777,7 @@
       "advtNo": null,
       "posts": 1542,
       "url": "https://iocl.com/latest-job-opening",
-      "status": "open",
+      "status": "closed",
       "opensOn": null,
       "closesOn": "2026-07-28",
       "expected": null,
@@ -812,8 +833,8 @@
       "id": "railway-recruitment-board-rrb-technician-grade-i-signal-and-various-categories-o",
       "source": "rrb",
       "org": "Railway Recruitment Board (RRB)",
-      "title": "Technician Grade-I (Signal) and various posts of Technician Grade-III",
-      "summary": "Recruitment for 6557 Technician posts, including Technician Grade-I (Signal) and Technician Grade-III.",
+      "title": "Technician Grade I Signal and Technician Grade III",
+      "summary": "The RRB Technician Notification 2026-27 (CEN 02/2026) has been released for 6557 vacancies for Technician Grade I Signal and Technician Grade III posts. The online application process started on June 30, 2026, and closes on July 29, 2026. Eligibility requires Matriculation with ITI or relevant technical qualifications.",
       "advtNo": "CEN 02/2026",
       "posts": 6557,
       "url": "https://www.rrbapply.gov.in/",
@@ -822,10 +843,10 @@
       "closesOn": "2026-07-29",
       "expected": null,
       "fit": "moderate",
-      "fitLabel": "Core engineering posts where Mechanical is eligible",
+      "fitLabel": "Technical post, B.Tech Mechanical may be considered a relevant technical qualification, but it is not an IT/Management role.",
       "tags": [
         "Technician",
-        "Technical"
+        "Grade I Signal"
       ],
       "firstSeen": "2026-07-12T07:42:27.782Z"
     },
@@ -1060,19 +1081,19 @@
     {
       "id": "oil-and-natural-gas-corporation-ongc-graduate-trainee-e1-level-in-engineering-an",
       "source": "psu-sweep",
-      "org": "ONGC",
+      "org": "Oil and Natural Gas Corporation (ONGC)",
       "title": "Graduate Trainee (E1 Level)",
-      "summary": "Recruitment for 52 engineering and geology candidates for E1 Level Graduate Trainee posts, including Mechanical Engineering.",
+      "summary": "Recruitment for 52 Graduate Trainee posts at E1 Level in Engineering (Petroleum, Mechanical, Chemical, Instrumentation) and Geology disciplines. Selection through Computer Based Test, Interview, and Medical Examination.",
       "advtNo": null,
       "posts": 52,
-      "url": "https://www.ongcindia.com",
+      "url": "https://www.ongcindia.com/",
       "pdfUrl": null,
       "status": "open",
       "opensOn": "2026-07-17",
       "closesOn": "2026-07-31",
       "expected": null,
       "fit": "moderate",
-      "fitLabel": "B.Tech Mechanical is eligible for Graduate Trainee (Mechanical) post. This is a core engineering role.",
+      "fitLabel": "Mechanical Engineering is eligible for this core engineering role.",
       "tags": [
         "Engineering",
         "Graduate Trainee"
@@ -1170,6 +1191,34 @@
       "firstSeen": "2026-07-28T01:56:55.628Z"
     },
     {
+      "id": "mpsc-group-c-services-combined-preliminary-examination-2026",
+      "source": "regulators-sweep",
+      "org": "MPSC",
+      "title": "Group C Services Combined Preliminary Examination 2026",
+      "summary": "Recruitment for 2619 vacancies for posts like Clerk-Typist, Tax Assistant, Assistant Motor Vehicle Inspector (AMVI), Industry Inspector and Technical Assistant.",
+      "advtNo": null,
+      "posts": 2619,
+      "url": "https://www.mpsc.gov.in/",
+      "pdfUrl": null,
+      "status": "open",
+      "opensOn": "2026-06-27",
+      "closesOn": "2026-07-31",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Various Group C posts, some technical/inspector roles might be open for B.Tech Mechanical.",
+      "tags": [
+        "State PSC",
+        "Group C"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-07-29T01:57:54.073Z"
+    },
+    {
       "id": "staff-selection-commission-ssc-junior-engineer-civil-electrical-mechanical-2026",
       "source": "ssc",
       "org": "Staff Selection Commission",
@@ -1187,26 +1236,6 @@
       "tags": [
         "Engineering",
         "Mechanical"
-      ],
-      "firstSeen": "2026-07-10T12:00:00.000Z"
-    },
-    {
-      "id": "uppsc-uttar-pradesh-public-service-commission-combined-state-upper-subordinate-services-pcs-2026",
-      "source": "uppsc",
-      "org": "UPPSC",
-      "title": "Combined State / Upper Subordinate Services (PCS) (General/Special Recruitment) Examination-2026",
-      "summary": "Recruitment for various administrative and management posts through the Combined State / Upper Subordinate Services (PCS) Examination-2026. Open to any graduate. Selection involves prelims, mains, and interview.",
-      "advtNo": "A-1/E-1/2026",
-      "posts": 500,
-      "url": "https://uppsc.up.nic.in/",
-      "status": "open",
-      "opensOn": "2026-06-25",
-      "closesOn": "2026-08-03",
-      "expected": "2026-12-06 (Prelims Exam)",
-      "fit": "strong",
-      "fitLabel": "Strong fit — management",
-      "tags": [
-        "Any graduate"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z"
     },
@@ -1280,22 +1309,22 @@
     {
       "id": "mpsc-talathi-bharti-2026-talathi-gram-sevak-revenue-officer",
       "source": "regulators-sweep",
-      "org": "Maharashtra Public Service Commission (MPSC)",
-      "title": "MPSC Talathi Bharti 2026 (Village Revenue Officer)",
-      "summary": "The MPSC Talathi Bharti 2026 notification has been released for 1,539 Talathi vacancies. The online application process started on 2026-07-22 and candidates can submit their applications until 2026-08-05. Candidates who possess a Bachelor's degree from a recognized university are eligible to apply.",
+      "org": "MPSC",
+      "title": "Talathi (Village Revenue Officer)",
+      "summary": "Recruitment for 1539 Talathi (Village Revenue Officer), Group-C posts.",
       "advtNo": "017/2026",
       "posts": 1539,
-      "url": "https://mpsc.gov.in/",
+      "url": "https://mpsconline.gov.in/",
       "pdfUrl": null,
       "status": "open",
-      "opensOn": "2026-07-22",
+      "opensOn": "2026-06-27",
       "closesOn": "2026-08-05",
       "expected": null,
       "fit": "strong",
-      "fitLabel": "General graduate recruitment for administrative/revenue officer roles, suitable for a B.Tech Mechanical graduate interested in management.",
+      "fitLabel": "Administrative role, any bachelor's degree eligible.",
       "tags": [
         "State PSC",
-        "Management"
+        "Group C"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -1332,6 +1361,54 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-07-24T02:03:33.429Z"
+    },
+    {
+      "id": "bharat-electronics-limited-bel-graduate-apprenticeship-training-gapp",
+      "source": "psu-sweep",
+      "org": "Bharat Electronics Limited (BEL)",
+      "title": "Graduate Apprenticeship Training (GAPP)",
+      "summary": "Walk-in written test for one-year Graduate Apprenticeship Training (GAPP) 2026-27 across 14 engineering disciplines for candidates from Southern Region states.",
+      "advtNo": null,
+      "posts": null,
+      "url": "https://www.bel-india.in/",
+      "pdfUrl": null,
+      "status": "upcoming",
+      "opensOn": "2026-08-06",
+      "closesOn": "2026-08-08",
+      "expected": "2026-08-06",
+      "fit": "moderate",
+      "fitLabel": "Mechanical Engineering is eligible for this apprenticeship training program.",
+      "tags": [
+        "Apprenticeship",
+        "Engineering"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-07-26T02:05:15.674Z"
+    },
+    {
+      "id": "uppsc-uttar-pradesh-public-service-commission-combined-state-upper-subordinate-services-pcs-2026",
+      "source": "uppsc",
+      "org": "UPPSC",
+      "title": "Combined State / Upper Subordinate Services (PCS) Examination-2026",
+      "summary": "Recruitment for various administrative and management roles in Uttar Pradesh government. Any graduate is eligible. Selection involves Preliminary Exam, Main Exam, and Interview.",
+      "advtNo": "A-1/E-1/2026",
+      "posts": 500,
+      "url": "https://uppsc.up.nic.in/",
+      "status": "open",
+      "opensOn": "2026-06-25",
+      "closesOn": "2026-08-10",
+      "expected": "2026-12-06 (Prelims Exam)",
+      "fit": "strong",
+      "fitLabel": "Strong fit — management",
+      "tags": [
+        "Any graduate"
+      ],
+      "firstSeen": "2026-07-10T12:00:00.000Z"
     },
     {
       "id": "indian-oil-corporation-limited-iocl-apprentice-recruitment-2026",
@@ -1460,35 +1537,6 @@
       "firstSeen": "2026-07-27T02:12:35.501Z"
     },
     {
-      "id": "upsc-recruitment-for-450-vacancies-across-54-posts-in-various-central-government",
-      "source": "upsc",
-      "org": "UPSC",
-      "title": "Recruitment to various posts (Advt. No. 09/2026 & Special Advt. No. 51/2026)",
-      "summary": "UPSC has released Indicative Advertisement No. 09/2026 and Special Advertisement No. 51/2026, inviting applications for 40 vacancies across 12 posts including Agricultural Engineer, Medical Officer/Research Officer (Unani), Scientist 'B', Civilian Medical Officer, Specialist Grade III Assistant Professor, Assistant Industrial Adviser, and Veterinary Assistant Surgeon.",
-      "advtNo": "09/2026 & 51/2026",
-      "posts": [
-        "Agricultural Engineer",
-        "Medical Officer/Research Officer (Unani)",
-        "Scientist 'B'",
-        "Civilian Medical Officer",
-        "Specialist Grade III Assistant Professor",
-        "Assistant Industrial Adviser",
-        "Veterinary Assistant Surgeon"
-      ],
-      "url": "https://upsconline.nic.in/ora/",
-      "status": "open",
-      "opensOn": "2026-07-25",
-      "closesOn": "2026-08-14",
-      "expected": null,
-      "fit": "strong",
-      "fitLabel": "Any-graduate management exams (PCS, RBI Grade B, NABARD Grade A, bank PO, SEBI Grade A General which accepts any engineering bachelor's) for Assistant Industrial Adviser; Core engineering posts where Mechanical is eligible for Agricultural Engineer.",
-      "tags": [
-        "Management",
-        "Logistics"
-      ],
-      "firstSeen": "2026-07-10T12:00:00.000Z"
-    },
-    {
       "id": "epfo-auditor-assistant-audit-officer-assistant-director-audit-deputy-director-au",
       "source": "regulators-sweep",
       "org": "EPFO",
@@ -1554,22 +1602,22 @@
     {
       "id": "union-public-service-commission-upsc-recruitment-for-principal-and-vice-principa",
       "source": "upsc",
-      "org": "Union Public Service Commission (UPSC)",
-      "title": "Recruitment for Principal and Vice-Principal posts",
-      "summary": "UPSC has released Advertisement No. 51/2026 for the recruitment of 828 vacancies across Principal (124 posts) and Vice-Principal (704 posts) in the Education Department, Government of NCT of Delhi. These are management/administrative roles.",
+      "org": "UPSC",
+      "title": "Principal and Vice Principal Recruitment 2026",
+      "summary": "Recruitment for 828 Principal and Vice-Principal posts under the Education Department, Government of NCT of Delhi.",
       "advtNo": "51/2026",
       "posts": 828,
-      "url": "https://upsconline.nic.in/",
+      "url": "https://upsconline.nic.in/ora/",
       "pdfUrl": "https://currentaffairs.adda247.com/wp-content/uploads/2026/07/UPSC-Principal-and-Vice-Principal-Recruitment-2026-Notification-PDF.pdf",
-      "status": "upcoming",
+      "status": "open",
       "opensOn": "2026-07-25",
       "closesOn": "2026-08-14",
       "expected": null,
-      "fit": "strong",
-      "fitLabel": "Any-graduate management exams (PCS, RBI Grade B, NABARD Grade A, bank PO, SEBI Grade A General which accepts any engineering bachelor's) are \"strong\".",
+      "fit": "moderate",
+      "fitLabel": "Management roles, but likely require specific educational qualifications in education, which a B.Tech Mechanical may not possess.",
       "tags": [
         "Management",
-        "Administration"
+        "Education"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -1689,6 +1737,83 @@
       "firstSeen": "2026-07-28T01:54:00.490Z"
     },
     {
+      "id": "bhel-engineer-trainee-mechanical",
+      "source": "psu-sweep",
+      "org": "Hindustan Aeronautics Limited (HAL)",
+      "title": "Management Trainee (MT)",
+      "summary": "Recruitment for 60 Management Trainee vacancies in Electrical, Electronics, Mechanical, Computer Science, Metallurgy, Production, and Civil Engineering disciplines. Online application process.",
+      "advtNo": "HAL/CHRC-TM/RECT-02/2026",
+      "posts": 60,
+      "url": "https://hal-india.co.in/careers",
+      "status": "open",
+      "opensOn": "2026-07-29",
+      "closesOn": "2026-08-14",
+      "expected": "2026-07-01",
+      "fit": "strong",
+      "fitLabel": "Mechanical Engineering is eligible for this management role.",
+      "tags": [
+        "Management",
+        "Management Trainee"
+      ],
+      "firstSeen": "2026-07-10T18:36:34.553Z"
+    },
+    {
+      "id": "upsc-recruitment-for-40-vacancies-across-12-posts-advt-no-09-2026",
+      "source": "upsc",
+      "org": "UPSC",
+      "title": "Recruitment for 40 vacancies across 12 posts (Advt No. 09/2026)",
+      "summary": "Indicative Advertisement No. 09/2026 inviting applications for 40 vacancies across 12 posts, including Agricultural Engineer, Medical Officer/Research Officer (Unani), Scientist 'B', Assistant Industrial Adviser, and Veterinary Assistant Surgeon.",
+      "advtNo": "09/2026",
+      "posts": 40,
+      "url": "https://upsconline.nic.in/ora/",
+      "pdfUrl": null,
+      "status": "open",
+      "opensOn": "2026-07-25",
+      "closesOn": "2026-08-14",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "Includes 'Assistant Industrial Adviser' which aligns with management/advisory roles for an engineering graduate. Other posts are specialized or not a direct fit.",
+      "tags": [
+        "Management",
+        "Engineering"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-07-29T01:54:44.452Z"
+    },
+    {
+      "id": "hindustan-aeronautics-limited-hal-design-trainee-dt",
+      "source": "psu-sweep",
+      "org": "Hindustan Aeronautics Limited (HAL)",
+      "title": "Design Trainee (DT)",
+      "summary": "Recruitment for 60 Design Trainee vacancies in Aeronautical, Electrical, Electronics, Instrumentation, Mechanical, Computer Science, and Metallurgy disciplines. Online application process.",
+      "advtNo": "HAL/CHRC-TM/RECT-02/2026",
+      "posts": 60,
+      "url": "https://hal-india.co.in/careers",
+      "pdfUrl": null,
+      "status": "open",
+      "opensOn": "2026-07-29",
+      "closesOn": "2026-08-14",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Mechanical Engineering is eligible for this core engineering design role.",
+      "tags": [
+        "Engineering",
+        "Design Trainee"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-07-29T01:56:42.970Z"
+    },
+    {
       "id": "indian-computer-emergency-response-team-cert-in-scientist-b",
       "source": "drdo-rac",
       "org": "Indian Computer Emergency Response Team (CERT-In)",
@@ -1752,6 +1877,31 @@
       "firstSeen": "2026-07-10T18:35:48.707Z"
     },
     {
+      "id": "ibps-crp-clerks-xvi-for-vacancies-of-2027-28",
+      "source": "ibps",
+      "org": "IBPS",
+      "title": "CRP Clerks – XVI for vacancies of 2027-28",
+      "summary": "Recruitment of Customer Service Associates (Clerical Cadre) in participating public sector banks.",
+      "advtNo": "CRP CSA-XVI",
+      "posts": null,
+      "url": "https://www.ibps.in",
+      "pdfUrl": null,
+      "status": "upcoming",
+      "opensOn": "2026-08-01",
+      "closesOn": "2026-08-21",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "",
+      "tags": [],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-07-29T01:56:11.516Z"
+    },
+    {
       "id": "indian-oil-corporation-limited-iocl-apprentice-panipat-refinery-petrochemical-co",
       "source": "psu-sweep",
       "org": "Steel Authority of India Limited (SAIL)",
@@ -1806,27 +1956,6 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-07-23T02:06:07.940Z"
-    },
-    {
-      "id": "bhel-engineer-trainee-mechanical",
-      "source": "psu-sweep",
-      "org": "HAL",
-      "title": "Management Trainee (MT) through GATE 2026",
-      "summary": "Hindustan Aeronautics Limited (HAL) is recruiting Management Trainees through GATE 2026. Disciplines include Mechanical, Electrical, Electronics & Comm., Computer Science, Aeronautical/Aerospace, Civil, Metallurgy.",
-      "advtNo": null,
-      "posts": 150,
-      "url": "https://hal-india.co.in/Careers",
-      "status": "open",
-      "opensOn": "2026-06-15",
-      "closesOn": "2026-08-31",
-      "expected": "2026-07-01",
-      "fit": "strong",
-      "fitLabel": "Management Trainee role, B.Tech Mechanical eligible, requires GATE 2026 score.",
-      "tags": [
-        "Engineering",
-        "GATE"
-      ],
-      "firstSeen": "2026-07-10T18:36:34.553Z"
     },
     {
       "id": "hal-management-trainee-mechanical",
@@ -1938,8 +2067,8 @@
       "source": "rrb",
       "org": "Railway Recruitment Board (RRB)",
       "title": "Junior Engineer (JE), Depot Material Superintendent (DMS), Chemical & Metallurgical Assistant (CMA)",
-      "summary": "The Railway Recruitment Board has announced 4098 vacancies for Junior Engineer, Depot Material Superintendent, and Chemical & Metallurgical Assistant posts under CEN No. 04/2026.",
-      "advtNo": "CEN No. 04/2026",
+      "summary": "The Railway Recruitment Board has released an indicative notice for RRB JE Recruitment 2026 under CEN No. 04/2026, announcing 4098 vacancies for Junior Engineer, Depot Material Superintendent, and Chemical & Metallurgical Assistant posts. Candidates with a 3-year Diploma or B.Tech engineering degree in Civil, Electrical, Mechanical, Electronics & IT are eligible to apply.",
+      "advtNo": "CEN 04/2026",
       "posts": 4098,
       "url": "https://www.rrbapply.gov.in/",
       "status": "upcoming",
@@ -1947,10 +2076,10 @@
       "closesOn": "2026-09-13",
       "expected": "Notification officially released on 21 July 2026.",
       "fit": "moderate",
-      "fitLabel": "Core engineering posts where Mechanical is eligible are 'moderate'.",
+      "fitLabel": "Core engineering post, Mechanical eligible. Candidate prefers IT/Management but has B.Tech Mechanical.",
       "tags": [
-        "Engineering",
-        "Junior Engineer"
+        "Junior Engineer",
+        "JE"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z",
       "pdfUrl": "https://testbook.com/rrb-je/notification-pdf"
@@ -1978,43 +2107,22 @@
     },
     {
       "id": "nabard-grade-a-assistant-manager-rdbs-generalist",
-      "source": "nabard",
-      "org": "NABARD",
-      "title": "Assistant Manager (Grade A)",
-      "summary": "Expected recruitment for Assistant Manager positions in various streams like Rural Development Banking Service (RDBS), Rajbhasha, Protocol & Security Services, General, Agriculture, IT, Finance, etc.",
-      "advtNo": null,
-      "posts": "80-100 (Expected)",
-      "url": "https://www.nabard.org/career.aspx",
-      "status": "upcoming",
-      "opensOn": null,
-      "closesOn": null,
-      "expected": "July-August 2026",
-      "fit": "strong",
-      "fitLabel": "Any-graduate management exam, accepts any engineering bachelor's for General stream.",
-      "tags": [
-        "Management",
-        "Banking"
-      ],
-      "firstSeen": "2026-07-10T12:00:00.000Z"
-    },
-    {
-      "id": "sebi-securities-and-exchange-board-of-india-grade-a-assistant-manager-general-stream",
       "source": "regulators-sweep",
-      "org": "Insurance Regulatory and Development Authority of India (IRDAI)",
-      "title": "IRDAI Assistant Manager Recruitment 2026",
-      "summary": "The IRDAI Grade A notification for Assistant Manager positions is expected to be released in August 2026, with around 40 vacancies. The official notification will include vacancies for different streams such as Generalist, Finance, Law, IT, Actuarial, and Research. For the Generalist stream, candidates must have a graduation degree.",
+      "org": "PFRDA",
+      "title": "Grade A (Assistant Manager)",
+      "summary": "Recruitment for Assistant Manager posts across various streams like General, Legal, Finance and Accounts, IT, Official Language (Rajbhasha), and Research.",
       "advtNo": null,
-      "posts": 40,
-      "url": "https://www.irdai.gov.in/",
+      "posts": "30-40 (expected)",
+      "url": "https://www.pfrda.org.in/",
       "status": "upcoming",
       "opensOn": "2026-07-27",
       "closesOn": null,
-      "expected": "August 2026",
+      "expected": "2026-07-XX to 2026-08-XX",
       "fit": "strong",
-      "fitLabel": "Management/Officer role; the Generalist stream is a strong fit for a B.Tech Mechanical graduate. The IT stream is likely gated due to specific degree requirements.",
+      "fitLabel": "Management role, engineering bachelor's eligible.",
       "tags": [
         "Regulator",
-        "Management"
+        "Banking"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z"
     },
@@ -2039,13 +2147,13 @@
     {
       "id": "isro-sdsc-shar-recruitment-for-research-associate-ra-i",
       "source": "isro",
-      "org": "ISRO · SDSC SHAR",
-      "title": "Research Associate (RA-I)",
-      "summary": "Recruitment for Research Associate (RA-I) positions. Details on vacancies, eligibility, and selection stages are expected in the full notification.",
-      "advtNo": "SDSC SHAR/RMT/02/2026",
+      "org": "ISRO · NESAC",
+      "title": "Research Scientists, Junior Research Fellows, Project Associate - I",
+      "summary": "Recruitment for research positions: Research Scientists, Junior Research Fellows, and Project Associate - I. Requires specific science/engineering backgrounds.",
+      "advtNo": "NESAC/RMT-TEMP/WI-02/2026",
       "posts": "RA-I posts",
-      "url": "https://www.isro.gov.in/SDSCRecruitment25.html",
-      "status": "open",
+      "url": "https://www.isro.gov.in/NESACRecruitment23.html",
+      "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
       "expected": null,
@@ -2161,21 +2269,21 @@
     {
       "id": "lic-assistant-administrative-officer-aao",
       "source": "regulators-sweep",
-      "org": "Life Insurance Corporation of India (LIC)",
+      "org": "LIC",
       "title": "Assistant Administrative Officer (AAO)",
-      "summary": "Recruitment for Assistant Administrative Officer posts, including Generalist and Specialist streams.",
+      "summary": "Recruitment for Assistant Administrative Officer posts across Generalist and Specialist streams.",
       "advtNo": null,
-      "posts": null,
-      "url": "https://www.licindia.in",
+      "posts": "250-400 (expected)",
+      "url": "https://www.licindia.in/",
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "2026-08-01 to 2026-08-31",
+      "expected": "2026-08-XX",
       "fit": "strong",
-      "fitLabel": "Any-graduate management role, as AAO Generalist requires a bachelor's degree in any discipline.",
+      "fitLabel": "Management role, any bachelor's degree eligible.",
       "tags": [
-        "Management",
-        "Insurance"
+        "PSU",
+        "Management"
       ],
       "firstSeen": "2026-07-10T18:37:16.814Z"
     },
@@ -2355,34 +2463,6 @@
       "firstSeen": "2026-07-24T02:03:33.429Z"
     },
     {
-      "id": "bharat-electronics-limited-bel-graduate-apprenticeship-training-gapp",
-      "source": "psu-sweep",
-      "org": "Bharat Electronics Limited (BEL)",
-      "title": "Graduate Apprenticeship Training (GAPP)",
-      "summary": "Bharat Electronics Limited (BEL), Bengaluru, has released a walk-in written test notification for Graduate Apprenticeship Training (GAPP) 2026-27. The one-year apprenticeship program is offered across 14 engineering disciplines for candidates from Southern Region states.",
-      "advtNo": null,
-      "posts": null,
-      "url": "https://www.bel-india.in",
-      "pdfUrl": null,
-      "status": "upcoming",
-      "opensOn": null,
-      "closesOn": null,
-      "expected": "2026-08-06",
-      "fit": "moderate",
-      "fitLabel": "Graduate Apprenticeship in Engineering (Mechanical) is a moderate fit. Apprenticeship roles are generally not management or advanced IT roles for an experienced software engineer.",
-      "tags": [
-        "Apprentice",
-        "Graduate Apprentice"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-07-26T02:05:15.674Z"
-    },
-    {
       "id": "national-institute-of-electronics-information-technology-nielit-j-k-nielit-j-k-p",
       "source": "regulators-sweep",
       "org": "National Institute of Electronics & Information Technology (NIELIT) J&K",
@@ -2415,19 +2495,19 @@
       "source": "isro",
       "org": "ISRO · PRL",
       "title": "Administrative Officer, Accounts Officer, Purchase and Stores Officer",
-      "summary": "Recruitment for Administrative Officer, Accounts Officer, and Purchase and Stores Officer posts. Details on vacancies, eligibility, and selection stages are expected in the full notification.",
+      "summary": "Recruitment for management-level positions: Administrative Officer, Accounts Officer, and Purchase and Stores Officer. Open to graduates from various disciplines.",
       "advtNo": "01/2026",
       "posts": null,
       "url": "https://www.isro.gov.in/PRLRecruitment7.html",
       "pdfUrl": null,
-      "status": "open",
+      "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
       "expected": null,
       "fit": "strong",
       "fitLabel": "Strong fit — management",
       "tags": [
-        "Management roles"
+        "Any graduate"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -2492,6 +2572,31 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-07-28T01:54:24.588Z"
+    },
+    {
+      "id": "isro-icrb-scientist-engineer-sc",
+      "source": "isro",
+      "org": "ISRO · ICRB",
+      "title": "Scientist/Engineer 'SC'",
+      "summary": "Recruitment for Scientist/Engineer 'SC' positions. Detailed advertisement expected soon. These roles typically require specific engineering degrees.",
+      "advtNo": "ISRO:ICRB:02(EMC-CEPO):2026",
+      "posts": null,
+      "url": "https://www.isro.gov.in/ICRB_Recruitment12.html",
+      "pdfUrl": null,
+      "status": "upcoming",
+      "opensOn": null,
+      "closesOn": null,
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Moderate fit — core engineering",
+      "tags": [],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-07-29T01:53:03.169Z"
     }
   ]
 }
