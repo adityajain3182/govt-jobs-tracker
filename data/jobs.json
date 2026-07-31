@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-07-30T01:50:29.007Z",
+  "lastScan": "2026-07-31T02:10:47.015Z",
   "jobs": [
     {
       "id": "national-institute-of-electronics-and-information-technology-nielit-programmer-a",
@@ -334,6 +334,26 @@
       "firstSeen": "2026-07-10T18:40:06.128Z"
     },
     {
+      "id": "rbi-engagement-of-young-professionals",
+      "source": "rbi",
+      "org": "RBI",
+      "title": "Young Professionals",
+      "summary": "Engagement of Young Professionals in Reserve Bank of India. These roles are typically management/analytical, open to any graduate, and align with the candidate's interest in management.",
+      "advtNo": null,
+      "posts": null,
+      "url": "https://opportunities.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=5079",
+      "status": "closed",
+      "opensOn": "2026-06-15",
+      "closesOn": "2026-07-10",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "Strong fit — management",
+      "tags": [
+        "Any graduate (likely)"
+      ],
+      "firstSeen": "2026-07-10T18:31:28.653Z"
+    },
+    {
       "id": "isro-ursc-junior-research-fellow-jrf-recruitment",
       "source": "isro",
       "org": "ISRO · URSC",
@@ -372,26 +392,6 @@
         "IT role"
       ],
       "firstSeen": "2026-07-10T18:31:55.031Z"
-    },
-    {
-      "id": "rbi-lateral-recruitment-of-site-engineers",
-      "source": "rbi",
-      "org": "RBI",
-      "title": "Lateral Recruitment of Site Engineers",
-      "summary": "RBI recruited Site Engineers on a full-time contract basis. Details on eligibility and selection process were in the detailed advertisement. Applications likely closed around mid-July 2026.",
-      "advtNo": null,
-      "posts": null,
-      "url": "https://opportunities.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=5097",
-      "status": "closed",
-      "opensOn": "2026-06-29",
-      "closesOn": "2026-07-13",
-      "expected": null,
-      "fit": "moderate",
-      "fitLabel": "Moderate fit — engineering",
-      "tags": [
-        "Contractual"
-      ],
-      "firstSeen": "2026-07-10T18:31:28.653Z"
     },
     {
       "id": "nabard-specialist-on-contract-it-roles",
@@ -520,21 +520,22 @@
       "id": "upsc-direct-recruitment-store-officer-advt-07-2026",
       "source": "upsc",
       "org": "UPSC",
-      "title": "Aeronautical Officer",
-      "summary": "Recruitment for 11 Aeronautical Officer posts under Advertisement No. 07/2026.",
+      "title": "Store Officer (Civilian)",
+      "summary": "Recruitment for 4 Store Officer (Civilian) posts under Advertisement No. 07/2026.",
       "advtNo": "07/2026",
-      "posts": 11,
+      "posts": 4,
       "url": "https://upsconline.nic.in/ora/",
       "status": "closed",
       "opensOn": "2026-06-25",
       "closesOn": "2026-07-17",
       "expected": null,
-      "fit": "moderate",
-      "fitLabel": "Mechanical Engineering is often a relevant qualification for Aeronautical Officer roles.",
+      "fit": "strong",
+      "fitLabel": "Administrative/management role, likely accepts engineering bachelor's degrees.",
       "tags": [
-        "Engineering"
+        "Management"
       ],
-      "firstSeen": "2026-07-13T16:03:08.235Z"
+      "firstSeen": "2026-07-13T16:03:08.235Z",
+      "pdfUrl": "https://upsc.gov.in/"
     },
     {
       "id": "upsc-recruitment-to-various-posts-in-central-government-ministries-and-departmen",
@@ -600,26 +601,6 @@
       "firstSeen": "2026-07-21T01:57:39.607Z"
     },
     {
-      "id": "upsc-store-officer-civilian",
-      "source": "upsc",
-      "org": "UPSC",
-      "title": "Store Officer (Civilian)",
-      "summary": "Recruitment for 4 Store Officer (Civilian) posts under Advertisement No. 07/2026.",
-      "advtNo": "07/2026",
-      "posts": 4,
-      "url": "https://upsconline.nic.in/ora/",
-      "status": "closed",
-      "opensOn": "2026-06-25",
-      "closesOn": "2026-07-17",
-      "expected": null,
-      "fit": "strong",
-      "fitLabel": "Administrative/management role, likely accepts engineering bachelor's degrees.",
-      "tags": [
-        "Management"
-      ],
-      "firstSeen": "2026-07-21T01:57:39.607Z"
-    },
-    {
       "id": "state-bank-of-india-specialist-cadre-officer-database-cloud-dba-contract",
       "source": "sbi",
       "org": "State Bank of India",
@@ -641,22 +622,44 @@
       "id": "sbi-specialist-cadre-officer-dba-advisor-cdba",
       "source": "sbi",
       "org": "SBI",
-      "title": "DBA (Navy), Advisor (CAPF), CDBA",
-      "summary": "Engagement of Specialist Cadre Officers on contract for DBA (Navy), Advisor (CAPF), and CDBA roles. Online registration extended till 18.07.2026. IT roles likely require specific CS/IT/Electronics degrees, making it degree-gated.",
+      "title": "Specialist Cadre Officer (DBA, Advisor, CDBA)",
+      "summary": "Engagement of Specialist Cadre Officers on contract basis for roles like DBA (Navy), Advisor (CAPF), and CDBA. Eligibility and selection details are in the advertisement. DBA is an IT role.",
       "advtNo": "CRPD/SCO/2026-27/10",
       "posts": null,
-      "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-10/apply",
+      "url": "https://sbi.bank.in/web/careers/current-openings",
       "status": "closed",
       "opensOn": null,
       "closesOn": "2026-07-18",
       "expected": null,
       "fit": "gated",
-      "fitLabel": "Degree-gated: CS/IT",
+      "fitLabel": "Degree-gated: CS/IT for DBA",
       "tags": [
-        "Contractual"
+        "Contract basis",
+        "IT roles"
       ],
       "firstSeen": "2026-07-10T18:31:02.930Z",
       "pdfUrl": "https://sbi.bank.in/documents/77530/57941334/18062026_ADV_CRPD_SCO_2026_27_10+%281%29.pdf/71573359-de6c-40b9-7255-a1820579476f?t=1781773876837"
+    },
+    {
+      "id": "rbi-lateral-recruitment-of-site-engineers",
+      "source": "rbi",
+      "org": "RBI",
+      "title": "Lateral Recruitment of Site Engineers",
+      "summary": "Lateral recruitment for Site Engineers on full-time contract basis in Reserve Bank of India. Requires engineering degree, Mechanical B.Tech likely eligible for some roles. Experience required.",
+      "advtNo": null,
+      "posts": null,
+      "url": "https://opportunities.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=5097",
+      "status": "closed",
+      "opensOn": "2026-06-29",
+      "closesOn": "2026-07-20",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Moderate fit — engineering",
+      "tags": [
+        "Contractual",
+        "Experience required"
+      ],
+      "firstSeen": "2026-07-10T18:31:28.653Z"
     },
     {
       "id": "ibps-public-sector-banks-specialist-officer-scale-i-incl-it-officer",
@@ -681,19 +684,19 @@
       "source": "nabard",
       "org": "NABARD",
       "title": "Specialists on Contract",
-      "summary": "Recruitment for 6 posts of Specialists on Contract including Data Architect, Application Solution Architect, Technology Solution Architect, Carbon Consultant, Climate Change Specialist - Mitigation, and Specialist- Derivatives and Treasury Risk Management.",
+      "summary": "Recruitment for 6 specialist posts including Data Architect, Application Solution Architect, Technology Solution Architect, Carbon Consultant, Climate Change Specialist - Mitigation, and Specialist- Derivatives and Treasury Risk Management.",
       "advtNo": "03",
       "posts": 6,
-      "url": "https://www.nabard.org/career",
+      "url": "https://www.nabard.org/career.aspx",
       "status": "closed",
       "opensOn": "2026-07-10",
       "closesOn": "2026-07-23",
       "expected": null,
       "fit": "gated",
-      "fitLabel": "IT roles (Data Architect, Application Solution Architect, Technology Solution Architect) likely require CS/IT/Electronics degree (gated). Other specialist roles are not a direct fit for Mechanical B.Tech with software experience (low).",
+      "fitLabel": "IT roles (Data Architect, Application Solution Architect, Technology Solution Architect) are gated as they require a CS/IT/Electronics degree. Other specialist roles (Carbon Consultant, Climate Change Specialist, Specialist- Derivatives and Treasury Risk Management) are a low fit as they do not align with the candidate's interest in general management or IT roles for a mechanical engineer.",
       "tags": [
-        "Specialist",
-        "IT"
+        "IT",
+        "Specialist"
       ],
       "firstSeen": "2026-07-12T09:31:57.251Z"
     },
@@ -859,7 +862,7 @@
       "advtNo": "HR/RECTT/01/2026-27(APP)",
       "posts": 8,
       "url": "https://iocl.com/",
-      "status": "open",
+      "status": "closed",
       "opensOn": "2026-07-01",
       "closesOn": "2026-07-30",
       "expected": null,
@@ -1219,27 +1222,6 @@
       "firstSeen": "2026-07-10T12:00:00.000Z"
     },
     {
-      "id": "uppsc-uttar-pradesh-public-service-commission-combined-state-upper-subordinate-services-pcs-2026",
-      "source": "regulators-sweep",
-      "org": "Uttar Pradesh Public Service Commission (UPPSC)",
-      "title": "Combined State/Upper Subordinate Services (PCS) (General/Special Recruitment) Examination 2026",
-      "summary": "Approximately 500 vacancies for Group A and Group B gazetted posts, such as Block Development Officer, Deputy Collector (SDM), Assistant Labour Commissioner, District Administrative Officer, Labour Enforcement Officer, Food Safety Officer, and Sub Registrar.",
-      "advtNo": "A-1/E-1/2026",
-      "posts": 500,
-      "url": "https://uppsc.up.nic.in/",
-      "status": "open",
-      "opensOn": "2026-06-25",
-      "closesOn": "2026-08-03",
-      "expected": "2026-12-06 (Prelims Exam)",
-      "fit": "strong",
-      "fitLabel": "Generalist civil services/management roles, B.Tech graduates are eligible.",
-      "tags": [
-        "PCS",
-        "Management"
-      ],
-      "firstSeen": "2026-07-10T12:00:00.000Z"
-    },
-    {
       "id": "haryana-public-service-commission-hpsc-district-manager-group-b",
       "source": "regulators-sweep",
       "org": "Haryana Public Service Commission (HPSC)",
@@ -1396,6 +1378,26 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-07-26T02:05:15.674Z"
+    },
+    {
+      "id": "uppsc-uttar-pradesh-public-service-commission-combined-state-upper-subordinate-services-pcs-2026",
+      "source": "uppsc",
+      "org": "UPPSC",
+      "title": "Combined State / Upper Subordinate Services (PCS) (General/Special Recruitment) Examination-2026",
+      "summary": "Uttar Pradesh Public Service Commission's flagship civil services exam for various administrative and management roles. Requires any bachelor's degree. Selection includes Prelims, Mains, and Interview stages. Application deadline extended.",
+      "advtNo": "A-1/E-1/2026",
+      "posts": 500,
+      "url": "https://uppsc.up.nic.in/",
+      "status": "open",
+      "opensOn": "2026-06-25",
+      "closesOn": "2026-08-10",
+      "expected": "2026-12-06 (Prelims Exam)",
+      "fit": "strong",
+      "fitLabel": "Strong fit — management",
+      "tags": [
+        "Any graduate"
+      ],
+      "firstSeen": "2026-07-10T12:00:00.000Z"
     },
     {
       "id": "indian-oil-corporation-limited-iocl-apprentice-recruitment-2026",
@@ -1654,19 +1656,19 @@
       "source": "upsc",
       "org": "UPSC",
       "title": "Agricultural Engineer (Advt. No. 09/2026)",
-      "summary": "UPSC has released Advertisement No. 09/2026, inviting applications for 40 vacancies across 12 posts. This includes positions for Agricultural Engineer, for which a Degree in Agricultural Engineering or Mechanical Engineering is an eligible qualification.",
+      "summary": "Recruitment for Agricultural Engineer in Farm Machinery Training and Testing Institute, Department of Agriculture and Farmers Welfare, Ministry of Agriculture & Farmers Welfare. One vacancy was announced.",
       "advtNo": "09/2026",
-      "posts": null,
+      "posts": 1,
       "url": "https://upsconline.nic.in/ora/",
-      "pdfUrl": null,
+      "pdfUrl": "https://upsc.gov.in/",
       "status": "open",
       "opensOn": "2026-07-25",
       "closesOn": "2026-08-14",
       "expected": null,
       "fit": "moderate",
-      "fitLabel": "Mechanical Engineering degree is eligible, but it is a core engineering role, not directly IT or management.",
+      "fitLabel": "Mechanical Engineering degree is explicitly eligible for this post.",
       "tags": [
-        "Agricultural Engineer",
+        "Direct Recruitment",
         "Engineering"
       ],
       "minExperienceYears": null,
@@ -1682,19 +1684,19 @@
       "source": "upsc",
       "org": "UPSC",
       "title": "Assistant Industrial Adviser (Advt. No. 09/2026)",
-      "summary": "UPSC has released Advertisement No. 09/2026, inviting applications for 40 vacancies across 12 posts. This includes positions for Assistant Industrial Adviser, which could be a potential management/advisory role.",
+      "summary": "Recruitment for Assistant Industrial Adviser in the Ministry of Steel. Two vacancies were announced.",
       "advtNo": "09/2026",
-      "posts": null,
+      "posts": 2,
       "url": "https://upsconline.nic.in/ora/",
-      "pdfUrl": null,
+      "pdfUrl": "https://upsc.gov.in/",
       "status": "open",
       "opensOn": "2026-07-25",
       "closesOn": "2026-08-14",
       "expected": null,
-      "fit": "strong",
-      "fitLabel": "Potential management/advisory role, which aligns with the candidate's interest in management and IT, given their B.Tech Mechanical and software engineering experience.",
+      "fit": "moderate",
+      "fitLabel": "Bachelor's Degree in Mechanical Engineering with relevant experience is eligible for this advisory/management role.",
       "tags": [
-        "Assistant Industrial Adviser",
+        "Direct Recruitment",
         "Management"
       ],
       "minExperienceYears": null,
@@ -1881,17 +1883,17 @@
       "id": "ibps-crp-po-mt-xvi-probationary-officer-management-trainee",
       "source": "ibps",
       "org": "IBPS",
-      "title": "CRP CSA-XVI: Recruitment of Customer Service Associates (Clerical Cadre)",
-      "summary": "IBPS has released a short notification for the Common Recruitment Process (CRP) for Customer Service Associates (Clerical Cadre) in participating public sector banks. The detailed notification is expected by July 31 or August 1, 2026. The online application process is scheduled to commence on August 1, 2026, and conclude on August 21, 2026. Over 15,000 vacancies are expected.",
+      "title": "CRP Clerks (Customer Service Associates) - XVI",
+      "summary": "Recruitment for Customer Service Associates (Clerical Cadre) in Participating Public Sector Banks.",
       "advtNo": "CRP CSA-XVI",
-      "posts": 15000,
-      "url": "https://www.ibps.in/crp-clerks-xvi/",
+      "posts": 9788,
+      "url": "https://www.ibps.in/",
       "status": "upcoming",
       "opensOn": "2026-08-01",
       "closesOn": "2026-08-21",
       "expected": "Detailed notification by 2026-07-31/2026-08-01",
       "fit": "strong",
-      "fitLabel": "Any-graduate clerical/customer service role, suitable for B.Tech Mechanical with interest in banking.",
+      "fitLabel": "",
       "tags": [
         "Banking",
         "Clerical"
@@ -2185,26 +2187,6 @@
         "Research roles"
       ],
       "firstSeen": "2026-07-10T18:30:30.793Z"
-    },
-    {
-      "id": "rbi-engagement-of-young-professionals",
-      "source": "rbi",
-      "org": "RBI",
-      "title": "Engagement of Young Professionals",
-      "summary": "Engagement of Young Professionals in Reserve Bank of India. This is a generalist/management role, a strong fit for the candidate's interest and background.",
-      "advtNo": null,
-      "posts": null,
-      "url": "https://opportunities.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=5079",
-      "status": "closed",
-      "opensOn": null,
-      "closesOn": null,
-      "expected": null,
-      "fit": "strong",
-      "fitLabel": "Strong fit — management",
-      "tags": [
-        "Management role"
-      ],
-      "firstSeen": "2026-07-10T18:31:28.653Z"
     },
     {
       "id": "upsc-ut-of-ladakh-accounts-officer",
@@ -2551,7 +2533,7 @@
       "source": "nabard",
       "org": "NABARD",
       "title": "Manager (Grade B)",
-      "summary": "Expected recruitment for Manager positions in the Rural Development Banking Service (RDBS).",
+      "summary": "Upcoming recruitment for Manager positions in the Rural Development Banking Service (RDBS).",
       "advtNo": null,
       "posts": null,
       "url": "https://www.nabard.org/career.aspx",
@@ -2561,7 +2543,7 @@
       "closesOn": null,
       "expected": "July-August 2026",
       "fit": "strong",
-      "fitLabel": "Any-graduate management exam, likely accepts any engineering bachelor's for General stream.",
+      "fitLabel": "Any-graduate management exam, B.Tech Mechanical is typically eligible for the General stream.",
       "tags": [
         "Management",
         "Banking"
@@ -2603,38 +2585,10 @@
       "id": "nabard-assistant-manager-grade-a-general-rdbs",
       "source": "nabard",
       "org": "NABARD",
-      "title": "Assistant Manager (Grade A) - General/RDBS",
-      "summary": "NABARD is expected to release the notification for Assistant Manager (Grade A) posts in various disciplines, including General/RDBS, around July-August 2026. The application window is typically open for 20-25 days after the notification release. This role is suitable for candidates with any engineering bachelor's degree.",
-      "advtNo": null,
-      "posts": null,
-      "url": "https://www.nabard.org/career.aspx",
-      "pdfUrl": null,
-      "status": "upcoming",
-      "opensOn": null,
-      "closesOn": null,
-      "expected": "July-August 2026",
-      "fit": "strong",
-      "fitLabel": "Any-graduate management exam, strong fit for B.Tech Mechanical.",
-      "tags": [
-        "Management",
-        "Banking"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-07-30T01:47:43.264Z"
-    },
-    {
-      "id": "nabard-assistant-manager-grade-a-it-computer",
-      "source": "nabard",
-      "org": "NABARD",
       "title": "Assistant Manager (Grade A) - IT/Computer",
       "summary": "NABARD is expected to release the notification for Assistant Manager (Grade A) posts, including IT/Computer stream, around July-August 2026. The IT vacancies for 2026 are not yet out, but the notification will mention the total vacancies for IT Officers. This post typically requires a CS/IT/Electronics degree.",
       "advtNo": null,
-      "posts": null,
+      "posts": 80,
       "url": "https://www.nabard.org/career.aspx",
       "pdfUrl": null,
       "status": "upcoming",
