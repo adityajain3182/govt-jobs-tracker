@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-08-16T00:55:50.059Z",
+  "lastScan": "2026-08-17T00:51:54.255Z",
   "jobs": [
     {
       "id": "ntpc-experienced-professionals-on-fixed-term-basis",
@@ -400,34 +400,6 @@
       "firstSeen": "2026-08-01T02:08:15.704Z"
     },
     {
-      "id": "uttar-pradesh-public-service-commission-combined-state-upper-subordinate-service",
-      "source": "regulators-sweep",
-      "org": "Uttar Pradesh Public Service Commission (UPPSC)",
-      "title": "Combined State/Upper Subordinate Services (PCS) Examination 2026",
-      "summary": "Recruitment for approximately 500 vacancies for various administrative Group A and Group B posts like Block Development Officer, Deputy Collector (SDM), Assistant Labour Commissioner, Deputy Superintendent of Police (DSP), and Block Development Officer (BDO).",
-      "advtNo": "A-1/E-1/2026",
-      "posts": 500,
-      "url": "https://uppsc.up.nic.in/",
-      "pdfUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEb7X07atpGeji9JAMVb6mLAQqBFKENUHk8LOzLHmVgJ5PdG4sX0eAuGmFK23JnneTLVov97kzU1xii4-HHz8bRmKobdJhcHlzruGabVf9EeuXbJHTFX5RKXjLhmmIduov-gsF_",
-      "status": "closed",
-      "opensOn": "2026-06-25",
-      "closesOn": "2026-07-27",
-      "expected": "2026-12-06 (Prelims Exam)",
-      "fit": "strong",
-      "fitLabel": "Any-graduate management roles, suitable for the candidate's profile.",
-      "tags": [
-        "Management",
-        "Administrative"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-07-10T12:00:00.000Z"
-    },
-    {
       "id": "bel-sr-asst-engineer-e-i",
       "source": "psu-sweep",
       "org": "Bharat Electronics Limited (BEL)",
@@ -516,19 +488,19 @@
       "source": "psu-sweep",
       "org": "ONGC",
       "title": "Graduate Trainee (Engineer & Geologist)",
-      "summary": "Recruitment for 52 Graduate Trainee vacancies at E1 level in Engineer and Geologist disciplines. Mechanical Engineering is one of the disciplines.",
+      "summary": "Oil and Natural Gas Corporation (ONGC) released a recruitment notification for 52 Graduate Trainee vacancies in Engineer and Geologist disciplines at the E1 level. The selection process includes a Computer Based Test (CBT), Interview, and Medical Examination.",
       "advtNo": "2/2026 (R&P)",
       "posts": 52,
-      "url": "https://www.ongcindia.com/career",
+      "url": "https://www.ongcindia.com/",
       "status": "closed",
       "opensOn": "2026-07-17",
       "closesOn": "2026-07-31",
       "expected": "Detailed notification to be released after short notification on 2026-07-11",
       "fit": "moderate",
-      "fitLabel": "",
+      "fitLabel": "Core Engineering",
       "tags": [
-        "Engineering",
-        "Trainee"
+        "Engineer",
+        "Geologist"
       ],
       "firstSeen": "2026-07-19T01:59:17.405Z",
       "pdfUrl": "https://ongcindia.com/web/eng/about-ongc/career/ONGC_Engineer_Recruitment_2026_Notification.pdf"
@@ -857,22 +829,55 @@
     {
       "id": "staff-selection-commission-ssc-junior-engineer-civil-electrical-mechanical-2026",
       "source": "ssc",
-      "org": "Staff Selection Commission",
-      "title": "Junior Engineer (Civil, Electrical, Mechanical) Examination 2026",
-      "summary": "Recruitment for Junior Engineer posts in various government departments. The official notification is expected to be released in August 2026.",
+      "org": "Staff Selection Commission (SSC)",
+      "title": "Junior Engineer (Civil, Mechanical & Electrical) Examination 2026",
+      "summary": "The Staff Selection Commission is expected to release the notification for the Junior Engineer Examination 2026 in August 2026. This recruitment is for Junior Engineer positions in various government departments and ministries, requiring a degree or diploma in Civil, Electrical, or Mechanical Engineering. The online application process is anticipated to begin in August 2026 and remain active for approximately one month.",
       "advtNo": null,
       "posts": "Junior Engineer (Civil, Electrical, Mechanical)",
       "url": "https://ssc.gov.in",
       "status": "upcoming",
       "opensOn": "2026-08-XX",
       "closesOn": "2026-08",
-      "expected": "Notification in August 2026",
+      "expected": "2026-08",
       "fit": "moderate",
-      "fitLabel": "Core engineering post, Mechanical eligible.",
+      "fitLabel": "Core engineering post where Mechanical is eligible.",
       "tags": [
-        "Engineering",
-        "Junior Engineer"
+        "JE",
+        "Engineering"
       ],
+      "firstSeen": "2026-07-10T12:00:00.000Z"
+    },
+    {
+      "id": "uttar-pradesh-public-service-commission-combined-state-upper-subordinate-service",
+      "source": "regulators-sweep",
+      "org": "UPPSC",
+      "title": "Combined State/Upper Subordinate Services (PCS) Examination 2026",
+      "summary": "Recruitment for 500 vacancies for various administrative Group A and Group B posts like Block Development Officer, Deputy Collector (SDM), Assistant Labour Commissioner.",
+      "advtNo": "A-1/E-1/2026",
+      "posts": [
+        "Deputy Collector (SDM)",
+        "Block Development Officer",
+        "Assistant Labour Commissioner",
+        "Other Group A and Group B administrative posts"
+      ],
+      "url": "https://uppsc.up.nic.in/",
+      "pdfUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEb7X07atpGeji9JAMVb6mLAQqBFKENUHk8LOzLHmVgJ5PdG4sX0eAuGmFK23JnneTLVov97kzU1xii4-HHz8bRmKobdJhcHlzruGabVf9EeuXbJHTFX5RKXjLhmmIduov-gsF_",
+      "status": "closed",
+      "opensOn": "2026-06-25",
+      "closesOn": "2026-08-03",
+      "expected": "2026-12-06 (Prelims Exam)",
+      "fit": "strong",
+      "fitLabel": "Strong, as it's an any-graduate management exam.",
+      "tags": [
+        "PCS",
+        "State Services"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
       "firstSeen": "2026-07-10T12:00:00.000Z"
     },
     {
@@ -1244,34 +1249,6 @@
       "firstSeen": "2026-07-27T02:12:35.501Z"
     },
     {
-      "id": "indian-oil-corporation-limited-iocl-apprentice-panipat-refinery-petrochemical-co",
-      "source": "psu-sweep",
-      "org": "IOCL",
-      "title": "Apprentice (Trade, Technician and Graduate Apprentice) - Panipat Refinery",
-      "summary": "Indian Oil Corporation Limited (IOCL) has released a notification for 1450 Apprentice vacancies at the Panipat Refinery & Petrochemical Complex. The application window is from July 14, 2026, to August 12, 2026. Disciplines include Mechanical, Electrical, Instrumentation, Chemical, Secretarial Assistant, Accountant, and Data Entry Operator.",
-      "advtNo": "PR/P/Apprentice/60(2026-27)",
-      "posts": 1450,
-      "url": "https://www.iocl.com/latest-job-opening",
-      "pdfUrl": "https://g03.tcsion.com//per/g03/pub/726/EForms/image/ImageDocUpload/71161/3/9602130412.pdf",
-      "status": "closed",
-      "opensOn": "2026-07-14",
-      "closesOn": "2026-08-12",
-      "expected": null,
-      "fit": "moderate",
-      "fitLabel": "",
-      "tags": [
-        "Apprenticeship",
-        "Engineering"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-07-12T07:43:17.732Z"
-    },
-    {
       "id": "upsc-civilian-assistant-security-officer",
       "source": "upsc",
       "org": "Union Public Service Commission (UPSC)",
@@ -1317,21 +1294,21 @@
     {
       "id": "railway-recruitment-board-rrb-section-controller",
       "source": "rrb",
-      "org": "Railway Recruitment Board (RRB)",
+      "org": "Railway Recruitment Board",
       "title": "Section Controller",
-      "summary": "Recruitment for Section Controller posts to manage daily train movements, ensure operational safety and coordinate traffic schedules.",
+      "summary": "The Railway Recruitment Board (RRB) has released the application form for Section Controller posts under CEN 03/2026. This recruitment aims to fill 119 vacancies for roles that manage daily train movements, ensure operational safety, and coordinate traffic schedules across the Indian Railways network. Candidates holding a Bachelor's degree in any discipline are eligible to apply.",
       "advtNo": "CEN 03/2026",
       "posts": 119,
-      "url": "https://www.rrbapply.gov.in/",
+      "url": "https://rrbapply.gov.in/",
       "status": "closed",
       "opensOn": "2026-07-15",
       "closesOn": "2026-08-14",
       "expected": null,
       "fit": "strong",
-      "fitLabel": "Any-graduate management exam",
+      "fitLabel": "Any-graduate management exam, candidate has B.Tech.",
       "tags": [
-        "Management",
-        "Operations"
+        "Section Controller",
+        "Management"
       ],
       "firstSeen": "2026-07-16T01:55:43.362Z",
       "pdfUrl": "https://www.rrbapply.gov.in/"
@@ -1445,19 +1422,47 @@
       "id": "upsc-direct-recruitment-to-various-posts-in-government-of-india",
       "source": "upsc",
       "org": "UPSC",
-      "title": "Direct Recruitment to various posts in Government of India",
-      "summary": "UPSC invites applications from eligible candidates for direct recruitment to various posts in Government of India.",
-      "advtNo": "09/2026",
-      "posts": null,
-      "url": "https://upsconline.nic.in/ora/VacancyNoticePub.php",
-      "pdfUrl": "https://upsc.gov.in/",
+      "title": "Direct Recruitment to various posts in Government of India (Advertisement No. 09/2026 & Special Advertisement No. 51/2026)",
+      "summary": "UPSC invited applications for direct recruitment to various posts including Drug Inspector, Assistant Director (Banking), Master in Hindi, Assistant Director (Cost), Assistant Registrar General (Map), and Scientist 'B' (Chemistry). The application period was from July 25, 2026, to August 14, 2026.",
+      "advtNo": "09/2026, 51/2026",
+      "posts": [
+        {
+          "name": "Drug Inspector",
+          "count": null
+        },
+        {
+          "name": "Assistant Director (Banking)",
+          "count": null
+        },
+        {
+          "name": "Master in Hindi",
+          "count": null
+        },
+        {
+          "name": "Assistant Director (Cost)",
+          "count": null
+        },
+        {
+          "name": "Assistant Registrar General (Map)",
+          "count": null
+        },
+        {
+          "name": "Scientist 'B' (Chemistry)",
+          "count": null
+        }
+      ],
+      "url": "https://upsconline.nic.in/ora/",
+      "pdfUrl": "https://upsc.gov.in/sites/default/files/Advt-10-2026-Eng.pdf",
       "status": "closed",
       "opensOn": "2026-07-25",
       "closesOn": "2026-08-14",
       "expected": null,
-      "fit": "moderate",
-      "fitLabel": "Various direct recruitment posts; could include general engineering (moderate), management (strong), or IT roles (potentially gated if CS/IT/Electronics degree is required).",
-      "tags": [],
+      "fit": "strong",
+      "fitLabel": "Any-graduate management exams (PCS, RBI Grade B, NABARD Grade A, bank PO, SEBI Grade A General which accepts any engineering bachelor's) are 'strong'. Assistant Director (Banking) and Assistant Director (Cost) fall under management roles. Other posts are low.",
+      "tags": [
+        "Management",
+        "Banking"
+      ],
       "minExperienceYears": null,
       "maxAgeYears": null,
       "qualification": null,
@@ -1553,22 +1558,22 @@
     {
       "id": "hindustan-aeronautics-limited-hal-management-trainee-mt-and-design-trainee-dt",
       "source": "psu-sweep",
-      "org": "Hindustan Aeronautics Limited (HAL)",
-      "title": "Management Trainee and Design Trainee",
-      "summary": "Recruitment for 120 Design Trainee (DT) and Management Trainee (MT) vacancies in multiple engineering disciplines.",
+      "org": "HAL",
+      "title": "Management Trainee (MT) and Design Trainee (DT)",
+      "summary": "Hindustan Aeronautics Limited (HAL) released a recruitment notification (Advt. No. HAL/CHRC-TM/RECT-02/2026) for 120 Design Trainee (DT) and Management Trainee (MT) vacancies in multiple engineering disciplines, including Mechanical. The selection process involves an online computer-based exam and an interview.",
       "advtNo": "HAL/CHRC-TM/RECT-02/2026",
       "posts": 120,
-      "url": "https://hal-india.co.in/",
+      "url": "https://www.hal-india.co.in/",
       "pdfUrl": "https://hal-india.co.in/",
       "status": "closed",
-      "opensOn": "2026-07-30",
+      "opensOn": "2026-07-29",
       "closesOn": "2026-08-14",
       "expected": null,
-      "fit": "moderate",
-      "fitLabel": "B.Tech Mechanical eligible for core engineering roles.",
+      "fit": "strong",
+      "fitLabel": "Management / Core Engineering",
       "tags": [
-        "Engineering",
-        "Management Trainee"
+        "Management Trainee",
+        "Design Trainee"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -1658,21 +1663,23 @@
     {
       "id": "national-institute-of-electronics-and-information-technology-nielit-programmer-a",
       "source": "regulators-sweep",
-      "org": "Union Public Service Commission (UPSC) for Employees' Provident Fund Organisation (EPFO)",
-      "title": "Assistant Provident Fund Commissioner (APFC)",
-      "summary": "Expected recruitment for 80 vacancies for Assistant Provident Fund Commissioner (APFC) posts.",
+      "org": "EPFO (through UPSC)",
+      "title": "UPSC EPFO APFC (Assistant Provident Fund Commissioner) Recruitment 2026",
+      "summary": "Recruitment for 80 Assistant Provident Fund Commissioner (APFC) vacancies. Notification expected around September 2026.",
       "advtNo": "07/344/2026/NDL/FM",
-      "posts": 80,
+      "posts": [
+        "Assistant Provident Fund Commissioner (APFC)"
+      ],
       "url": "https://www.upsc.gov.in/",
       "status": "upcoming",
       "opensOn": "2026-07-29",
       "closesOn": "2026-08-18",
       "expected": "2026-09",
       "fit": "strong",
-      "fitLabel": "Management role, typically open to any graduate, suitable for the candidate's profile.",
+      "fitLabel": "Strong, as it's an any-graduate management exam.",
       "tags": [
-        "Management",
-        "Finance"
+        "APFC",
+        "Assistant Provident Fund Commissioner"
       ],
       "firstSeen": "2026-07-10T18:37:16.814Z"
     },
@@ -1708,17 +1715,17 @@
       "id": "ibps-common-recruitment-process-for-recruitment-of-probationary-officers-managem",
       "source": "ibps",
       "org": "IBPS",
-      "title": "CRP Clerks-XVI for Recruitment of Customer Service Associates",
-      "summary": "Recruitment for 11,403 Customer Service Associate (Clerk) vacancies in participating public sector banks. The online application process is open from August 1 to August 21, 2026. A Bachelor's degree in any discipline is required.",
+      "title": "Common Recruitment Process for Recruitment of Customer Service Associates (Clerk) in Participating Banks (CRP CSA-XVI)",
+      "summary": "IBPS has released the detailed notification for the Recruitment of Customer Service Associates (Clerk) for the year 2027-28 to recruit 11403 candidates in 11 public sector banks nationwide. Candidates with a Bachelor's degree in any discipline are eligible to apply.",
       "advtNo": "CRP CSA-XVI",
       "posts": 11403,
-      "url": "https://www.ibps.in",
+      "url": "https://www.ibps.in/crp-clerical-cadre/clerical-cadre-xvi/",
       "status": "open",
       "opensOn": "2026-08-01",
       "closesOn": "2026-08-21",
       "expected": "Detailed notification by 2026-07-31/2026-08-01",
       "fit": "strong",
-      "fitLabel": "Any-graduate management exam, suitable for candidates with a Bachelor's degree in any discipline.",
+      "fitLabel": "Bachelor's degree in any discipline is eligible, which fits the candidate's profile for a management/IT role in banking.",
       "tags": [
         "Banking",
         "Clerk"
@@ -1729,21 +1736,21 @@
     {
       "id": "bel-sr-assistant-engineer-fixed-tenure-basis-for-panchkula-unit",
       "source": "psu-sweep",
-      "org": "Bharat Heavy Electricals Limited (BHEL) - Electronics Division",
-      "title": "Project Engineer (Fixed Tenure)",
-      "summary": "Bharat Heavy Electricals Limited (BHEL) has opened applications for 16 Project Engineer posts at its Electronics Division in Bengaluru. The engagement is on a fixed tenure basis for two years.",
+      "org": "BHEL",
+      "title": "Project Engineer (Fixed Tenure Basis)",
+      "summary": "Bharat Heavy Electricals Limited (BHEL) has announced recruitment for 16 Project Engineer vacancies on a fixed tenure basis for the Defense and Aerospace Business Group (DABG) ESD. Essential qualifications include a graduate degree in Electronics, Electrical, Instrumentation, or Computer Science with a minimum of 12 months of relevant work experience.",
       "advtNo": "FTA 01/2026",
       "posts": 16,
-      "url": "https://edn.bhel.com/",
+      "url": "https://www.bhel.com/",
       "status": "open",
       "opensOn": "2026-08-08",
       "closesOn": "2026-08-22",
       "expected": null,
       "fit": "gated",
-      "fitLabel": "Gated: Requires B.E./B.Tech in Electronics, Electrical, Instrumentation, or Computer Science, not Mechanical Engineering.",
+      "fitLabel": "Gated (CS/IT/Electronics Degree Required)",
       "tags": [
-        "Engineering",
-        "Fixed Tenure"
+        "Project Engineer",
+        "Electronics"
       ],
       "firstSeen": "2026-07-10T18:40:06.128Z",
       "pdfUrl": "https://www.bel-india.in/Documentviews.aspx?fileName=Detailed%20Advertisement%20-%20Panchkula%20Unit-20-07-2026.pdf"
@@ -2335,21 +2342,25 @@
     {
       "id": "nabard-grade-a-assistant-manager-rdbs-generalist",
       "source": "regulators-sweep",
-      "org": "Uttar Pradesh Public Service Commission",
-      "title": "Computer Operator, Microbiologist and More Posts",
-      "summary": "Recruitment for 47 various posts, including Computer Operator and Microbiologist. The online application window is from August 3, 2026, to September 3, 2026.",
-      "advtNo": "A-3/E-1/2026 and A-2/E-1/2026",
-      "posts": 47,
+      "org": "UPPSC",
+      "title": "UPPSC Recruitment 2026 (Computer Operator, Microbiologist and More)",
+      "summary": "Recruitment for 47 vacancies for various posts including Computer Operator and Microbiologist. Online application process.",
+      "advtNo": "A-3/E-1/2026, A-2/E-1/2026",
+      "posts": [
+        "Computer Operator",
+        "Microbiologist",
+        "Other unspecified posts"
+      ],
       "url": "https://uppsc.up.nic.in/",
       "status": "open",
       "opensOn": "2026-08-03",
       "closesOn": "2026-09-03",
       "expected": "2026-08",
       "fit": "gated",
-      "fitLabel": "Computer Operator is an IT role, which typically requires a CS/IT/Electronics degree (gated). Microbiologist is irrelevant (low).",
+      "fitLabel": "Gated for Computer Operator (likely requires specific IT/CS degree). Microbiologist is irrelevant.",
       "tags": [
         "Computer Operator",
-        "IT"
+        "Microbiologist"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z"
     },
@@ -2412,22 +2423,22 @@
     {
       "id": "indian-oil-corporation-limited-iocl-graduate-engineer-officer-assistant-quality-",
       "source": "psu-sweep",
-      "org": "Indian Oil Corporation Limited (IOCL)",
-      "title": "Graduate Engineer, Officer, Assistant Quality Control Officer and Diploma Engineer",
-      "summary": "Recruitment for 470 Graduate Engineer, Officer, Assistant Quality Control Officer and Diploma Engineer posts across various disciplines.",
-      "advtNo": null,
+      "org": "IOCL",
+      "title": "Executives (Graduate Engineer, Officer (Marketing), Officer (Law), Assistant Quality Control Officer, Diploma Engineer)",
+      "summary": "Indian Oil Corporation Limited (IOCL) has published a notification (Advt. No. IOCL/CO-HR/Rectt/2026/01) for 470 Executive positions across engineering, marketing, law, diploma, and quality control streams. The online application process is active, and a Computer-Based Test (CBT) is tentatively scheduled for September 24, 2026.",
+      "advtNo": "IOCL/CO-HR/Rectt/2026/01",
       "posts": 470,
-      "url": "https://iocl.com/",
+      "url": "https://www.iocl.com/",
       "pdfUrl": null,
       "status": "open",
       "opensOn": "2026-08-14",
       "closesOn": "2026-09-03",
       "expected": null,
-      "fit": "moderate",
-      "fitLabel": "B.Tech Mechanical eligible for core engineering roles. IT roles are gated.",
+      "fit": "strong",
+      "fitLabel": "Management / Core Engineering",
       "tags": [
-        "Engineering",
-        "Officer"
+        "Executive",
+        "Engineer"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -2438,7 +2449,7 @@
       "firstSeen": "2026-08-16T00:55:08.205Z"
     },
     {
-      "id": "iocl-apprentice-recruitment-mathura-gujarat-paradip-and-bongaigaon-refineries",
+      "id": "indian-oil-corporation-limited-iocl-apprentice-panipat-refinery-petrochemical-co",
       "source": "psu-sweep",
       "org": "IOCL",
       "title": "Apprentice (Graduate, Technician, Trade, Data Entry Operator)",
@@ -2446,7 +2457,7 @@
       "advtNo": "IOCL/MKTG/NR/APPR/2026-27/1",
       "posts": 433,
       "url": "https://www.iocl.com",
-      "pdfUrl": null,
+      "pdfUrl": "https://g03.tcsion.com//per/g03/pub/726/EForms/image/ImageDocUpload/71161/3/9602130412.pdf",
       "status": "open",
       "opensOn": "2026-07-01",
       "closesOn": "2026-09-06",
@@ -2540,11 +2551,151 @@
       "firstSeen": "2026-07-12T22:10:37.462Z"
     },
     {
+      "id": "ntpc-green-energy-limited-engineer-re-mechanical",
+      "source": "ntpc",
+      "org": "NTPC Green Energy Limited",
+      "title": "Engineer (RE-Mechanical)",
+      "summary": "NTPC Green Energy Limited (NGEL) is recruiting experienced professionals for 147 Engineer and Executive posts in the Renewable Energy sector on a fixed-term basis, with applications opening on August 18, 2026.",
+      "advtNo": "04/26",
+      "posts": 9,
+      "url": "https://ngel.in/career",
+      "pdfUrl": "https://www.freejobalert.com/wp-content/uploads/2026/08/NGEL-Engineer-Executive-Recruitment-2026-Short-Notification.pdf",
+      "status": "upcoming",
+      "opensOn": "2026-08-18",
+      "closesOn": "2026-09-07",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "B.Tech Mechanical eligible, but candidate's experience is in software engineering, not core mechanical.",
+      "tags": [
+        "Engineer",
+        "Mechanical"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-08-17T00:47:42.378Z"
+    },
+    {
+      "id": "ntpc-green-energy-limited-executive-re-human-resources",
+      "source": "ntpc",
+      "org": "NTPC Green Energy Limited",
+      "title": "Executive (RE-Human Resources)",
+      "summary": "NTPC Green Energy Limited (NGEL) is recruiting experienced professionals for 147 Engineer and Executive posts in the Renewable Energy sector on a fixed-term basis, with applications opening on August 18, 2026.",
+      "advtNo": "04/26",
+      "posts": 4,
+      "url": "https://ngel.in/career",
+      "pdfUrl": "https://www.freejobalert.com/wp-content/uploads/2026/08/NGEL-Engineer-Executive-Recruitment-2026-Short-Notification.pdf",
+      "status": "upcoming",
+      "opensOn": "2026-08-18",
+      "closesOn": "2026-09-07",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "Management/Executive role, B.Tech Mechanical may be considered a relevant degree.",
+      "tags": [
+        "Executive",
+        "Human Resources"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-08-17T00:47:42.378Z"
+    },
+    {
+      "id": "ntpc-green-energy-limited-executive-re-finance",
+      "source": "ntpc",
+      "org": "NTPC Green Energy Limited",
+      "title": "Executive (RE-Finance)",
+      "summary": "NTPC Green Energy Limited (NGEL) is recruiting experienced professionals for 147 Engineer and Executive posts in the Renewable Energy sector on a fixed-term basis, with applications opening on August 18, 2026.",
+      "advtNo": "04/26",
+      "posts": 9,
+      "url": "https://ngel.in/career",
+      "pdfUrl": "https://www.freejobalert.com/wp-content/uploads/2026/08/NGEL-Engineer-Executive-Recruitment-2026-Short-Notification.pdf",
+      "status": "upcoming",
+      "opensOn": "2026-08-18",
+      "closesOn": "2026-09-07",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "Management/Executive role, B.Tech Mechanical may be considered a relevant degree.",
+      "tags": [
+        "Executive",
+        "Finance"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-08-17T00:47:42.378Z"
+    },
+    {
+      "id": "ntpc-green-energy-limited-executive-re-csr",
+      "source": "ntpc",
+      "org": "NTPC Green Energy Limited",
+      "title": "Executive (RE-CSR)",
+      "summary": "NTPC Green Energy Limited (NGEL) is recruiting experienced professionals for 147 Engineer and Executive posts in the Renewable Energy sector on a fixed-term basis, with applications opening on August 18, 2026.",
+      "advtNo": "04/26",
+      "posts": 5,
+      "url": "https://ngel.in/career",
+      "pdfUrl": "https://www.freejobalert.com/wp-content/uploads/2026/08/NGEL-Engineer-Executive-Recruitment-2026-Short-Notification.pdf",
+      "status": "upcoming",
+      "opensOn": "2026-08-18",
+      "closesOn": "2026-09-07",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "Management/Executive role, B.Tech Mechanical may be considered a relevant degree.",
+      "tags": [
+        "Executive",
+        "CSR"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-08-17T00:47:42.378Z"
+    },
+    {
+      "id": "ntpc-green-energy-limited-executive-re-rajbhasha",
+      "source": "ntpc",
+      "org": "NTPC Green Energy Limited",
+      "title": "Executive (RE-Rajbhasha)",
+      "summary": "NTPC Green Energy Limited (NGEL) is recruiting experienced professionals for 147 Engineer and Executive posts in the Renewable Energy sector on a fixed-term basis, with applications opening on August 18, 2026.",
+      "advtNo": "04/26",
+      "posts": 1,
+      "url": "https://ngel.in/career",
+      "pdfUrl": "https://www.freejobalert.com/wp-content/uploads/2026/08/NGEL-Engineer-Executive-Recruitment-2026-Short-Notification.pdf",
+      "status": "upcoming",
+      "opensOn": "2026-08-18",
+      "closesOn": "2026-09-07",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "Management/Executive role, B.Tech Mechanical may be considered a relevant degree.",
+      "tags": [
+        "Executive",
+        "Rajbhasha"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-08-17T00:47:42.378Z"
+    },
+    {
       "id": "railway-recruitment-boards-junior-engineer-je-4-098-approved-vacancies",
       "source": "rrb",
-      "org": "Railway Recruitment Board (RRB)",
-      "title": "Junior Engineer (JE) and Depot Material Superintendent (DMS)",
-      "summary": "Recruitment for Junior Engineer and Depot Material Superintendent posts across various disciplines.",
+      "org": "Railway Recruitment Board",
+      "title": "Junior Engineer (JE) & Depot Material Superintendent (DMS)",
+      "summary": "The Railway Recruitment Board (RRB) has released the official notification (CEN No. 04/2026) for the recruitment of Junior Engineer (JE) and Depot Material Superintendent (DMS) posts across various railway zones. A total of 3,993 vacancies have been announced. Candidates with a three-year Diploma or an Engineering Degree in the relevant discipline are eligible to apply.",
       "advtNo": "CEN 04/2026",
       "posts": 3993,
       "url": "https://www.rrbapply.gov.in/",
@@ -2553,10 +2704,10 @@
       "closesOn": "2026-09-13",
       "expected": "Notification officially released on 21 July 2026.",
       "fit": "moderate",
-      "fitLabel": "Core engineering post where Mechanical is eligible",
+      "fitLabel": "Core engineering post where Mechanical is eligible.",
       "tags": [
-        "Engineering",
-        "Junior Engineer"
+        "Junior Engineer",
+        "JE"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z",
       "pdfUrl": "https://www.rrbapply.gov.in/"
@@ -3087,22 +3238,31 @@
     {
       "id": "securities-and-exchange-board-of-india-sebi-grade-a-assistant-manager",
       "source": "regulators-sweep",
-      "org": "Insurance Regulatory and Development Authority of India",
-      "title": "Assistant Manager (Grade A)",
-      "summary": "Expected recruitment for Assistant Managers, with 40 vacancies expected annually. The notification is expected in the 2nd quarter of 2026 (May-July) or August 2026.",
+      "org": "PFRDA",
+      "title": "PFRDA Grade A (Assistant Manager) Recruitment 2026",
+      "summary": "Recruitment for Assistant Manager posts across various streams including General, Legal, Finance and Accounts, IT, Official Language, Research (Economics and Statistics), Actuary. Expected around 30-40 vacancies. Notification expected in August 2026.",
       "advtNo": null,
-      "posts": 40,
-      "url": "https://www.irdai.gov.in/",
+      "posts": [
+        "Assistant Manager (General)",
+        "Assistant Manager (Legal)",
+        "Assistant Manager (Finance & Accounts)",
+        "Assistant Manager (IT)",
+        "Assistant Manager (Official Language)",
+        "Assistant Manager (Research (Economics))",
+        "Assistant Manager (Research (Statistics))",
+        "Assistant Manager (Actuary)"
+      ],
+      "url": "https://www.pfrda.org.in/",
       "pdfUrl": null,
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "Notification expected in May-August 2026.",
+      "expected": "2026-08",
       "fit": "strong",
-      "fitLabel": "The Generalist stream requires a graduation degree in any discipline, making it a strong fit for a management role. The IT stream is gated as it requires a specific IT degree.",
+      "fitLabel": "Strong for Generalist stream (accepts any engineering bachelor's). IT stream is gated.",
       "tags": [
         "Assistant Manager",
-        "Grade A"
+        "Generalist"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -3274,22 +3434,25 @@
     {
       "id": "life-insurance-corporation-of-india-lic-lic-aao-recruitment-2026",
       "source": "regulators-sweep",
-      "org": "Life Insurance Corporation of India (LIC)",
-      "title": "LIC AAO Recruitment 2026",
-      "summary": "Life Insurance Corporation of India (LIC) is expected to release its notification for Assistant Administrative Officer (AAO) posts, covering both Generalist and Specialist streams. The detailed vacancy count and application dates will be announced with the official notification.",
+      "org": "LIC",
+      "title": "LIC AAO (Assistant Administrative Officer) Recruitment 2026",
+      "summary": "Recruitment for Assistant Administrative Officer posts across Generalist and Specialist streams. Notification expected in August 2026.",
       "advtNo": null,
-      "posts": "Assistant Administrative Officer (AAO) Generalist, AAO Specialist, Assistant Engineer",
+      "posts": [
+        "Assistant Administrative Officer (Generalist)",
+        "Assistant Administrative Officer (Specialist)"
+      ],
       "url": "https://licindia.in/",
       "pdfUrl": null,
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "2026-08-01",
+      "expected": "2026-08",
       "fit": "strong",
-      "fitLabel": "The AAO Generalist role requires a bachelor's degree in any discipline, making it a 'strong' fit. Specialist roles would be 'gated' if they require specific IT/CS degrees, or 'moderate' if they are core mechanical engineering roles, but specific details are not yet available.",
+      "fitLabel": "Strong for Generalist stream, which accepts any graduate.",
       "tags": [
-        "Management",
-        "Banking/Finance"
+        "AAO",
+        "Assistant Administrative Officer"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
