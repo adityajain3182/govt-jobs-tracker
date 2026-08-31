@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-08-30T02:50:25.531Z",
+  "lastScan": "2026-08-31T02:43:57.235Z",
   "jobs": [
     {
       "id": "staff-selection-commission-combined-graduate-level-examination-2026",
@@ -49,27 +49,6 @@
         "Management"
       ],
       "firstSeen": "2026-07-10T18:34:54.758Z"
-    },
-    {
-      "id": "bharat-electronics-limited-bel-recruitment-of-senior-engineer-e-iii-post",
-      "source": "psu-sweep",
-      "org": "Bharat Electronics Limited (BEL)",
-      "title": "Recruitment of Senior Engineer (E-III) Post",
-      "summary": "1 vacancy for Senior Engineer (E-III) on Fixed Tenure Basis. Eligibility: Engineering graduates in Electronics & Communication, Electrical, Mechanical, or Instrumentation Engineering.",
-      "advtNo": null,
-      "posts": 1,
-      "url": "https://www.bel-india.in/Careers.aspx",
-      "status": "closed",
-      "opensOn": null,
-      "closesOn": "2026-07-16",
-      "expected": null,
-      "fit": "moderate",
-      "fitLabel": "Core engineering role where Mechanical B.Tech is eligible.",
-      "tags": [
-        "Engineering",
-        "Mechanical"
-      ],
-      "firstSeen": "2026-07-12T17:34:18.140Z"
     },
     {
       "id": "union-public-service-commission-upsc-recruitment-for-over-400-group-a-and-group-",
@@ -1027,9 +1006,9 @@
     {
       "id": "epfo-auditor-assistant-audit-officer-assistant-director-audit-deputy-director-au",
       "source": "regulators-sweep",
-      "org": "Life Insurance Corporation of India (LIC)",
+      "org": "LIC",
       "title": "Assistant Administrative Officer (AAO)",
-      "summary": "Expected recruitment for Assistant Administrative Officer (AAO) Generalist and AAO Specialist posts. AAO Generalist typically requires a bachelor's degree in any discipline. Selection includes Preliminary Examination, Main Examination and Interview.",
+      "summary": "The LIC AAO 2026 recruitment notification is tentatively expected to be released in August 2026 for Assistant Administrative Officer posts across Generalist and Specialist streams. Eligible candidates aged 21–30 years with the required educational qualifications can apply.",
       "advtNo": null,
       "posts": [
         "Assistant Administrative Officer (Generalist)",
@@ -1039,12 +1018,12 @@
       "status": "upcoming",
       "opensOn": "2026-06-16",
       "closesOn": "2026-08-14",
-      "expected": "August 2026",
+      "expected": "2026-08-XX",
       "fit": "strong",
-      "fitLabel": "Any-graduate management role (Generalist stream) is a strong fit. Specialist roles may be gated.",
+      "fitLabel": "Any-graduate management exam.",
       "tags": [
         "Management",
-        "Banking/Finance"
+        "Insurance"
       ],
       "firstSeen": "2026-07-10T18:37:16.814Z"
     },
@@ -1263,7 +1242,7 @@
       "id": "hindustan-aeronautics-limited-hal-management-trainee-mt-and-design-trainee-dt",
       "source": "psu-sweep",
       "org": "HAL",
-      "title": "Management Trainee (MT)",
+      "title": "Design Trainee (DT)",
       "summary": "Hindustan Aeronautics Limited (HAL) announced recruitment for 120 Design Trainee (DT) and Management Trainee (MT) posts. Online applications were accepted for engineering graduates.",
       "advtNo": "HAL/HR/HC/TM/RECT-02/2026",
       "posts": 60,
@@ -1273,11 +1252,11 @@
       "opensOn": "2026-07-29",
       "closesOn": "2026-08-14",
       "expected": "CBT Exam: 2026-09-05 to 2026-09-06, Results: 2026-09-10",
-      "fit": "strong",
-      "fitLabel": "Management Trainee role, B.Tech Mechanical eligible.",
+      "fit": "moderate",
+      "fitLabel": "Core engineering role, B.Tech Mechanical eligible.",
       "tags": [
-        "Management",
-        "Engineering"
+        "Engineering",
+        "Mechanical"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -1335,34 +1314,6 @@
         "IT"
       ],
       "firstSeen": "2026-07-10T18:43:08.923Z"
-    },
-    {
-      "id": "hal-design-trainee-dt",
-      "source": "psu-sweep",
-      "org": "HAL",
-      "title": "Design Trainee (DT)",
-      "summary": "Hindustan Aeronautics Limited (HAL) announced recruitment for 120 Design Trainee (DT) and Management Trainee (MT) posts. Online applications were accepted for engineering graduates.",
-      "advtNo": "HAL/HR/HC/TM/RECT-02/2026",
-      "posts": 60,
-      "url": "https://www.hal-india.co.in/Careers/M__207",
-      "pdfUrl": null,
-      "status": "closed",
-      "opensOn": "2026-07-29",
-      "closesOn": "2026-08-14",
-      "expected": "CBT Exam: 2026-09-05 to 2026-09-06, Results: 2026-09-10",
-      "fit": "moderate",
-      "fitLabel": "Core engineering role, B.Tech Mechanical eligible.",
-      "tags": [
-        "Engineering",
-        "Mechanical"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-08-24T00:52:07.035Z"
     },
     {
       "id": "isro-nesac-research-scientists-junior-research-fellows-and-project-associate-i",
@@ -1469,21 +1420,21 @@
     {
       "id": "bel-sr-assistant-engineer-fixed-tenure-basis-for-panchkula-unit",
       "source": "psu-sweep",
-      "org": "Bharat Electronics Limited",
-      "title": "Recruitment of Sr. Assistant Engineer (Fixed Tenure Basis) for Panchkula Unit",
-      "summary": "BEL is recruiting Sr. Assistant Engineers on a fixed tenure basis for its Panchkula Unit.",
+      "org": "BHEL",
+      "title": "Project Engineer (Fixed Tenure Basis)",
+      "summary": "Bharat Heavy Electricals Limited (BHEL) invited applications for 16 Project Engineer vacancies on a fixed tenure basis for the Defense and Aerospace Business Group ESD. Candidates must have a B.E./B.Tech degree and 12 months of cumulative post-qualification relevant work experience.",
       "advtNo": "FTA 01/2026",
       "posts": 16,
-      "url": "https://www.bel-india.in/Default.aspx?tabid=207",
+      "url": "https://careers.bhel.in/",
       "status": "closed",
       "opensOn": "2026-08-08",
       "closesOn": "2026-08-22",
       "expected": null,
       "fit": "moderate",
-      "fitLabel": "Eligible for Engineering posts",
+      "fitLabel": "This is a core engineering role for Mechanical Engineers.",
       "tags": [
         "Engineering",
-        "PSU"
+        "Project Engineer"
       ],
       "firstSeen": "2026-07-10T18:40:06.128Z",
       "pdfUrl": "https://www.bel-india.in/Documentviews.aspx?fileName=Detailed%20Advertisement%20-%20Panchkula%20Unit-20-07-2026.pdf"
@@ -1621,9 +1572,9 @@
     {
       "id": "ntpc-limited-deputy-manager-electrical-mechanical-c-i",
       "source": "ntpc",
-      "org": "NTPC",
-      "title": "Deputy Manager (Electrical/Mechanical/C&I)",
-      "summary": "NTPC Limited invites online applications from experienced professionals for the post of Deputy Manager (E-4 Grade) in the disciplines of Electrical, Mechanical, and Control & Instrumentation (C&I). A total of 135 vacancies are available across these disciplines.",
+      "org": "NTPC Limited",
+      "title": "Deputy Manager (Electrical, Mechanical, C&I)",
+      "summary": "NTPC Limited released Advertisement No. 10/26 for the recruitment of 135 Deputy Managers (E4 Grade) in Electrical, Mechanical, and Control & Instrumentation (C&I) disciplines. The positions require experienced professionals with a minimum of 10 years of post-qualification executive experience in the power sector or process industry. The application window was from August 12, 2026, to August 26, 2026.",
       "advtNo": "10/26",
       "posts": 135,
       "url": "https://careers.ntpc.co.in",
@@ -1632,11 +1583,11 @@
       "opensOn": "2026-08-12",
       "closesOn": "2026-08-26",
       "expected": null,
-      "fit": "gated",
-      "fitLabel": "Candidate has a B.Tech in Mechanical Engineering, which is a relevant degree. However, the post requires a minimum of 10 years of post-qualification executive experience, while the candidate has only 2-3 years of experience.",
+      "fit": "moderate",
+      "fitLabel": "Core engineering post (Mechanical eligible). Candidate is not primarily interested in core mechanical roles and lacks the required 10 years of experience.",
       "tags": [
         "Engineering",
-        "Executive"
+        "Deputy Manager"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -1868,19 +1819,22 @@
       "id": "ibps-common-recruitment-process-for-recruitment-of-clerks-in-participating-banks",
       "source": "ibps",
       "org": "IBPS",
-      "title": "Common Recruitment Process for Clerical Cadre (CRP Clerks - XVI)",
+      "title": "Common Recruitment Process for Recruitment of Customer Service Associates (CRP-CSA-XVI)",
       "summary": "Recruitment of Customer Service Associates (Clerk) in Participating Public Sector Banks.",
       "advtNo": "CRP-CSA-XVI",
       "posts": 11403,
-      "url": "https://www.ibps.in/crp-clerical-cadre/clerical-cadre-xvi/",
+      "url": "https://www.ibps.in",
       "pdfUrl": null,
       "status": "closed",
       "opensOn": "2026-08-01",
       "closesOn": "2026-08-28",
       "expected": null,
       "fit": "strong",
-      "fitLabel": "Any graduate is eligible for this management/general banking role.",
-      "tags": [],
+      "fitLabel": "",
+      "tags": [
+        "Banking",
+        "Clerk"
+      ],
       "minExperienceYears": null,
       "maxAgeYears": null,
       "qualification": null,
@@ -2063,34 +2017,6 @@
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z",
       "pdfUrl": "https://upsc.gov.in/recruitment/advertisements"
-    },
-    {
-      "id": "ibps-common-recruitment-process-for-customer-service-associates-crp-csa-xvi",
-      "source": "ibps",
-      "org": "IBPS",
-      "title": "Common Recruitment Process for Recruitment of Customer Service Associates (CRP-CSA-XVI)",
-      "summary": "Recruitment of Customer Service Associates (Clerk) in Participating Public Sector Banks.",
-      "advtNo": "CRP-CSA-XVI",
-      "posts": 11403,
-      "url": "https://www.ibps.in",
-      "pdfUrl": null,
-      "status": "closed",
-      "opensOn": "2026-08-01",
-      "closesOn": "2026-08-28",
-      "expected": null,
-      "fit": "strong",
-      "fitLabel": "",
-      "tags": [
-        "Banking",
-        "Clerk"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-08-27T06:25:45.967Z"
     },
     {
       "id": "hindustan-aeronautics-limited-hal-design-trainee-dt",
@@ -2565,6 +2491,34 @@
       "firstSeen": "2026-08-27T06:26:26.328Z"
     },
     {
+      "id": "iocl-executive-posts-graduate-engineer-officer-assistant-quality-control-officer",
+      "source": "psu-sweep",
+      "org": "IOCL",
+      "title": "Executive Posts (Graduate Engineer, Officer, Assistant Quality Control Officer, Diploma Engineer)",
+      "summary": "Indian Oil Corporation Limited (IOCL) has announced a major recruitment drive for 470 Executive positions across engineering (Chemical, Civil, Computer Science & IT, Electrical, Electronics & Communication, Instrumentation, Mechanical), marketing, law, quality control, and diploma engineering disciplines. The selection process includes a Computer Based Test (CBT), Group Discussion & Group Task, followed by a Personal Interview.",
+      "advtNo": "IOCL/CO-HR/RECTT/2026/01",
+      "posts": 470,
+      "url": "https://iocl.com/",
+      "pdfUrl": null,
+      "status": "open",
+      "opensOn": "2026-08-14",
+      "closesOn": "2026-09-03",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Graduate Engineer (Mechanical) is a core engineering role, making it a moderate fit. Officer (Marketing) requires an MBA in Marketing, which the candidate does not have, making it gated. Graduate Engineer (Computer Science and IT) requires a CS/IT degree, which the candidate does not have, making it gated.",
+      "tags": [
+        "Engineering",
+        "Management"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-08-31T02:43:05.157Z"
+    },
+    {
       "id": "hindustan-aeronautics-limited-hal-engineering-graduate-apprentice-recruitment",
       "source": "psu-sweep",
       "org": "HAL",
@@ -2868,7 +2822,7 @@
       "source": "uppsc",
       "org": "UPPSC",
       "title": "Various Posts under Miscellaneous Examination",
-      "summary": "Recruitment for various posts through Miscellaneous Examination. Advertisements No. A-2/E-1/2026 & A-3/E-1/2026.",
+      "summary": "Applications are open for various posts under Miscellaneous Examination, Advt. Nos. A-2/E-1/2026 & A-3/E-1/2026. Apply online by September 10, 2026.",
       "advtNo": "A-2/E-1/2026 & A-3/E-1/2026",
       "posts": "Various posts",
       "url": "https://uppsc.up.nic.in/",
@@ -2878,7 +2832,7 @@
       "closesOn": "2026-09-10",
       "expected": null,
       "fit": "strong",
-      "fitLabel": "Strong fit — management",
+      "fitLabel": "Strong fit — management/admin",
       "tags": [
         "Any graduate eligible (expected)"
       ],
@@ -2917,25 +2871,25 @@
     },
     {
       "id": "national-institute-of-electronics-and-information-technology-nielit-programmer-a",
-      "source": "upsc",
-      "org": "Union Public Service Commission (UPSC)",
-      "title": "Direct Recruitment to various posts in Government of India (including Assistant Provident Fund Commissioner)",
-      "summary": "UPSC has invited online applications for direct recruitment to various Group A and Group B posts in Central government departments through its Online Recruitment Application (ORA) portal. The application window is currently open from August 22, 2026, to September 11, 2026. One of the notable opportunities is for 80 vacancies for Assistant Provident Fund Commissioner (APFC) in the Employees' Provident Fund Organisation (EPFO).",
+      "source": "regulators-sweep",
+      "org": "Employees' Provident Fund Organisation (EPFO) through UPSC",
+      "title": "Assistant Provident Fund Commissioner (APFC)",
+      "summary": "The Union Public Service Commission (UPSC) has released a detailed notification for the recruitment of 80 Assistant Provident Fund Commissioner (APFC) vacancies in the Employees' Provident Fund Organisation (EPFO). The selection process includes a Recruitment Test followed by an Interview. Candidates with a bachelor's degree in any discipline are eligible to apply.",
       "advtNo": "52/2026",
       "posts": 80,
-      "url": "https://upsconline.nic.in/ora/",
+      "url": "https://upsconline.nic.in",
       "status": "open",
       "opensOn": "2026-08-22",
       "closesOn": "2026-09-11",
       "expected": "2026-09-XX",
       "fit": "strong",
-      "fitLabel": "Management role (APFC) typically open to any graduate, aligning with candidate's interest in management.",
+      "fitLabel": "Any-graduate management exam.",
       "tags": [
         "Management",
-        "Government Job"
+        "PSU"
       ],
       "firstSeen": "2026-07-10T18:37:16.814Z",
-      "pdfUrl": "https://www.upsc.gov.in/sites/default/files/Advt-52-2026-ORA-Eng_21082026.pdf"
+      "pdfUrl": "https://www.upsc.gov.in/sites/default/files/AdvtNo-52-2026-Special-Engl-210826.pdf"
     },
     {
       "id": "indian-oil-corporation-limited-iocl-apprentice-bongaigaon-guwahati-digboi-refine",
@@ -2990,19 +2944,19 @@
     {
       "id": "railway-recruitment-board-junior-engineer-je-depot-material-superintendent-dms-c",
       "source": "rrb",
-      "org": "Railway Recruitment Board (RRB)",
+      "org": "Railway Recruitment Board",
       "title": "Junior Engineer (JE), Depot Material Superintendent (DMS), Chemical & Metallurgical Assistant (CMA)",
-      "summary": "The Railway Recruitment Boards (RRBs) have issued Centralised Employment Notice (CEN) No. 04/2026 for recruitment to Junior Engineer (JE), Depot Material Superintendent (DMS) and Chemical & Metallurgical Assistant (CMA) posts. The recruitment drive aims to fill 4,029 vacancies across different Railway Recruitment Boards in the country.",
+      "summary": "Recruitment for various Junior Engineer posts, Depot Material Superintendent, and Chemical & Metallurgical Assistant across Indian Railways.",
       "advtNo": "CEN 04/2026",
-      "posts": "Junior Engineer, Depot Material Superintendent, Chemical & Metallurgical Assistant",
-      "url": "https://www.rrbapply.gov.in/",
+      "posts": 4029,
+      "url": "https://www.rrbcdg.gov.in/",
       "pdfUrl": null,
       "status": "open",
       "opensOn": "2026-08-14",
       "closesOn": "2026-09-13",
       "expected": null,
       "fit": "moderate",
-      "fitLabel": "B.Tech Mechanical eligible, but these are core engineering roles, not IT or Management.",
+      "fitLabel": "Eligible for Mechanical Engineering posts; other engineering roles are also a moderate fit.",
       "tags": [
         "Engineering",
         "Junior Engineer"
@@ -3434,21 +3388,22 @@
     {
       "id": "securities-and-exchange-board-of-india-sebi-grade-a-assistant-manager",
       "source": "regulators-sweep",
-      "org": "PFRDA",
-      "title": "Assistant Manager (Grade A) - IT Stream",
-      "summary": "The Pension Fund Regulatory and Development Authority (PFRDA) is expected to release its Grade A Assistant Manager notification in August 2026, with around 30-40 vacancies. The IT stream will likely require a specific IT degree.",
+      "org": "SEBI",
+      "title": "Assistant Manager (Grade A)",
+      "summary": "The SEBI Grade A 2026 notification for Assistant Manager posts is expected to be released in October-November 2026, with an estimated 80-100+ vacancies across streams such as General, Legal, IT, Research, Engineering, and Official Language. The General stream accepts any engineering bachelor's degree.",
       "advtNo": null,
       "posts": 30,
-      "url": "https://www.pfrda.org.in/",
+      "url": "https://www.sebi.gov.in",
       "pdfUrl": null,
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "2026-08-31",
-      "fit": "gated",
-      "fitLabel": "IT post requiring CS/IT/Electronics degree.",
+      "expected": "2026-10-XX",
+      "fit": "strong",
+      "fitLabel": "Any-graduate management exam.",
       "tags": [
-        "IT"
+        "Management",
+        "Finance"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -3514,9 +3469,9 @@
     {
       "id": "lic-apprentice-development-officer-ado-recruitment-2026-27",
       "source": "regulators-sweep",
-      "org": "Life Insurance Corporation of India (LIC)",
+      "org": "LIC",
       "title": "Apprentice Development Officer (ADO)",
-      "summary": "Expected recruitment for Apprentice Development Officer (ADO) posts across various zones and divisions. Candidates selected as LIC ADOs are responsible for recruiting, training, and supervising insurance agents.",
+      "summary": "The LIC ADO 2026 recruitment notification for Apprentice Development Officer posts is expected to be released soon by the Life Insurance Corporation of India. The total number of vacancies will be announced with the official notification, with the previous cycle having 9,394 vacancies. This role is open to graduates.",
       "advtNo": null,
       "posts": 10000,
       "url": "https://www.licindia.in",
@@ -3524,9 +3479,9 @@
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "Soon",
+      "expected": "2026-08-XX",
       "fit": "strong",
-      "fitLabel": "Any-graduate management/sales role.",
+      "fitLabel": "Any-graduate management exam.",
       "tags": [
         "Management",
         "Sales"
@@ -3649,17 +3604,17 @@
       "source": "nabard",
       "org": "NABARD",
       "title": "Assistant Manager (Grade A)",
-      "summary": "The NABARD Grade A Notification 2026 for Assistant Manager posts in various streams, including Rural Development Banking Service (RDBS), Legal, and Protocol & Security Service, is awaited and expected to be released around July to August 2026.",
+      "summary": "Recruitment for Assistant Manager posts in various streams such as Rural Development Banking Service (RDBS), Legal, and Protocol & Security Service. The official notification is awaited.",
       "advtNo": null,
       "posts": "80-100 (Expected)",
-      "url": "https://www.nabard.org/career.aspx",
+      "url": "https://www.nabard.org",
       "pdfUrl": null,
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "Notification expected around July-August 2026.",
+      "expected": "Notification expected around July-August 2026, application process to follow.",
       "fit": "strong",
-      "fitLabel": "A Bachelor's degree in any subject with a minimum of 60% marks (55% for SC/ST/PwBD) is generally required for the General stream of Assistant Manager (Grade A), making the candidate's B.Tech Mechanical eligible for management roles.",
+      "fitLabel": "Any-graduate management exam.",
       "tags": [
         "Management",
         "Banking"
