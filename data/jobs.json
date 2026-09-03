@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-09-02T02:17:59.393Z",
+  "lastScan": "2026-09-03T02:27:37.026Z",
   "jobs": [
     {
       "id": "staff-selection-commission-combined-graduate-level-examination-2026",
@@ -584,27 +584,6 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-08-12T01:21:49.980Z"
-    },
-    {
-      "id": "staff-selection-commission-ssc-junior-engineer-civil-electrical-mechanical-2026",
-      "source": "ssc",
-      "org": "Staff Selection Commission (SSC)",
-      "title": "Junior Engineer (Civil, Electrical, Mechanical) Examination 2026",
-      "summary": "The Staff Selection Commission is expected to release the notification for the Junior Engineer (JE) Examination 2026 in August 2026. This recruitment is for technical roles in various government organizations, open to candidates with a degree or diploma in Civil, Electrical, or Mechanical Engineering. The online application process is anticipated to commence on the same day as the notification release.",
-      "advtNo": null,
-      "posts": "Junior Engineer (Civil, Electrical, Mechanical)",
-      "url": "https://ssc.gov.in",
-      "status": "upcoming",
-      "opensOn": "2026-08-XX",
-      "closesOn": "2026-08",
-      "expected": "2026-08",
-      "fit": "moderate",
-      "fitLabel": "Mechanical engineering degree is eligible for this core engineering post.",
-      "tags": [
-        "Engineering",
-        "Mechanical"
-      ],
-      "firstSeen": "2026-07-10T12:00:00.000Z"
     },
     {
       "id": "uttar-pradesh-public-service-commission-combined-state-upper-subordinate-service",
@@ -1596,11 +1575,11 @@
       "id": "sbi-junior-associates-clerk-special-recruitment-drive",
       "source": "sbi",
       "org": "SBI",
-      "title": "Junior Associates (SC/ST/OBC Backlog)",
-      "summary": "Special recruitment drive for Junior Associates to fill SC/ST/OBC backlog vacancies. Application window was from 07.08.2026 to 27.08.2026. Any graduate is eligible, with specific reservation criteria.",
+      "title": "Junior Associates (Special Recruitment Drive for Backlog Vacancies)",
+      "summary": "Special recruitment drive for Junior Associates to fill SC/ST/OBC backlog vacancies. This entry-level banking role, open to any graduate, closed on August 27, 2026.",
       "advtNo": "CRPD/CR/SPLDRIVE/2026-27/16",
       "posts": null,
-      "url": "https://sbi.bank.in/web/careers/current-openings",
+      "url": "https://ibpsreg.ibps.in/sbijasrdjl26/",
       "pdfUrl": "https://sbi.bank.in/webfiles/uploads/files_2627/08/JA_2026_Backlog_Detailed_Advt_ENG.pdf",
       "status": "closed",
       "opensOn": "2026-08-07",
@@ -1609,8 +1588,7 @@
       "fit": "strong",
       "fitLabel": "Strong fit — any graduate",
       "tags": [
-        "Any graduate",
-        "Reserved vacancies"
+        "Any graduate"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -1649,33 +1627,6 @@
       "firstSeen": "2026-08-13T01:20:03.795Z"
     },
     {
-      "id": "sbi-junior-associates-special-recruitment-drive-for-backlog-vacancies",
-      "source": "sbi",
-      "org": "SBI",
-      "title": "Junior Associates (Special Recruitment Drive for Backlog Vacancies)",
-      "summary": "Special recruitment drive for Junior Associates to fill SC/ST/OBC backlog vacancies. This entry-level banking role, open to any graduate, closed on August 27, 2026.",
-      "advtNo": "CRPD/CR/SPLDRIVE/2026-27/16",
-      "posts": null,
-      "url": "https://ibpsreg.ibps.in/sbijasrdjl26/",
-      "pdfUrl": "https://sbi.bank.in/webfiles/uploads/files_2627/08/JA_2026_Backlog_Detailed_Advt_ENG.pdf",
-      "status": "closed",
-      "opensOn": "2026-08-07",
-      "closesOn": "2026-08-27",
-      "expected": null,
-      "fit": "strong",
-      "fitLabel": "Strong fit — any graduate",
-      "tags": [
-        "Any graduate"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-08-27T06:22:51.675Z"
-    },
-    {
       "id": "isro-icrb-scientist-engineers-sc",
       "source": "isro",
       "org": "ISRO · ICRB",
@@ -1704,20 +1655,20 @@
       "id": "sbi-specialist-cadre-officers-on-contract-basis-crpd-sco-2026-27-13",
       "source": "sbi",
       "org": "SBI",
-      "title": "Specialist Cadre Officers (Contract Basis)",
-      "summary": "Engagement of Specialist Cadre Officers on a contract basis. Applications closed on August 27, 2026. Roles often include IT positions requiring specific degrees.",
-      "advtNo": "CRPD/SCO/2026-27/13",
+      "title": "Specialist Cadre Officers (Contract/Regular Basis)",
+      "summary": "Recruitment for Specialist Cadre Officers on both contract and regular basis. Applications were open from August 7 to August 27, 2026. Specific IT roles often require a CS/IT/Electronics degree.",
+      "advtNo": "CRPD/SCO/2026-27/11",
       "posts": null,
-      "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-13/apply",
-      "pdfUrl": "https://sbi.bank.in/documents/77530/57941334/FINAL++ADVT++CRPD_SCO_2026-27_13.pdf/64d9efd8-2a64-ad88-d4a1-0ae1a5e2fb4b?t=1786026587436",
+      "url": "https://sbi.bank.in/web/careers/current-openings",
+      "pdfUrl": "https://sbi.bank.in/documents/77530/57941334/ADV_CRPD_SCO_2026-27_11+%281%29.pdf/474dbe0d-e408-720b-f412-3788a553105a?t=1786024930974",
       "status": "closed",
       "opensOn": "2026-08-07",
       "closesOn": "2026-08-27",
       "expected": null,
       "fit": "gated",
-      "fitLabel": "Degree-gated: CS/IT (likely)",
+      "fitLabel": "Degree-gated: CS/IT",
       "tags": [
-        "Contractual/Regular"
+        "Contract/Regular basis"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -1954,16 +1905,16 @@
       "source": "sbi",
       "org": "SBI",
       "title": "Junior Associates (Customer Support & Sales)",
-      "summary": "Recruitment for Junior Associates in Customer Support & Sales. This entry-level banking role, open to any graduate, closed on August 31, 2026.",
+      "summary": "Recruitment for Junior Associates in Customer Support & Sales. Applications were open from August 11 to August 31, 2026. This is a general banking role, typically open to any graduate.",
       "advtNo": "CRPD/CR/2026-27/17",
       "posts": "6000+",
-      "url": "https://ibpsreg.ibps.in/sbijajul26/",
+      "url": "https://sbi.bank.in/web/careers/current-openings",
       "status": "closed",
       "opensOn": "2026-08-11",
       "closesOn": "2026-08-31",
       "expected": "2026-08-05",
       "fit": "strong",
-      "fitLabel": "Strong fit — any graduate",
+      "fitLabel": "Strong fit — banking",
       "tags": [
         "Any graduate"
       ],
@@ -2705,7 +2656,7 @@
       "source": "uppsc",
       "org": "UPPSC",
       "title": "Various Posts under Miscellaneous Examination",
-      "summary": "Application open for various posts under Miscellaneous Examination, Advt. A-2/E-1/2026 & A-3/E-1/2026.",
+      "summary": "Apply online for various posts through the Miscellaneous Examination. This is a general recruitment drive for multiple departments.",
       "advtNo": "A-2/E-1/2026 & A-3/E-1/2026",
       "posts": "Various posts",
       "url": "https://uppsc.up.nic.in/",
@@ -2715,9 +2666,9 @@
       "closesOn": "2026-09-10",
       "expected": null,
       "fit": "strong",
-      "fitLabel": "Strong fit — general recruitment",
+      "fitLabel": "Strong fit — management",
       "tags": [
-        "Any graduate eligible (assumed)"
+        "Any graduate"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -2755,9 +2706,9 @@
     {
       "id": "national-institute-of-electronics-and-information-technology-nielit-programmer-a",
       "source": "upsc",
-      "org": "Union Public Service Commission (UPSC)",
+      "org": "UPSC",
       "title": "Assistant Provident Fund Commissioner (APFC)",
-      "summary": "UPSC has invited applications for direct recruitment to 80 posts of Assistant Provident Fund Commissioner (APFC) in the Employees' Provident Fund Organisation (EPFO) under the Ministry of Labour and Employment. This is a Group 'A' Gazetted, non-ministerial post. The selection process will comprise a Recruitment Test followed by an interview.",
+      "summary": "Recruitment for 80 posts of Assistant Provident Fund Commissioner in the Employees' Provident Fund Organisation (EPFO), Ministry of Labour & Employment.",
       "advtNo": "52/2026",
       "posts": 80,
       "url": "https://upsconline.nic.in/ora/",
@@ -2766,10 +2717,10 @@
       "closesOn": "2026-09-11",
       "expected": "2026-09-XX",
       "fit": "strong",
-      "fitLabel": "Any-graduate management exams (PCS, RBI Grade B, NABARD Grade A, bank PO, SEBI Grade A General which accepts any engineering bachelor's) are \"strong\".",
+      "fitLabel": "Management role, open to any Bachelor's degree.",
       "tags": [
         "Management",
-        "Administrative"
+        "Government Job"
       ],
       "firstSeen": "2026-07-10T18:37:16.814Z",
       "pdfUrl": "https://www.upsc.gov.in/sites/default/files/AdvtNo-52-2026-Special-Engl-210826.pdf"
@@ -2856,21 +2807,21 @@
       "id": "railway-recruitment-board-junior-engineer-je-depot-material-superintendent-dms-c",
       "source": "rrb",
       "org": "Railway Recruitment Board (RRB)",
-      "title": "Junior Engineer (JE), Depot Material Superintendent (DMS), Chemical & Metallurgical Assistant (CMA)",
-      "summary": "Recruitment for 4029 vacancies across various engineering disciplines under CEN 04/2026.",
+      "title": "Junior Engineer (JE), Depot Material Superintendent (DMS), Chemical & Metallurgical Assistant (CMA) Recruitment",
+      "summary": "The Railway Recruitment Board (RRB) has released a notification (CEN 04/2026) for 4,029 vacancies across Junior Engineer (JE), Depot Material Superintendent (DMS), and Chemical & Metallurgical Assistant (CMA) posts in various departments of Indian Railways.",
       "advtNo": "CEN 04/2026",
-      "posts": "Junior Engineer, Depot Material Superintendent, Chemical & Metallurgical Assistant",
-      "url": "https://www.rrbapply.gov.in/",
+      "posts": 4029,
+      "url": "https://rrbapply.gov.in/",
       "pdfUrl": null,
       "status": "open",
       "opensOn": "2026-08-14",
       "closesOn": "2026-09-13",
       "expected": null,
       "fit": "moderate",
-      "fitLabel": "B.Tech Mechanical eligible for JE (moderate); DMS accepts any engineering degree (strong); CMA requires B.Sc. (low).",
+      "fitLabel": "Core engineering post where Mechanical is eligible.",
       "tags": [
         "Engineering",
-        "Diploma"
+        "Junior Engineer"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -2884,8 +2835,8 @@
       "id": "state-bank-of-india-specialist-cadre-officer-database-cloud-dba-contract",
       "source": "sbi",
       "org": "SBI",
-      "title": "Specialist Cadre Officer (Trade Finance Officer, IBG)",
-      "summary": "Recruitment for Specialist Cadre Officer (Trade Finance Officer, International Banking Group) on a regular basis. Applications open from 29.08.2026 to 19.09.2026. Eligibility and selection details are in the official advertisement.",
+      "title": "Specialist Cadre Officer (TFO IBG)",
+      "summary": "Recruitment for Specialist Cadre Officers (Trade Finance Officer, International Banking Group) on a regular basis. Application window from August 29 to September 19, 2026. Detailed eligibility and selection process in the advertisement.",
       "advtNo": "CRPD/SCO/2026-27/15",
       "posts": null,
       "url": "https://sbi.bank.in/web/careers/current-openings",
@@ -2903,34 +2854,6 @@
     },
     {
       "id": "ibps-crp-rrbs-xv-officers-scale-i-ii-iii-and-office-assistants",
-      "source": "ibps",
-      "org": "IBPS",
-      "title": "CRP RRBs-XV - Office Assistant (Multipurpose)",
-      "summary": "Recruitment for Office Assistant (Multipurpose) in Regional Rural Banks.",
-      "advtNo": "CRP RRBs-XV",
-      "posts": 7993,
-      "url": "https://www.ibps.in/",
-      "pdfUrl": null,
-      "status": "open",
-      "opensOn": "2026-09-01",
-      "closesOn": "2026-09-21",
-      "expected": null,
-      "fit": "strong",
-      "fitLabel": "Any graduate role, suitable for management/clerical interest.",
-      "tags": [
-        "Banking",
-        "Clerical"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-09-01T02:56:46.029Z"
-    },
-    {
-      "id": "institute-of-banking-personnel-selection-ibps-office-assistant-multipurpose-offi",
       "source": "rrb",
       "org": "Institute of Banking Personnel Selection (IBPS)",
       "title": "Office Assistant (Multipurpose), Officer Scale I, Officer Scale II, Officer Scale III",
@@ -2955,7 +2878,7 @@
       "experienceNote": null,
       "eligibility": null,
       "eligibilityReason": null,
-      "firstSeen": "2026-09-02T02:16:03.837Z"
+      "firstSeen": "2026-09-01T02:56:46.029Z"
     },
     {
       "id": "ibps-crp-rrbs-xv-officer-scale-i-probationary-officer",
@@ -2984,6 +2907,27 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-09-02T02:16:39.563Z"
+    },
+    {
+      "id": "staff-selection-commission-ssc-junior-engineer-civil-electrical-mechanical-2026",
+      "source": "ssc",
+      "org": "Staff Selection Commission",
+      "title": "Junior Engineer (Civil, Mechanical, Electrical) and Scientific Assistant Examination 2026",
+      "summary": "The Staff Selection Commission (SSC) has released a recruitment notification for a total of 1,748 Junior Engineer posts under various government organisations and offices. It will also be used to fill Scientific Assistant posts in the India Meteorological Department (IMD). The online application process starts on September 2, 2026, and ends on September 22, 2026.",
+      "advtNo": null,
+      "posts": 1748,
+      "url": "https://ssc.gov.in/",
+      "status": "open",
+      "opensOn": "2026-09-02",
+      "closesOn": "2026-09-22",
+      "expected": "2026-08",
+      "fit": "moderate",
+      "fitLabel": "Core engineering post where Mechanical is eligible.",
+      "tags": [
+        "Engineering",
+        "Mechanical"
+      ],
+      "firstSeen": "2026-07-10T12:00:00.000Z"
     },
     {
       "id": "national-informatics-centre-nic-scientific-technical-assistant-a",
@@ -3412,21 +3356,21 @@
       "id": "railway-recruitment-board-non-technical-popular-categories-ntpc",
       "source": "rrb",
       "org": "Railway Recruitment Board (RRB)",
-      "title": "Non-Technical Popular Categories (NTPC)",
-      "summary": "Notification expected soon for Graduate and Undergraduate posts.",
+      "title": "Non-Technical Popular Categories (NTPC) Graduate Level Recruitment",
+      "summary": "The Railway Recruitment Board (RRB) is expected to release the notification for graduate-level Non-Technical Popular Categories (NTPC) positions in September 2026. A total of 5,810 vacancies were announced for graduate-level posts in the previous recruitment cycle.",
       "advtNo": null,
       "posts": "Graduate and Undergraduate posts (e.g., Station Master, Goods Train Manager, Junior Clerk, Assistant Station Master)",
-      "url": "https://www.rrbapply.gov.in/",
+      "url": "https://rrbapply.gov.in/",
       "pdfUrl": null,
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "Soon in 2027",
+      "expected": "2026-09",
       "fit": "strong",
-      "fitLabel": "Expected to include graduate-level non-technical posts, which are strong for any bachelor's degree holder.",
+      "fitLabel": "Any-graduate management exam.",
       "tags": [
-        "Railway",
-        "NTPC"
+        "NTPC",
+        "Graduate"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -3599,17 +3543,17 @@
       "source": "nabard",
       "org": "NABARD",
       "title": "Assistant Manager (Grade A)",
-      "summary": "Recruitment for Assistant Manager posts in various streams such as Rural Development Banking Service (RDBS), Legal, and Protocol & Security Service. The official notification is awaited.",
+      "summary": "Recruitment for Assistant Manager (Grade A) in various disciplines, including Rural Development Banking Service (RDBS), Legal, and Protocol & Security Service.",
       "advtNo": null,
-      "posts": "80-100 (Expected)",
-      "url": "https://www.nabard.org",
+      "posts": "Expected 80-100",
+      "url": "https://www.nabard.org/career.aspx",
       "pdfUrl": null,
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "Notification expected around July-August 2026, application process to follow.",
+      "expected": "Notification expected in September 2026.",
       "fit": "strong",
-      "fitLabel": "Any-graduate management exam.",
+      "fitLabel": "Any engineering bachelor's degree is accepted for General stream.",
       "tags": [
         "Management",
         "Banking"
