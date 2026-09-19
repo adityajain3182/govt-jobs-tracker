@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-09-18T02:35:24.450Z",
+  "lastScan": "2026-09-19T02:34:47.378Z",
   "jobs": [
     {
       "id": "staff-selection-commission-combined-graduate-level-examination-2026",
@@ -114,27 +114,6 @@
         "Mechanical"
       ],
       "firstSeen": "2026-07-10T18:40:06.128Z"
-    },
-    {
-      "id": "haryana-public-service-commission-hpsc-district-manager-group-b",
-      "source": "regulators-sweep",
-      "org": "Haryana Public Service Commission (HPSC)",
-      "title": "District Manager (Group-B)",
-      "summary": "Recruitment for 2 District Manager posts in Haryana State Warehousing Corporation. This is a management role, likely open to general graduates.",
-      "advtNo": "24/2026",
-      "posts": 2,
-      "url": "http://hpsc.gov.in/",
-      "status": "closed",
-      "opensOn": "2026-07-15",
-      "closesOn": "2026-08-04",
-      "expected": null,
-      "fit": "strong",
-      "fitLabel": "Any-graduate management exams (PCS, RBI Grade B, NABARD Grade A, bank PO, SEBI Grade A General which accepts any engineering bachelor's) are strong.",
-      "tags": [
-        "Management",
-        "Officer"
-      ],
-      "firstSeen": "2026-07-12T07:44:18.087Z"
     },
     {
       "id": "drdo-defence-laboratory-jodhpur-junior-research-fellowship-jrf-mechanical",
@@ -863,9 +842,9 @@
     {
       "id": "isro-prl-administrative-officer-accounts-officer-purchase-and-stores-officer",
       "source": "isro",
-      "org": "ISRO · PRL",
+      "org": "PRL",
       "title": "Administrative Officer, Accounts Officer, Purchase and Stores Officer",
-      "summary": "Recruitment for Administrative Officer, Accounts Officer, and Purchase and Stores Officer posts. These are management and administrative roles, often open to any graduate or those with relevant commerce/management degrees, making them a strong fit for management interest.",
+      "summary": "Recruitment for Administrative Officer, Accounts Officer, and Purchase and Stores Officer posts at PRL. These are management/administrative roles, often open to any graduate.",
       "advtNo": "01/2026",
       "posts": null,
       "url": "https://www.isro.gov.in/PRLRecruitment7.html",
@@ -875,9 +854,10 @@
       "closesOn": "2026-08-24",
       "expected": null,
       "fit": "strong",
-      "fitLabel": "Strong fit — management/admin",
+      "fitLabel": "Strong fit — management",
       "tags": [
-        "Any graduate (likely)"
+        "Any graduate",
+        "Management roles"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -1082,9 +1062,9 @@
       "id": "isro-icrb-scientist-engineers-sc",
       "source": "isro",
       "org": "ISRO · ICRB",
-      "title": "Scientist/Engineers 'SC' (CEPO)",
-      "summary": "Recruitment for Scientist/Engineers 'SC' posts at ISRO (CEPO). These are typically discipline-specific engineering roles. Eligibility for IT/CS streams usually requires a relevant degree, which the candidate lacks.",
-      "advtNo": "ISRO:ICRB:02(EMC-CEPO):2026 dated 28-07-2026",
+      "title": "Scientist/Engineers 'SC'",
+      "summary": "Recruitment for Scientist/Engineers 'SC' posts. These are technical roles requiring specific engineering degrees. Mechanical B.Tech may be eligible, depending on the specific discipline advertised.",
+      "advtNo": "ISRO:ICRB:02(EMC-CEPO):2026",
       "posts": null,
       "url": "https://www.isro.gov.in/ICRB_Recruitment12.html",
       "pdfUrl": null,
@@ -1092,8 +1072,8 @@
       "opensOn": "2026-07-28",
       "closesOn": "2026-08-28",
       "expected": null,
-      "fit": "gated",
-      "fitLabel": "Degree-gated: CS/IT (Mech stream possible)",
+      "fit": "moderate",
+      "fitLabel": "Moderate fit — engineering",
       "tags": [
         "Engineering roles"
       ],
@@ -1110,7 +1090,7 @@
       "source": "isro",
       "org": "ISRO · ICRB",
       "title": "Assistants, Junior Personal Assistants, Upper Division Clerk and Stenographers",
-      "summary": "Recruitment for various administrative and clerical support roles. Any graduate is usually eligible. Application window was 27.07.2026 to 28.08.2026.",
+      "summary": "Recruitment for Assistants, Junior Personal Assistants, Upper Division Clerks, and Stenographers at ISRO. These are administrative/clerical roles, typically open to any graduate.",
       "advtNo": "ICRB:01(A-JPA):2026",
       "posts": null,
       "url": "https://www.isro.gov.in/ICRB_Recruitment11.html",
@@ -1123,7 +1103,7 @@
       "fitLabel": "Strong fit — administrative",
       "tags": [
         "Any graduate",
-        "Administrative"
+        "Administrative roles"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -1291,9 +1271,9 @@
       "id": "ibps-common-recruitment-process-for-recruitment-of-clerks-crp-clerks-xvi",
       "source": "ibps",
       "org": "IBPS",
-      "title": "Common Recruitment Process for Recruitment of Clerks (CRP Clerks-XVI)",
-      "summary": "Recruitment of Customer Service Associates (Clerks) in participating Public Sector Banks.",
-      "advtNo": "CRP Clerks-XVI",
+      "title": "Common Recruitment Process for Customer Service Associate (CRP CSA-XVI)",
+      "summary": "IBPS announced the CRP CSA-XVI for the recruitment of 11,403 Customer Service Associate (Clerk) positions in participating Public Sector Banks. The application window was from August 1 to August 28, 2026, with a correction window from September 4 to September 5, 2026.",
+      "advtNo": "CRP CSA-XVI",
       "posts": 11403,
       "url": "https://www.ibps.in/crp-clerks-xvi/",
       "pdfUrl": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-Clerks-XVI_Final_V1_01.08.2026.pdf",
@@ -1305,7 +1285,7 @@
       "fitLabel": "Any-graduate management/clerical role.",
       "tags": [
         "Banking",
-        "Clerk"
+        "Government"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -1318,9 +1298,9 @@
     {
       "id": "isro-nesac-research-scientists-junior-research-fellows-and-project-associate-i",
       "source": "isro",
-      "org": "ISRO · NRSC",
+      "org": "NRSC",
       "title": "Temporary Research Personnel",
-      "summary": "Recruitment for various temporary research positions including Research Scientist, Project Associate, and Junior Research Fellow. Eligibility typically requires specific science/engineering degrees.",
+      "summary": "Recruitment for various temporary research personnel posts including Research Scientist, Project Associate, Project Scientist, and Junior Research Fellow at NRSC. These are research-oriented roles.",
       "advtNo": "NRSC/RMT/1/2026",
       "posts": null,
       "url": "https://www.isro.gov.in/NRSCRecruitment2026_1.html",
@@ -1330,7 +1310,7 @@
       "closesOn": "2026-08-31",
       "expected": null,
       "fit": "moderate",
-      "fitLabel": "Moderate fit — research roles",
+      "fitLabel": "Moderate fit — research/engineering",
       "tags": [
         "Research roles"
       ],
@@ -1440,22 +1420,22 @@
     {
       "id": "indian-oil-corporation-limited-iocl-engineers-officers-computer-science-it-elect",
       "source": "psu-sweep",
-      "org": "Indian Oil Corporation Limited (IOCL)",
-      "title": "Engineers/Officers (Computer Science & IT, Electrical, Electronics & Communication, Instrumentation)",
-      "summary": "Recruitment for Engineers/Officers positions in Computer Science & IT, Electrical, Electronics & Communication, and Instrumentation disciplines.",
+      "org": "IOCL",
+      "title": "Graduate Engineer (Computer Science and IT)",
+      "summary": "Recruitment for 470 Executive positions including Graduate Engineer in Computer Science and IT discipline.",
       "advtNo": "IOCL/CO-HR/Rectt/2026/01",
-      "posts": null,
-      "url": "https://www.iocl.com/careers",
+      "posts": 22,
+      "url": "https://iocl.com/latest-job-openings",
       "pdfUrl": null,
       "status": "closed",
-      "opensOn": "2026-08-12",
-      "closesOn": "2026-08-31",
-      "expected": null,
+      "opensOn": "2026-08-14",
+      "closesOn": "2026-09-03",
+      "expected": "CBT: 2026-09-24, Admit Card: 2026-09-15",
       "fit": "gated",
-      "fitLabel": "IT/Electronics role requiring specific degree not held by candidate.",
+      "fitLabel": "Requires a CS/IT/Electronics degree, which the candidate does not have. Candidate has B.Tech Mechanical.",
       "tags": [
-        "IT",
-        "Engineering"
+        "Engineering",
+        "IT"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -1463,7 +1443,7 @@
       "experienceNote": null,
       "eligibility": null,
       "eligibilityReason": null,
-      "firstSeen": "2026-08-14T01:21:29.937Z"
+      "firstSeen": "2026-07-24T02:03:33.429Z"
     },
     {
       "id": "ongc-graduate-trainee-mechanical-engineering",
@@ -1622,34 +1602,6 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-08-15T00:55:47.634Z"
-    },
-    {
-      "id": "iocl-graduate-engineer-computer-science-and-information-technology-through-gate-",
-      "source": "psu-sweep",
-      "org": "IOCL",
-      "title": "Graduate Engineer (Computer Science and IT)",
-      "summary": "Recruitment for 470 Executive positions including Graduate Engineer in Computer Science and IT discipline.",
-      "advtNo": "IOCL/CO-HR/Rectt/2026/01",
-      "posts": 22,
-      "url": "https://iocl.com/latest-job-openings",
-      "pdfUrl": null,
-      "status": "closed",
-      "opensOn": "2026-08-14",
-      "closesOn": "2026-09-03",
-      "expected": "CBT: 2026-09-24, Admit Card: 2026-09-15",
-      "fit": "gated",
-      "fitLabel": "Requires a CS/IT/Electronics degree, which the candidate does not have. Candidate has B.Tech Mechanical.",
-      "tags": [
-        "Engineering",
-        "IT"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-07-24T02:03:33.429Z"
     },
     {
       "id": "indian-oil-corporation-limited-iocl-executive-recruitment-officer-marketing",
@@ -1867,6 +1819,34 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-09-16T02:41:39.999Z"
+    },
+    {
+      "id": "indian-oil-corporation-limited-iocl-recruitment-of-graduate-engineers-mechanical",
+      "source": "psu-sweep",
+      "org": "Indian Oil Corporation Limited (IOCL)",
+      "title": "Recruitment of Graduate Engineers (Mechanical)",
+      "summary": "Indian Oil Corporation Limited (IOCL) announced recruitment for Graduate Engineer positions in various disciplines, including Mechanical Engineering. Online applications were open from August 14, 2026, to September 3, 2026. The selection process includes a Computer Based Test (CBT), Group Discussion & Group Task, followed by a Personal Interview.",
+      "advtNo": "IOCL/CO-HR/RECTT/2026/01",
+      "posts": 360,
+      "url": "https://iocl.com/latest-job-openings",
+      "pdfUrl": null,
+      "status": "closed",
+      "opensOn": "2026-08-14",
+      "closesOn": "2026-09-03",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "B.Tech Mechanical is directly eligible for this core engineering role.",
+      "tags": [
+        "Engineering",
+        "PSU"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-09-19T02:34:09.530Z"
     },
     {
       "id": "upsc-direct-recruitment-to-various-posts-in-government-of-india-special-advertis",
@@ -2143,10 +2123,10 @@
     {
       "id": "isro-hsfc-scientist-engineer-sd",
       "source": "isro",
-      "org": "HSFC · ISRO",
+      "org": "HSFC",
       "title": "Scientist/Engineer - SD",
-      "summary": "Recruitment for Scientist/Engineer - SD posts at HSFC. These are specialized technical roles, often requiring advanced degrees or significant experience. Eligibility for IT/CS streams typically requires a relevant degree, which the candidate lacks.",
-      "advtNo": "HSFC:01:RMT:2026 Dated.10.08.2026",
+      "summary": "Recruitment for Scientist/Engineer - SD posts at HSFC. These are technical roles requiring specific engineering degrees and potentially higher experience/qualifications. Mechanical B.Tech may be eligible.",
+      "advtNo": "HSFC:01:RMT:2026",
       "posts": null,
       "url": "https://www.isro.gov.in/HSFCRecruitment2026_1.html",
       "pdfUrl": null,
@@ -2154,8 +2134,8 @@
       "opensOn": "2026-08-10",
       "closesOn": "2026-09-09",
       "expected": "August 2026",
-      "fit": "gated",
-      "fitLabel": "Degree-gated: CS/IT (Mech stream possible)",
+      "fit": "moderate",
+      "fitLabel": "Moderate fit — engineering",
       "tags": [
         "Engineering roles"
       ],
@@ -2297,19 +2277,19 @@
     {
       "id": "isro-lpsc-technical-assistant-technician-b-draughtsman-b-and-fireman-a",
       "source": "isro",
-      "org": "ISRO · LPSC",
-      "title": "Technical Assistant, Technician 'B', Draughtsman 'B', Fireman 'A'",
-      "summary": "Recruitment for various technical and support roles in LPSC. Technical Assistant positions may be suitable for Mechanical B.Tech graduates.",
-      "advtNo": "LPSC/02/2026",
-      "posts": null,
-      "url": "https://www.isro.gov.in/LPSCRecruitment13.html",
+      "org": "ISRO ISTRAC",
+      "title": "Recruitment for Technician 'B', Technical Assistant, Scientific Assistant & others",
+      "summary": "ISRO ISTRAC invites applications for various technical and support posts including Technician 'B', Technical Assistant, Scientific Assistant, Draughtsman 'B', Library Assistant 'A', and Cook 'A'. Eligibility varies by post.",
+      "advtNo": "ISTRAC:02:2026",
+      "posts": "Various posts",
+      "url": "https://www.isro.gov.in/ISTRACRecruitment4.html",
       "pdfUrl": null,
       "status": "closed",
-      "opensOn": "2026-08-15",
+      "opensOn": "2026-06-27",
       "closesOn": "2026-09-14",
       "expected": null,
       "fit": "moderate",
-      "fitLabel": "Moderate fit — technical roles",
+      "fitLabel": "Moderate fit \n technical support",
       "tags": [
         "Technical roles"
       ],
@@ -2319,7 +2299,7 @@
       "experienceNote": null,
       "eligibility": null,
       "eligibilityReason": null,
-      "firstSeen": "2026-08-19T00:46:26.542Z"
+      "firstSeen": "2026-07-10T18:30:30.793Z"
     },
     {
       "id": "upsc-assistant-provident-fund-commissioner-apfc",
@@ -2430,21 +2410,21 @@
       "id": "ibps-crp-rrbs-xv-officers-scale-i-ii-iii-and-office-assistants",
       "source": "ibps",
       "org": "IBPS",
-      "title": "CRP RRBs-XV (Officer Scale-II - Marketing Manager)",
-      "summary": "Recruitment for Officer Scale-II (Marketing Manager) posts in Regional Rural Banks.",
+      "title": "Common Recruitment Process for RRBs (CRP RRBs-XV) - Officer Scale-II (IT Officer)",
+      "summary": "IBPS has released the notification for the Common Recruitment Process for Regional Rural Banks (CRP RRBs-XV) for the recruitment of 13,745 vacancies, including Specialist Officer roles like IT Officer.",
       "advtNo": "CRP RRBs-XV",
-      "posts": 220,
+      "posts": 13745,
       "url": "https://ibpsreg.ibps.in/rrbxvaug26/",
       "pdfUrl": "https://www.ibps.in/wp-content/uploads/CRP-RRBs-XV-notification.pdf",
       "status": "open",
       "opensOn": "2026-09-01",
       "closesOn": "2026-09-21",
       "expected": null,
-      "fit": "strong",
-      "fitLabel": "",
+      "fit": "gated",
+      "fitLabel": "Requires CS/IT/Electronics degree, which candidate does not have.",
       "tags": [
         "Banking",
-        "Management"
+        "Government"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -2457,9 +2437,9 @@
     {
       "id": "staff-selection-commission-ssc-junior-engineer-civil-electrical-mechanical-2026",
       "source": "ssc",
-      "org": "Staff Selection Commission",
-      "title": "Junior Engineer (Civil, Electrical, Mechanical, Telecom) and Scientific Assistant (IMD) Examination, 2026",
-      "summary": "The Staff Selection Commission (SSC) has released a notification for the recruitment of Junior Engineer (Civil, Electrical, Mechanical, Telecom) and Scientific Assistant (IMD) posts in various Government of India departments and offices.",
+      "org": "Staff Selection Commission (SSC)",
+      "title": "Junior Engineer (Civil, Mechanical & Electrical) and Scientific Assistant Examination 2026",
+      "summary": "The Staff Selection Commission (SSC) has released a notification for 1,748 tentative vacancies for Junior Engineer (Civil, Mechanical & Electrical) and Scientific Assistant posts across various Central Government departments and ministries. The application window is currently open.",
       "advtNo": "HQ-C-3019/1/2026-C-3",
       "posts": 1748,
       "url": "https://ssc.gov.in",
@@ -2468,7 +2448,7 @@
       "closesOn": "2026-09-22",
       "expected": "Paper-I in October/November 2026, Paper-II in December 2026",
       "fit": "moderate",
-      "fitLabel": "Core engineering post where Mechanical is eligible.",
+      "fitLabel": "Core engineering posts where Mechanical is eligible are \"moderate\".",
       "tags": [
         "Engineering",
         "Junior Engineer"
@@ -2507,20 +2487,20 @@
       "id": "securities-and-exchange-board-of-india-sebi-grade-a-assistant-manager",
       "source": "regulators-sweep",
       "org": "IRDAI",
-      "title": "Assistant Manager",
-      "summary": "The Insurance Regulatory and Development Authority of India (IRDAI) is expected to release the notification for Assistant Manager vacancies soon. IRDAI has officially announced plans to recruit 40 Assistant Managers annually from 2025 to 2027.",
+      "title": "Assistant Manager (Grade A)",
+      "summary": "The Insurance Regulatory and Development Authority of India (IRDAI) is expected to release its Assistant Manager (Grade A) notification for 40 vacancies annually from 2025 to 2027. Vacancies are anticipated across various streams, including Generalist, Law, Actuarial, Finance, and IT. The notification was expected in Q2 2026 (May-July) or August/September 2026.",
       "advtNo": "03/2026",
       "posts": 40,
-      "url": "https://www.irdai.gov.in/careers",
+      "url": "https://www.irdai.gov.in/",
       "pdfUrl": "https://www.pfrda.org.in",
       "status": "upcoming",
       "opensOn": "2026-09-03",
       "closesOn": "2026-09-24",
-      "expected": true,
+      "expected": "2026-09-XX",
       "fit": "strong",
-      "fitLabel": "Any-graduate management role.",
+      "fitLabel": "Any-graduate management exam (Generalist stream requires a graduation degree with 60% marks); Gated (IT stream requires specific CS/IT/Electronics degree).",
       "tags": [
-        "Financial Regulator",
+        "Management",
         "Assistant Manager"
       ],
       "minExperienceYears": null,
@@ -2587,9 +2567,9 @@
     {
       "id": "bharat-electronics-limited-senior-engineer-recruitment",
       "source": "psu-sweep",
-      "org": "Bharat Electronics Limited",
-      "title": "Senior Engineer Recruitment",
-      "summary": "Bharat Electronics Limited has released a notification for the recruitment of 12 Senior Engineer vacancies on a Fixed Term Basis for Export Manufacturing - SBU at Bangalore Complex. Eligible candidates with B.E./B.Tech/B.Sc Engineering qualifications in Computer Science and Electronics disciplines and relevant experience can apply online.",
+      "org": "Bharat Electronics Limited (BEL)",
+      "title": "Recruitment of Senior Engineer - Fixed Term Engineer - Export Manufacturing - SBU",
+      "summary": "Bharat Electronics Limited (BEL) is recruiting 12 Senior Engineers on a Fixed Term Basis for its Export Manufacturing - SBU at Bangalore Complex. The vacancies are in Computer Science and Electronics disciplines. Candidates need B.E./B.Tech/B.Sc Engineering qualifications and a minimum of 4 years of post-qualification industrial experience in relevant fields such as Database and Software Development, Embedded System Development, or 3D Visual Software Development. The online application window is from September 9, 2026, to September 29, 2026.",
       "advtNo": null,
       "posts": 12,
       "url": "https://www.bel-india.in/Careers.aspx",
@@ -2599,7 +2579,7 @@
       "closesOn": "2026-09-29",
       "expected": null,
       "fit": "gated",
-      "fitLabel": "Requires a CS/IT/Electronics degree, which the candidate (B.Tech Mechanical) does not have.",
+      "fitLabel": "Requires a B.E./B.Tech/B.Sc Engineering degree in Computer Science or Electronics, which the candidate does not have.",
       "tags": [
         "Engineering",
         "IT"
@@ -2739,10 +2719,10 @@
     {
       "id": "upsc-engineering-services-examination-ese-2027",
       "source": "upsc",
-      "org": "UPSC",
+      "org": "Union Public Service Commission (UPSC)",
       "title": "Engineering Services Examination (ESE) 2027",
-      "summary": "Recruitment for approximately 480 vacancies across Civil, Mechanical, Electrical, and Electronics & Telecommunication Engineering categories.",
-      "advtNo": null,
+      "summary": "The Union Public Service Commission (UPSC) has published the notification for the Engineering Services Examination (ESE) 2027, with approximately 480 vacancies. The recruitment will be conducted for four engineering categories: Civil Engineering, Mechanical Engineering, Electrical Engineering, and Electronics and Telecommunication Engineering.",
+      "advtNo": "ESE 2027",
       "posts": 480,
       "url": "https://upsconline.nic.in/",
       "pdfUrl": null,
@@ -2751,7 +2731,7 @@
       "closesOn": "2026-10-06",
       "expected": null,
       "fit": "moderate",
-      "fitLabel": "Core engineering post, Mechanical eligible.",
+      "fitLabel": "Core engineering posts where Mechanical is eligible",
       "tags": [
         "Engineering",
         "Mechanical Engineering"
@@ -2851,7 +2831,7 @@
       "source": "uppsc",
       "org": "UPPSC",
       "title": "Deputy Secretary (I.T.)",
-      "summary": "Recruitment for Deputy Secretary (I.T.) in UPPSC. Applications are open until October 28, 2026. This IT role typically requires a CS/IT/Electronics degree, making it a gated fit for a Mechanical Engineering graduate.",
+      "summary": "Recruitment for Deputy Secretary (I.T.) in UPPSC. Applications are open until October 28, 2026. This IT role typically requires a CS/IT/Electronics degree, making it a gated opportunity for a Mechanical Engineering graduate.",
       "advtNo": "D-2/E-1/2026",
       "posts": null,
       "url": "https://uppsc.up.nic.in/",
@@ -2976,24 +2956,6 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-09-17T02:47:40.802Z"
-    },
-    {
-      "id": "isro-istrac-recruitment-for-technician-b-technical-assistant-scientific-assistan",
-      "source": "isro",
-      "org": "ISRO ISTRAC",
-      "title": "Recruitment for Technician 'B', Technical Assistant, Scientific Assistant & others",
-      "summary": "ISRO ISTRAC invites applications for various technical and support posts including Technician 'B', Technical Assistant, Scientific Assistant, Draughtsman 'B', Library Assistant 'A', and Cook 'A'. Eligibility varies by post.",
-      "advtNo": "ISTRAC:02:2026",
-      "posts": "Various posts",
-      "url": "https://www.isro.gov.in/ISTRACRecruitment4.html",
-      "status": "open",
-      "opensOn": null,
-      "closesOn": null,
-      "expected": null,
-      "fit": "moderate",
-      "fitLabel": "Moderate fit \n technical support",
-      "tags": [],
-      "firstSeen": "2026-07-10T18:30:30.793Z"
     },
     {
       "id": "upsc-ut-of-ladakh-accounts-officer",
@@ -3201,8 +3163,8 @@
       "source": "isro",
       "org": "ISRO · ICRB",
       "title": "Scientist/Engineer ‘SC’",
-      "summary": "Inviting applications for Scientist/Engineer ‘SC’ posts at ISRO. These are typically discipline-specific roles in engineering. Eligibility for IT/CS streams usually requires a relevant degree, which the candidate lacks.",
-      "advtNo": "ISRO:ICRB:03(EMC):2026 dated 27-08-2026",
+      "summary": "Inviting applications for Scientist/Engineer ‘SC’ posts. These are technical roles requiring specific engineering degrees. Mechanical B.Tech may be eligible, depending on the specific discipline advertised.",
+      "advtNo": "ISRO:ICRB:03(EMC):2026",
       "posts": null,
       "url": "https://www.isro.gov.in/ICRB_Recruitment13.html",
       "pdfUrl": null,
@@ -3210,8 +3172,8 @@
       "opensOn": "2026-08-27",
       "closesOn": null,
       "expected": null,
-      "fit": "gated",
-      "fitLabel": "Degree-gated: CS/IT (Mech stream possible)",
+      "fit": "moderate",
+      "fitLabel": "Moderate fit — engineering",
       "tags": [
         "Engineering roles"
       ],
@@ -3227,21 +3189,21 @@
       "id": "railway-recruitment-board-non-technical-popular-categories-ntpc",
       "source": "rrb",
       "org": "Railway Recruitment Board (RRB)",
-      "title": "NTPC (Non-Technical Popular Categories) Recruitment 2026-27",
-      "summary": "Recruitment for 5,165 Graduate and Undergraduate posts. Graduate-level posts include Goods Train Manager, Chief Commercial-cum-Ticket Supervisor, Junior Accounts Assistant cum Typist, and Sr. Clerk cum Typist.",
+      "title": "Non-Technical Popular Categories (NTPC) Recruitment 2026",
+      "summary": "The Railway Recruitment Board (RRB) is set to release the RRB NTPC 2026 Notification for recruitment to Non-Technical Popular Categories (NTPC) posts. A total of 5,165 vacancies have been approved, including 3,477 Graduate-level and 1,688 Undergraduate-level posts.",
       "advtNo": "To be notified",
       "posts": 5165,
-      "url": "https://www.rrbapply.gov.in/",
+      "url": "https://www.rrbcdg.gov.in/",
       "pdfUrl": null,
       "status": "upcoming",
-      "opensOn": null,
+      "opensOn": "2026-11-01",
       "closesOn": null,
-      "expected": "Notification expected in October 2026 or later, with the application process likely starting in November 2026.",
+      "expected": "Notification in October 2026, applications in November 2026.",
       "fit": "strong",
-      "fitLabel": "Any-graduate management exams (PCS, RBI Grade B, NABARD Grade A, bank PO, SEBI Grade A General which accepts any engineering bachelor's) are \"strong\".",
+      "fitLabel": "Any-graduate management/clerical roles",
       "tags": [
-        "Management",
-        "IT"
+        "NTPC",
+        "Management"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -3448,8 +3410,8 @@
       "id": "ntpc-engineering-executive-trainees-2027-through-gate-2027",
       "source": "ntpc",
       "org": "NTPC",
-      "title": "Recruitment of Engineering Executive Trainees-2027 through GATE-2027",
-      "summary": "NTPC is inviting applications for Engineering Executive Trainees for the year 2027 through GATE-2027 scores. This is an upcoming recruitment for various engineering disciplines.",
+      "title": "Engineering Executive Trainees-2027",
+      "summary": "Recruitment of Engineering Executive Trainees through GATE-2027.",
       "advtNo": "11/26",
       "posts": null,
       "url": "https://careers.ntpc.co.in/",
@@ -3457,11 +3419,11 @@
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "Application window for NTPC recruitment through GATE-2027 is yet to be announced.",
+      "expected": "2027",
       "fit": "moderate",
-      "fitLabel": "B.Tech Mechanical is eligible for Engineering Executive Trainee roles, which are management-track. However, this is typically for fresh graduates via GATE, and the candidate has 2-3 years of experience. Not an explicit IT role.",
+      "fitLabel": "Core engineering post, Mechanical eligible.",
       "tags": [
-        "Engineering",
+        "GATE",
         "Executive Trainee"
       ],
       "minExperienceYears": null,
@@ -3475,9 +3437,9 @@
     {
       "id": "rbi-director-iibm-guwahati",
       "source": "rbi",
-      "org": "RBI · IIBM",
+      "org": "RBI IIBM",
       "title": "Director, IIBM, Guwahati",
-      "summary": "Inviting applications for the post of Director at the Indian Institute of Bank Management (IIBM), Guwahati. This is a senior management role.",
+      "summary": "Inviting applications for the post of Director at the Indian Institute of Bank Management (IIBM), Guwahati. This is a senior management role, suitable for experienced professionals.",
       "advtNo": null,
       "posts": null,
       "url": "https://opportunities.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=5171",
@@ -3487,7 +3449,7 @@
       "closesOn": null,
       "expected": null,
       "fit": "strong",
-      "fitLabel": "Strong fit — management",
+      "fitLabel": "Strong fit management",
       "tags": [
         "Management"
       ],
@@ -3554,6 +3516,33 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-09-18T02:33:05.150Z"
+    },
+    {
+      "id": "sac-junior-research-fellows-research-associate-and-project-scientist-i",
+      "source": "isro",
+      "org": "SDSC SHAR",
+      "title": "Research Associate (RA-I)",
+      "summary": "Recruitment for the position of Research Associate (RA-I) at SDSC SHAR. These are research-oriented roles, potentially requiring higher qualifications or specific research experience.",
+      "advtNo": "SDSC SHAR/RMT/02/2026",
+      "posts": null,
+      "url": "https://www.isro.gov.in/SDSCRecruitment25.html",
+      "pdfUrl": null,
+      "status": "open",
+      "opensOn": "2026-06-23",
+      "closesOn": null,
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Moderate fit — research",
+      "tags": [
+        "Research roles"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-09-19T02:29:32.765Z"
     }
   ]
 }
