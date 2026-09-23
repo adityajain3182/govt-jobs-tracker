@@ -1,34 +1,6 @@
 {
-  "lastScan": "2026-09-22T02:44:01.319Z",
+  "lastScan": "2026-09-23T02:43:34.023Z",
   "jobs": [
-    {
-      "id": "staff-selection-commission-combined-graduate-level-examination-2026",
-      "source": "ssc",
-      "org": "Staff Selection Commission (SSC)",
-      "title": "Combined Graduate Level Examination (CGL) 2026",
-      "summary": "The Staff Selection Commission (SSC) announced the Combined Graduate Level Examination (CGL) 2026 for 12256 Group B and C posts in various central government departments. The application window was from May 21, 2026, to June 25, 2026. The Tier 1 examination is scheduled to be conducted from September 30, 2026, to October 30, 2026.",
-      "advtNo": "F. No. HQ-C11018/1/2026-C-1",
-      "posts": 12256,
-      "url": "https://ssc.gov.in",
-      "pdfUrl": null,
-      "status": "upcoming",
-      "opensOn": "2026-05-21",
-      "closesOn": "2026-06-25",
-      "expected": null,
-      "fit": "strong",
-      "fitLabel": "Any-graduate management exams (PCS, RBI Grade B, NABARD Grade A, bank PO, SEBI Grade A General which accepts any engineering bachelor's) are \"strong\".",
-      "tags": [
-        "Management",
-        "IT"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-08-24T00:50:54.161Z"
-    },
     {
       "id": "ntpc-experienced-professionals-on-fixed-term-basis",
       "source": "ntpc",
@@ -1091,18 +1063,18 @@
       "id": "ibps-common-recruitment-process-for-recruitment-of-clerks-in-participating-banks",
       "source": "ibps",
       "org": "IBPS",
-      "title": "CRP Clerks-XVI for Recruitment of Clerks/Customer Service Associates",
-      "summary": "Recruitment for 11,403 Customer Service Associate vacancies in participating Public Sector Banks under CRP-CSA-XVI.",
-      "advtNo": "CRP-CSA-XVI",
+      "title": "CRP Clerks-XVI",
+      "summary": "Recruitment for Customer Service Associate (Clerk) positions in participating public sector banks.",
+      "advtNo": "CRP CSA-XVI",
       "posts": 11403,
-      "url": "https://www.ibps.in",
+      "url": "https://www.freejobalert.com/ibps-clerk-recruitment/",
       "pdfUrl": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-CSA-XVI_Final_V1_01.08.2026.pdf",
       "status": "closed",
       "opensOn": "2026-08-01",
       "closesOn": "2026-08-28",
       "expected": "Detailed notification by 2026-07-31/2026-08-01",
       "fit": "strong",
-      "fitLabel": "",
+      "fitLabel": "Any engineering bachelor's degree is accepted, making it a strong fit for management/administrative roles.",
       "tags": [
         "Banking",
         "Clerical"
@@ -1451,21 +1423,21 @@
       "id": "indian-oil-corporation-limited-iocl-recruitment-of-engineers-officers-grade-a-an",
       "source": "psu-sweep",
       "org": "IOCL",
-      "title": "Executive Positions (Graduate Engineers, Marketing, Law, Quality Control, Diploma Engineers)",
-      "summary": "Recruitment for 470 Executive positions across engineering (including Mechanical, Computer Science/IT), marketing, law, and quality control disciplines. Selection through CBT, GD, GT, and PI.",
+      "title": "Executives (Graduate Engineer, Officer, Diploma Engineer)",
+      "summary": "Recruitment for 470 executive positions including Graduate Engineer, Officer (Marketing), Law Officer, Assistant Quality Control Officer, and Diploma Engineer. No GATE score required.",
       "advtNo": "IOCL/CO-HR/RECTT/2026/01",
       "posts": 470,
-      "url": "https://iocl.com/latest-job-opening",
-      "pdfUrl": "https://iocl.com/download/IOCL_Executive_Recruitment_2026_Notification.pdf",
+      "url": "https://iocl.com/latest-job-openings",
+      "pdfUrl": "https://iocl.com/download/Detailed_Advertisement_CBT_2026.pdf",
       "status": "closed",
       "opensOn": "2026-08-14",
       "closesOn": "2026-09-03",
       "expected": "CBT scheduled for 2026-09-24.",
-      "fit": "moderate",
-      "fitLabel": "Mechanical Engineering is an eligible discipline for Graduate Engineer posts. IT roles are gated due to degree requirement.",
+      "fit": "strong",
+      "fitLabel": "Management/Engineering role, any engineering bachelor's accepted.",
       "tags": [
-        "Engineering",
-        "Executive"
+        "Executive",
+        "Graduate Engineer"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -1568,34 +1540,6 @@
       "tags": [
         "Management",
         "Gated"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-08-20T00:49:24.913Z"
-    },
-    {
-      "id": "indian-oil-corporation-limited-iocl-executive-recruitment-officer-law",
-      "source": "psu-sweep",
-      "org": "IOCL",
-      "title": "Executives (Graduate Engineer, Officer, Diploma Engineer)",
-      "summary": "Recruitment for 470 executive positions including Graduate Engineer, Officer (Marketing), Law Officer, Assistant Quality Control Officer, and Diploma Engineer. No GATE score required.",
-      "advtNo": "IOCL/CO-HR/RECTT/2026/01",
-      "posts": 470,
-      "url": "https://iocl.com/latest-job-openings",
-      "pdfUrl": "https://iocl.com/download/Detailed_Advertisement_CBT_2026.pdf",
-      "status": "closed",
-      "opensOn": "2026-08-14",
-      "closesOn": "2026-09-03",
-      "expected": null,
-      "fit": "strong",
-      "fitLabel": "Management/Engineering role, any engineering bachelor's accepted.",
-      "tags": [
-        "Executive",
-        "Graduate Engineer"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -2227,6 +2171,33 @@
       "firstSeen": "2026-09-21T02:39:51.142Z"
     },
     {
+      "id": "national-institute-of-electronics-and-information-technology-nielit-programmer-a",
+      "source": "upsc",
+      "org": "Union Public Service Commission (UPSC)",
+      "title": "Recruitment by Selection to the post of Assistant Provident Fund Commissioner (APFC)",
+      "summary": "Direct recruitment for 80 posts of Assistant Provident Fund Commissioner in Employees' Provident Fund Organisation (EPFO), Ministry of Labour & Employment. Essential qualification is a degree from a recognized university.",
+      "advtNo": "52/2026",
+      "posts": [
+        {
+          "name": "Assistant Provident Fund Commissioner (APFC)",
+          "count": 80
+        }
+      ],
+      "url": "https://upsconline.nic.in/ora/",
+      "status": "closed",
+      "opensOn": "2026-08-22",
+      "closesOn": "2026-09-11",
+      "expected": "Recruitment Test: 2026-12-20",
+      "fit": "strong",
+      "fitLabel": "Management role (Assistant Provident Fund Commissioner) accepting any degree, strong fit for B.Tech Mechanical with interest in management.",
+      "tags": [
+        "Direct Recruitment",
+        "Assistant Provident Fund Commissioner"
+      ],
+      "firstSeen": "2026-07-10T18:37:16.814Z",
+      "pdfUrl": "https://www.upsc.gov.in/sites/default/files/AdvtNo-52-2026-Special-Engl-210826.pdf"
+    },
+    {
       "id": "hindustan-aeronautics-limited-hal-engineering-graduate-apprentice-recruitment",
       "source": "psu-sweep",
       "org": "Bharat Heavy Electricals Limited (BHEL)",
@@ -2258,45 +2229,23 @@
       "id": "railway-recruitment-boards-junior-engineer-je-4-098-approved-vacancies",
       "source": "rrb",
       "org": "Railway Recruitment Board (RRB)",
-      "title": "Junior Engineer (JE), Depot Material Superintendent (DMS), Chemical & Metallurgical Assistant (CMA) Recruitment 2026",
-      "summary": "Recruitment for 4029 vacancies across various Junior Engineer categories, Depot Material Superintendent, and Chemical & Metallurgical Assistant posts. Candidates with a Diploma/Degree in Engineering were eligible to apply.",
+      "title": "Junior Engineer, Depot Material Superintendent, Chemical & Metallurgical Assistant Recruitment (CEN 04/2026)",
+      "summary": "Recruitment for 4029 vacancies for Junior Engineer (various disciplines), Depot Material Superintendent, and Chemical & Metallurgical Assistant posts.",
       "advtNo": "CEN 04/2026",
       "posts": 4029,
-      "url": "https://www.rrbapply.gov.in",
+      "url": "https://www.rrbapply.gov.in/",
       "status": "closed",
       "opensOn": "2026-08-14",
       "closesOn": "2026-09-13",
       "expected": "Application fee payment deadline is 2026-09-15. Application modification window is 2026-09-16 to 2026-09-25.",
       "fit": "moderate",
-      "fitLabel": "Eligible for core engineering posts (Mechanical), but not primary interest. JE (IT) would be gated due to degree requirement.",
+      "fitLabel": "Core engineering posts (JE) where Mechanical is eligible. Depot Material Superintendent (DMS) is a general engineering role, which could be a strong fit for management interest. Chemical & Metallurgical Assistant (CMA) is specialized.",
       "tags": [
-        "Junior Engineer",
-        "JE"
+        "JE",
+        "DMS"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z",
       "pdfUrl": "https://www.rrbcdg.gov.in/"
-    },
-    {
-      "id": "national-institute-of-electronics-and-information-technology-nielit-programmer-a",
-      "source": "upsc",
-      "org": "UPSC",
-      "title": "EPFO Assistant Provident Fund Commissioner (APFC) Recruitment 2026",
-      "summary": "UPSC invited applications for Assistant Provident Fund Commissioner (APFC) posts in EPFO. The application window was from August 22 to September 14, 2026.",
-      "advtNo": "52/2026",
-      "posts": 80,
-      "url": "https://upsconline.nic.in",
-      "status": "closed",
-      "opensOn": "2026-08-22",
-      "closesOn": "2026-09-14",
-      "expected": "Recruitment Test: 2026-12-20",
-      "fit": "strong",
-      "fitLabel": "Management role, typically open to any graduate, strong fit for candidate's interest.",
-      "tags": [
-        "Management",
-        "EPFO"
-      ],
-      "firstSeen": "2026-07-10T18:37:16.814Z",
-      "pdfUrl": "https://www.upsc.gov.in"
     },
     {
       "id": "isro-lpsc-technical-assistant-technician-b-draughtsman-b-and-fireman-a",
@@ -2324,6 +2273,34 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-07-10T18:30:30.793Z"
+    },
+    {
+      "id": "upsc-for-epfo-assistant-provident-fund-commissioner-apfc",
+      "source": "regulators-sweep",
+      "org": "UPSC (for EPFO)",
+      "title": "Assistant Provident Fund Commissioner (APFC)",
+      "summary": "Recruitment for 80 Assistant Provident Fund Commissioner (APFC) posts in the Employees' Provident Fund Organisation (EPFO). The selection process comprises a Recruitment Test scheduled for December 20, 2026, followed by an interview. The online application process started on August 22, 2026, and was extended until September 14, 2026.",
+      "advtNo": "Special Advertisement No. 52/2026",
+      "posts": 80,
+      "url": "https://upsconline.nic.in/",
+      "pdfUrl": null,
+      "status": "closed",
+      "opensOn": "2026-08-22",
+      "closesOn": "2026-09-14",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "Any-graduate management exam.",
+      "tags": [
+        "Management",
+        "UPSC"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-09-23T02:43:33.993Z"
     },
     {
       "id": "indian-oil-corporation-limited-iocl-experienced-professionals-production-manager",
@@ -2438,20 +2415,20 @@
       "id": "staff-selection-commission-ssc-junior-engineer-civil-electrical-mechanical-2026",
       "source": "ssc",
       "org": "Staff Selection Commission",
-      "title": "Junior Engineer (Civil, Electrical, Mechanical, and Scientific Assistant) Examination 2026",
-      "summary": "Recruitment for Junior Engineer positions in Civil, Electrical, Mechanical, and Telecom disciplines, along with Scientific Assistant posts in various Central Government organizations.",
+      "title": "Junior Engineer (Civil, Mechanical, Electrical and Quantity Surveying & Contracts) Examination 2026",
+      "summary": "Recruitment for 1,748 Junior Engineer posts in Civil, Electrical, Mechanical, and Telecom disciplines, and Scientific Assistant posts in various Central Government organizations. The application window was from September 2 to September 22, 2026. The application fee can be paid online until September 23, 2026. A correction window for submitted applications is scheduled from September 28 to September 30, 2026.",
       "advtNo": "HQ-C-3019/1/2026-C-3",
       "posts": 1748,
       "url": "https://ssc.gov.in/",
-      "status": "open",
+      "status": "closed",
       "opensOn": "2026-09-02",
       "closesOn": "2026-09-22",
       "expected": "Paper-I in October/November 2026, Paper-II in December 2026",
       "fit": "moderate",
-      "fitLabel": "Core engineering post where Mechanical is eligible, but candidate prefers management/IT roles.",
+      "fitLabel": "Moderate fit for Mechanical Engineering Junior Engineer posts, for which the candidate is eligible. Gated for Scientific Assistant/JE (Telecom) due to specific degree requirements (CS/IT/Electronics/Telecom).",
       "tags": [
         "Engineering",
-        "Mechanical"
+        "Junior Engineer"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z"
     },
@@ -2486,22 +2463,22 @@
     {
       "id": "uppsc-recruitment-for-manager-system-senior-programmer-programmer-grade-2-comput",
       "source": "regulators-sweep",
-      "org": "IRDAI",
-      "title": "Assistant Manager",
-      "summary": "Recruitment for Assistant Manager vacancies for multiple departments/streams (Generalist, Finance, Law, IT, Actuarial, Research). Notification expected soon.",
+      "org": "PFRDA",
+      "title": "Officer Grade A (Assistant Manager)",
+      "summary": "Recruitment for Assistant Manager posts in various streams, including General, Research, Actuary, and Official Language (Rajbhasha). A total of 30 vacancies are announced, with 25 for the General stream. The selection process includes Phase 1 and Phase 2 exams, followed by a personal interview. Candidates can apply for a maximum of 2 streams if eligible.",
       "advtNo": "03/2026",
       "posts": 30,
-      "url": "https://www.irdai.gov.in",
+      "url": "https://www.pfrda.org.in/",
       "pdfUrl": "https://www.pfrda.org.in",
-      "status": "upcoming",
+      "status": "open",
       "opensOn": "2026-09-03",
       "closesOn": "2026-09-24",
       "expected": "Notification expected between August and October 2026.",
       "fit": "strong",
-      "fitLabel": "Management role (Generalist stream) for graduates. IT stream is gated.",
+      "fitLabel": "Any-graduate management exam.",
       "tags": [
-        "Regulator",
-        "Management"
+        "Management",
+        "Regulatory Body"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -2622,16 +2599,16 @@
       "source": "regulators-sweep",
       "org": "NIC",
       "title": "Scientific/Technical Assistant-A",
-      "summary": "The National Informatics Centre (NIC) has released a recruitment notification for 376 Scientific/Technical Assistant-A posts. Vacancies are available in Computer Science & Information Technology (300), Data Science & Artificial Intelligence (50), and Electronics & Communication Engineering (26). Selection is based purely on a valid GATE score (2024, 2025, or 2026), with no written examination or interview.",
+      "summary": "Recruitment for 376 Scientific/Technical Assistant-A posts in Computer Science & Information Technology, Electronics & Communication Engineering, and Data Science & Artificial Intelligence disciplines. Selection is based purely on a valid GATE score (2024, 2025, or 2026) in CS, EC, or DA, with no separate written examination or interview.",
       "advtNo": "NIC/STA/2026/2",
       "posts": 376,
-      "url": "https://recruitment.nic.in",
+      "url": "https://recruitment.nic.in/",
       "status": "open",
       "opensOn": "2026-09-01",
       "closesOn": "2026-09-30",
       "expected": "After GATE results",
       "fit": "gated",
-      "fitLabel": "Requires CS/IT/Electronics degree",
+      "fitLabel": "Requires CS/IT/Electronics degree.",
       "tags": [
         "IT",
         "Engineering"
@@ -2770,6 +2747,34 @@
       "firstSeen": "2026-09-20T02:39:49.898Z"
     },
     {
+      "id": "ntpc-limited-assistant-officer-corporate-communication",
+      "source": "ntpc",
+      "org": "NTPC Limited",
+      "title": "Assistant Officer (Corporate Communication)",
+      "summary": "NTPC Limited has announced recruitment for 15 Assistant Officer (Corporate Communication) posts under Advertisement No. 12/26. The position requires a full-time Bachelor's Degree in any discipline with at least 60% marks, along with a full-time two-year Post Graduate Degree or Diploma in Mass Communication, Journalism, Advertising & Communication, or Public Relations, also with a minimum of 60% marks.",
+      "advtNo": "12/26",
+      "posts": 15,
+      "url": "https://careers.ntpc.co.in/recruitment/",
+      "pdfUrl": "https://careers.ntpc.co.in/recruitment/docs/Advt_12_26_Assistant_Officer_Corporate_Communication.pdf",
+      "status": "open",
+      "opensOn": "2026-09-21",
+      "closesOn": "2026-10-05",
+      "expected": null,
+      "fit": "gated",
+      "fitLabel": "Requires a specific Post Graduate Degree/Diploma in Mass Communication/Journalism/PR, which the candidate does not possess.",
+      "tags": [
+        "Assistant Officer",
+        "Corporate Communication"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-09-23T02:39:12.155Z"
+    },
+    {
       "id": "sbi-specialist-cadre-officers-dean-faculty-marketing-executive",
       "source": "sbi",
       "org": "SBI",
@@ -2881,7 +2886,7 @@
       "firstSeen": "2026-09-21T02:37:44.403Z"
     },
     {
-      "id": "staff-selection-commission-combined-higher-secondary-10-2-level-examination-2026",
+      "id": "staff-selection-commission-combined-graduate-level-examination-2026",
       "source": "ssc",
       "org": "Staff Selection Commission",
       "title": "Combined Higher Secondary (10+2) Level Examination, 2026",
@@ -2906,7 +2911,7 @@
       "experienceNote": null,
       "eligibility": null,
       "eligibilityReason": null,
-      "firstSeen": "2026-09-14T02:43:36.710Z"
+      "firstSeen": "2026-08-24T00:50:54.161Z"
     },
     {
       "id": "rbi-director-iibm-guwahati",
@@ -2994,7 +2999,7 @@
       "source": "uppsc",
       "org": "UPPSC",
       "title": "Deputy Secretary (I.T.)",
-      "summary": "Recruitment for Deputy Secretary (I.T.) in UPPSC. Applications are currently open. This role is in the IT domain, requiring specific technical qualifications.",
+      "summary": "Recruitment for Deputy Secretary (I.T.) in UPPSC.",
       "advtNo": "D-2/E-1/2026",
       "posts": null,
       "url": "https://uppsc.up.nic.in/",
@@ -3015,6 +3020,34 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-09-16T02:38:58.954Z"
+    },
+    {
+      "id": "railway-recruitment-board-rrb-ntpc-graduate-level-recruitment-cen-06-2026",
+      "source": "rrb",
+      "org": "Railway Recruitment Board (RRB)",
+      "title": "NTPC Graduate Level Recruitment (CEN 06/2026)",
+      "summary": "Recruitment for 3477 Graduate-level posts including Goods Train Manager, Chief Commercial-cum-Ticket Supervisor, Junior Accounts Assistant cum Typist, and Senior Clerk cum Typist.",
+      "advtNo": "CEN 06/2026",
+      "posts": 3477,
+      "url": "https://www.rrbapply.gov.in/",
+      "pdfUrl": null,
+      "status": "upcoming",
+      "opensOn": "2026-10-08",
+      "closesOn": "2026-11-06",
+      "expected": "Detailed notification on 2026-10-07",
+      "fit": "strong",
+      "fitLabel": "Any-graduate management/clerical roles, suitable for a B.Tech Mechanical with interest in management.",
+      "tags": [
+        "NTPC",
+        "Graduate"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-09-23T02:41:47.475Z"
     },
     {
       "id": "railway-recruitment-board-non-technical-popular-categories-ntpc",
@@ -3043,6 +3076,34 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-08-04T01:52:17.829Z"
+    },
+    {
+      "id": "railway-recruitment-board-rrb-ntpc-undergraduate-level-recruitment-cen-07-2026",
+      "source": "rrb",
+      "org": "Railway Recruitment Board (RRB)",
+      "title": "NTPC Undergraduate Level Recruitment (CEN 07/2026)",
+      "summary": "Recruitment for 1688 Undergraduate-level posts including Commercial Cum Ticket Clerk, Accounts Clerk Cum Typist, Junior Clerk Cum Typist, and Trains Clerk.",
+      "advtNo": "CEN 07/2026",
+      "posts": 1688,
+      "url": "https://www.rrbapply.gov.in/",
+      "pdfUrl": null,
+      "status": "upcoming",
+      "opensOn": "2026-10-15",
+      "closesOn": "2026-11-13",
+      "expected": "Detailed notification on 2026-10-14",
+      "fit": "strong",
+      "fitLabel": "Any-graduate clerical roles, suitable for a B.Tech Mechanical with interest in management.",
+      "tags": [
+        "NTPC",
+        "Undergraduate"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-09-23T02:41:47.475Z"
     },
     {
       "id": "uppsc-food-safety-and-drug-administration-recruitment-in-food-safety-and-drug-ad",
@@ -3095,9 +3156,9 @@
     {
       "id": "gail-executive-trainee-chemical-electrical-instrumentation-mechanical",
       "source": "psu-sweep",
-      "org": "GAIL",
-      "title": "Executive Trainee (Chemical, Electrical, Instrumentation, Mechanical) through GATE-2027",
-      "summary": "Recruitment of Executive Trainees in Chemical, Electrical, Instrumentation, and Mechanical disciplines through GATE-2027 scores. This is a pre-advertisement, with a detailed notification expected in February 2027.",
+      "org": "GAIL (India) Limited",
+      "title": "Executive Trainee (Chemical, Electrical, Instrumentation, Mechanical)",
+      "summary": "GAIL (India) Limited has released a notification for the recruitment of Executive Trainees through GATE 2027. The vacancies are available in Chemical, Electrical, Instrumentation, and Mechanical disciplines.",
       "advtNo": "GAIL/OPEN/ET/1/2026",
       "posts": "Executive Trainee (Chemical, Electrical, Instrumentation, Mechanical)",
       "url": "https://gailonline.com/",
@@ -3107,10 +3168,10 @@
       "closesOn": "2027-03-18",
       "expected": "Detailed notification in February 2027",
       "fit": "moderate",
-      "fitLabel": "B.Tech Mechanical eligible, core engineering role, requires GATE-2027.",
+      "fitLabel": "B.Tech Mechanical is eligible for Executive Trainee (Mechanical), which is a core engineering role.",
       "tags": [
-        "Engineer",
-        "Mechanical"
+        "Engineering",
+        "GATE"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -3469,8 +3530,8 @@
       "id": "nabard-assistant-manager-grade-a",
       "source": "nabard",
       "org": "NABARD",
-      "title": "Assistant Manager (Grade A)",
-      "summary": "Recruitment for Assistant Manager positions in various disciplines (RDBS, Legal, and Protocol & Security Service). The official notification for 2026 is expected soon.",
+      "title": "Assistant Manager (Grade 'A')",
+      "summary": "Recruitment for Assistant Manager (Grade 'A') posts in various streams like Rural Development Banking Service (RDBS), Legal, and Protocol & Security Service. The official notification for 2026 is yet to be released.",
       "advtNo": null,
       "posts": "Expected around 80-100 vacancies.",
       "url": "https://www.nabard.org/career.aspx",
@@ -3478,9 +3539,9 @@
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "Notification expected between August and September 2026.",
+      "expected": "July-August 2026",
       "fit": "strong",
-      "fitLabel": "Any engineering bachelor's accepted for management roles.",
+      "fitLabel": "Any engineering bachelor's degree is accepted for the General stream, which is a management role.",
       "tags": [
         "Management",
         "Banking"
