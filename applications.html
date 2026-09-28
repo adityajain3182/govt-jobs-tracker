@@ -244,7 +244,7 @@
           <option value="qualified">Qualified</option>
           <option value="selected">Selected</option>
           <option value="not qualified">Not qualified</option>
-          <option value="withdrawn">Withdrawn</option>
+          <option value="not attempted">Not Attempted</option>
         </select>
       </div>
       <div class="field"><label for="f-examdate">Exam date</label><input id="f-examdate" type="date"></div>
@@ -285,7 +285,7 @@
   </section>
 
   <footer>
-    <p>Reads the sheet live on load, after every save, and every 60 seconds. Sheet edits appear here within seconds (Google occasionally caches reads for up to a minute or two). Registration numbers are masked; the Password column is never read — keep passwords out of the sheet.</p>
+    <p>Reads the sheet live on load, after every save, and every 60 seconds. Sheet edits appear here within seconds (Google occasionally caches reads for up to a minute or two). The Password column is never read — keep passwords out of the sheet.</p>
   </footer>
 
 </div>
@@ -357,13 +357,13 @@
     return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
   }
   function fmt(d) { return d ? d.toLocaleDateString("en-IN", { day: "2-digit", month: "short" }) : "—"; }
-  function maskReg(s) { s = String(s || "").trim(); return s.length <= 4 ? s : "···" + s.slice(-4); }
+  function maskReg(s) { return String(s || "").trim(); }
   function normHeader(h) { return String(h || "").toLowerCase().replace(/[^a-z]/g, ""); }
 
   function classifyStatus(raw, examDate) {
     var s = String(raw || "").toLowerCase();
     if (/select/.test(s)) return { idx: 4, chip: "good", label: "Selected", fail: false };
-    if (/withdraw/.test(s)) return { idx: 4, chip: "neutral", label: "Withdrawn", fail: false };
+    if (/withdraw|not attempted/.test(s)) return { idx: 4, chip: "neutral", label: "Not Attempted", fail: false };
     if (/not qualified|reject|fail/.test(s)) return { idx: 4, chip: "bad", label: raw, fail: true };
     if (/qualified|result/.test(s)) return { idx: 3, chip: "good", label: raw, fail: false };
     if (/interview|phase 2|mains/.test(s)) return { idx: 3, chip: "exam", label: raw, fail: false };
@@ -422,7 +422,7 @@
   var STATUS_OPTIONS = [
     ["applied", "Applied"], ["admit card out", "Admit card out"], ["exam scheduled", "Exam scheduled"],
     ["exam done", "Exam done"], ["interview", "Interview"], ["qualified", "Qualified"],
-    ["selected", "Selected"], ["not qualified", "Not qualified"], ["withdrawn", "Withdrawn"]
+    ["selected", "Selected"], ["not qualified", "Not qualified"], ["not attempted", "Not Attempted"]
   ];
   function statusOptions(sel) {
     return STATUS_OPTIONS.map(function (o) {
@@ -468,7 +468,11 @@
     var next = exams.slice().sort(function (a, b) { return a.examDateParsed - b.examDateParsed; });
     $("next-list").innerHTML = next.length ? next.map(card).join("")
       : '<p class="empty">No exams scheduled yet — add an exam date once an admit card lands.</p>';
-    $("all-list").innerHTML = apps.length ? apps.slice().reverse().map(card).join("")
+    $("all-list").innerHTML = apps.length ? apps.slice().reverse().sort(function (a, b) {
+      var aBottom = (a.cls.chip === "bad" || a.cls.chip === "neutral") ? 1 : 0;
+      var bBottom = (b.cls.chip === "bad" || b.cls.chip === "neutral") ? 1 : 0;
+      return aBottom - bBottom;
+    }).map(card).join("")
       : '<p class="empty">No applications found on the "Applied" tab.</p>';
 
     $("sync-stamp").textContent = "Synced " + new Date().toLocaleTimeString("en-IN", { hour: "2-digit", minute: "2-digit", second: "2-digit" });
