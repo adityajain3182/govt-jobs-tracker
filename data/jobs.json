@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-10-02T03:30:36.863Z",
+  "lastScan": "2026-10-03T03:13:31.178Z",
   "jobs": [
     {
       "id": "staff-selection-commission-combined-graduate-level-examination-2026",
@@ -191,34 +191,6 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-08-12T01:22:37.148Z"
-    },
-    {
-      "id": "employees-provident-fund-organisation-epfo-through-upsc-enforcement-officer-acco",
-      "source": "regulators-sweep",
-      "org": "EPFO",
-      "title": "Enforcement Officer/Accounts Officer (EO/AO)",
-      "summary": "Recruitment for 156 vacancies for Enforcement Officer/Accounts Officer posts. Bachelor's Degree is the eligibility. The online application process is open from July 29, 2026, to August 18, 2026.",
-      "advtNo": null,
-      "posts": 156,
-      "url": "http://upsc.gov.in/",
-      "pdfUrl": null,
-      "status": "closed",
-      "opensOn": "2026-07-29",
-      "closesOn": "2026-08-18",
-      "expected": null,
-      "fit": "strong",
-      "fitLabel": "Generalist/management roles, open to any graduate.",
-      "tags": [
-        "Management",
-        "Generalist"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-07-30T01:50:28.973Z"
     },
     {
       "id": "bel-sr-assistant-engineer-fixed-tenure-basis-for-panchkula-unit",
@@ -1197,34 +1169,6 @@
       "firstSeen": "2026-08-08T01:05:22.560Z"
     },
     {
-      "id": "upsc-direct-recruitment-to-various-posts-in-government-of-india-special-advertis",
-      "source": "upsc",
-      "org": "Union Public Service Commission (UPSC)",
-      "title": "Direct Recruitment to various posts (Advt. No. 10/2026)",
-      "summary": "UPSC released Indicative Advertisement No. 10/2026 for direct recruitment to 34 vacancies across 7 different posts. These include Assistant Executive Engineer (Civil and Electronics), Assistant Director (Engineering), Superintendent Translation (Hindi Branch), Research Officer, Horticulture Development Officer, and Soil Conservation Assistant. The application window for posts other than those under UT of Ladakh closed on August 28, 2026, while for posts under UT of Ladakh, it closed on September 4, 2026.",
-      "advtNo": "10/2026",
-      "posts": 34,
-      "url": "https://upsconline.nic.in/ora/",
-      "pdfUrl": null,
-      "status": "closed",
-      "opensOn": "2026-08-08",
-      "closesOn": "2026-09-04",
-      "expected": null,
-      "fit": "moderate",
-      "fitLabel": "Mixed; Assistant Executive Engineer (Civil/Electronics) is gated; Assistant Director (Engineering) and Research Officer could be moderate if Mechanical is eligible; other posts are low.",
-      "tags": [
-        "Engineering",
-        "Research"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-09-01T02:55:09.619Z"
-    },
-    {
       "id": "upsc-assistant-executive-engineer-civil",
       "source": "upsc",
       "org": "UPSC",
@@ -1707,21 +1651,21 @@
     {
       "id": "railway-recruitment-boards-junior-engineer-je-4-098-approved-vacancies",
       "source": "rrb",
-      "org": "Railway Recruitment Board",
-      "title": "Junior Engineer (JE), Depot Material Superintendent (DMS), Chemical & Metallurgical Assistant (CMA) (CEN 04/2026)",
-      "summary": "Recruitment for Junior Engineer, Depot Material Superintendent (DMS), and Chemical & Metallurgical Assistant (CMA) posts in various disciplines. A total of 4,029 vacancies were announced.",
+      "org": "Railway Recruitment Board (RRB)",
+      "title": "Junior Engineer, Depot Material Superintendent (DMS), Chemical & Metallurgical Assistant (CMA)",
+      "summary": "Recruitment for 4029 vacancies across Junior Engineer, Depot Material Superintendent, and Chemical & Metallurgical Assistant posts.",
       "advtNo": "CEN 04/2026",
       "posts": 4029,
-      "url": "https://www.rrbapply.gov.in/",
+      "url": "https://rrbapply.gov.in/",
       "status": "closed",
       "opensOn": "2026-08-14",
       "closesOn": "2026-09-13",
       "expected": "Application fee payment deadline is 2026-09-15. Application modification window is 2026-09-16 to 2026-09-25.",
       "fit": "moderate",
-      "fitLabel": "",
+      "fitLabel": "Core engineering post where Mechanical is eligible.",
       "tags": [
         "Junior Engineer",
-        "JE"
+        "DMS"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z",
       "pdfUrl": "https://www.rrbcdg.gov.in/"
@@ -1840,8 +1784,8 @@
       "id": "staff-selection-commission-ssc-junior-engineer-civil-electrical-mechanical-2026",
       "source": "ssc",
       "org": "Staff Selection Commission",
-      "title": "Junior Engineer (Civil, Electrical, Mechanical and Quantity Surveying & Contract) Examination, 2026",
-      "summary": "The Staff Selection Commission (SSC) released the notification for the Junior Engineer Examination 2026, inviting applications for 1,748 tentative vacancies across various engineering departments in the Government of India. Posts include Junior Engineer in Civil, Electrical, Mechanical, and Telecom disciplines, as well as Scientific Assistant (IMD).",
+      "title": "Junior Engineer (Civil, Mechanical, Electrical and Quantity Surveying & Contracts) Examination, 2026",
+      "summary": "Recruitment for Junior Engineer posts in various Government of India departments and offices for Civil, Mechanical, Electrical, and Quantity Surveying & Contracts disciplines.",
       "advtNo": "HQ-C-3019/1/2026-C-3",
       "posts": 1748,
       "url": "https://ssc.gov.in/",
@@ -1850,10 +1794,10 @@
       "closesOn": "2026-09-22",
       "expected": "Application correction window: 2026-09-28 to 2026-09-30; Paper I examination: October/November 2026; Paper II examination: December 2026",
       "fit": "moderate",
-      "fitLabel": "Core mechanical engineering post, not aligned with management/IT interest, but B.Tech Mechanical is eligible.",
+      "fitLabel": "Core engineering post where Mechanical Engineering is eligible.",
       "tags": [
         "Engineering",
-        "Mechanical"
+        "Mechanical Engineering"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z",
       "pdfUrl": "https://ssc.gov.in"
@@ -1944,19 +1888,19 @@
     {
       "id": "uppsc-recruitment-for-manager-system-senior-programmer-programmer-grade-2-comput",
       "source": "regulators-sweep",
-      "org": "IRDAI",
-      "title": "Assistant Manager (Grade A)",
-      "summary": "The IRDAI Assistant Manager Notification 2026 is expected between August and October 2026. IRDAI plans to recruit 40 Assistant Managers annually.",
+      "org": "PFRDA",
+      "title": "Officer Grade A (Assistant Manager)",
+      "summary": "Recruitment for 30 vacancies for Officer Grade A (Assistant Manager) in General, Research, Actuary, and Official Language (Rajbhasha) streams. Selection is based on Phase 1 and Phase 2 online examinations, followed by a personal interview.",
       "advtNo": "03/2026",
-      "posts": 40,
-      "url": "https://www.irdai.gov.in/careers",
+      "posts": 30,
+      "url": "https://www.pfrda.org.in",
       "pdfUrl": "https://www.pfrda.org.in/careers",
-      "status": "upcoming",
+      "status": "closed",
       "opensOn": "2026-09-03",
       "closesOn": "2026-09-24",
       "expected": "2026-10-XX",
       "fit": "strong",
-      "fitLabel": "Any-graduate management exams (B.Tech Engineering likely eligible for Generalist stream)",
+      "fitLabel": "Any-graduate management exam",
       "tags": [
         "Management",
         "Assistant Manager"
@@ -2076,16 +2020,16 @@
       "source": "regulators-sweep",
       "org": "NIC",
       "title": "Scientific/Technical Assistant-A",
-      "summary": "The National Informatics Centre (NIC) released a notification for 376 Scientific/Technical Assistant-A posts. The online application window was from 01 September 2026 to 30 September 2026. Selection is based on GATE score.",
+      "summary": "The National Informatics Centre (NIC) announced 376 vacancies for Scientific/Technical Assistant-A posts across Computer Science & Information Technology, Electronics & Communication Engineering, and Data Science & Artificial Intelligence disciplines. Selection is based on a valid GATE score (2024, 2025, or 2026) in the relevant paper.",
       "advtNo": "NIC/STA/2026/2",
       "posts": 376,
-      "url": "https://recruitment.nic.in/",
+      "url": "https://recruitment.nic.in",
       "status": "closed",
       "opensOn": "2026-09-01",
       "closesOn": "2026-09-30",
       "expected": "After GATE results",
       "fit": "gated",
-      "fitLabel": "Requires CS/IT/Electronics degree (B.Tech Mechanical not eligible)",
+      "fitLabel": "Requires CS/IT/Electronics degree",
       "tags": [
         "IT",
         "Scientific Assistant"
@@ -2236,7 +2180,7 @@
       "posts": null,
       "url": "https://upsconline.nic.in/ora/",
       "pdfUrl": null,
-      "status": "open",
+      "status": "closed",
       "opensOn": "2026-09-12",
       "closesOn": "2026-10-02",
       "expected": null,
@@ -2261,7 +2205,7 @@
       "posts": 212,
       "url": "https://upsconline.nic.in",
       "pdfUrl": null,
-      "status": "open",
+      "status": "closed",
       "opensOn": "2026-09-12",
       "closesOn": "2026-10-02",
       "expected": null,
@@ -2688,6 +2632,51 @@
       "firstSeen": "2026-10-02T03:28:26.596Z"
     },
     {
+      "id": "upsc-direct-recruitment-to-various-posts-in-government-of-india-special-advertis",
+      "source": "upsc",
+      "org": "UPSC",
+      "title": "Direct Recruitment for various posts (Advt. No. 12/2026)",
+      "summary": "The Union Public Service Commission (UPSC) has invited online recruitment applications for 13 posts across four positions, including Junior Technical Officer (Sugar Technology), Assistant Legislative Counsel, Law Officer, and Specialist Grade II (Junior Scale) – Cardiology, in various Central Government departments and organizations.",
+      "advtNo": "12/2026",
+      "posts": [
+        {
+          "name": "Junior Technical Officer (Sugar Technology)",
+          "count": 1
+        },
+        {
+          "name": "Assistant Legislative Counsel (Grade IV of Indian Legal Service)",
+          "count": 8
+        },
+        {
+          "name": "Law Officer",
+          "count": 3
+        },
+        {
+          "name": "Specialist Grade II (Junior Scale) – Cardiology",
+          "count": 1
+        }
+      ],
+      "url": "https://upsconline.nic.in/",
+      "pdfUrl": "https://upsc.gov.in/sites/default/files/Advt-12-2026-ORA-Eng.pdf",
+      "status": "open",
+      "opensOn": "2026-09-26",
+      "closesOn": "2026-10-16",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Junior Technical Officer (Sugar Technology) might be eligible for B.Tech Mechanical, but requires specific Sugar Technology qualification. Other posts require Law or Medical degrees.",
+      "tags": [
+        "Engineering",
+        "Research"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-09-01T02:55:09.619Z"
+    },
+    {
       "id": "indian-computer-emergency-response-team-cert-in-scientist-b",
       "source": "drdo-rac",
       "org": "DRDO RAC",
@@ -2852,7 +2841,7 @@
       "source": "uppsc",
       "org": "UPPSC",
       "title": "Deputy Secretary (I.T.)",
-      "summary": "Recruitment for Deputy Secretary (I.T.) in UPPSC. This is an IT management role. Eligibility typically requires a degree in Computer Science, IT, or Electronics. The application window is open. Candidate with B.Tech Mechanical is degree-gated for this position.",
+      "summary": "Recruitment for Deputy Secretary (I.T.) in UPPSC. Applications are open until October 28, 2026. This IT role likely requires a CS/IT/Electronics degree, which the candidate does not possess.",
       "advtNo": "D-2/E-1/2026",
       "posts": null,
       "url": "https://uppsc.up.nic.in/",
@@ -2864,8 +2853,7 @@
       "fit": "gated",
       "fitLabel": "Degree-gated: CS/IT",
       "tags": [
-        "IT role",
-        "CS/IT degree required"
+        "IT role"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -2901,34 +2889,6 @@
       "firstSeen": "2026-09-24T02:30:11.244Z"
     },
     {
-      "id": "railway-recruitment-board-ntpc-graduate-level-posts",
-      "source": "rrb",
-      "org": "Railway Recruitment Board (RRB)",
-      "title": "Non-Technical Popular Categories (Graduate Level) Recruitment",
-      "summary": "The Railway Recruitment Board has officially released a short notice for RRB NTPC Graduate Notification 2026 under CEN No. 06/2026, for 3,477 Graduate-level NTPC vacancies in Pay Level 5 and Level 6. Posts include Station Master, Goods Train Manager, Senior Clerk cum Typist, and other Graduate Level Posts. The online application process will start from October 8, 2026.",
-      "advtNo": "CEN No. 06/2026",
-      "posts": 3477,
-      "url": "https://rrbapply.gov.in",
-      "pdfUrl": null,
-      "status": "upcoming",
-      "opensOn": "2026-10-08",
-      "closesOn": "2026-11-06",
-      "expected": null,
-      "fit": "strong",
-      "fitLabel": "Suitable for Management/IT roles, B.Tech eligible (as a general graduate qualification for non-technical posts).",
-      "tags": [
-        "NTPC",
-        "Graduate"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-09-26T02:51:41.647Z"
-    },
-    {
       "id": "railway-recruitment-board-rrb-ntpc-graduate-recruitment-2026",
       "source": "rrb",
       "org": "Railway Recruitment Board",
@@ -2955,6 +2915,34 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-09-27T02:52:14.690Z"
+    },
+    {
+      "id": "railway-recruitment-board-ntpc-graduate-level-posts",
+      "source": "rrb",
+      "org": "Railway Recruitment Board (RRB)",
+      "title": "Non-Technical Popular Categories (Undergraduate Level)",
+      "summary": "Recruitment for 1,688 undergraduate-level posts including Commercial cum Ticket Clerk, Junior Clerk cum Typist, Accounts Clerk cum Typist, and Trains Clerk.",
+      "advtNo": "CEN 07/2026",
+      "posts": 1688,
+      "url": "https://rrbapply.gov.in/",
+      "pdfUrl": null,
+      "status": "upcoming",
+      "opensOn": "2026-10-15",
+      "closesOn": "2026-11-13",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Clerical/operational roles, candidate is overqualified.",
+      "tags": [
+        "NTPC",
+        "Undergraduate"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-09-26T02:51:41.647Z"
     },
     {
       "id": "railway-recruitment-board-rrb-ntpc-graduate-level-recruitment-cen-06-2026",
