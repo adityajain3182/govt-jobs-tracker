@@ -1,6 +1,34 @@
 {
-  "lastScan": "2026-10-04T03:40:37.686Z",
+  "lastScan": "2026-10-05T03:22:53.805Z",
   "jobs": [
+    {
+      "id": "bpsc-72nd-combined-competitive-examination-cce-2026",
+      "source": "regulators-sweep",
+      "org": "BPSC",
+      "title": "72nd Combined Competitive Examination (CCE) 2026",
+      "summary": "Recruitment for 1187 administrative posts in Bihar Government. Prelims scheduled for October 25, 2026.",
+      "advtNo": null,
+      "posts": 1187,
+      "url": "https://bpsc.bih.nic.in",
+      "pdfUrl": null,
+      "status": "upcoming",
+      "opensOn": "2026-05-07",
+      "closesOn": "2026-05-31",
+      "expected": "2026-10-25 (Prelims Exam)",
+      "fit": "strong",
+      "fitLabel": "Any-graduate management exam",
+      "tags": [
+        "Management",
+        "State Civil Services"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-10-05T03:22:53.770Z"
+    },
     {
       "id": "staff-selection-commission-combined-graduate-level-examination-2026",
       "source": "ssc",
@@ -53,24 +81,24 @@
     {
       "id": "bel-trainee-engineer-i",
       "source": "psu-sweep",
-      "org": "Bharat Heavy Electricals Limited",
-      "title": "Engineer Trainee Recruitment",
-      "summary": "BHEL is expected to release a notification for Engineer Trainee recruitment in July 2026. Vacancies are anticipated in mechanical, electrical, and other engineering disciplines.",
-      "advtNo": "2/2026 (R&P)",
+      "org": "Power Grid",
+      "title": "Engineer Trainees-2027 through GATE 2027",
+      "summary": "Recruitment of Engineer Trainees through GATE 2027.",
+      "advtNo": "CC/03/2026",
       "posts": 150,
-      "url": "https://careers.bhel.in/",
+      "url": "https://www.powergrid.in/job-opportunities",
       "status": "upcoming",
       "opensOn": "2026-07-17",
       "closesOn": "2026-07-31",
-      "expected": true,
+      "expected": "GATE 2027 application window",
       "fit": "moderate",
-      "fitLabel": "Eligible for Engineering Trainee posts (Mechanical)",
+      "fitLabel": "Core engineering trainee role. Mechanical Engineering is typically eligible. Candidate has B.Tech Mechanical.",
       "tags": [
         "Engineering",
-        "PSU"
+        "GATE"
       ],
       "firstSeen": "2026-07-19T01:59:17.405Z",
-      "pdfUrl": "https://ongcindia.com/web/eng/about-ongc/career/ONGC_Engineer_Recruitment_2026_Notification.pdf"
+      "pdfUrl": "https://www.powergrid.in/sites/default/files/Detailed_Advertisement_ET_2027_GATE_2027.pdf"
     },
     {
       "id": "sail-young-professionals-recruitment-2026-rourkela-steel-plant",
@@ -116,6 +144,34 @@
       "firstSeen": "2026-07-10T18:40:06.128Z"
     },
     {
+      "id": "uppsc-combined-state-upper-subordinate-services-pcs-examination-2026",
+      "source": "regulators-sweep",
+      "org": "UPPSC",
+      "title": "Combined State / Upper Subordinate Services (PCS) Examination 2026",
+      "summary": "Recruitment for 500 administrative Group A and Group B posts. Prelims scheduled for December 6, 2026.",
+      "advtNo": "A-1/E-1/2026",
+      "posts": 500,
+      "url": "https://uppsc.up.nic.in",
+      "pdfUrl": null,
+      "status": "upcoming",
+      "opensOn": "2026-06-25",
+      "closesOn": "2026-08-03",
+      "expected": "2026-12-06 (Prelims Exam)",
+      "fit": "strong",
+      "fitLabel": "Any-graduate management exam",
+      "tags": [
+        "Management",
+        "State Civil Services"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-10-05T03:22:53.770Z"
+    },
+    {
       "id": "bharat-electronics-limited-bel-graduate-apprenticeship-training-gapp",
       "source": "psu-sweep",
       "org": "BEL (Bharat Electronics Limited)",
@@ -147,20 +203,20 @@
       "id": "epfo-auditor-assistant-audit-officer-assistant-director-audit-deputy-director-au",
       "source": "regulators-sweep",
       "org": "LIC",
-      "title": "Apprentice Development Officer (ADO)",
-      "summary": "The official notification for Apprentice Development Officer (ADO) recruitment is expected soon for various zones and divisions.",
+      "title": "Apprentice Development Officer (ADO) Recruitment 2026-27",
+      "summary": "Recruitment for Apprentice Development Officer posts. Notification expected soon with over 10,000 vacancies.",
       "advtNo": null,
-      "posts": 10000,
-      "url": "https://licindia.in",
+      "posts": "10000+",
+      "url": "https://licindia.in/",
       "status": "upcoming",
       "opensOn": "2026-08-01",
       "closesOn": "2026-08-14",
-      "expected": "2026-12-31",
+      "expected": "Soon (notification)",
       "fit": "strong",
-      "fitLabel": "Strong fit - management/sales role, typically accepts any graduation.",
+      "fitLabel": "Any-graduate management exam",
       "tags": [
         "Management",
-        "Apprentice Development Officer"
+        "Insurance"
       ],
       "firstSeen": "2026-07-10T18:37:16.814Z"
     },
@@ -1790,24 +1846,24 @@
     {
       "id": "staff-selection-commission-ssc-junior-engineer-civil-electrical-mechanical-2026",
       "source": "ssc",
-      "org": "Staff Selection Commission (SSC)",
-      "title": "Junior Engineer (Civil, Electrical, Mechanical, Telecom) & Scientific Assistant (IMD) Examination 2026",
-      "summary": "The Staff Selection Commission (SSC) released the official notification for the Junior Engineer (JE) Examination 2026, inviting online applications for 1748 tentative vacancies for Junior Engineer posts in various Central Government organizations and Scientific Assistant in the India Meteorological Department (IMD).",
+      "org": "Staff Selection Commission",
+      "title": "Junior Engineer (Civil, Mechanical & Electrical) Examination, 2026",
+      "summary": "Recruitment for 1748 Junior Engineer (Civil, Electrical, Mechanical) and Scientific Assistant posts in various Government of India departments and offices. The selection process includes Paper I and Paper II Computer-Based Examinations, followed by Document Verification.",
       "advtNo": "HQ-C-3019/1/2026-C-3",
       "posts": 1748,
-      "url": "https://ssc.gov.in",
+      "url": "https://ssc.gov.in/apply",
       "status": "closed",
       "opensOn": "2026-09-02",
       "closesOn": "2026-09-22",
-      "expected": "Application correction window: 2026-09-28 to 2026-09-30; Paper I examination: October/November 2026; Paper II examination: December 2026",
+      "expected": "2026-11-02",
       "fit": "moderate",
-      "fitLabel": "Core engineering post where Mechanical is eligible.",
+      "fitLabel": "Core engineering post where Mechanical is eligible, but not primary interest in management/IT. Candidate has B.Tech in Mechanical Engineering.",
       "tags": [
         "Engineering",
         "Junior Engineer"
       ],
       "firstSeen": "2026-07-10T12:00:00.000Z",
-      "pdfUrl": "https://ssc.gov.in"
+      "pdfUrl": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_je_2026.pdf"
     },
     {
       "id": "bharat-electronics-limited-bel-recruitment-for-deputy-engineer-officer-positions",
@@ -1869,20 +1925,20 @@
       "id": "mppsc-recruitment-for-iaeo-aao-and-assistant-director-posts-2026",
       "source": "regulators-sweep",
       "org": "SEBI",
-      "title": "Officer Grade A (Assistant Manager)",
-      "summary": "Recruitment for Assistant Manager posts across various streams including General, Legal, IT, Research, Engineering, and Official Language. Approximately 80-120 vacancies are expected.",
+      "title": "Grade A (Assistant Manager) Recruitment 2026 - IT Stream",
+      "summary": "Recruitment for Assistant Manager posts in the IT Stream. Notification expected October-November 2026. Requires specific postgraduate qualification in CS/IT/Electronics.",
       "advtNo": "03/2026",
-      "posts": 80,
-      "url": "https://www.careerpower.in/sebi-grade-a-recruitment-notification-for-assistant-manager-post",
+      "posts": "20+ (expected for IT stream)",
+      "url": "https://www.sebi.gov.in/",
       "status": "upcoming",
       "opensOn": "2026-09-03",
       "closesOn": "2026-09-24",
-      "expected": "October-November 2026",
-      "fit": "strong",
-      "fitLabel": "General stream accepts any engineering bachelor's degree, suitable for management roles. IT stream is 'gated' due to specific degree requirements.",
+      "expected": "October-November 2026 (notification)",
+      "fit": "gated",
+      "fitLabel": "Requires CS/IT/Electronics postgraduate degree",
       "tags": [
-        "Management",
-        "IT"
+        "IT",
+        "Regulatory Body"
       ],
       "firstSeen": "2026-07-19T02:00:20.422Z",
       "pdfUrl": "https://www.pfrda.org.in/careers"
@@ -2231,7 +2287,7 @@
       "posts": null,
       "url": "https://uppsc.up.nic.in/",
       "pdfUrl": null,
-      "status": "open",
+      "status": "closed",
       "opensOn": null,
       "closesOn": "2026-10-04",
       "expected": null,
@@ -2708,20 +2764,20 @@
       "id": "indian-computer-emergency-response-team-cert-in-scientist-b",
       "source": "drdo-rac",
       "org": "DRDO RAC",
-      "title": "Scientist 'B' Recruitment through GATE",
-      "summary": "Notification released for upcoming recruitment of Scientist 'B' positions in DRDO and allied establishments based on GATE 2027 scores. A complete advertisement with detailed requirements will be published soon on the official RAC website.",
+      "title": "Scientist 'B' (through GATE 2027)",
+      "summary": "The Recruitment & Assessment Centre (RAC) has released a short notice for the upcoming recruitment of Scientist 'B' posts in DRDO, DST, and ADA. Selection will be based on a valid GATE 2027 score in the relevant engineering or science discipline, followed by a personal interview. The detailed notification with branch-wise vacancies is expected to be published soon on the official RAC portal.",
       "advtNo": "156",
       "posts": 152,
       "url": "https://rac.gov.in",
       "status": "upcoming",
       "opensOn": "2026-09-25",
       "closesOn": "2026-10-16",
-      "expected": "A complete advertisement including all the requirements will be published soon at the official RAC website -rac.gov.in.",
+      "expected": "Detailed notification for Scientist B through GATE 2027 is expected soon. Candidates are required to have a valid GATE 2027 score. The application window for GATE 2027 with late fees closes on 2026-10-05.",
       "fit": "moderate",
-      "fitLabel": "",
+      "fitLabel": "Candidate has a B.Tech in Mechanical Engineering, making them eligible for Scientist B in Mechanical Engineering. However, the candidate's primary interest is in management and IT roles, not core mechanical engineering. IT/CS Scientist B roles would be gated due to the requirement of a CS/IT/Electronics degree.",
       "tags": [
-        "GATE",
-        "Engineering"
+        "Engineering",
+        "GATE"
       ],
       "firstSeen": "2026-07-18T01:47:21.775Z",
       "pdfUrl": "https://rac.gov.in/download/advt_156"
@@ -2811,6 +2867,34 @@
       "firstSeen": "2026-10-01T03:24:04.503Z"
     },
     {
+      "id": "sail-cmlo-young-professionals-civil-engineer-surveyor-it-engineer-electronics-en",
+      "source": "psu-sweep",
+      "org": "SAIL CMLO",
+      "title": "Young Professionals (Civil Engineer, Surveyor, IT Engineer, Electronics Engineer)",
+      "summary": "Steel Authority of India, Central Mining and Logistics Organization (SAIL CMLO) is recruiting 4 Young Professionals in Civil Engineer, Surveyor, IT Engineer, and Electronics Engineer disciplines. The online application is open from October 1, 2026, to October 22, 2026.",
+      "advtNo": "CMLO/YP/2026-04",
+      "posts": 4,
+      "url": "https://www.sail.co.in/",
+      "pdfUrl": null,
+      "status": "open",
+      "opensOn": "2026-10-01",
+      "closesOn": "2026-10-22",
+      "expected": null,
+      "fit": "gated",
+      "fitLabel": "IT Engineer role is gated due to specific CS/IT/Electronics degree requirement. Other engineering roles (Civil, Surveyor, Electronics) are core engineering and not the candidate's primary interest.",
+      "tags": [
+        "Engineer",
+        "Civil"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-10-05T03:22:17.283Z"
+    },
+    {
       "id": "uppsc-uttar-pradesh-legislative-department-various-posts-advt-d-6-e-1-2025",
       "source": "uppsc",
       "org": "UPPSC · Uttar Pradesh Legislative Department",
@@ -2869,7 +2953,7 @@
       "source": "uppsc",
       "org": "UPPSC",
       "title": "Deputy Secretary (I.T.)",
-      "summary": "Recruitment for Deputy Secretary (I.T.) in UPPSC. Applications are open until October 28, 2026. This IT role requires a specific CS/IT/Electronics degree, which the candidate with a Mechanical Engineering background does not possess.",
+      "summary": "Recruitment for Deputy Secretary (I.T.) within UPPSC. Applications are open until October 28, 2026. This IT role likely requires a CS/IT/Electronics degree, which the candidate does not possess, making it degree-gated.",
       "advtNo": "D-2/E-1/2026",
       "posts": null,
       "url": "https://uppsc.up.nic.in/",
@@ -2881,7 +2965,7 @@
       "fit": "gated",
       "fitLabel": "Degree-gated: CS/IT",
       "tags": [
-        "Degree-gated: CS/IT"
+        "IT role"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -2948,21 +3032,20 @@
       "id": "railway-recruitment-board-ntpc-graduate-level-posts",
       "source": "rrb",
       "org": "Railway Recruitment Board (RRB)",
-      "title": "Non-Technical Popular Categories (Undergraduate Level)",
-      "summary": "Recruitment for 1,688 undergraduate-level posts including Commercial cum Ticket Clerk, Junior Clerk cum Typist, Accounts Clerk cum Typist, and Trains Clerk.",
+      "title": "Non-Technical Popular Categories (NTPC) - Undergraduate Level",
+      "summary": "Recruitment for 1688 undergraduate-level vacancies. The detailed notification is expected to be released on October 14, 2026.",
       "advtNo": "CEN 07/2026",
       "posts": 1688,
-      "url": "https://rrbapply.gov.in/",
+      "url": "https://www.rrbapply.gov.in/",
       "pdfUrl": null,
       "status": "upcoming",
       "opensOn": "2026-10-15",
       "closesOn": "2026-11-13",
       "expected": null,
-      "fit": "moderate",
-      "fitLabel": "Clerical/operational roles, candidate is overqualified.",
+      "fit": "strong",
+      "fitLabel": "Any-graduate management exam",
       "tags": [
-        "NTPC",
-        "Undergraduate"
+        "Management"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -3128,6 +3211,34 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-09-28T02:53:09.430Z"
+    },
+    {
+      "id": "gail-executive-trainee-through-gate-2027",
+      "source": "psu-sweep",
+      "org": "GAIL",
+      "title": "Executive Trainee (through GATE 2027)",
+      "summary": "GAIL (India) Limited will recruit Executive Trainees in Chemical, Electrical, Instrumentation, and Mechanical disciplines using GATE-2027 marks. The online application process is scheduled from February 17, 2027, to March 18, 2027.",
+      "advtNo": null,
+      "posts": null,
+      "url": "https://gailonline.com/",
+      "pdfUrl": null,
+      "status": "upcoming",
+      "opensOn": "2027-02-17",
+      "closesOn": "2027-03-18",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Core engineering role, Mechanical B.Tech eligible.",
+      "tags": [
+        "Engineer",
+        "Executive Trainee"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-10-05T03:22:17.283Z"
     },
     {
       "id": "upsc-ut-of-ladakh-accounts-officer",
@@ -3558,34 +3669,6 @@
       "firstSeen": "2026-09-26T02:49:08.828Z"
     },
     {
-      "id": "power-grid-corporation-of-india-limited-recruitment-of-engineer-trainees-2027-th",
-      "source": "psu-sweep",
-      "org": "Power Grid",
-      "title": "Engineer Trainees-2027 through GATE 2027",
-      "summary": "Recruitment of Engineer Trainees through GATE 2027.",
-      "advtNo": "CC/03/2026",
-      "posts": null,
-      "url": "https://www.powergrid.in/job-opportunities",
-      "pdfUrl": "https://www.powergrid.in/sites/default/files/Detailed_Advertisement_ET_2027_GATE_2027.pdf",
-      "status": "upcoming",
-      "opensOn": null,
-      "closesOn": null,
-      "expected": "GATE 2027 application window",
-      "fit": "moderate",
-      "fitLabel": "Core engineering trainee role. Mechanical Engineering is typically eligible. Candidate has B.Tech Mechanical.",
-      "tags": [
-        "Engineering",
-        "GATE"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-09-26T02:53:00.364Z"
-    },
-    {
       "id": "bharat-electronics-limited-bel-recruitment-for-deputy-engineer-fixed-term-engage",
       "source": "psu-sweep",
       "org": "Bharat Electronics Limited (BEL)",
@@ -3642,21 +3725,21 @@
       "id": "lic-assistant-administrative-officer-aao",
       "source": "regulators-sweep",
       "org": "LIC",
-      "title": "Assistant Administrative Officer (AAO)",
-      "summary": "Recruitment for Assistant Administrative Officer posts in Generalist and Specialist streams. Expected to be released in the second half of 2026.",
+      "title": "Assistant Administrative Officer (AAO) Recruitment 2026",
+      "summary": "Recruitment for Assistant Administrative Officer posts (Generalist and Specialist streams). Notification expected soon.",
       "advtNo": null,
       "posts": null,
-      "url": "https://prepp.in/lic-aao-notification",
+      "url": "https://licindia.in/",
       "pdfUrl": null,
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "August 2026 (tentative)",
+      "expected": "August 2026 (notification), October 2026 (Prelims)",
       "fit": "strong",
-      "fitLabel": "Generalist stream accepts graduates, suitable for management roles.",
+      "fitLabel": "Any-graduate management exam",
       "tags": [
         "Management",
-        "Generalist"
+        "Insurance"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -3665,6 +3748,33 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-10-04T03:40:37.640Z"
+    },
+    {
+      "id": "railway-recruitment-board-rrb-section-controller",
+      "source": "rrb",
+      "org": "Railway Recruitment Board (RRB)",
+      "title": "Section Controller",
+      "summary": "Recruitment for 119 vacancies of Section Controller posts. The application status for CEN 03/2026 was released on September 16, 2026.",
+      "advtNo": "CEN 03/2026",
+      "posts": 119,
+      "url": "https://www.rrbapply.gov.in/",
+      "pdfUrl": null,
+      "status": "closed",
+      "opensOn": null,
+      "closesOn": null,
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "Any-graduate management exam",
+      "tags": [
+        "Management"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-10-05T03:21:20.414Z"
     }
   ]
 }
