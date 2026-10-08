@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-10-07T03:38:53.257Z",
+  "lastScan": "2026-10-08T03:52:57.677Z",
   "jobs": [
     {
       "id": "bpsc-72nd-combined-competitive-examination-cce-2026",
@@ -81,24 +81,24 @@
     {
       "id": "bel-trainee-engineer-i",
       "source": "psu-sweep",
-      "org": "Power Grid",
-      "title": "Engineer Trainees-2027 through GATE 2027",
-      "summary": "Recruitment of Engineer Trainees through GATE 2027.",
+      "org": "Power Grid Corporation of India Limited",
+      "title": "Recruitment of Engineer Trainees-2027 through GATE 2027",
+      "summary": "Recruitment of Engineer Trainees for the 2027 batch through GATE 2027. Disciplines include Electrical, Electronics, Civil, and Computer Science.",
       "advtNo": "CC/03/2026",
       "posts": 150,
       "url": "https://www.powergrid.in/job-opportunities",
       "status": "upcoming",
       "opensOn": "2026-07-17",
       "closesOn": "2026-07-31",
-      "expected": "GATE 2027 application window",
+      "expected": "GATE 2027 application window (typically Sept-Oct 2026 for GATE exam, followed by Power Grid application)",
       "fit": "moderate",
-      "fitLabel": "Core engineering trainee role. Mechanical Engineering is typically eligible. Candidate has B.Tech Mechanical.",
+      "fitLabel": "Core Engineering Trainee - Mechanical B.Tech eligible, but it's a core engineering role.",
       "tags": [
-        "Engineering",
+        "Engineer Trainee",
         "GATE"
       ],
       "firstSeen": "2026-07-19T01:59:17.405Z",
-      "pdfUrl": "https://www.powergrid.in/sites/default/files/Detailed_Advertisement_ET_2027_GATE_2027.pdf"
+      "pdfUrl": "https://www.powergrid.in/sites/default/files/Detailed%20Advertisement%20%28675.72%20KB%29.pdf"
     },
     {
       "id": "sail-young-professionals-recruitment-2026-rourkela-steel-plant",
@@ -203,20 +203,20 @@
       "id": "epfo-auditor-assistant-audit-officer-assistant-director-audit-deputy-director-au",
       "source": "regulators-sweep",
       "org": "LIC",
-      "title": "Apprentice Development Officer (ADO) Recruitment 2026-27",
-      "summary": "Recruitment for Apprentice Development Officer posts. Notification expected soon with over 10,000 vacancies.",
+      "title": "Apprentice Development Officer (ADO) Recruitment 2026",
+      "summary": "The Life Insurance Corporation of India (LIC) is expected to release the official notification for Apprentice Development Officer (ADO) posts soon. The recruitment process typically involves preliminary and main examinations, an interview, and a medical test.",
       "advtNo": null,
       "posts": "10000+",
-      "url": "https://licindia.in/",
+      "url": "https://licindia.in/careers",
       "status": "upcoming",
       "opensOn": "2026-08-01",
       "closesOn": "2026-08-14",
-      "expected": "Soon (notification)",
+      "expected": "Soon",
       "fit": "strong",
-      "fitLabel": "Any-graduate management exam",
+      "fitLabel": "Any-graduate management exams (e.g., RBI Grade B, NABARD Grade A, bank PO, SEBI Grade A General which accepts any engineering bachelor's) are strong.",
       "tags": [
         "Management",
-        "Insurance"
+        "Apprentice Development Officer"
       ],
       "firstSeen": "2026-07-10T18:37:16.814Z"
     },
@@ -1024,34 +1024,6 @@
       "firstSeen": "2026-09-19T02:34:09.530Z"
     },
     {
-      "id": "uttar-pradesh-public-service-commission-uppsc-manager-system-senior-programmer-p",
-      "source": "regulators-sweep",
-      "org": "Uttar Pradesh Public Service Commission (UPPSC)",
-      "title": "Manager System, Senior Programmer, Programmer Grade II and Computer Operator Examination 2026",
-      "summary": "UPPSC released recruitment notifications for 10 IT-related posts including Manager System, Senior Programmer, Programmer Grade II, and Computer Operator. Eligibility for Computer Operator requires a Bachelor's Degree in any stream with a PG Diploma in Computer Science or 'A' Level Exam. Programmer Grade II requires a Bachelor's Degree in any stream with NIELIT 'A' Level Exam or B.Sc in CS/IT/Electronics/PGDCA.",
-      "advtNo": "A2-E1/2026",
-      "posts": 10,
-      "url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
-      "pdfUrl": null,
-      "status": "closed",
-      "opensOn": "2026-08-03",
-      "closesOn": "2026-09-03",
-      "expected": null,
-      "fit": "gated",
-      "fitLabel": "Requires specific CS/IT/Electronics/A-Level qualifications, candidate has Mechanical Engineering",
-      "tags": [
-        "IT",
-        "Programmer"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-09-20T02:44:13.437Z"
-    },
-    {
       "id": "uttar-pradesh-public-service-commission-uppsc-estate-manager-recruitment-2026",
       "source": "regulators-sweep",
       "org": "Uttar Pradesh Public Service Commission (UPPSC)",
@@ -1773,7 +1745,7 @@
       "source": "ssc",
       "org": "Staff Selection Commission",
       "title": "Junior Engineer (Civil, Mechanical & Electrical) Examination, 2026",
-      "summary": "Recruitment for Junior Engineers (Civil, Mechanical & Electrical) in various Central Government Departments/Organizations.",
+      "summary": "The Staff Selection Commission (SSC) released a recruitment notification for 1748 Junior Engineer posts in Civil, Mechanical, and Electrical disciplines across various Departments and Ministries under the Central Government. The online application window was open from September 2, 2026, to September 22, 2026. Candidates with a Degree (BE/BTech) or a 3-year Diploma in Civil, Electrical, or Mechanical Engineering were eligible to apply. The application correction window was from September 28 to September 30, 2026. The Tier-I (Paper-I) exam is scheduled to be conducted from November 2 to November 6, 2026. The official notification can be found under the 'Latest Notifications' section on ssc.gov.in.",
       "advtNo": "HQ-C-3019/1/2026-C-3",
       "posts": 1748,
       "url": "https://ssc.gov.in/",
@@ -1847,26 +1819,59 @@
       "firstSeen": "2026-08-27T06:26:26.328Z"
     },
     {
-      "id": "mppsc-recruitment-for-iaeo-aao-and-assistant-director-posts-2026",
+      "id": "uttar-pradesh-public-service-commission-uppsc-manager-system-senior-programmer-p",
       "source": "regulators-sweep",
-      "org": "PFRDA",
-      "title": "Officer Grade A (Assistant Manager) Recruitment 2026",
-      "summary": "PFRDA has released a recruitment notification for 30 Officer Grade A (Assistant Manager) posts across General, Research, Actuary, and Official Language streams. Out of these, 25 vacancies are for the General stream. The selection process involves Phase I online screening exam, Phase II online exam, and Phase III interview.",
+      "org": "IRDAI",
+      "title": "Assistant Manager Recruitment 2026",
+      "summary": "The Insurance Regulatory and Development Authority of India (IRDAI) is expected to release the notification for Assistant Manager vacancies for multiple departments in the second quarter of 2026 (May-July). IRDAI plans to recruit 40 Assistant Managers annually. Candidates with a graduation degree in any discipline with 60% marks are eligible for the Generalist stream.",
       "advtNo": "03/2026",
-      "posts": 30,
-      "url": "https://www.pfrda.org.in",
-      "status": "closed",
+      "posts": 40,
+      "url": "https://www.irdai.gov.in/careers",
+      "pdfUrl": "https://www.pfrda.org.in/careers",
+      "status": "upcoming",
       "opensOn": "2026-09-03",
       "closesOn": "2026-09-24",
-      "expected": "October-November 2026 (notification)",
+      "expected": "May-July 2026 / Soon",
       "fit": "strong",
-      "fitLabel": "Eligible for General stream with a Bachelor's degree in Engineering, fitting the 'any-graduate management exams' criteria.",
+      "fitLabel": "Any-graduate management exams (e.g., RBI Grade B, NABARD Grade A, bank PO, SEBI Grade A General which accepts any engineering bachelor's) are strong.",
       "tags": [
         "Management",
-        "Banking/Finance"
+        "Assistant Manager"
       ],
-      "firstSeen": "2026-07-19T02:00:20.422Z",
-      "pdfUrl": "https://www.pfrda.org.in/careers"
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-07-19T02:00:20.422Z"
+    },
+    {
+      "id": "sbi-specialist-cadre-officer-group-ciso",
+      "source": "sbi",
+      "org": "SBI",
+      "title": "Specialist Cadre Officer – Group CISO",
+      "summary": "Engagement of Specialist Cadre Officer on contractual basis for the Group CISO role. Application window was from 04.09.2026 to 24.09.2026.",
+      "advtNo": "CRPD/SCO/2026-27/21",
+      "posts": null,
+      "url": "https://sbi.bank.in/web/careers/current-openings",
+      "pdfUrl": "https://sbi.bank.in/documents/77530/57941334/04092026_FINAL+ADVT+SCO+_21_+GROUP+CISO.pdf/92a8bf33-5351-6edc-ff5b-0bd27b3a61cf?t=1788521056853",
+      "status": "closed",
+      "opensOn": "2026-09-04",
+      "closesOn": "2026-09-24",
+      "expected": null,
+      "fit": "gated",
+      "fitLabel": "Degree-gated: CS/IT/Cybersecurity",
+      "tags": [
+        "Contractual"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-10-08T03:49:14.543Z"
     },
     {
       "id": "ibps-crp-rrbs-xv-officers-scale-i-ii-iii-and-office-assistants",
@@ -1947,6 +1952,33 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-07-10T12:00:00.000Z"
+    },
+    {
+      "id": "sbi-specialist-cadre-officer-contract-basis",
+      "source": "sbi",
+      "org": "SBI",
+      "title": "Specialist Cadre Officer (Regular Basis)",
+      "summary": "Recruitment of Specialist Cadre Officer on regular basis. Online registration extended till 28.09.2026. Roles likely in Trade Finance/International Banking Group.",
+      "advtNo": "CRPD/SCO/2026-27/15",
+      "posts": null,
+      "url": "https://sbi.bank.in/web/careers/current-openings",
+      "pdfUrl": "https://sbi.bank.in/documents/77530/57941334/29082026_FINAL+ADVT+TFO+IBG_SCO+15.pdf/222db4b-91da-cbe8-c439-9af6b1dd06b2?t=1787986916149",
+      "status": "closed",
+      "opensOn": "2026-08-29",
+      "closesOn": "2026-09-28",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "Strong fit — management",
+      "tags": [
+        "Regular"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-10-08T03:49:14.543Z"
     },
     {
       "id": "bharat-electronics-limited-senior-engineer-recruitment",
@@ -2213,7 +2245,7 @@
       "source": "sbi",
       "org": "SBI",
       "title": "Specialist Cadre Officers (Wealth Management & Premier Banking)",
-      "summary": "Engagement of Specialist Cadre Officers on contract basis for Wealth Management & Premier Banking. Online registration was extended till 2026-10-05. This is a strong fit for management roles.",
+      "summary": "Engagement of Specialist Cadre Officers on contract for Wealth Management & Premier Banking. Online registration extended till 05.10.2026.",
       "advtNo": "CRPD/SCO/2026-27/23",
       "posts": 220,
       "url": "https://sbi.bank.in/web/careers/current-openings",
@@ -2225,7 +2257,7 @@
       "fit": "strong",
       "fitLabel": "Strong fit — management",
       "tags": [
-        "Management role"
+        "Contractual"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -2570,19 +2602,19 @@
       "source": "sbi",
       "org": "SBI",
       "title": "Specialist Cadre Officers (Dean, Faculty & Marketing Executive)",
-      "summary": "Engagement of Specialist Cadre Officers on contract basis for posts like Dean, Faculty, and Marketing Executive. Application deadline extended to 2026-10-16. Marketing Executive is a strong fit for management roles.",
+      "summary": "Engagement of Specialist Cadre Officers on contract for posts like Dean, Faculty, and Marketing Executive. Application deadline extended to 16.10.2026.",
       "advtNo": "CRPD/SCO/2026-27/20",
       "posts": null,
       "url": "https://sbi.bank.in/web/careers/current-openings",
       "pdfUrl": "https://sbi.bank.in/documents/77530/57941334/16092026_ADV_CRPD_SCO_2026-27_20_SBIL.pdf/72f2a326-b338-3ea8-84d9-2fb56c3253a2?t=1789538665520",
       "status": "open",
-      "opensOn": "2026-10-06",
+      "opensOn": "2026-09-16",
       "closesOn": "2026-10-16",
       "expected": null,
       "fit": "strong",
       "fitLabel": "Strong fit — management",
       "tags": [
-        "Management role"
+        "Contractual"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -2597,7 +2629,7 @@
       "source": "sbi",
       "org": "SBI",
       "title": "Specialist Cadre Officers (IT Risk)",
-      "summary": "Engagement of Specialist Cadre Officers on contract basis for IT Risk roles. Application deadline extended to 2026-10-16. This IT role requires a specific CS/IT/Electronics degree, making it gated for Mechanical B.Tech candidates.",
+      "summary": "Engagement of Specialist Cadre Officers on contract basis for IT Risk roles. Application deadline extended to 16.10.2026.",
       "advtNo": "CRPD/SCO/2026-27/22",
       "posts": null,
       "url": "https://sbi.bank.in/web/careers/current-openings",
@@ -2607,10 +2639,9 @@
       "closesOn": "2026-10-16",
       "expected": null,
       "fit": "gated",
-      "fitLabel": "Degree-gated: CS/IT",
+      "fitLabel": "Degree-gated: CS/IT/Risk",
       "tags": [
-        "IT role",
-        "Degree-gated"
+        "Contractual"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -2624,8 +2655,8 @@
       "id": "upsc-direct-recruitment-to-various-posts-in-government-of-india-special-advertis",
       "source": "upsc",
       "org": "UPSC",
-      "title": "Direct Recruitment for various posts (Advt. No. 12/2026)",
-      "summary": "The Union Public Service Commission (UPSC) has invited online recruitment applications for 13 posts across four positions, including Junior Technical Officer (Sugar Technology), Assistant Legislative Counsel, Law Officer, and Specialist Grade II (Junior Scale) – Cardiology, in various Central Government departments and organizations.",
+      "title": "Direct Recruitment to various posts (Advertisement No. 12/2026)",
+      "summary": "UPSC invites applications from eligible candidates for direct recruitment to various posts in Government of India.",
       "advtNo": "12/2026",
       "posts": [
         {
@@ -2645,14 +2676,14 @@
           "count": 1
         }
       ],
-      "url": "https://upsconline.nic.in/",
+      "url": "https://upsconline.nic.in",
       "pdfUrl": "https://upsc.gov.in/sites/default/files/Advt-12-2026-ORA-Eng.pdf",
       "status": "open",
       "opensOn": "2026-09-26",
       "closesOn": "2026-10-16",
       "expected": null,
       "fit": "moderate",
-      "fitLabel": "Junior Technical Officer (Sugar Technology) might be eligible for B.Tech Mechanical, but requires specific Sugar Technology qualification. Other posts require Law or Medical degrees.",
+      "fitLabel": "",
       "tags": [
         "Engineering",
         "Research"
@@ -2800,6 +2831,34 @@
       "firstSeen": "2026-10-05T03:22:17.283Z"
     },
     {
+      "id": "steel-authority-of-india-limited-sail-central-mining-and-logistics-organization-",
+      "source": "psu-sweep",
+      "org": "Steel Authority of India Limited (SAIL) - Central Mining and Logistics Organization (CMLO)",
+      "title": "Engagement of Young Professionals at CMLO for its Mines under OGoM",
+      "summary": "Recruitment for 4 Young Professional posts (Civil Engineer, Surveyor, IT Engineer, Electronics Engineer) on a fixed-term basis at captive mines under the Odisha Group of Mines (OGoM).",
+      "advtNo": "CMLO/YP/2026-04",
+      "posts": 4,
+      "url": "https://www.sail.co.in/careers",
+      "pdfUrl": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/RSP_News%20&%20Jobs_01102026_172734.pdf",
+      "status": "open",
+      "opensOn": "2026-10-01",
+      "closesOn": "2026-10-22",
+      "expected": null,
+      "fit": "gated",
+      "fitLabel": "Gated - Requires specific engineering degrees (Civil, Mining, IT, Electronics), Mechanical B.Tech not eligible.",
+      "tags": [
+        "Young Professional",
+        "IT"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-10-08T03:52:16.385Z"
+    },
+    {
       "id": "uppsc-uttar-pradesh-legislative-department-various-posts-advt-d-6-e-1-2025",
       "source": "uppsc",
       "org": "UPPSC · Uttar Pradesh Legislative Department",
@@ -2856,9 +2915,9 @@
     {
       "id": "uppsc-deputy-secretary-i-t",
       "source": "uppsc",
-      "org": "UPPSC · Uttar Pradesh",
+      "org": "UPPSC",
       "title": "Deputy Secretary (I.T.)",
-      "summary": "Recruitment for Deputy Secretary (I.T.) in UPPSC. This is an IT role, typically requiring a CS/IT/Electronics degree, which the candidate (B.Tech Mechanical) does not possess.",
+      "summary": "Recruitment for Deputy Secretary (I.T.) in UPPSC. This IT role typically requires a CS/IT/Electronics degree, making it degree-gated for the candidate.",
       "advtNo": "D-2/E-1/2026",
       "posts": null,
       "url": "https://uppsc.up.nic.in/",
@@ -2868,7 +2927,7 @@
       "closesOn": "2026-10-28",
       "expected": null,
       "fit": "gated",
-      "fitLabel": "Degree-gated: CS/IT/Electronics degree required",
+      "fitLabel": "Degree-gated: CS/IT",
       "tags": [
         "IT role"
       ],
@@ -2934,6 +2993,34 @@
       "firstSeen": "2026-10-07T03:38:33.678Z"
     },
     {
+      "id": "indian-oil-corporation-limited-iocl-engagement-of-technical-and-non-technical-ap",
+      "source": "psu-sweep",
+      "org": "Indian Oil Corporation Limited (IOCL)",
+      "title": "Engagement of Technical and Non-Technical Apprentices",
+      "summary": "Recruitment of Technical and Non-Technical Apprentices under the Apprentices Act, 1961 at various locations of Indian Oil Corporation Limited.",
+      "advtNo": null,
+      "posts": null,
+      "url": "https://iocl.com/apprenticeships",
+      "pdfUrl": null,
+      "status": "open",
+      "opensOn": "2026-10-01",
+      "closesOn": "2026-11-04",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Technical Apprenticeship - Mechanical B.Tech eligible, but it's an apprenticeship and not a direct management/IT role for experienced professionals.",
+      "tags": [
+        "Apprenticeship",
+        "Technical"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-10-08T03:52:16.385Z"
+    },
+    {
       "id": "railway-recruitment-board-ntpc-graduate-level-posts",
       "source": "rrb",
       "org": "Railway Recruitment Board",
@@ -2964,22 +3051,22 @@
     {
       "id": "railway-recruitment-board-rrb-ntpc-graduate-recruitment-2026",
       "source": "rrb",
-      "org": "Railway Recruitment Board (RRB)",
-      "title": "NTPC Undergraduate Recruitment 2026",
-      "summary": "Recruitment for 1,688 undergraduate-level Non-Technical Popular Categories (NTPC) posts including Commercial Cum Ticket Clerk, Accounts Clerk Cum Typist, Junior Clerk Cum Typist, and Trains Clerk.",
-      "advtNo": "CEN 07/2026",
-      "posts": "Commercial Cum Ticket Clerk, Accounts Clerk Cum Typist, Junior Clerk Cum Typist, Trains Clerk",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzzWnUn3_JqUmFFg0GCJk6wGASn5cIEY28TB1TldkfQb5XC8eBuXcVmicDYjXI2plpGm858QuoExyI75G44jdMxZds_l9JDAq_7vWXupZp8N7j7bHIlR3erDtGNGcSIWBWWIoj8uWI7L8mjLkYtqoi0ctSacL9UHpQD4UGdFMbif15ob8IURbSwO7rEhOU94LrdtHl3eMhHt28ow==",
+      "org": "Railway Recruitment Boards (RRBs), Ministry of Railways",
+      "title": "RRB NTPC Graduate Recruitment 2026",
+      "summary": "The Railway Recruitment Boards (RRBs) have released the detailed notification for RRB NTPC Graduate Recruitment 2026 under Centralised Employment Notice (CEN) No. 06/2026, to fill 3,548 vacancies for various Non-Technical Popular Categories (NTPC) graduate-level posts across the Indian Railways. Posts include Goods Train Manager, Station Master, Chief Commercial-cum-Ticket Supervisor (CCTS), Senior Clerk-cum-Typist, and Junior Accounts Assistant.",
+      "advtNo": "CEN 06/2026",
+      "posts": 3548,
+      "url": "https://rrbapply.gov.in",
       "pdfUrl": null,
-      "status": "upcoming",
-      "opensOn": "2026-10-15",
-      "closesOn": "2026-11-13",
+      "status": "open",
+      "opensOn": "2026-10-08",
+      "closesOn": "2026-11-06",
       "expected": "Detailed notification on 2026-10-14",
       "fit": "strong",
-      "fitLabel": "Management and IT roles are of interest. This post accepts 12th pass, and the candidate's B.Tech degree makes them eligible for these clerical/management-support roles.",
+      "fitLabel": "Any-graduate management exams (PCS, RBI Grade B, NABARD Grade A, bank PO, SEBI Grade A General which accepts any engineering bachelor's) are \"strong\".",
       "tags": [
         "NTPC",
-        "Undergraduate"
+        "Graduate Level"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -3660,20 +3747,20 @@
       "source": "regulators-sweep",
       "org": "LIC",
       "title": "Assistant Administrative Officer (AAO) Recruitment 2026",
-      "summary": "Recruitment for Assistant Administrative Officer posts (Generalist and Specialist streams). Notification expected soon.",
+      "summary": "The Life Insurance Corporation of India (LIC) is expected to release the official notification for Assistant Administrative Officer (AAO) posts in the second half of 2026. Eligible candidates aged 21-30 years with required educational qualifications can apply.",
       "advtNo": null,
       "posts": null,
-      "url": "https://licindia.in/",
+      "url": "https://licindia.in/careers",
       "pdfUrl": null,
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "August 2026 (notification), October 2026 (Prelims)",
+      "expected": "August 2026 / Second Half of 2026",
       "fit": "strong",
-      "fitLabel": "Any-graduate management exam",
+      "fitLabel": "Any-graduate management exams (e.g., RBI Grade B, NABARD Grade A, bank PO, SEBI Grade A General which accepts any engineering bachelor's) are strong.",
       "tags": [
         "Management",
-        "Insurance"
+        "Assistant Administrative Officer"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
