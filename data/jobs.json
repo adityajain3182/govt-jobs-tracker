@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-10-13T04:52:27.206Z",
+  "lastScan": "2026-10-14T03:01:02.611Z",
   "jobs": [
     {
       "id": "ntpc-experienced-professionals-on-fixed-term-basis",
@@ -1337,14 +1337,14 @@
       "firstSeen": "2026-07-19T02:00:20.422Z"
     },
     {
-      "id": "sbi-specialist-cadre-officer-group-ciso",
+      "id": "sbi-engagement-of-specialist-cadre-officer-group-ciso",
       "source": "sbi",
       "org": "SBI",
-      "title": "Specialist Cadre Officer (Group CISO)",
-      "summary": "SBI recruited Specialist Cadre Officer for the Group CISO role on a contractual basis. This senior IT position typically requires a strong background in Computer Science/IT. Applications closed on 24.09.2026.",
+      "title": "Engagement of Specialist Cadre Officer – Group CISO",
+      "summary": "SBI recruited a Specialist Cadre Officer for the Group CISO role on contractual basis. Applications were open from September 04, 2026, and closed on September 24, 2026. This is a high-level IT management role.",
       "advtNo": "CRPD/SCO/2026-27/21",
       "posts": null,
-      "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-21/apply",
+      "url": "https://sbi.bank.in/web/careers/current-openings",
       "pdfUrl": "https://sbi.bank.in/documents/77530/57941334/04092026_FINAL+ADVT+SCO+_21_+GROUP+CISO.pdf/92a8bf33-5351-6edc-ff5b-0bd27b3a61cf?t=1788521056853",
       "status": "closed",
       "opensOn": "2026-09-04",
@@ -1353,7 +1353,8 @@
       "fit": "gated",
       "fitLabel": "Degree-gated: CS/IT",
       "tags": [
-        "CS/IT degree required"
+        "IT role",
+        "Degree-gated"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -1361,7 +1362,7 @@
       "experienceNote": null,
       "eligibility": null,
       "eligibilityReason": null,
-      "firstSeen": "2026-10-08T03:49:14.543Z"
+      "firstSeen": "2026-10-14T02:56:20.997Z"
     },
     {
       "id": "ibps-crp-rrbs-xv-officers-scale-i-ii-iii-and-office-assistants",
@@ -1442,6 +1443,33 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-07-10T12:00:00.000Z"
+    },
+    {
+      "id": "sbi-recruitment-of-specialist-cadre-officer-regular-basis",
+      "source": "sbi",
+      "org": "SBI",
+      "title": "Recruitment of Specialist Cadre Officer (Regular Basis)",
+      "summary": "SBI recruited Specialist Cadre Officers on a regular basis, likely for Trade Finance Officer in the International Banking Group. Online registration was extended till September 28, 2026. This is a management/finance role.",
+      "advtNo": "CRPD/SCO/2026-27/15",
+      "posts": null,
+      "url": "https://sbi.bank.in/web/careers/current-openings",
+      "pdfUrl": "https://sbi.bank.in/documents/77530/57941334/29082026_FINAL+ADVT+TFO+IBG_SCO+15.pdf/222db64b-91da-cbe8-c439-9af6b1dd06b2?t=1787986916149",
+      "status": "closed",
+      "opensOn": "2026-08-29",
+      "closesOn": "2026-09-28",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "Strong fit — management",
+      "tags": [
+        "Management role"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-10-14T02:56:20.997Z"
     },
     {
       "id": "bharat-electronics-limited-senior-engineer-recruitment",
@@ -1598,6 +1626,34 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-09-26T02:53:00.364Z"
+    },
+    {
+      "id": "staff-selection-commission-sub-inspector-in-delhi-police-and-central-armed-polic",
+      "source": "ssc",
+      "org": "Staff Selection Commission",
+      "title": "Sub-Inspector in Delhi Police and Central Armed Police Forces Examination, 2026",
+      "summary": "Recruitment for Sub-Inspector (SI) posts in Delhi Police and various Central Armed Police Forces (CAPFs).",
+      "advtNo": null,
+      "posts": 1871,
+      "url": "https://ssc.gov.in/",
+      "pdfUrl": null,
+      "status": "closed",
+      "opensOn": "2026-09-10",
+      "closesOn": "2026-09-30",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "General graduate-level post, suitable for management interest.",
+      "tags": [
+        "Police",
+        "Sub-Inspector"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-10-14T02:58:19.341Z"
     },
     {
       "id": "isro-nesac-research-scientists-junior-research-fellows-and-project-associate-i",
@@ -1844,6 +1900,33 @@
       "firstSeen": "2026-09-26T02:53:00.364Z"
     },
     {
+      "id": "sbi-engagement-of-specialist-cadre-officers-wealth-management",
+      "source": "sbi",
+      "org": "SBI",
+      "title": "Engagement of Specialist Cadre Officers (Wealth Management & Premier Banking)",
+      "summary": "SBI recruited Specialist Cadre Officers for Wealth Management & Premier Banking roles. Online registration was extended till October 05, 2026. These are management/finance-oriented positions.",
+      "advtNo": "CRPD/SCO/2026-27/23",
+      "posts": null,
+      "url": "https://sbi.bank.in/web/careers/current-openings",
+      "pdfUrl": "https://sbi.bank.in/documents/77530/57941334/03092026_1_Advt+_Wealth+MGMT_04.09.2026.pdf/d2fd7bab-0791-b62b-61d3-8f46c2cb3ec6?t=1788439145915",
+      "status": "closed",
+      "opensOn": "2026-09-03",
+      "closesOn": "2026-10-05",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "Strong fit — management",
+      "tags": [
+        "Management role"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-10-14T02:56:20.997Z"
+    },
+    {
       "id": "upsc-engineering-services-examination-ese-2027",
       "source": "upsc",
       "org": "UPSC",
@@ -2044,7 +2127,7 @@
       "posts": 19,
       "url": "https://careers.ntpc.co.in/",
       "pdfUrl": null,
-      "status": "open",
+      "status": "closed",
       "opensOn": "2026-09-29",
       "closesOn": "2026-10-13",
       "expected": null,
@@ -2072,7 +2155,7 @@
       "posts": 19,
       "url": "https://careers.ntpc.co.in/",
       "pdfUrl": null,
-      "status": "open",
+      "status": "closed",
       "opensOn": null,
       "closesOn": "2026-10-13",
       "expected": null,
@@ -2092,9 +2175,9 @@
     {
       "id": "sail-young-professional",
       "source": "psu-sweep",
-      "org": "SAIL",
+      "org": "Steel Authority of India Limited (SAIL)",
       "title": "Young Professional (YP-1, YP-2, YP-3)",
-      "summary": "Recruitment for 11 Young Professional vacancies in Marketing, C&IT, Finance, Statutory Compliance, and Environment Management Division.",
+      "summary": "SAIL has announced 11-23 vacancies for Young Professionals on a fixed-term contract basis in Marketing, C&IT, Finance, Statutory Compliance, and Environment Management Division. Eligible candidates with B.E./B.Tech/MCA/MBA/CA/CMA/Graduate with relevant post-qualification experience can apply online.",
       "advtNo": "CMO/YP/2026-01",
       "posts": 11,
       "url": "https://www.sail.co.in/careers",
@@ -2102,9 +2185,9 @@
       "status": "open",
       "opensOn": "2026-09-30",
       "closesOn": "2026-10-15",
-      "expected": null,
+      "expected": "Selection involves Computer Based Test (CBT) and/or Personal Interaction.",
       "fit": "strong",
-      "fitLabel": "Strong (Any-graduate management roles); Gated (Requires CS/IT degree)",
+      "fitLabel": "B.Tech Mechanical eligible, IT/Management roles, strong fit due to software experience.",
       "tags": [
         "Management",
         "IT"
@@ -2146,34 +2229,7 @@
       "firstSeen": "2026-10-13T04:51:51.557Z"
     },
     {
-      "id": "sbi-specialist-cadre-officer-contract-basis",
-      "source": "sbi",
-      "org": "SBI",
-      "title": "Specialist Cadre Officers (IT Risk)",
-      "summary": "SBI is recruiting Specialist Cadre Officers for IT Risk roles on contract. These positions require a degree in CS/IT/Electronics or related fields, which is a mandatory eligibility criterion. Application deadline extended to 16.10.2026.",
-      "advtNo": "CRPD/SCO/2026-27/22",
-      "posts": null,
-      "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-22/apply",
-      "pdfUrl": "https://sbi.bank.in/documents/77530/57941334/16092026_ADV_CRPD_SCO_2026_27_22.pdf/6285a84d-5171-c301-5817-fe41b4a83cad?t=1789538056721",
-      "status": "open",
-      "opensOn": "2026-09-16",
-      "closesOn": "2026-10-16",
-      "expected": null,
-      "fit": "gated",
-      "fitLabel": "Degree-gated: CS/IT",
-      "tags": [
-        "CS/IT degree required"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-09-17T02:44:17.112Z"
-    },
-    {
-      "id": "sbi-specialist-cadre-officers-dean-faculty-marketing-executive",
+      "id": "sbi-specialist-cadre-officer-group-ciso",
       "source": "sbi",
       "org": "SBI",
       "title": "Specialist Cadre Officers (Dean, Faculty & Marketing Executive)",
@@ -2190,6 +2246,34 @@
       "fitLabel": "Strong fit — management",
       "tags": [
         "Contractual"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-09-17T02:44:17.112Z"
+    },
+    {
+      "id": "sbi-specialist-cadre-officer-contract-basis",
+      "source": "sbi",
+      "org": "SBI",
+      "title": "Engagement of Specialist Cadre Officers (IT Risk)",
+      "summary": "SBI is recruiting Specialist Cadre Officers for IT Risk roles on contract. The application deadline has been extended to October 16, 2026. This is an IT role requiring a specific degree.",
+      "advtNo": "CRPD/SCO/2026-27/22",
+      "posts": null,
+      "url": "https://sbi.bank.in/web/careers/current-openings",
+      "pdfUrl": "https://sbi.bank.in/documents/77530/57941334/16092026_ADV_CRPD_SCO_2026_27_22.pdf/6285a84d-5171-c301-5817-fe41b4a83cad?t=1789538056721",
+      "status": "open",
+      "opensOn": "2026-09-16",
+      "closesOn": "2026-10-16",
+      "expected": null,
+      "fit": "gated",
+      "fitLabel": "Degree-gated: CS/IT",
+      "tags": [
+        "IT role",
+        "Degree-gated"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -2249,19 +2333,19 @@
       "source": "drdo-rac",
       "org": "DRDO RAC",
       "title": "Scientist 'B'",
-      "summary": "The Recruitment & Assessment Centre (RAC) of DRDO has issued a public notice regarding the upcoming direct recruitment for Scientist 'B' positions in DRDO and other establishments under the Ministry of Defence. Recruitment will be based on a valid GATE score (for applicable disciplines) and/or written test/interview.",
+      "summary": "Recruitment for Scientist 'B' in Defence Research & Development Organization (DRDO), Aeronautical Development Agency (ADA), and other Defence Establishments. Positions are filled based on a valid GATE score and Personal Interview.",
       "advtNo": "156",
-      "posts": 152,
+      "posts": 148,
       "url": "https://rac.gov.in",
-      "status": "upcoming",
+      "status": "open",
       "opensOn": "2026-09-25",
       "closesOn": "2026-10-16",
       "expected": "A detailed advertisement for Scientist 'B' recruitment through GATE for 2026/2027 is expected to be released soon on the official RAC website and in Employment News. The application window will be 21 days from the date of publication of the detailed advertisement.",
       "fit": "moderate",
-      "fitLabel": "Core engineering post (Mechanical eligible), not primary interest but acceptable.",
+      "fitLabel": "Core engineering role (Mechanical eligible), but candidate prefers management/IT roles.",
       "tags": [
         "Engineering",
-        "GATE"
+        "Scientist"
       ],
       "firstSeen": "2026-07-18T01:47:21.775Z",
       "pdfUrl": "https://rac.gov.in/download/advt_156"
@@ -2350,22 +2434,22 @@
     {
       "id": "indian-oil-corporation-limited-iocl-executive-posts-engineers-officers-law-offic",
       "source": "psu-sweep",
-      "org": "HAL",
-      "title": "Junior Executive (Short-Term Basis)",
-      "summary": "Recruitment for 150 Junior Executive posts across nine engineering disciplines, including 78 vacancies for Mechanical Engineering.",
+      "org": "Hindustan Aeronautics Limited (HAL)",
+      "title": "Junior Executive",
+      "summary": "HAL has announced 150 Junior Executive vacancies on a short-term basis across nine engineering disciplines, including Mechanical. Eligible engineering graduates can apply online. The selection process involves shortlisting based on qualifying examination marks, followed by an interview.",
       "advtNo": "HAL/CHRC-TAR/RECT-03/2026",
       "posts": 150,
-      "url": "https://hal-india.co.in/Careers.aspx",
+      "url": "https://hal-india.co.in/Careers",
       "pdfUrl": "https://hal-india.co.in/backend//wp-content/uploads/career/Detailed%20Advt%20JESTB%2007-10-2026_1791362564.pdf",
       "status": "open",
       "opensOn": "2026-10-07",
       "closesOn": "2026-10-17",
-      "expected": null,
+      "expected": "Interview in November 2026.",
       "fit": "moderate",
-      "fitLabel": "Core Mechanical Engineering role. While eligible, it is not a management or IT role as primarily sought by the candidate.",
+      "fitLabel": "B.Tech Mechanical eligible, core engineering role.",
       "tags": [
-        "Mechanical Engineering",
-        "Engineering"
+        "Engineering",
+        "Mechanical"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -2458,34 +2542,6 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-10-08T03:52:16.385Z"
-    },
-    {
-      "id": "bel-project-engineer-i",
-      "source": "psu-sweep",
-      "org": "BEL",
-      "title": "Project Engineer-I",
-      "summary": "Recruitment for Project Engineer-I in Electronics and Computer Science disciplines on a temporary basis, requiring a minimum of 2 years of industrial experience.",
-      "advtNo": "383/HR/EW&A/2026-27",
-      "posts": 14,
-      "url": "https://bel-india.in/Careers.aspx",
-      "pdfUrl": "https://www.govtjobsalert.in/wp-content/uploads/2026/10/BEL-Project-Engineer-I-Recruitment-2026-Notification.pdf",
-      "status": "open",
-      "opensOn": "2026-10-09",
-      "closesOn": "2026-10-23",
-      "expected": null,
-      "fit": "gated",
-      "fitLabel": "Requires a CS/Electronics degree, which the candidate does not possess.",
-      "tags": [
-        "IT",
-        "Electronics Engineering"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-10-12T03:37:54.846Z"
     },
     {
       "id": "lic-housing-finance-limited-management-trainee-marketing-sales-recruitment-2026",
@@ -2652,6 +2708,62 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-10-13T04:50:10.140Z"
+    },
+    {
+      "id": "nabard-specialist-recruitment-2026",
+      "source": "nabard",
+      "org": "NABARD",
+      "title": "Specialist Recruitment 2026",
+      "summary": "Recruitment for 16 specialist positions including SOC Analyst, Information Security Analyst, Network Security Analyst, Ethical Hacker & Penetration Tester, Lead Auditor, Cyber & Network Security Specialist, IT Infrastructure & Banking Specialist, and Cyber Security Analyst on contract.",
+      "advtNo": "04",
+      "posts": 16,
+      "url": "https://www.nabard.org/career.aspx",
+      "pdfUrl": null,
+      "status": "open",
+      "opensOn": "2026-10-09",
+      "closesOn": "2026-10-26",
+      "expected": null,
+      "fit": "gated",
+      "fitLabel": "IT roles typically require a CS/IT/Electronics degree, which the candidate does not have.",
+      "tags": [
+        "IT",
+        "Cyber Security"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-10-14T02:57:46.807Z"
+    },
+    {
+      "id": "bel-project-engineer-i",
+      "source": "psu-sweep",
+      "org": "Bharat Electronics Limited (BEL)",
+      "title": "Project Engineer-I",
+      "summary": "BEL has published a recruitment notification for 11 temporary Project Engineer-I posts in New Delhi and Bengaluru. Eligible candidates holding a BE/B.Tech in Computer Science/Electronics & Communication can apply online.",
+      "advtNo": "383/HR/MILCOM & NWCS",
+      "posts": 11,
+      "url": "https://bel-india.in/Careers.aspx",
+      "pdfUrl": "https://www.govtjobsalert.in/wp-content/uploads/2026/10/BEL-Project-Engineer-I-Recruitment-2026-Notification.pdf",
+      "status": "open",
+      "opensOn": "2026-10-13",
+      "closesOn": "2026-10-27",
+      "expected": "Selection process includes a Written Test followed by an Interview.",
+      "fit": "gated",
+      "fitLabel": "Requires CS/IT/Electronics degree, gated for B.Tech Mechanical.",
+      "tags": [
+        "Engineering",
+        "IT"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-10-12T03:37:54.846Z"
     },
     {
       "id": "uppsc-deputy-secretary-i-t",
@@ -2879,6 +2991,34 @@
       "firstSeen": "2026-08-04T01:52:17.829Z"
     },
     {
+      "id": "railway-recruitment-board-rrb-non-technical-popular-categories-ntpc-graduate-lev",
+      "source": "rrb",
+      "org": "Railway Recruitment Board (RRB)",
+      "title": "Non-Technical Popular Categories (NTPC) Undergraduate Level Recruitment",
+      "summary": "Recruitment for various undergraduate-level posts.",
+      "advtNo": "CEN 07/2026",
+      "posts": 1688,
+      "url": "https://rrbapply.gov.in",
+      "pdfUrl": null,
+      "status": "upcoming",
+      "opensOn": "2026-10-15",
+      "closesOn": "2026-11-13",
+      "expected": null,
+      "fit": "strong",
+      "fitLabel": "Any-graduate management exams (PCS, RBI Grade B, NABARD Grade A, bank PO, SEBI Grade A General which accepts any engineering bachelor's) are \"strong\".",
+      "tags": [
+        "NTPC",
+        "Undergraduate"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-10-14T02:58:34.612Z"
+    },
+    {
       "id": "uppsc-food-safety-and-drug-administration-recruitment-in-food-safety-and-drug-ad",
       "source": "uppsc",
       "org": "UPPSC · Food Safety and Drug Administration",
@@ -2930,20 +3070,20 @@
       "id": "bel-trainee-engineer-i",
       "source": "psu-sweep",
       "org": "GAIL (India) Limited",
-      "title": "Executive Trainee (Chemical, Electrical, Instrumentation, Mechanical)",
-      "summary": "GAIL (India) Limited has released a notification for the recruitment of Executive Trainees through GATE 2027. The vacancies are available in Chemical, Electrical, Instrumentation, and Mechanical disciplines.",
+      "title": "Career Opportunities as Executive Trainee (BIS/IT)",
+      "summary": "GAIL India invites online applications for various posts including Executive Trainee (BIS/IT).",
       "advtNo": "GAIL/OPEN/ET/1/2026",
       "posts": "Executive Trainee (Chemical, Electrical, Instrumentation, Mechanical)",
-      "url": "https://gailonline.com/",
-      "status": "upcoming",
-      "opensOn": "2027-02-17",
+      "url": "https://www.gailonline.com/careers.html",
+      "status": "open",
+      "opensOn": "2026-09-09",
       "closesOn": "2027-03-18",
-      "expected": "Detailed notification in February 2027",
-      "fit": "moderate",
-      "fitLabel": "B.Tech Mechanical is eligible for Executive Trainee (Mechanical), which is a core engineering role.",
+      "expected": "Requires GATE 2027 score.",
+      "fit": "gated",
+      "fitLabel": "Most government IT posts require a CS/IT/Electronics DEGREE, which this candidate does not have.",
       "tags": [
         "Engineering",
-        "GATE"
+        "Mechanical"
       ],
       "firstSeen": "2026-07-19T01:59:17.405Z",
       "pdfUrl": "https://www.powergrid.in/sites/default/files/Detailed%20Advertisement%20ET-2027%20through%20GATE-2027.pdf"
@@ -2975,31 +3115,6 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-09-17T02:47:40.802Z"
-    },
-    {
-      "id": "gail-india-limited-career-opportunities-as-executive-trainee-senior-officer-etc",
-      "source": "psu-sweep",
-      "org": "GAIL (India) Limited",
-      "title": "Career Opportunities as Executive Trainee (BIS/IT)",
-      "summary": "GAIL India invites online applications for various posts including Executive Trainee (BIS/IT).",
-      "advtNo": null,
-      "posts": null,
-      "url": "https://www.gailonline.com/careers.html",
-      "pdfUrl": null,
-      "status": "open",
-      "opensOn": "2026-09-09",
-      "closesOn": "2027-03-18",
-      "expected": null,
-      "fit": "gated",
-      "fitLabel": "Most government IT posts require a CS/IT/Electronics DEGREE, which this candidate does not have.",
-      "tags": [],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-09-28T02:53:09.430Z"
     },
     {
       "id": "upsc-ut-of-ladakh-accounts-officer",
@@ -3240,18 +3355,18 @@
       "id": "nabard-assistant-manager-grade-a",
       "source": "nabard",
       "org": "NABARD",
-      "title": "Assistant Manager in Grade 'A' (RDBS/Legal Service/P&SS)",
-      "summary": "NABARD is expected to release the official notification for Assistant Manager (Grade A) recruitment across various streams, including General, Agriculture, IT, and Finance.",
+      "title": "Assistant Manager (Grade A) Recruitment 2026",
+      "summary": "Upcoming recruitment for Assistant Manager (Grade A) positions across various disciplines. Expected 100+ vacancies.",
       "advtNo": null,
-      "posts": "80-100 (Expected)",
-      "url": "https://www.nabard.org/career-notices",
+      "posts": 100,
+      "url": "https://www.nabard.org/career.aspx",
       "pdfUrl": null,
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "Notification for NABARD Grade A 2026 is expected to be released in October 2026, with the application window opening thereafter.",
+      "expected": "Mid-October 2026 (for notification release)",
       "fit": "strong",
-      "fitLabel": "The General stream for Assistant Manager (Grade A) accepts any Bachelor's degree, making it suitable for management roles.",
+      "fitLabel": "Any engineering bachelor's degree is typically eligible for NABARD Grade A management roles.",
       "tags": [
         "Management",
         "Banking"
@@ -3620,6 +3735,34 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-10-13T04:52:27.167Z"
+    },
+    {
+      "id": "power-grid-corporation-of-india-limited-powergrid-engineer-trainees-2027",
+      "source": "psu-sweep",
+      "org": "Power Grid Corporation of India Limited (POWERGRID)",
+      "title": "Engineer Trainees-2027",
+      "summary": "POWERGRID will be recruiting Engineer Trainees through GATE 2027.",
+      "advtNo": "CC/03/2026",
+      "posts": null,
+      "url": "https://powergrid.in/job-opportunities",
+      "pdfUrl": null,
+      "status": "upcoming",
+      "opensOn": null,
+      "closesOn": null,
+      "expected": "Requires GATE 2027 score.",
+      "fit": "moderate",
+      "fitLabel": "B.Tech Mechanical eligible, core engineering role, requires GATE 2027 score.",
+      "tags": [
+        "Engineering",
+        "PSU"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-10-14T02:59:33.298Z"
     }
   ]
 }
