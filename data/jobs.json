@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-11-11T04:01:03.283Z",
+  "lastScan": "2026-11-12T05:10:32.577Z",
   "jobs": [
     {
       "id": "sail-young-professionals-recruitment-2026-rourkela-steel-plant",
@@ -239,59 +239,6 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-08-17T00:47:42.378Z"
-    },
-    {
-      "id": "ibps-crp-rrbs-xv-officers-scale-i-ii-iii-and-office-assistants",
-      "source": "ibps",
-      "org": "IBPS",
-      "title": "CRP RRBs-XV (Officer Scale III)",
-      "summary": "Common Recruitment Process for Regional Rural Banks (CRP-RRBs-XV) for the post of Officer Scale III. Requires a Bachelor's degree in any discipline and a minimum of 5 years experience as an Officer in a Bank or Financial Institution. A total of 13757 vacancies have been announced for various posts under this recruitment.",
-      "advtNo": "CRP-RRBs-XV",
-      "posts": 13757,
-      "url": "https://www.ibps.in/",
-      "pdfUrl": "https://www.ibps.in/wp-content/uploads/CRP_RRBs_XV_Notification.pdf",
-      "status": "closed",
-      "opensOn": "2026-09-01",
-      "closesOn": "2026-09-27",
-      "expected": null,
-      "fit": "moderate",
-      "fitLabel": "",
-      "tags": [
-        "Banking",
-        "Government"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-09-01T02:56:46.029Z"
-    },
-    {
-      "id": "ibps-crp-rrbs-xv-office-assistants-multipurpose",
-      "source": "ibps",
-      "org": "IBPS",
-      "title": "CRP RRBs-XV (Office Assistant - Multipurpose)",
-      "summary": "Common Recruitment Process for Regional Rural Banks (CRP-RRBs-XV) for the post of Office Assistant (Multipurpose) in participating Regional Rural Banks. A total of 13757 vacancies have been announced for various posts under this recruitment.",
-      "advtNo": "CRP-RRBs-XV",
-      "posts": 13757,
-      "url": "https://www.ibps.in/",
-      "pdfUrl": "https://www.ibps.in/wp-content/uploads/CRP_RRBs_XV_Notification.pdf",
-      "status": "closed",
-      "opensOn": "2026-09-01",
-      "closesOn": "2026-09-27",
-      "expected": null,
-      "fit": "strong",
-      "fitLabel": "",
-      "tags": [],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-09-20T02:43:08.133Z"
     },
     {
       "id": "national-informatics-centre-nic-scientific-technical-assistant-a",
@@ -1943,6 +1890,34 @@
       "firstSeen": "2026-10-12T03:37:54.846Z"
     },
     {
+      "id": "power-grid-corporation-of-india-limited-powergrid-engineer-trainee-computer-scie",
+      "source": "psu-sweep",
+      "org": "BEL",
+      "title": "Trainee Engineer-I",
+      "summary": "Walk-in selection for Trainee Engineer-I at BEL Kotdwar. The advertisement was released on October 26, 2026.",
+      "advtNo": "CC/03/2026 dated 24.09.2026",
+      "posts": 319,
+      "url": "https://www.bel-india.in/Careers.aspx",
+      "pdfUrl": "https://www.bel-india.in/Documentviews.aspx?fileName=TE-I-Kotdwar-Detailed-Advertisement-26-10-2026.pdf",
+      "status": "closed",
+      "opensOn": "2026-10-26",
+      "closesOn": "2026-11-05",
+      "expected": "Application window for GATE 2027 based recruitment will open later.",
+      "fit": "moderate",
+      "fitLabel": "Core engineering role, Mechanical eligible.",
+      "tags": [
+        "Engineer",
+        "Trainee"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-11-08T03:43:54.835Z"
+    },
+    {
       "id": "railway-recruitment-board-ntpc-graduate-level-posts",
       "source": "rrb",
       "org": "Railway Recruitment Board (RRB)",
@@ -2134,9 +2109,9 @@
     {
       "id": "ntpc-executive-civil-electrical-mechanical",
       "source": "ntpc",
-      "org": "NTPC",
-      "title": "Executive (Civil, Electrical, Mechanical)",
-      "summary": "NTPC Limited has released Advertisement No. 15/26 for the recruitment of experienced professionals on a fixed-term basis for its Gas Engine-Based Power Project at Great Nicobar Island (GNI). The recruitment drive is being conducted for Executive positions in Civil, Electrical and Mechanical Engineering disciplines.",
+      "org": "NTPC Limited",
+      "title": "Executive (Civil/Electrical/Mechanical)",
+      "summary": "Recruitment of experienced professionals on Fixed Term Basis for Gas Engine based power project at Great Nicobar Island (GNI).",
       "advtNo": "15/26",
       "posts": 6,
       "url": "https://careers.ntpc.co.in/",
@@ -2146,10 +2121,10 @@
       "closesOn": "2026-11-13",
       "expected": null,
       "fit": "moderate",
-      "fitLabel": "Core engineering post (Mechanical eligible), but candidate is primarily interested in IT/Management roles and has software engineering experience.",
+      "fitLabel": "B.Tech Mechanical eligible, but experience in SWE might not directly match core mechanical executive duties.",
       "tags": [
-        "Engineering",
-        "Mechanical"
+        "Executive",
+        "Mechanical Engineering"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -2214,6 +2189,34 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-11-10T05:29:34.110Z"
+    },
+    {
+      "id": "railway-recruitment-board-rrb-ntpc-undergraduate-level-posts",
+      "source": "rrb",
+      "org": "Railway Recruitment Board (RRB)",
+      "title": "NTPC Undergraduate Level Posts",
+      "summary": "Recruitment for 1,688 undergraduate-level posts including Commercial Cum Ticket Clerk, Accounts Clerk cum Typist, Junior Clerk cum Typist, and Trains Clerk under CEN 07/2026.",
+      "advtNo": "CEN 07/2026",
+      "posts": 1688,
+      "url": "https://rrbapply.gov.in",
+      "pdfUrl": null,
+      "status": "open",
+      "opensOn": "2026-10-15",
+      "closesOn": "2026-11-13",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Non-technical clerical posts, open to 12th pass candidates. While a B.Tech graduate is eligible, it's not directly in management or IT roles, nor is it a graduate-level management exam.",
+      "tags": [
+        "NTPC",
+        "Clerical"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-11-12T05:09:12.116Z"
     },
     {
       "id": "sbi-recruitment-of-specialist-cadre-officer-regular-basis",
@@ -2311,34 +2314,6 @@
       "tags": [
         "Engineering",
         "Electronics"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-11-08T03:43:54.835Z"
-    },
-    {
-      "id": "power-grid-corporation-of-india-limited-powergrid-engineer-trainee-computer-scie",
-      "source": "psu-sweep",
-      "org": "Power Grid",
-      "title": "Engineer Trainee",
-      "summary": "Power Grid Corporation of India Limited (POWERGRID) has announced the recruitment of Engineer Trainees through GATE 2027.",
-      "advtNo": "CC/03/2026 dated 24.09.2026",
-      "posts": 319,
-      "url": "https://www.powergrid.in/job-opportunities",
-      "pdfUrl": "https://www.powergrid.in/sites/default/files/Notice%2002_2026%20dated%2003-11-2026_Vacancy%20Notification.pdf",
-      "status": "upcoming",
-      "opensOn": "2026-11-03",
-      "closesOn": "2026-11-18",
-      "expected": "Application window for GATE 2027 based recruitment will open later.",
-      "fit": "gated",
-      "fitLabel": "Expected to be IT/Core Engineering roles (e.g., Computer Science for IT) requiring specific degrees, candidate has Mechanical. Mechanical Engineering may or may not be eligible. Requires GATE 2027.",
-      "tags": [
-        "Engineer Trainee",
-        "IT"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -2517,20 +2492,20 @@
       "source": "rrb",
       "org": "Railway Recruitment Board (RRB)",
       "title": "Station Master",
-      "summary": "Recruitment for 1,265 Station Master posts in Indian Railways under Centralised Employment Notice (CEN) 08/2026. Eligible candidates with a graduation degree can apply online.",
+      "summary": "Recruitment for 1,265 Station Master posts under CEN 08/2026.",
       "advtNo": "CEN 08/2026",
       "posts": 1265,
-      "url": "https://www.rrbapply.gov.in",
+      "url": "https://rrbapply.gov.in",
       "pdfUrl": "https://rrb.indianrailways.gov.in/-/image/1793016771817CEN_08_2026_StationMaster.pdf/examsDocuments",
       "status": "open",
       "opensOn": "2026-10-27",
       "closesOn": "2026-11-25",
       "expected": "CBT tentatively scheduled for January 2027",
       "fit": "strong",
-      "fitLabel": "Any-graduate management exams",
+      "fitLabel": "Management role, open to any graduate, including engineering bachelors, aligning with the candidate's interest in management.",
       "tags": [
-        "Management",
-        "Graduate"
+        "Station Master",
+        "Management"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -2599,9 +2574,9 @@
     {
       "id": "uppsc-review-officer-ro-assistant-review-officer-aro",
       "source": "regulators-sweep",
-      "org": "UPPSC",
+      "org": "Uttar Pradesh Public Service Commission (UPPSC)",
       "title": "Review Officer (RO)/Assistant Review Officer (ARO)",
-      "summary": "The Uttar Pradesh Public Service Commission (UPPSC) has released the UPPSC Review Officer (RO)/Assistant Review Officer (ARO) Recruitment Notification 2026, announcing 501 vacancies across various departments. Online application begins on 26th October 2026 and closes on 26th November 2026.",
+      "summary": "The Uttar Pradesh Public Service Commission (UPPSC) has announced recruitment for 501 vacancies for Review Officer (RO) and Assistant Review Officer (ARO) across various departments of the Uttar Pradesh government.",
       "advtNo": "A-4/E-1/2026",
       "posts": 501,
       "url": "https://uppsc.up.nic.in",
@@ -2611,10 +2586,9 @@
       "closesOn": "2026-11-26",
       "expected": null,
       "fit": "strong",
-      "fitLabel": "Any-graduate administrative role",
+      "fitLabel": "This is an any-graduate management role, which is a strong fit for the candidate.",
       "tags": [
-        "Administrative",
-        "Review Officer"
+        "Management"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -2792,6 +2766,34 @@
       "firstSeen": "2026-11-09T03:55:35.839Z"
     },
     {
+      "id": "uppsc-sports-officer-recruitment-2026",
+      "source": "regulators-sweep",
+      "org": "Uttar Pradesh Public Service Commission (UPPSC)",
+      "title": "Assistant Architect Planner, Sports Officer & Programmer Grade-2",
+      "summary": "The Uttar Pradesh Public Service Commission (UPPSC) has released a notification for 25 vacancies across Assistant Architect Planner, Sports Officer, and Programmer Grade-2 posts.",
+      "advtNo": "A-5/E-1/2026",
+      "posts": 25,
+      "url": "https://uppsc.up.nic.in",
+      "pdfUrl": null,
+      "status": "open",
+      "opensOn": "2026-11-04",
+      "closesOn": "2026-12-04",
+      "expected": null,
+      "fit": "gated",
+      "fitLabel": "Programmer Grade-2 requires a CS/IT/Electronics degree, which the candidate does not possess. Other posts are not relevant to the candidate's profile.",
+      "tags": [
+        "IT",
+        "Engineering"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-11-05T04:31:26.773Z"
+    },
+    {
       "id": "indian-oil-corporation-limited-iocl-pipelines-apprentice-recruitment-2026",
       "source": "psu-sweep",
       "org": "Indian Oil Corporation Limited (IOCL)",
@@ -2870,34 +2872,6 @@
       "firstSeen": "2026-09-26T02:53:00.364Z"
     },
     {
-      "id": "uppsc-sports-officer-recruitment-2026",
-      "source": "uppsc",
-      "org": "UPPSC",
-      "title": "Assistant Architect Planner / Sports Officer / Programmer Grade-2 Examination-2026",
-      "summary": "Combined examination for Assistant Architect Planner, Sports Officer, and Programmer Grade-2 posts. Programmer role is IT-focused but likely requires a CS/IT/Electronics degree, making it gated for a Mechanical B.Tech.",
-      "advtNo": "A-5/E-1/2026",
-      "posts": 1,
-      "url": "https://uppsc.up.nic.in/",
-      "pdfUrl": null,
-      "status": "open",
-      "opensOn": "2026-11-04",
-      "closesOn": "2026-12-11",
-      "expected": null,
-      "fit": "gated",
-      "fitLabel": "Degree-gated: CS/IT for Programmer",
-      "tags": [
-        "IT role",
-        "Engineering role"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-11-05T04:31:26.773Z"
-    },
-    {
       "id": "uppsc-food-safety-and-drug-administration-recruitment-in-food-safety-and-drug-ad",
       "source": "uppsc",
       "org": "UPPSC · Food Safety and Drug Administration",
@@ -2929,16 +2903,16 @@
       "source": "upsc",
       "org": "UPSC",
       "title": "Civil Services Examination (CSE) 2027",
-      "summary": "The Union Public Service Commission (UPSC) will release the notification for the Civil Services Examination (CSE) 2027 for recruitment to prestigious services like IAS, IPS, IFS, IRS, and other Group A & Group B services. A bachelor's degree from a recognized university is required for eligibility.",
+      "summary": "The Union Public Service Commission (UPSC) will release the notification for the Civil Services Examination (CSE) 2027, which is a prestigious examination for recruitment to various Group A and Group B services including IAS, IPS, IFS, and IRS.",
       "advtNo": null,
       "posts": null,
-      "url": "https://upsc.gov.in",
+      "url": "https://upsconline.nic.in/",
       "status": "upcoming",
       "opensOn": "2027-01-13",
       "closesOn": "2027-02-02",
       "expected": null,
       "fit": "strong",
-      "fitLabel": "Any-graduate management exam",
+      "fitLabel": "Any engineering bachelor's degree is eligible for this general management exam.",
       "tags": [
         "Management",
         "Civil Services"
@@ -2948,9 +2922,9 @@
     {
       "id": "bel-trainee-engineer-i",
       "source": "psu-sweep",
-      "org": "GAIL (India) Limited",
-      "title": "Executive Trainee Recruitment 2026 (through GATE-2027)",
-      "summary": "GAIL has issued a pre-advertisement for Executive Trainee positions in Chemical, Electrical, Instrumentation, and Mechanical disciplines through GATE-2027. The detailed vacancy advertisement and application process will be available in February 2027. Candidates must appear in GATE-2027.",
+      "org": "GAIL",
+      "title": "Executive Trainee",
+      "summary": "Recruitment of Executive Trainees in Chemical, Electrical, Instrumentation, and Mechanical disciplines through GATE 2027.",
       "advtNo": "GAIL/OPEN/ET/1/2026",
       "posts": 70,
       "url": "https://gailonline.com/careers",
@@ -2959,10 +2933,10 @@
       "closesOn": "2027-03-18",
       "expected": "Detailed notification and application in February 2027.",
       "fit": "moderate",
-      "fitLabel": "Core engineering post, Mechanical eligible, requires GATE-2027.",
+      "fitLabel": "Core engineering role, Mechanical eligible.",
       "tags": [
-        "Engineering",
-        "Mechanical"
+        "Engineer",
+        "Trainee"
       ],
       "firstSeen": "2026-07-19T01:59:17.405Z",
       "pdfUrl": "https://gailonline.com/careers"
@@ -2998,9 +2972,9 @@
     {
       "id": "gail-india-limited-executive-trainee-through-gate-2027",
       "source": "psu-sweep",
-      "org": "Power Grid Corporation of India Limited (POWERGRID)",
-      "title": "Recruitment of Engineer Trainees-2027 through GATE 2027",
-      "summary": "POWERGRID will recruit Engineer Trainees for 2027 through GATE 2027. The detailed advertisement for this recruitment drive has been released.",
+      "org": "Power Grid",
+      "title": "Engineer Trainees",
+      "summary": "Recruitment of Engineer Trainees through GATE 2027.",
       "advtNo": "CC/03/2026",
       "posts": null,
       "url": "https://www.powergrid.in/job-opportunities",
@@ -3008,12 +2982,12 @@
       "status": "upcoming",
       "opensOn": "2027-03-01",
       "closesOn": "2027-04-30",
-      "expected": "Application period aligned with GATE 2027.",
+      "expected": "2027",
       "fit": "moderate",
-      "fitLabel": "Core engineering post, Mechanical likely eligible, requires GATE-2027.",
+      "fitLabel": "Core engineering role, Mechanical eligible.",
       "tags": [
-        "Engineering",
-        "Mechanical"
+        "Engineer",
+        "Trainee"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -3919,22 +3893,22 @@
     {
       "id": "steel-authority-of-india-limited-sail-management-trainee-technical",
       "source": "psu-sweep",
-      "org": "Steel Authority of India Limited (SAIL)",
+      "org": "SAIL",
       "title": "Management Trainee (Technical)",
-      "summary": "The next cycle of 314 Management Trainee (Technical) posts is expected for 2026-27 vacancies at Steel Authority of India Limited (SAIL).",
+      "summary": "Steel Authority of India Limited (SAIL) will recruit Management Trainees (Technical) through GATE 2026/2027 in various engineering disciplines. The next cycle is expected to be notified for 314 posts.",
       "advtNo": null,
       "posts": 314,
-      "url": "https://www.sail.co.in/",
+      "url": "https://www.sail.co.in/careers",
       "pdfUrl": null,
       "status": "upcoming",
       "opensOn": null,
       "closesOn": null,
-      "expected": "Next cycle of 314 MTT posts expected for 2026-27 vacancies.",
+      "expected": "July 2027",
       "fit": "moderate",
-      "fitLabel": "Mechanical Engineering eligible for core engineering role.",
+      "fitLabel": "Core engineering role, Mechanical eligible. CS/IT would be gated.",
       "tags": [
-        "Engineering",
-        "Management Trainee"
+        "Engineer",
+        "Trainee"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
