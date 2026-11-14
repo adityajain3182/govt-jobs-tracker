@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-11-13T04:29:04.389Z",
+  "lastScan": "2026-11-14T04:24:58.193Z",
   "jobs": [
     {
       "id": "sail-young-professionals-recruitment-2026-rourkela-steel-plant",
@@ -372,8 +372,8 @@
       "id": "isro-nesac-research-scientists-junior-research-fellows-and-project-associate-i",
       "source": "isro",
       "org": "ISRO · SAC",
-      "title": "Junior Research Fellows, Research Associate, Project Scientist-I",
-      "summary": "Inviting online applications for Junior Research Fellows, Research Associate, and Project Scientist-I posts at SAC.",
+      "title": "Junior Research Fellows, Research Associate and Project Scientist-I",
+      "summary": "Inviting online applications for Junior Research Fellows, Research Associate, and Project Scientist-I positions. These are research-oriented scientific roles.",
       "advtNo": "SAC:02:2026",
       "posts": "Various posts",
       "url": "https://www.isro.gov.in/SACRecruitment21.html",
@@ -383,9 +383,10 @@
       "closesOn": "2026-10-01",
       "expected": null,
       "fit": "moderate",
-      "fitLabel": "Moderate fit — research/engineering",
+      "fitLabel": "Moderate fit — research/scientific",
       "tags": [
-        "Research roles"
+        "Research",
+        "Scientific"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -1209,21 +1210,22 @@
     {
       "id": "isro-lpsc-technical-assistant-technician-b-draughtsman-b-and-fireman-a",
       "source": "isro",
-      "org": "ISRO · IPRC",
-      "title": "Technical Assistant, Technician 'B', Cook 'A' and Fireman 'A'",
-      "summary": "Online applications invited for Technical Assistant, Technician 'B', Cook 'A', and Fireman 'A'. Application submission closed on 24.10.2026; fee payment extended to 29.10.2026. Technical Assistant might be a moderate fit if Mechanical is eligible.",
-      "advtNo": "IPRC/RMT/2026/01",
+      "org": "ISRO · SDSC SHAR",
+      "title": "Technical Assistant, Scientific Assistant, Library Assistant, Nurse, Technician, Draughtsman, Fireman, LVD, HVD, MTS",
+      "summary": "Recruitment for various posts including Technical Assistant, Scientific Assistant, Library Assistant, Nurse, Technician, Draughtsman, Fireman, LVD, HVD, and Multi-Tasking Staff.",
+      "advtNo": "SDSC SHAR/RMT/03/2026",
       "posts": "Various posts",
-      "url": "https://www.isro.gov.in/IPRCRecruitment4.html",
+      "url": "https://www.isro.gov.in/SDSCRecruitment26.html",
       "pdfUrl": null,
       "status": "closed",
-      "opensOn": "2026-09-12",
+      "opensOn": "2026-10-19",
       "closesOn": "2026-10-24",
       "expected": null,
       "fit": "moderate",
-      "fitLabel": "Moderate fit — mixed roles",
+      "fitLabel": "Moderate fit — various technical/support",
       "tags": [
-        "Technical posts"
+        "Technical",
+        "Support"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -1232,33 +1234,6 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-07-10T18:30:30.793Z"
-    },
-    {
-      "id": "isro-sdsc-shar-technical-assistant-scientific-assistant-other-posts",
-      "source": "isro",
-      "org": "ISRO · SDSC SHAR",
-      "title": "Technical Assistant, Scientific Assistant & Other Posts",
-      "summary": "Recruitment for various posts including Technical Assistant, Scientific Assistant, Library Assistant ‘A’, Nurse ‘B’, Technician ‘B’/Draughtsman ‘B’, Fireman ‘A’, LVD ‘A’ & HVD ‘A’, Multi-Tasking Staff.",
-      "advtNo": "SDSC SHAR/RMT/03/2026",
-      "posts": null,
-      "url": "https://www.isro.gov.in/SDSCRecruitment26.html",
-      "pdfUrl": null,
-      "status": "closed",
-      "opensOn": "2026-10-19",
-      "closesOn": "2026-10-24",
-      "expected": null,
-      "fit": "moderate",
-      "fitLabel": "Moderate fit — technical/scientific",
-      "tags": [
-        "Mechanical eligible"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-10-24T02:43:57.351Z"
     },
     {
       "id": "bel-senior-assistant-officer",
@@ -1890,34 +1865,6 @@
       "firstSeen": "2026-10-12T03:37:54.846Z"
     },
     {
-      "id": "railway-recruitment-board-ntpc-graduate-level-posts",
-      "source": "rrb",
-      "org": "Railway Recruitment Board (RRB)",
-      "title": "NTPC Graduate Recruitment 2026",
-      "summary": "Recruitment for 3,548 Graduate-level posts including Goods Train Manager, Chief Commercial cum Ticket Supervisor, Junior Accounts Assistant cum Typist, and Senior Clerk cum Typist.",
-      "advtNo": "CEN 06/2026",
-      "posts": 3548,
-      "url": "https://rrbapply.gov.in",
-      "pdfUrl": null,
-      "status": "closed",
-      "opensOn": "2026-10-08",
-      "closesOn": "2026-11-08",
-      "expected": "CBT 1 in 4th week of December 2026",
-      "fit": "strong",
-      "fitLabel": "Any-graduate management exams (accepts any engineering bachelor's)",
-      "tags": [
-        "NTPC",
-        "Graduate"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-08-04T01:52:17.829Z"
-    },
-    {
       "id": "sbi-specialist-cadre-officer-ai-analytics-technology",
       "source": "sbi",
       "org": "SBI",
@@ -2060,7 +2007,7 @@
       "posts": 1688,
       "url": "https://rrbapply.gov.in/",
       "pdfUrl": null,
-      "status": "open",
+      "status": "closed",
       "opensOn": "2026-10-15",
       "closesOn": "2026-11-13",
       "expected": null,
@@ -2088,7 +2035,7 @@
       "posts": 6,
       "url": "https://careers.ntpc.co.in/",
       "pdfUrl": "https://careers.ntpc.co.in/openings/Advt%20English_15_26.pdf",
-      "status": "open",
+      "status": "closed",
       "opensOn": "2026-10-30",
       "closesOn": "2026-11-13",
       "expected": null,
@@ -2116,7 +2063,7 @@
       "posts": null,
       "url": "https://hal-india.co.in/",
       "pdfUrl": null,
-      "status": "open",
+      "status": "closed",
       "opensOn": null,
       "closesOn": "2026-11-13",
       "expected": null,
@@ -2135,34 +2082,6 @@
       "firstSeen": "2026-11-03T04:50:11.846Z"
     },
     {
-      "id": "railway-recruitment-board-rrb-ntpc-undergraduate-recruitment-2026",
-      "source": "rrb",
-      "org": "Railway Recruitment Board (RRB)",
-      "title": "NTPC Undergraduate Recruitment 2026",
-      "summary": "Recruitment for 1,688 Undergraduate (12th-pass) posts including Commercial cum Ticket Clerk, Accounts Clerk cum Typist, Junior Clerk cum Typist, and Trains Clerk.",
-      "advtNo": "CEN 07/2026",
-      "posts": 1688,
-      "url": "https://rrbapply.gov.in",
-      "pdfUrl": null,
-      "status": "open",
-      "opensOn": "2026-10-15",
-      "closesOn": "2026-11-13",
-      "expected": "CBT 1 date not announced yet",
-      "fit": "strong",
-      "fitLabel": "Any-graduate management exams (accepts any engineering bachelor's)",
-      "tags": [
-        "NTPC",
-        "Undergraduate"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-11-10T05:29:34.110Z"
-    },
-    {
       "id": "railway-recruitment-board-rrb-ntpc-undergraduate-level-posts",
       "source": "rrb",
       "org": "Railway Recruitment Board (RRB)",
@@ -2172,7 +2091,7 @@
       "posts": 1688,
       "url": "https://rrbapply.gov.in",
       "pdfUrl": null,
-      "status": "open",
+      "status": "closed",
       "opensOn": "2026-10-15",
       "closesOn": "2026-11-13",
       "expected": null,
@@ -2200,7 +2119,7 @@
       "posts": null,
       "url": "https://careers.ntpc.co.in/recruitment/",
       "pdfUrl": null,
-      "status": "open",
+      "status": "closed",
       "opensOn": "2026-10-30",
       "closesOn": "2026-11-13",
       "expected": null,
@@ -2217,6 +2136,34 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-11-13T04:24:16.640Z"
+    },
+    {
+      "id": "railway-recruitment-board-ntpc-graduate-level-posts",
+      "source": "rrb",
+      "org": "Railway Recruitment Board (RRB)",
+      "title": "RRB NTPC Undergraduate Recruitment 2026",
+      "summary": "Recruitment for 1,688 undergraduate-level posts including Commercial Cum Ticket Clerk, Accounts Clerk Cum Typist, Junior Clerk Cum Typist, and Trains Clerk, requiring a Class 12th qualification.",
+      "advtNo": "CEN 07/2026",
+      "posts": 1688,
+      "url": "https://rrbapply.gov.in/",
+      "pdfUrl": null,
+      "status": "open",
+      "opensOn": "2026-10-15",
+      "closesOn": "2026-11-15",
+      "expected": "CBT 1 date not announced yet",
+      "fit": "moderate",
+      "fitLabel": "Eligible for general administrative/clerical roles, but not directly aligned with management/IT interests for a B.Tech graduate.",
+      "tags": [
+        "NTPC",
+        "Undergraduate"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-08-04T01:52:17.829Z"
     },
     {
       "id": "sbi-recruitment-of-specialist-cadre-officer-regular-basis",
@@ -2266,34 +2213,6 @@
       ],
       "firstSeen": "2026-07-10T18:37:16.814Z",
       "pdfUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGDF7b5ylOu-o8Xtqv5Z6JQ6docLlLVxZ_JjaXcdNdfuN_LZzShn8jjPzl94Ut5AnjsZxw774agj33IEKOHKl2A3YjXT3wA51Sk4Dpin18lmMQU6AnlaCmPiTSk7eJJWSjoSzeMJbpk8QvgMF7jdbj_TYl1xbyA4MWeSSg9i4oTdEs"
-    },
-    {
-      "id": "bel-probationary-engineer-electronics-and-mechanical",
-      "source": "psu-sweep",
-      "org": "Bharat Electronics Limited (BEL)",
-      "title": "Probationary Engineer (Electronics)",
-      "summary": "Bharat Electronics Limited (BEL) has announced recruitment for 200 Probationary Engineer posts in the Electronics discipline (E-II Grade). The selection process involves a Computer Based Test and an interview.",
-      "advtNo": "17556/HR/All-India/2026",
-      "posts": 200,
-      "url": "https://bel-india.in/",
-      "pdfUrl": "https://www.bel-india.in/Careers.aspx",
-      "status": "open",
-      "opensOn": "2026-10-28",
-      "closesOn": "2026-11-18",
-      "expected": "2026-12-22",
-      "fit": "gated",
-      "fitLabel": "Requires Electronics degree, candidate has Mechanical.",
-      "tags": [
-        "Engineering",
-        "Electronics"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-10-28T03:24:42.928Z"
     },
     {
       "id": "bharat-electronics-limited-bel-probationary-engineer-e-ii-grade",
@@ -2352,6 +2271,34 @@
       "firstSeen": "2026-11-11T03:59:55.351Z"
     },
     {
+      "id": "power-grid-corporation-of-india-limited-powergrid-trainee-engineer-electronics-f",
+      "source": "psu-sweep",
+      "org": "Power Grid Corporation of India Limited (POWERGRID)",
+      "title": "Engineer Trainee through GATE 2026",
+      "summary": "Recruitment for 319 Engineer Trainee posts through GATE 2026 in various engineering disciplines.",
+      "advtNo": "CC/04/2026",
+      "posts": 319,
+      "url": "https://www.powergrid.in/job-opportunities",
+      "pdfUrl": null,
+      "status": "open",
+      "opensOn": "2026-11-03",
+      "closesOn": "2026-11-18",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "B.Tech Mechanical is likely eligible for Engineer Trainee posts, but requires a valid GATE 2026 score in Mechanical Engineering.",
+      "tags": [
+        "Engineering",
+        "GATE"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-11-14T04:24:19.548Z"
+    },
+    {
       "id": "ongc-graduate-apprentice",
       "source": "psu-sweep",
       "org": "ONGC",
@@ -2408,6 +2355,33 @@
       "firstSeen": "2026-11-11T03:59:55.351Z"
     },
     {
+      "id": "isro-lpsc-scientist-engineer-sc",
+      "source": "isro",
+      "org": "ISRO · LPSC",
+      "title": "Scientist / Engineer 'SC'",
+      "summary": "Recruitment for Scientist / Engineer 'SC' posts under Advt. No. LPSC/03/2026. This is a core engineering role.",
+      "advtNo": "LPSC/03/2026",
+      "posts": null,
+      "url": "https://www.isro.gov.in/LPSCRecruitment14.html",
+      "pdfUrl": null,
+      "status": "open",
+      "opensOn": "2026-09-26",
+      "closesOn": "2026-11-20",
+      "expected": null,
+      "fit": "moderate",
+      "fitLabel": "Moderate fit — core engineering",
+      "tags": [
+        "Engineering"
+      ],
+      "minExperienceYears": null,
+      "maxAgeYears": null,
+      "qualification": null,
+      "experienceNote": null,
+      "eligibility": null,
+      "eligibilityReason": null,
+      "firstSeen": "2026-11-06T04:29:48.415Z"
+    },
+    {
       "id": "sbi-specialist-cadre-officers-it-risk",
       "source": "sbi",
       "org": "SBI",
@@ -2462,11 +2436,11 @@
     {
       "id": "railway-recruitment-board-rrb-rrb-station-master-recruitment-2026-27",
       "source": "rrb",
-      "org": "Railway Recruitment Board",
-      "title": "Station Master",
-      "summary": "Recruitment for Station Master posts in Indian Railways, requiring a graduation degree.",
+      "org": "Railway Recruitment Board (RRB)",
+      "title": "RRB Station Master Recruitment 2026",
+      "summary": "Recruitment for 1,265 Station Master posts (Level 6) requiring a graduation degree.",
       "advtNo": "CEN 08/2026",
-      "posts": 1250,
+      "posts": 1265,
       "url": "https://rrbapply.gov.in/",
       "pdfUrl": "https://rrb.indianrailways.gov.in/-/image/1793016771817CEN_08_2026_StationMaster.pdf/examsDocuments",
       "status": "open",
@@ -2474,7 +2448,7 @@
       "closesOn": "2026-11-25",
       "expected": "CBT tentatively scheduled for January 2027",
       "fit": "strong",
-      "fitLabel": "Any-graduate management role, suitable for B.Tech.",
+      "fitLabel": "Management/supervisory role, suitable for a B.Tech graduate interested in management.",
       "tags": [
         "Station Master",
         "Management"
@@ -2544,7 +2518,7 @@
       "firstSeen": "2026-11-05T04:30:58.940Z"
     },
     {
-      "id": "power-grid-corporation-of-india-limited-powergrid-engineer-trainee-computer-scie",
+      "id": "bel-probationary-engineer-electronics-and-mechanical",
       "source": "psu-sweep",
       "org": "BEL",
       "title": "Trainee Engineer-I",
@@ -2569,27 +2543,27 @@
       "experienceNote": null,
       "eligibility": null,
       "eligibilityReason": null,
-      "firstSeen": "2026-11-08T03:43:54.835Z"
+      "firstSeen": "2026-10-28T03:24:42.928Z"
     },
     {
       "id": "uppsc-review-officer-ro-assistant-review-officer-aro",
       "source": "regulators-sweep",
-      "org": "Uttar Pradesh Public Service Commission",
+      "org": "UPPSC",
       "title": "Review Officer (RO)/Assistant Review Officer (ARO) Recruitment 2026",
-      "summary": "The Uttar Pradesh Public Service Commission (UPPSC) has released the UPPSC Review Officer (RO)/Assistant Review Officer (ARO) Recruitment Notification 2026 (Advertisement No. A-4/E-1/2026), announcing 501 vacancies across various departments of the Uttar Pradesh government. Candidates with a bachelor's degree are eligible to apply.",
+      "summary": "Recruitment for 501 vacancies for Review Officer (RO) and Assistant Review Officer (ARO) posts in various departments.",
       "advtNo": "A-4/E-1/2026",
       "posts": 501,
-      "url": "https://uppsc.up.nic.in",
+      "url": "http://uppsc.up.nic.in",
       "pdfUrl": null,
       "status": "open",
       "opensOn": "2026-10-26",
       "closesOn": "2026-11-26",
       "expected": null,
       "fit": "strong",
-      "fitLabel": "Any-graduate management exam",
+      "fitLabel": "General graduate level administrative/management roles, suitable for any engineering bachelor's.",
       "tags": [
         "Management",
-        "State PSC"
+        "Administrative"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -2601,34 +2575,6 @@
     },
     {
       "id": "mpsc-group-c-combined-examination-2026",
-      "source": "regulators-sweep",
-      "org": "MPSC",
-      "title": "Group C Combined Examination 2026 (Clerk-Typist, Tax Assistant, Assistant Motor Vehicle Inspector, Industry Inspector, Technical Assistant, etc.)",
-      "summary": "The Maharashtra Public Service Commission (MPSC) has released the MPSC Group C Notification 2026 for recruitment to various Group C posts, announcing a total of 16,797 vacancies. The online application process will begin on 13 November 2026 and close on 27 November 2026.",
-      "advtNo": "017/2026",
-      "posts": 16797,
-      "url": "https://mpsconline.gov.in",
-      "pdfUrl": null,
-      "status": "upcoming",
-      "opensOn": "2026-11-13",
-      "closesOn": "2026-11-27",
-      "expected": null,
-      "fit": "strong",
-      "fitLabel": "Any-graduate clerical/administrative roles (e.g., Clerk-Typist, Tax Assistant); Assistant Motor Vehicle Inspector is moderate (Mechanical Engg. eligible)",
-      "tags": [
-        "Clerical",
-        "Administrative"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-11-07T04:01:53.366Z"
-    },
-    {
-      "id": "maharashtra-public-service-commission-group-c-services-combined-preliminary-exam",
       "source": "regulators-sweep",
       "org": "Maharashtra Public Service Commission",
       "title": "Group C Services Combined Preliminary Examination 2026",
@@ -2653,7 +2599,7 @@
       "experienceNote": null,
       "eligibility": null,
       "eligibilityReason": null,
-      "firstSeen": "2026-11-13T04:29:04.357Z"
+      "firstSeen": "2026-11-07T04:01:53.366Z"
     },
     {
       "id": "uppsc-uttar-pradesh-samiksha-adhikari-sahayak-samiksha-adhikari-exam-2026",
@@ -2688,7 +2634,7 @@
       "source": "uppsc",
       "org": "UPPSC",
       "title": "Samiksha Adhikari/Sahayak Samiksha Adhikari etc. (Gen. / Spl. Rectt.) Exam.-2026",
-      "summary": "Recruitment for Review Officer (RO) and Assistant Review Officer (ARO) posts. These are general administrative roles, typically open to any graduate. Strong fit for management interest.",
+      "summary": "Recruitment for Samiksha Adhikari (Review Officer) and Sahayak Samiksha Adhikari (Assistant Review Officer) through General/Special Recruitment Examination. Any bachelor's degree is usually eligible, making it a strong fit for the candidate.",
       "advtNo": "A-4/E-1/2026",
       "posts": "Various posts",
       "url": "https://uppsc.up.nic.in/",
@@ -2701,7 +2647,7 @@
       "fitLabel": "Strong fit — management",
       "tags": [
         "Any graduate",
-        "Management"
+        "Management role"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -2798,50 +2744,22 @@
     {
       "id": "uttar-pradesh-public-service-commission-sports-officer-recruitment-2026",
       "source": "regulators-sweep",
-      "org": "Uttar Pradesh Public Service Commission",
+      "org": "UPPSC",
       "title": "Sports Officer Recruitment 2026",
-      "summary": "The Uttar Pradesh Public Service Commission (UPPSC) has released a recruitment notification (Advt.No: A-5/E-1/2026) for 25 vacancies, which includes 16 posts for Sports Officer. Interested and eligible candidates can apply online.",
+      "summary": "Recruitment for 16 Sports Officer posts.",
       "advtNo": "A-5/E-1/2026",
       "posts": 16,
-      "url": "https://uppsc.up.nic.in",
+      "url": "http://uppsc.up.nic.in",
       "pdfUrl": null,
       "status": "open",
       "opensOn": "2026-11-04",
       "closesOn": "2026-12-04",
       "expected": null,
       "fit": "strong",
-      "fitLabel": "Any-graduate management exam",
+      "fitLabel": "Requires a Graduate Degree, suitable for general management/administrative roles.",
       "tags": [
         "Management",
-        "State PSC"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-11-13T04:29:04.357Z"
-    },
-    {
-      "id": "uttar-pradesh-public-service-commission-programmer-grade-2-recruitment-2026",
-      "source": "regulators-sweep",
-      "org": "Uttar Pradesh Public Service Commission",
-      "title": "Programmer Grade-2 Recruitment 2026",
-      "summary": "The Uttar Pradesh Public Service Commission (UPPSC) has released a recruitment notification (Advt.No: A-5/E-1/2026) for 25 vacancies, which includes 1 post for Programmer Grade 2. This role typically requires a CS/IT/Electronics degree.",
-      "advtNo": "A-5/E-1/2026",
-      "posts": 1,
-      "url": "https://uppsc.up.nic.in",
-      "pdfUrl": null,
-      "status": "open",
-      "opensOn": "2026-11-04",
-      "closesOn": "2026-12-04",
-      "expected": null,
-      "fit": "gated",
-      "fitLabel": "Requires CS/IT/Electronics degree",
-      "tags": [
-        "IT",
-        "State PSC"
+        "Administrative"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -2930,11 +2848,11 @@
       "firstSeen": "2026-09-26T02:53:00.364Z"
     },
     {
-      "id": "uppsc-sports-officer-recruitment-2026",
+      "id": "uttar-pradesh-public-service-commission-programmer-grade-2-recruitment-2026",
       "source": "uppsc",
       "org": "UPPSC",
       "title": "Programmer Grade-2 Examination-2026",
-      "summary": "IT role for Programmer Grade-2. Candidate is a software engineer but lacks a CS/IT/Electronics degree, making it a gated fit.",
+      "summary": "Recruitment for Programmer Grade-2. This IT role typically requires a CS/IT/Electronics degree, which the candidate with a Mechanical B.Tech does not possess, making it degree-gated.",
       "advtNo": "A-5/E-1/2026",
       "posts": 25,
       "url": "https://uppsc.up.nic.in/",
@@ -2946,7 +2864,8 @@
       "fit": "gated",
       "fitLabel": "Degree-gated: CS/IT",
       "tags": [
-        "IT role"
+        "IT role",
+        "Degree-gated"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -3704,9 +3623,9 @@
     {
       "id": "isro-dos-accounts-officer-finance",
       "source": "isro",
-      "org": "ISRO · DoS Secretariat",
+      "org": "ISRO · DOS Secretariat",
       "title": "Accounts Officer (Finance)",
-      "summary": "Inviting online applications for the post of Accounts Officer (Finance) in DoS Secretariat.",
+      "summary": "Inviting online applications for the post of Accounts Officer (Finance) under Advt No. A.26012/1/2023-I (Vol.II). This is a management/finance role.",
       "advtNo": "A.26012/1/2023-I (Vol.II)",
       "posts": null,
       "url": "https://www.isro.gov.in/DOSRecruitment11.html",
@@ -3718,7 +3637,7 @@
       "fit": "strong",
       "fitLabel": "Strong fit — management",
       "tags": [
-        "Finance"
+        "Management"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -3760,7 +3679,7 @@
       "source": "isro",
       "org": "ISRO · NSIL",
       "title": "Chairman-cum-Managing Director",
-      "summary": "Inviting applications for the post of Chairman-cum-Managing Director in NSIL on Deputation/Contract Basis.",
+      "summary": "Inviting applications for the post of Chairman-cum-Managing Director in NSIL on Deputation/Contract Basis. This is a very senior management role.",
       "advtNo": "DS_IX-14011/1/2024-Section_9-DOS",
       "posts": null,
       "url": "https://www.isro.gov.in/NSILRecruitment2.html",
@@ -3770,10 +3689,10 @@
       "closesOn": null,
       "expected": null,
       "fit": "strong",
-      "fitLabel": "Strong fit — management",
+      "fitLabel": "Strong fit — management (very senior)",
       "tags": [
-        "Deputation",
-        "Contract"
+        "Management",
+        "Senior"
       ],
       "minExperienceYears": null,
       "maxAgeYears": null,
@@ -3892,33 +3811,6 @@
       "eligibility": null,
       "eligibilityReason": null,
       "firstSeen": "2026-11-05T04:34:35.433Z"
-    },
-    {
-      "id": "isro-lpsc-scientist-engineer-sc",
-      "source": "isro",
-      "org": "ISRO · LPSC",
-      "title": "Scientist / Engineer 'SC'",
-      "summary": "Recruitment for Scientist / Engineer 'SC' posts at LPSC.",
-      "advtNo": "LPSC/03/2026",
-      "posts": null,
-      "url": "https://www.isro.gov.in/LPSCRecruitment14.html",
-      "pdfUrl": null,
-      "status": "open",
-      "opensOn": "2026-09-26",
-      "closesOn": null,
-      "expected": null,
-      "fit": "moderate",
-      "fitLabel": "Moderate fit — engineering",
-      "tags": [
-        "Mechanical eligible"
-      ],
-      "minExperienceYears": null,
-      "maxAgeYears": null,
-      "qualification": null,
-      "experienceNote": null,
-      "eligibility": null,
-      "eligibilityReason": null,
-      "firstSeen": "2026-11-06T04:29:48.415Z"
     },
     {
       "id": "irdai-assistant-manager-generalist-stream",
